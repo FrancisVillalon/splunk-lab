@@ -1,0 +1,3 @@
+ip,threat_type
+46.16.202.234,brute_force
+26.223.216.103,c2_server

@@ -1,0 +1,451 @@
+customer_id,billing_date,plan,amount_usd,payment_status,country,region
+cust_0001,2026-06-01,Standard,13.99,Success,Nigeria,Africa
+cust_0001,2026-07-01,Standard,11.99,Success,Nigeria,Africa
+cust_0001,2026-08-01,Standard,13.99,Success,Nigeria,Africa
+cust_0002,2026-06-01,Premium Plus,22.99,Success,South Africa,Africa
+cust_0002,2026-07-01,Premium Plus,22.99,Success,South Africa,Africa
+cust_0002,2026-08-01,Premium Plus,20.99,Success,South Africa,Africa
+cust_0003,2026-06-01,Standard,13.99,Success,Japan,APAC
+cust_0003,2026-07-01,Standard,13.99,Success,Japan,APAC
+cust_0003,2026-08-01,Standard,13.99,Refunded,Japan,APAC
+cust_0004,2026-06-01,Standard,13.99,Success,South Africa,Africa
+cust_0004,2026-07-01,Standard,13.99,Success,South Africa,Africa
+cust_0004,2026-08-01,Standard,13.99,Success,South Africa,Africa
+cust_0005,2026-06-01,Premium,17.99,Success,Nigeria,Africa
+cust_0005,2026-07-01,Premium,17.99,Success,Nigeria,Africa
+cust_0005,2026-08-01,Premium,17.99,Success,Nigeria,Africa
+cust_0006,2026-06-01,Standard,13.99,Success,France,Europe
+cust_0006,2026-07-01,Standard,13.99,Success,France,Europe
+cust_0006,2026-08-01,Standard,13.99,Success,France,Europe
+cust_0007,2026-06-01,Basic,8.99,Success,Singapore,APAC
+cust_0007,2026-07-01,Basic,8.99,Failed,Singapore,APAC
+cust_0007,2026-08-01,Basic,8.99,Refunded,Singapore,APAC
+cust_0008,2026-06-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0008,2026-07-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0008,2026-08-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0009,2026-06-01,Premium,17.99,Success,Singapore,APAC
+cust_0009,2026-07-01,Premium,17.99,Success,Singapore,APAC
+cust_0009,2026-08-01,Premium,17.99,Success,Singapore,APAC
+cust_0010,2026-06-01,Standard,13.99,Success,Japan,APAC
+cust_0010,2026-07-01,Standard,13.99,Success,Japan,APAC
+cust_0010,2026-08-01,Standard,11.99,Success,Japan,APAC
+cust_0011,2026-06-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0011,2026-07-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0011,2026-08-01,Premium Plus,20.99,Success,Brazil,LATAM
+cust_0012,2026-06-01,Basic,8.99,Success,Germany,Europe
+cust_0012,2026-07-01,Basic,8.99,Success,Germany,Europe
+cust_0012,2026-08-01,Basic,8.99,Success,Germany,Europe
+cust_0013,2026-06-01,Standard,13.99,Success,Japan,APAC
+cust_0013,2026-07-01,Standard,11.99,Failed,Japan,APAC
+cust_0013,2026-08-01,Standard,13.99,Success,Japan,APAC
+cust_0014,2026-06-01,Standard,11.99,Success,Canada,North America
+cust_0014,2026-07-01,Standard,13.99,Failed,Canada,North America
+cust_0014,2026-08-01,Standard,13.99,Success,Canada,North America
+cust_0015,2026-06-01,Premium Plus,22.99,Success,Mexico,LATAM
+cust_0015,2026-07-01,Premium Plus,22.99,Success,Mexico,LATAM
+cust_0015,2026-08-01,Premium Plus,22.99,Success,Mexico,LATAM
+cust_0016,2026-06-01,Basic,8.99,Success,Mexico,LATAM
+cust_0016,2026-07-01,Basic,8.99,Success,Mexico,LATAM
+cust_0016,2026-08-01,Basic,6.99,Success,Mexico,LATAM
+cust_0017,2026-06-01,Premium,17.99,Success,USA,North America
+cust_0017,2026-07-01,Premium,17.99,Success,USA,North America
+cust_0017,2026-08-01,Premium,17.99,Success,USA,North America
+cust_0018,2026-06-01,Basic,6.99,Success,South Africa,Africa
+cust_0018,2026-07-01,Basic,8.99,Success,South Africa,Africa
+cust_0018,2026-08-01,Basic,8.99,Failed,South Africa,Africa
+cust_0019,2026-06-01,Premium Plus,22.99,Success,Japan,APAC
+cust_0019,2026-07-01,Premium Plus,22.99,Success,Japan,APAC
+cust_0019,2026-08-01,Premium Plus,22.99,Success,Japan,APAC
+cust_0020,2026-06-01,Standard,11.99,Success,Brazil,LATAM
+cust_0020,2026-07-01,Standard,11.99,Success,Brazil,LATAM
+cust_0020,2026-08-01,Standard,13.99,Success,Brazil,LATAM
+cust_0021,2026-06-01,Standard,13.99,Success,Mexico,LATAM
+cust_0021,2026-07-01,Standard,13.99,Success,Mexico,LATAM
+cust_0021,2026-08-01,Standard,13.99,Success,Mexico,LATAM
+cust_0022,2026-06-01,Premium Plus,22.99,Success,Singapore,APAC
+cust_0022,2026-07-01,Premium Plus,22.99,Success,Singapore,APAC
+cust_0022,2026-08-01,Premium Plus,22.99,Success,Singapore,APAC
+cust_0023,2026-06-01,Premium,17.99,Success,Canada,North America
+cust_0023,2026-07-01,Premium,17.99,Success,Canada,North America
+cust_0023,2026-08-01,Premium,17.99,Success,Canada,North America
+cust_0024,2026-06-01,Basic,8.99,Success,Australia,APAC
+cust_0024,2026-07-01,Basic,8.99,Success,Australia,APAC
+cust_0024,2026-08-01,Basic,8.99,Refunded,Australia,APAC
+cust_0025,2026-06-01,Standard,13.99,Success,Nigeria,Africa
+cust_0025,2026-07-01,Standard,13.99,Failed,Nigeria,Africa
+cust_0025,2026-08-01,Standard,11.99,Success,Nigeria,Africa
+cust_0026,2026-06-01,Premium,17.99,Success,USA,North America
+cust_0026,2026-07-01,Premium,17.99,Success,USA,North America
+cust_0026,2026-08-01,Premium,17.99,Success,USA,North America
+cust_0027,2026-06-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0027,2026-07-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0027,2026-08-01,Premium Plus,20.99,Success,Brazil,LATAM
+cust_0028,2026-06-01,Premium,17.99,Success,France,Europe
+cust_0028,2026-07-01,Premium,17.99,Success,France,Europe
+cust_0028,2026-08-01,Premium,17.99,Success,France,Europe
+cust_0029,2026-06-01,Basic,6.99,Success,Germany,Europe
+cust_0029,2026-07-01,Basic,8.99,Success,Germany,Europe
+cust_0029,2026-08-01,Basic,8.99,Success,Germany,Europe
+cust_0030,2026-06-01,Standard,13.99,Success,Japan,APAC
+cust_0030,2026-07-01,Standard,13.99,Success,Japan,APAC
+cust_0030,2026-08-01,Standard,13.99,Success,Japan,APAC
+cust_0031,2026-06-01,Standard,13.99,Success,South Africa,Africa
+cust_0031,2026-07-01,Standard,11.99,Success,South Africa,Africa
+cust_0031,2026-08-01,Standard,13.99,Success,South Africa,Africa
+cust_0032,2026-06-01,Standard,13.99,Success,Mexico,LATAM
+cust_0032,2026-07-01,Standard,13.99,Success,Mexico,LATAM
+cust_0032,2026-08-01,Standard,13.99,Success,Mexico,LATAM
+cust_0033,2026-06-01,Standard,11.99,Success,Nigeria,Africa
+cust_0033,2026-07-01,Standard,13.99,Success,Nigeria,Africa
+cust_0033,2026-08-01,Standard,13.99,Success,Nigeria,Africa
+cust_0034,2026-06-01,Basic,8.99,Success,Australia,APAC
+cust_0034,2026-07-01,Basic,8.99,Success,Australia,APAC
+cust_0034,2026-08-01,Basic,8.99,Success,Australia,APAC
+cust_0035,2026-06-01,Standard,13.99,Success,UK,Europe
+cust_0035,2026-07-01,Standard,13.99,Success,UK,Europe
+cust_0035,2026-08-01,Standard,13.99,Success,UK,Europe
+cust_0036,2026-06-01,Standard,13.99,Success,South Africa,Africa
+cust_0036,2026-07-01,Standard,13.99,Success,South Africa,Africa
+cust_0036,2026-08-01,Standard,13.99,Success,South Africa,Africa
+cust_0037,2026-06-01,Premium,17.99,Success,Canada,North America
+cust_0037,2026-07-01,Premium,17.99,Success,Canada,North America
+cust_0037,2026-08-01,Premium,17.99,Success,Canada,North America
+cust_0038,2026-06-01,Standard,13.99,Success,South Africa,Africa
+cust_0038,2026-07-01,Standard,13.99,Success,South Africa,Africa
+cust_0038,2026-08-01,Standard,13.99,Success,South Africa,Africa
+cust_0039,2026-06-01,Standard,11.99,Success,South Africa,Africa
+cust_0039,2026-07-01,Standard,13.99,Success,South Africa,Africa
+cust_0039,2026-08-01,Standard,13.99,Success,South Africa,Africa
+cust_0040,2026-06-01,Basic,6.99,Success,South Africa,Africa
+cust_0040,2026-07-01,Basic,6.99,Success,South Africa,Africa
+cust_0040,2026-08-01,Basic,6.99,Success,South Africa,Africa
+cust_0041,2026-06-01,Basic,8.99,Success,Canada,North America
+cust_0041,2026-07-01,Basic,8.99,Success,Canada,North America
+cust_0041,2026-08-01,Basic,8.99,Success,Canada,North America
+cust_0042,2026-06-01,Premium,17.99,Failed,Canada,North America
+cust_0042,2026-07-01,Premium,17.99,Failed,Canada,North America
+cust_0042,2026-08-01,Premium,17.99,Success,Canada,North America
+cust_0043,2026-06-01,Standard,13.99,Success,Brazil,LATAM
+cust_0043,2026-07-01,Standard,13.99,Success,Brazil,LATAM
+cust_0043,2026-08-01,Standard,13.99,Success,Brazil,LATAM
+cust_0044,2026-06-01,Basic,8.99,Success,Nigeria,Africa
+cust_0044,2026-07-01,Basic,8.99,Success,Nigeria,Africa
+cust_0044,2026-08-01,Basic,8.99,Success,Nigeria,Africa
+cust_0045,2026-06-01,Premium,15.99,Success,Canada,North America
+cust_0045,2026-07-01,Premium,17.99,Success,Canada,North America
+cust_0045,2026-08-01,Premium,17.99,Success,Canada,North America
+cust_0046,2026-06-01,Basic,8.99,Success,Canada,North America
+cust_0046,2026-07-01,Basic,6.99,Success,Canada,North America
+cust_0046,2026-08-01,Basic,8.99,Success,Canada,North America
+cust_0047,2026-06-01,Standard,13.99,Success,Germany,Europe
+cust_0047,2026-07-01,Standard,13.99,Success,Germany,Europe
+cust_0047,2026-08-01,Standard,11.99,Success,Germany,Europe
+cust_0048,2026-06-01,Basic,8.99,Success,UK,Europe
+cust_0048,2026-07-01,Basic,8.99,Success,UK,Europe
+cust_0048,2026-08-01,Basic,8.99,Success,UK,Europe
+cust_0049,2026-06-01,Standard,13.99,Success,USA,North America
+cust_0049,2026-07-01,Standard,13.99,Success,USA,North America
+cust_0049,2026-08-01,Standard,13.99,Success,USA,North America
+cust_0050,2026-06-01,Basic,8.99,Success,Singapore,APAC
+cust_0050,2026-07-01,Basic,8.99,Success,Singapore,APAC
+cust_0050,2026-08-01,Basic,8.99,Success,Singapore,APAC
+cust_0051,2026-06-01,Standard,13.99,Success,UK,Europe
+cust_0051,2026-07-01,Standard,13.99,Success,UK,Europe
+cust_0051,2026-08-01,Standard,13.99,Success,UK,Europe
+cust_0052,2026-06-01,Standard,11.99,Success,Mexico,LATAM
+cust_0052,2026-07-01,Standard,13.99,Refunded,Mexico,LATAM
+cust_0052,2026-08-01,Standard,11.99,Failed,Mexico,LATAM
+cust_0053,2026-06-01,Premium,17.99,Success,Nigeria,Africa
+cust_0053,2026-07-01,Premium,17.99,Success,Nigeria,Africa
+cust_0053,2026-08-01,Premium,17.99,Success,Nigeria,Africa
+cust_0054,2026-06-01,Premium,17.99,Success,Australia,APAC
+cust_0054,2026-07-01,Premium,17.99,Success,Australia,APAC
+cust_0054,2026-08-01,Premium,15.99,Success,Australia,APAC
+cust_0055,2026-06-01,Premium,17.99,Success,USA,North America
+cust_0055,2026-07-01,Premium,17.99,Refunded,USA,North America
+cust_0055,2026-08-01,Premium,17.99,Success,USA,North America
+cust_0056,2026-06-01,Basic,8.99,Success,South Africa,Africa
+cust_0056,2026-07-01,Basic,8.99,Success,South Africa,Africa
+cust_0056,2026-08-01,Basic,8.99,Success,South Africa,Africa
+cust_0057,2026-06-01,Basic,6.99,Success,Japan,APAC
+cust_0057,2026-07-01,Basic,8.99,Success,Japan,APAC
+cust_0057,2026-08-01,Basic,8.99,Success,Japan,APAC
+cust_0058,2026-06-01,Premium,17.99,Success,Mexico,LATAM
+cust_0058,2026-07-01,Premium,15.99,Success,Mexico,LATAM
+cust_0058,2026-08-01,Premium,17.99,Success,Mexico,LATAM
+cust_0059,2026-06-01,Premium,17.99,Success,South Africa,Africa
+cust_0059,2026-07-01,Premium,17.99,Success,South Africa,Africa
+cust_0059,2026-08-01,Premium,17.99,Success,South Africa,Africa
+cust_0060,2026-06-01,Premium,17.99,Success,Germany,Europe
+cust_0060,2026-07-01,Premium,17.99,Success,Germany,Europe
+cust_0060,2026-08-01,Premium,15.99,Success,Germany,Europe
+cust_0061,2026-06-01,Basic,8.99,Success,South Africa,Africa
+cust_0061,2026-07-01,Basic,8.99,Success,South Africa,Africa
+cust_0061,2026-08-01,Basic,8.99,Success,South Africa,Africa
+cust_0062,2026-06-01,Premium,17.99,Success,USA,North America
+cust_0062,2026-07-01,Premium,17.99,Success,USA,North America
+cust_0062,2026-08-01,Premium,17.99,Success,USA,North America
+cust_0063,2026-06-01,Basic,8.99,Success,Nigeria,Africa
+cust_0063,2026-07-01,Basic,6.99,Success,Nigeria,Africa
+cust_0063,2026-08-01,Basic,8.99,Success,Nigeria,Africa
+cust_0064,2026-06-01,Premium,17.99,Success,Australia,APAC
+cust_0064,2026-07-01,Premium,15.99,Success,Australia,APAC
+cust_0064,2026-08-01,Premium,17.99,Success,Australia,APAC
+cust_0065,2026-06-01,Basic,8.99,Success,France,Europe
+cust_0065,2026-07-01,Basic,8.99,Success,France,Europe
+cust_0065,2026-08-01,Basic,8.99,Success,France,Europe
+cust_0066,2026-06-01,Premium,15.99,Success,South Africa,Africa
+cust_0066,2026-07-01,Premium,17.99,Success,South Africa,Africa
+cust_0066,2026-08-01,Premium,17.99,Success,South Africa,Africa
+cust_0067,2026-06-01,Basic,8.99,Success,Germany,Europe
+cust_0067,2026-07-01,Basic,6.99,Success,Germany,Europe
+cust_0067,2026-08-01,Basic,8.99,Success,Germany,Europe
+cust_0068,2026-06-01,Basic,8.99,Failed,Nigeria,Africa
+cust_0068,2026-07-01,Basic,8.99,Success,Nigeria,Africa
+cust_0068,2026-08-01,Basic,6.99,Success,Nigeria,Africa
+cust_0069,2026-06-01,Basic,8.99,Success,South Africa,Africa
+cust_0069,2026-07-01,Basic,8.99,Success,South Africa,Africa
+cust_0069,2026-08-01,Basic,8.99,Success,South Africa,Africa
+cust_0070,2026-06-01,Standard,13.99,Success,Nigeria,Africa
+cust_0070,2026-07-01,Standard,11.99,Success,Nigeria,Africa
+cust_0070,2026-08-01,Standard,13.99,Success,Nigeria,Africa
+cust_0071,2026-06-01,Standard,13.99,Success,UK,Europe
+cust_0071,2026-07-01,Standard,13.99,Success,UK,Europe
+cust_0071,2026-08-01,Standard,13.99,Success,UK,Europe
+cust_0072,2026-06-01,Standard,13.99,Success,USA,North America
+cust_0072,2026-07-01,Standard,13.99,Success,USA,North America
+cust_0072,2026-08-01,Standard,13.99,Success,USA,North America
+cust_0073,2026-06-01,Standard,13.99,Success,Mexico,LATAM
+cust_0073,2026-07-01,Standard,13.99,Success,Mexico,LATAM
+cust_0073,2026-08-01,Standard,13.99,Success,Mexico,LATAM
+cust_0074,2026-06-01,Premium Plus,22.99,Success,Nigeria,Africa
+cust_0074,2026-07-01,Premium Plus,22.99,Success,Nigeria,Africa
+cust_0074,2026-08-01,Premium Plus,22.99,Success,Nigeria,Africa
+cust_0075,2026-06-01,Basic,6.99,Success,Brazil,LATAM
+cust_0075,2026-07-01,Basic,8.99,Success,Brazil,LATAM
+cust_0075,2026-08-01,Basic,8.99,Success,Brazil,LATAM
+cust_0076,2026-06-01,Premium,15.99,Success,USA,North America
+cust_0076,2026-07-01,Premium,17.99,Success,USA,North America
+cust_0076,2026-08-01,Premium,17.99,Success,USA,North America
+cust_0077,2026-06-01,Premium,17.99,Success,Nigeria,Africa
+cust_0077,2026-07-01,Premium,17.99,Success,Nigeria,Africa
+cust_0077,2026-08-01,Premium,15.99,Success,Nigeria,Africa
+cust_0078,2026-06-01,Standard,13.99,Success,Brazil,LATAM
+cust_0078,2026-07-01,Standard,13.99,Success,Brazil,LATAM
+cust_0078,2026-08-01,Standard,13.99,Success,Brazil,LATAM
+cust_0079,2026-06-01,Basic,6.99,Success,South Africa,Africa
+cust_0079,2026-07-01,Basic,8.99,Success,South Africa,Africa
+cust_0079,2026-08-01,Basic,6.99,Success,South Africa,Africa
+cust_0080,2026-06-01,Premium,15.99,Success,Singapore,APAC
+cust_0080,2026-07-01,Premium,17.99,Success,Singapore,APAC
+cust_0080,2026-08-01,Premium,17.99,Success,Singapore,APAC
+cust_0081,2026-06-01,Premium Plus,20.99,Success,South Africa,Africa
+cust_0081,2026-07-01,Premium Plus,20.99,Success,South Africa,Africa
+cust_0081,2026-08-01,Premium Plus,20.99,Success,South Africa,Africa
+cust_0082,2026-06-01,Premium Plus,22.99,Failed,Nigeria,Africa
+cust_0082,2026-07-01,Premium Plus,22.99,Success,Nigeria,Africa
+cust_0082,2026-08-01,Premium Plus,20.99,Success,Nigeria,Africa
+cust_0083,2026-06-01,Premium,17.99,Refunded,Australia,APAC
+cust_0083,2026-07-01,Premium,17.99,Success,Australia,APAC
+cust_0083,2026-08-01,Premium,17.99,Success,Australia,APAC
+cust_0084,2026-06-01,Basic,6.99,Success,Singapore,APAC
+cust_0084,2026-07-01,Basic,8.99,Success,Singapore,APAC
+cust_0084,2026-08-01,Basic,8.99,Success,Singapore,APAC
+cust_0085,2026-06-01,Basic,8.99,Success,Canada,North America
+cust_0085,2026-07-01,Basic,8.99,Success,Canada,North America
+cust_0085,2026-08-01,Basic,8.99,Success,Canada,North America
+cust_0086,2026-06-01,Standard,11.99,Success,France,Europe
+cust_0086,2026-07-01,Standard,11.99,Success,France,Europe
+cust_0086,2026-08-01,Standard,13.99,Success,France,Europe
+cust_0087,2026-06-01,Standard,13.99,Success,Canada,North America
+cust_0087,2026-07-01,Standard,11.99,Success,Canada,North America
+cust_0087,2026-08-01,Standard,13.99,Success,Canada,North America
+cust_0088,2026-06-01,Basic,6.99,Success,France,Europe
+cust_0088,2026-07-01,Basic,6.99,Success,France,Europe
+cust_0088,2026-08-01,Basic,8.99,Success,France,Europe
+cust_0089,2026-06-01,Basic,8.99,Success,Australia,APAC
+cust_0089,2026-07-01,Basic,8.99,Success,Australia,APAC
+cust_0089,2026-08-01,Basic,8.99,Success,Australia,APAC
+cust_0090,2026-06-01,Standard,13.99,Success,Canada,North America
+cust_0090,2026-07-01,Standard,11.99,Success,Canada,North America
+cust_0090,2026-08-01,Standard,13.99,Success,Canada,North America
+cust_0091,2026-06-01,Standard,13.99,Success,Germany,Europe
+cust_0091,2026-07-01,Standard,13.99,Success,Germany,Europe
+cust_0091,2026-08-01,Standard,13.99,Success,Germany,Europe
+cust_0092,2026-06-01,Basic,8.99,Success,Mexico,LATAM
+cust_0092,2026-07-01,Basic,8.99,Success,Mexico,LATAM
+cust_0092,2026-08-01,Basic,6.99,Refunded,Mexico,LATAM
+cust_0093,2026-06-01,Premium Plus,22.99,Success,South Africa,Africa
+cust_0093,2026-07-01,Premium Plus,22.99,Success,South Africa,Africa
+cust_0093,2026-08-01,Premium Plus,22.99,Failed,South Africa,Africa
+cust_0094,2026-06-01,Premium,17.99,Failed,Japan,APAC
+cust_0094,2026-07-01,Premium,17.99,Success,Japan,APAC
+cust_0094,2026-08-01,Premium,15.99,Success,Japan,APAC
+cust_0095,2026-06-01,Basic,6.99,Success,Canada,North America
+cust_0095,2026-07-01,Basic,8.99,Success,Canada,North America
+cust_0095,2026-08-01,Basic,6.99,Success,Canada,North America
+cust_0096,2026-06-01,Basic,8.99,Success,Nigeria,Africa
+cust_0096,2026-07-01,Basic,8.99,Success,Nigeria,Africa
+cust_0096,2026-08-01,Basic,8.99,Success,Nigeria,Africa
+cust_0097,2026-06-01,Premium,17.99,Success,UK,Europe
+cust_0097,2026-07-01,Premium,15.99,Success,UK,Europe
+cust_0097,2026-08-01,Premium,17.99,Success,UK,Europe
+cust_0098,2026-06-01,Premium,15.99,Success,Mexico,LATAM
+cust_0098,2026-07-01,Premium,17.99,Success,Mexico,LATAM
+cust_0098,2026-08-01,Premium,17.99,Success,Mexico,LATAM
+cust_0099,2026-06-01,Premium,15.99,Success,Germany,Europe
+cust_0099,2026-07-01,Premium,15.99,Success,Germany,Europe
+cust_0099,2026-07-25,Premium,15.99,Failed,Germany,Europe
+cust_0100,2026-06-01,Basic,8.99,Success,Nigeria,Africa
+cust_0100,2026-07-01,Basic,8.99,Success,Nigeria,Africa
+cust_0100,2026-08-01,Basic,8.99,Success,Nigeria,Africa
+cust_0101,2026-06-01,Standard,13.99,Success,USA,North America
+cust_0101,2026-07-01,Standard,13.99,Success,USA,North America
+cust_0101,2026-08-01,Standard,13.99,Success,USA,North America
+cust_0102,2026-06-01,Standard,11.99,Success,Mexico,LATAM
+cust_0102,2026-07-01,Standard,13.99,Success,Mexico,LATAM
+cust_0102,2026-08-01,Standard,11.99,Success,Mexico,LATAM
+cust_0103,2026-06-01,Premium,17.99,Success,Singapore,APAC
+cust_0103,2026-07-01,Premium,15.99,Success,Singapore,APAC
+cust_0103,2026-08-01,Premium,17.99,Success,Singapore,APAC
+cust_0104,2026-06-01,Standard,13.99,Success,France,Europe
+cust_0104,2026-07-01,Standard,13.99,Failed,France,Europe
+cust_0104,2026-08-01,Standard,11.99,Success,France,Europe
+cust_0105,2026-06-01,Standard,11.99,Success,USA,North America
+cust_0105,2026-07-01,Standard,13.99,Success,USA,North America
+cust_0105,2026-08-01,Standard,13.99,Success,USA,North America
+cust_0106,2026-06-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0106,2026-07-01,Premium Plus,20.99,Success,Brazil,LATAM
+cust_0106,2026-08-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0107,2026-06-01,Premium,17.99,Success,Australia,APAC
+cust_0107,2026-07-01,Premium,15.99,Success,Australia,APAC
+cust_0107,2026-08-01,Premium,17.99,Success,Australia,APAC
+cust_0108,2026-06-01,Standard,13.99,Success,Brazil,LATAM
+cust_0108,2026-07-01,Standard,13.99,Success,Brazil,LATAM
+cust_0108,2026-08-01,Standard,11.99,Success,Brazil,LATAM
+cust_0109,2026-06-01,Standard,13.99,Success,Canada,North America
+cust_0109,2026-07-01,Standard,13.99,Failed,Canada,North America
+cust_0109,2026-08-01,Standard,13.99,Success,Canada,North America
+cust_0110,2026-06-01,Premium,15.99,Success,UK,Europe
+cust_0110,2026-07-01,Premium,17.99,Success,UK,Europe
+cust_0110,2026-08-01,Premium,17.99,Success,UK,Europe
+cust_0111,2026-06-01,Standard,13.99,Success,Singapore,APAC
+cust_0111,2026-07-01,Standard,13.99,Success,Singapore,APAC
+cust_0111,2026-08-01,Standard,13.99,Success,Singapore,APAC
+cust_0112,2026-06-01,Premium,17.99,Success,South Africa,Africa
+cust_0112,2026-07-01,Premium,17.99,Failed,South Africa,Africa
+cust_0112,2026-08-01,Premium,17.99,Success,South Africa,Africa
+cust_0113,2026-06-01,Basic,8.99,Success,Japan,APAC
+cust_0113,2026-07-01,Basic,8.99,Success,Japan,APAC
+cust_0113,2026-08-01,Basic,8.99,Success,Japan,APAC
+cust_0114,2026-06-01,Standard,13.99,Success,France,Europe
+cust_0114,2026-07-01,Standard,13.99,Success,France,Europe
+cust_0114,2026-08-01,Standard,13.99,Success,France,Europe
+cust_0115,2026-06-01,Premium,17.99,Success,UK,Europe
+cust_0115,2026-07-01,Premium,15.99,Success,UK,Europe
+cust_0115,2026-08-01,Premium,15.99,Refunded,UK,Europe
+cust_0116,2026-06-01,Standard,11.99,Success,UK,Europe
+cust_0116,2026-07-01,Standard,11.99,Success,UK,Europe
+cust_0116,2026-08-01,Standard,11.99,Success,UK,Europe
+cust_0117,2026-06-01,Standard,13.99,Success,Mexico,LATAM
+cust_0117,2026-07-01,Standard,13.99,Success,Mexico,LATAM
+cust_0117,2026-08-01,Standard,13.99,Success,Mexico,LATAM
+cust_0118,2026-06-01,Premium Plus,22.99,Success,Mexico,LATAM
+cust_0118,2026-07-01,Premium Plus,22.99,Success,Mexico,LATAM
+cust_0118,2026-08-01,Premium Plus,22.99,Success,Mexico,LATAM
+cust_0119,2026-06-01,Standard,13.99,Success,South Africa,Africa
+cust_0119,2026-07-01,Standard,13.99,Success,South Africa,Africa
+cust_0119,2026-08-01,Standard,13.99,Refunded,South Africa,Africa
+cust_0120,2026-06-01,Standard,13.99,Success,Mexico,LATAM
+cust_0120,2026-07-01,Standard,13.99,Success,Mexico,LATAM
+cust_0120,2026-08-01,Standard,13.99,Success,Mexico,LATAM
+cust_0121,2026-06-01,Premium,17.99,Success,Nigeria,Africa
+cust_0121,2026-07-01,Premium,17.99,Success,Nigeria,Africa
+cust_0121,2026-08-01,Premium,15.99,Success,Nigeria,Africa
+cust_0122,2026-06-01,Basic,8.99,Success,Singapore,APAC
+cust_0122,2026-07-01,Basic,8.99,Success,Singapore,APAC
+cust_0122,2026-08-01,Basic,8.99,Failed,Singapore,APAC
+cust_0123,2026-06-01,Basic,8.99,Success,France,Europe
+cust_0123,2026-07-01,Basic,8.99,Success,France,Europe
+cust_0123,2026-08-01,Basic,8.99,Success,France,Europe
+cust_0124,2026-06-01,Basic,8.99,Success,UK,Europe
+cust_0124,2026-07-01,Basic,8.99,Success,UK,Europe
+cust_0124,2026-08-01,Basic,6.99,Success,UK,Europe
+cust_0125,2026-06-01,Standard,13.99,Success,Japan,APAC
+cust_0125,2026-07-01,Standard,11.99,Success,Japan,APAC
+cust_0125,2026-08-01,Standard,13.99,Success,Japan,APAC
+cust_0126,2026-06-01,Basic,8.99,Success,Brazil,LATAM
+cust_0126,2026-07-01,Basic,6.99,Success,Brazil,LATAM
+cust_0126,2026-08-01,Basic,8.99,Success,Brazil,LATAM
+cust_0127,2026-06-01,Standard,11.99,Success,Nigeria,Africa
+cust_0127,2026-07-01,Standard,11.99,Success,Nigeria,Africa
+cust_0127,2026-08-01,Standard,13.99,Success,Nigeria,Africa
+cust_0128,2026-06-01,Basic,8.99,Success,France,Europe
+cust_0128,2026-07-01,Basic,8.99,Success,France,Europe
+cust_0128,2026-08-01,Basic,6.99,Success,France,Europe
+cust_0129,2026-06-01,Standard,13.99,Refunded,Nigeria,Africa
+cust_0129,2026-07-01,Standard,11.99,Success,Nigeria,Africa
+cust_0129,2026-08-01,Standard,13.99,Success,Nigeria,Africa
+cust_0130,2026-06-01,Basic,8.99,Failed,Brazil,LATAM
+cust_0130,2026-07-01,Basic,8.99,Success,Brazil,LATAM
+cust_0130,2026-08-01,Basic,8.99,Success,Brazil,LATAM
+cust_0131,2026-06-01,Premium,17.99,Success,Germany,Europe
+cust_0131,2026-07-01,Premium,17.99,Success,Germany,Europe
+cust_0131,2026-08-01,Premium,17.99,Success,Germany,Europe
+cust_0132,2026-06-01,Basic,8.99,Success,Mexico,LATAM
+cust_0132,2026-07-01,Basic,8.99,Success,Mexico,LATAM
+cust_0132,2026-08-01,Basic,6.99,Success,Mexico,LATAM
+cust_0133,2026-06-01,Basic,8.99,Success,South Africa,Africa
+cust_0133,2026-07-01,Basic,8.99,Success,South Africa,Africa
+cust_0133,2026-08-01,Basic,8.99,Success,South Africa,Africa
+cust_0134,2026-06-01,Basic,6.99,Success,Singapore,APAC
+cust_0134,2026-07-01,Basic,8.99,Success,Singapore,APAC
+cust_0134,2026-08-01,Basic,8.99,Success,Singapore,APAC
+cust_0135,2026-06-01,Standard,13.99,Failed,Canada,North America
+cust_0135,2026-07-01,Standard,11.99,Success,Canada,North America
+cust_0135,2026-08-01,Standard,13.99,Success,Canada,North America
+cust_0136,2026-06-01,Premium Plus,22.99,Success,Canada,North America
+cust_0136,2026-07-01,Premium Plus,22.99,Success,Canada,North America
+cust_0136,2026-08-01,Premium Plus,22.99,Success,Canada,North America
+cust_0137,2026-06-01,Standard,13.99,Success,South Africa,Africa
+cust_0137,2026-07-01,Standard,13.99,Success,South Africa,Africa
+cust_0137,2026-08-01,Standard,11.99,Success,South Africa,Africa
+cust_0138,2026-06-01,Standard,11.99,Success,Nigeria,Africa
+cust_0138,2026-07-01,Standard,13.99,Success,Nigeria,Africa
+cust_0138,2026-08-01,Standard,13.99,Success,Nigeria,Africa
+cust_0139,2026-06-01,Basic,8.99,Success,France,Europe
+cust_0139,2026-07-01,Basic,8.99,Success,France,Europe
+cust_0139,2026-08-01,Basic,8.99,Success,France,Europe
+cust_0140,2026-06-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0140,2026-07-01,Premium Plus,20.99,Success,Brazil,LATAM
+cust_0140,2026-08-01,Premium Plus,22.99,Success,Brazil,LATAM
+cust_0141,2026-06-01,Basic,8.99,Success,Singapore,APAC
+cust_0141,2026-07-01,Basic,8.99,Success,Singapore,APAC
+cust_0141,2026-08-01,Basic,8.99,Success,Singapore,APAC
+cust_0142,2026-06-01,Premium,15.99,Success,South Africa,Africa
+cust_0142,2026-07-01,Premium,15.99,Success,South Africa,Africa
+cust_0142,2026-08-01,Premium,17.99,Success,South Africa,Africa
+cust_0143,2026-06-01,Standard,11.99,Success,Singapore,APAC
+cust_0143,2026-07-01,Standard,13.99,Success,Singapore,APAC
+cust_0143,2026-08-01,Standard,11.99,Failed,Singapore,APAC
+cust_0144,2026-06-01,Standard,13.99,Success,Brazil,LATAM
+cust_0144,2026-07-01,Standard,11.99,Success,Brazil,LATAM
+cust_0144,2026-08-01,Standard,13.99,Success,Brazil,LATAM
+cust_0145,2026-06-01,Basic,8.99,Success,Australia,APAC
+cust_0145,2026-07-01,Basic,6.99,Success,Australia,APAC
+cust_0145,2026-08-01,Basic,6.99,Success,Australia,APAC
+cust_0146,2026-06-01,Basic,6.99,Success,Germany,Europe
+cust_0146,2026-07-01,Basic,8.99,Success,Germany,Europe
+cust_0146,2026-08-01,Basic,8.99,Success,Germany,Europe
+cust_0147,2026-06-01,Standard,13.99,Success,Japan,APAC
+cust_0147,2026-07-01,Standard,13.99,Success,Japan,APAC
+cust_0147,2026-08-01,Standard,13.99,Success,Japan,APAC
+cust_0148,2026-06-01,Premium,15.99,Success,Brazil,LATAM
+cust_0148,2026-07-01,Premium,15.99,Success,Brazil,LATAM
+cust_0148,2026-08-01,Premium,15.99,Success,Brazil,LATAM
+cust_0149,2026-06-01,Basic,8.99,Refunded,South Africa,Africa
+cust_0149,2026-07-01,Basic,6.99,Success,South Africa,Africa
+cust_0149,2026-08-01,Basic,6.99,Success,South Africa,Africa
+cust_0150,2026-06-01,Basic,8.99,Success,Brazil,LATAM
+cust_0150,2026-07-01,Basic,8.99,Success,Brazil,LATAM
+cust_0150,2026-08-01,Basic,8.99,Success,Brazil,LATAM

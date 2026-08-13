@@ -1,0 +1,236 @@
+ticket_id,customer_id,opened_date,category,priority,resolved,csat_score
+TCK-00059,cust_0002,2026-06-01,Billing,High,true,1
+TCK-00035,cust_0081,2026-06-02,Billing,Medium,true,
+TCK-00054,cust_0132,2026-06-02,Account Access,High,true,1
+TCK-00074,cust_0077,2026-06-02,Playback Quality,Critical,true,1
+TCK-00159,cust_0022,2026-06-02,Account Access,Medium,true,2
+TCK-00119,cust_0009,2026-06-03,Playback Quality,Medium,true,4
+TCK-00122,cust_0130,2026-06-03,Account Access,Medium,false,
+TCK-00068,cust_0058,2026-06-04,Billing,Critical,true,
+TCK-00183,cust_0088,2026-06-04,Other,High,true,
+TCK-00008,cust_0025,2026-06-05,Account Access,Medium,true,3
+TCK-00022,cust_0079,2026-06-05,Content Request,High,true,2
+TCK-00056,cust_0104,2026-06-05,Billing,Medium,true,1
+TCK-00032,cust_0044,2026-06-06,Playback Quality,Low,true,2
+TCK-00194,cust_0124,2026-06-06,Playback Quality,Medium,false,
+TCK-00063,cust_0022,2026-06-07,Billing,Low,true,
+TCK-00133,cust_0144,2026-06-07,Billing,Medium,true,5
+TCK-00169,cust_0102,2026-06-07,Other,Medium,false,
+TCK-00053,cust_0066,2026-06-08,Content Request,Low,true,3
+TCK-00079,cust_0059,2026-06-08,Content Request,High,true,
+TCK-00164,cust_0124,2026-06-08,Playback Quality,Critical,true,
+TCK-00174,cust_0116,2026-06-08,Other,Low,true,5
+TCK-00220,cust_0007,2026-06-08,Billing,Critical,true,5
+TCK-00013,cust_0040,2026-06-09,Account Access,Medium,true,
+TCK-00026,cust_0145,2026-06-09,Content Request,High,false,
+TCK-00172,cust_0031,2026-06-09,Account Access,Low,true,3
+TCK-00009,cust_0004,2026-06-10,Playback Quality,Medium,true,
+TCK-00051,cust_0079,2026-06-10,Billing,Medium,true,3
+TCK-00102,cust_0045,2026-06-10,Playback Quality,Medium,true,3
+TCK-00139,cust_0060,2026-06-10,Billing,Low,true,1
+TCK-00187,cust_0093,2026-06-10,Other,High,true,3
+TCK-00016,cust_0131,2026-06-11,Billing,Low,false,
+TCK-00069,cust_0039,2026-06-11,Playback Quality,Medium,false,
+TCK-00156,cust_0149,2026-06-11,Playback Quality,Critical,true,
+TCK-00131,cust_0033,2026-06-12,Playback Quality,Low,true,1
+TCK-00142,cust_0026,2026-06-12,Other,Medium,true,1
+TCK-00146,cust_0035,2026-06-12,Billing,Low,false,
+TCK-00157,cust_0054,2026-06-12,Playback Quality,Medium,true,5
+TCK-00191,cust_0099,2026-06-12,Account Access,Medium,true,5
+TCK-00007,cust_0021,2026-06-13,Billing,Low,true,
+TCK-00050,cust_0029,2026-06-13,Billing,Critical,true,
+TCK-00067,cust_0010,2026-06-13,Playback Quality,Low,true,3
+TCK-00090,cust_0111,2026-06-13,Playback Quality,Medium,true,2
+TCK-00109,cust_0117,2026-06-13,Other,Medium,true,5
+TCK-00110,cust_0112,2026-06-13,Playback Quality,Medium,false,
+TCK-00155,cust_0076,2026-06-13,Account Access,Medium,true,
+TCK-00217,cust_0124,2026-06-13,Other,Medium,true,
+TCK-00065,cust_0127,2026-06-14,Billing,Low,true,3
+TCK-00070,cust_0071,2026-06-14,Content Request,Medium,false,
+TCK-00094,cust_0047,2026-06-14,Other,Low,false,
+TCK-00125,cust_0133,2026-06-14,Content Request,Medium,true,
+TCK-00206,cust_0040,2026-06-14,Billing,Low,true,1
+TCK-00014,cust_0036,2026-06-15,Playback Quality,Medium,false,
+TCK-00033,cust_0018,2026-06-15,Playback Quality,Medium,true,1
+TCK-00088,cust_0072,2026-06-15,Billing,Critical,true,5
+TCK-00114,cust_0078,2026-06-15,Playback Quality,Low,true,2
+TCK-00128,cust_0088,2026-06-15,Billing,Medium,true,
+TCK-00138,cust_0012,2026-06-15,Other,Low,false,
+TCK-00020,cust_0007,2026-06-16,Playback Quality,Critical,false,
+TCK-00092,cust_0060,2026-06-16,Billing,Low,true,
+TCK-00165,cust_0035,2026-06-16,Other,Low,true,
+TCK-00179,cust_0128,2026-06-16,Other,Medium,true,4
+TCK-00182,cust_0113,2026-06-16,Playback Quality,Low,true,2
+TCK-00195,cust_0051,2026-06-16,Playback Quality,Low,true,1
+TCK-00073,cust_0124,2026-06-17,Content Request,Medium,true,
+TCK-00081,cust_0035,2026-06-17,Account Access,Low,true,4
+TCK-00190,cust_0023,2026-06-17,Billing,Medium,true,
+TCK-00060,cust_0101,2026-06-18,Billing,Low,true,1
+TCK-00130,cust_0146,2026-06-18,Content Request,Low,false,
+TCK-00019,cust_0105,2026-06-19,Playback Quality,High,true,4
+TCK-00045,cust_0052,2026-06-19,Content Request,Low,true,4
+TCK-00093,cust_0124,2026-06-19,Playback Quality,High,true,5
+TCK-00136,cust_0130,2026-06-19,Content Request,Low,true,4
+TCK-00215,cust_0097,2026-06-19,Account Access,High,true,
+TCK-00061,cust_0126,2026-06-20,Other,Medium,true,
+TCK-00112,cust_0063,2026-06-20,Content Request,Medium,true,
+TCK-00113,cust_0089,2026-06-20,Playback Quality,Low,false,
+TCK-00135,cust_0150,2026-06-20,Billing,High,true,3
+TCK-00043,cust_0088,2026-06-21,Other,Medium,true,2
+TCK-00052,cust_0071,2026-06-21,Playback Quality,Medium,true,2
+TCK-00121,cust_0081,2026-06-21,Content Request,Low,true,2
+TCK-00186,cust_0054,2026-06-21,Other,Low,true,3
+TCK-00207,cust_0145,2026-06-21,Playback Quality,Low,true,
+TCK-00021,cust_0134,2026-06-22,Billing,Low,true,2
+TCK-00137,cust_0031,2026-06-22,Billing,Low,true,5
+TCK-00166,cust_0062,2026-06-22,Playback Quality,High,true,3
+TCK-00171,cust_0149,2026-06-22,Account Access,Medium,true,4
+TCK-00055,cust_0043,2026-06-23,Account Access,Critical,false,
+TCK-00062,cust_0134,2026-06-23,Playback Quality,Low,false,
+TCK-00173,cust_0103,2026-06-23,Playback Quality,Low,true,
+TCK-00017,cust_0117,2026-06-24,Billing,Medium,true,4
+TCK-00024,cust_0030,2026-06-24,Account Access,Medium,true,2
+TCK-00129,cust_0055,2026-06-24,Account Access,Critical,true,1
+TCK-00208,cust_0028,2026-06-24,Account Access,High,true,2
+TCK-00004,cust_0143,2026-06-25,Playback Quality,Low,true,1
+TCK-00098,cust_0001,2026-06-25,Account Access,High,true,2
+TCK-00100,cust_0071,2026-06-25,Billing,Critical,true,1
+TCK-00116,cust_0070,2026-06-25,Account Access,Low,true,1
+TCK-00126,cust_0032,2026-06-25,Content Request,Low,false,
+TCK-00134,cust_0066,2026-06-25,Billing,Low,true,1
+TCK-00189,cust_0058,2026-06-25,Billing,Medium,true,5
+TCK-00005,cust_0095,2026-06-26,Playback Quality,Low,true,
+TCK-00145,cust_0114,2026-06-26,Other,Low,true,4
+TCK-00188,cust_0089,2026-06-26,Billing,Low,true,2
+TCK-00196,cust_0101,2026-06-26,Other,Medium,false,
+TCK-00028,cust_0083,2026-06-27,Content Request,Critical,false,
+TCK-00108,cust_0133,2026-06-27,Content Request,Low,true,2
+TCK-00201,cust_0003,2026-06-27,Other,Medium,true,4
+TCK-00203,cust_0146,2026-06-27,Playback Quality,Medium,true,1
+TCK-00216,cust_0146,2026-06-27,Billing,Low,true,5
+TCK-00048,cust_0150,2026-06-28,Other,Low,true,3
+TCK-00078,cust_0008,2026-06-28,Billing,Critical,true,4
+TCK-00029,cust_0095,2026-06-29,Playback Quality,Low,true,
+TCK-00039,cust_0006,2026-06-29,Playback Quality,Low,true,3
+TCK-00097,cust_0074,2026-06-29,Playback Quality,Medium,true,
+TCK-00150,cust_0039,2026-06-29,Playback Quality,High,true,5
+TCK-00176,cust_0136,2026-06-29,Billing,Low,true,
+TCK-00042,cust_0047,2026-07-01,Billing,Low,true,3
+TCK-00144,cust_0144,2026-07-01,Playback Quality,Medium,true,4
+TCK-00210,cust_0073,2026-07-01,Account Access,Medium,true,5
+TCK-00018,cust_0138,2026-07-02,Billing,High,true,3
+TCK-00049,cust_0026,2026-07-02,Content Request,Medium,false,
+TCK-00025,cust_0020,2026-07-03,Other,Low,true,3
+TCK-00111,cust_0026,2026-07-03,Content Request,Low,true,
+TCK-00140,cust_0035,2026-07-03,Playback Quality,High,true,
+TCK-00153,cust_0145,2026-07-03,Content Request,Medium,false,
+TCK-00202,cust_0038,2026-07-03,Other,Medium,false,
+TCK-00099,cust_0069,2026-07-04,Other,Low,true,
+TCK-00132,cust_0149,2026-07-04,Account Access,Low,true,
+TCK-00148,cust_0058,2026-07-04,Playback Quality,High,true,1
+TCK-00175,cust_0095,2026-07-04,Playback Quality,Medium,false,
+TCK-00047,cust_0074,2026-07-05,Playback Quality,Critical,true,
+TCK-00072,cust_0099,2026-07-05,Account Access,High,true,2
+TCK-00103,cust_0020,2026-07-05,Billing,Medium,true,
+TCK-00107,cust_0121,2026-07-05,Playback Quality,Medium,true,4
+TCK-00154,cust_0111,2026-07-06,Billing,Low,true,3
+TCK-00184,cust_0130,2026-07-06,Playback Quality,Low,true,
+TCK-00200,cust_0039,2026-07-06,Billing,Medium,true,3
+TCK-00118,cust_0017,2026-07-07,Content Request,Low,false,
+TCK-00149,cust_0122,2026-07-07,Playback Quality,Medium,true,4
+TCK-00158,cust_0133,2026-07-07,Billing,High,true,2
+TCK-00219,cust_0011,2026-07-07,Other,High,true,5
+TCK-00006,cust_0138,2026-07-08,Account Access,Low,true,
+TCK-00034,cust_0124,2026-07-08,Billing,Medium,false,
+TCK-00036,cust_0054,2026-07-08,Playback Quality,Medium,true,
+TCK-00038,cust_0082,2026-07-08,Billing,Medium,true,3
+TCK-00066,cust_0022,2026-07-08,Content Request,Low,false,
+TCK-00214,cust_0115,2026-07-08,Billing,High,false,
+TCK-00233,cust_0099,2026-07-08,Playback Quality,Medium,true,3
+TCK-00037,cust_0050,2026-07-09,Playback Quality,Low,true,
+TCK-00075,cust_0022,2026-07-09,Playback Quality,Critical,true,
+TCK-00161,cust_0048,2026-07-09,Account Access,Medium,false,
+TCK-00218,cust_0138,2026-07-09,Other,Low,true,
+TCK-00177,cust_0060,2026-07-10,Playback Quality,High,false,
+TCK-00012,cust_0061,2026-07-11,Billing,Low,true,5
+TCK-00197,cust_0063,2026-07-11,Billing,High,true,5
+TCK-00117,cust_0095,2026-07-13,Content Request,Medium,true,1
+TCK-00230,cust_0134,2026-07-13,Playback Quality,High,true,3
+TCK-00044,cust_0104,2026-07-14,Account Access,Medium,true,
+TCK-00151,cust_0019,2026-07-14,Other,Medium,true,4
+TCK-00162,cust_0081,2026-07-14,Content Request,Medium,true,3
+TCK-00167,cust_0001,2026-07-14,Billing,Low,true,4
+TCK-00225,cust_0019,2026-07-14,Playback Quality,High,true,2
+TCK-00232,cust_0034,2026-07-14,Playback Quality,Medium,true,2
+TCK-00234,cust_0099,2026-07-14,Playback Quality,High,true,2
+TCK-00123,cust_0123,2026-07-15,Playback Quality,Low,true,4
+TCK-00163,cust_0003,2026-07-15,Account Access,High,true,2
+TCK-00170,cust_0083,2026-07-15,Billing,High,true,4
+TCK-00226,cust_0080,2026-07-15,Playback Quality,Critical,true,2
+TCK-00041,cust_0001,2026-07-16,Content Request,Medium,true,1
+TCK-00071,cust_0013,2026-07-16,Billing,High,true,5
+TCK-00085,cust_0113,2026-07-16,Other,Low,false,
+TCK-00229,cust_0143,2026-07-16,Playback Quality,High,false,2
+TCK-00231,cust_0089,2026-07-16,Playback Quality,High,false,2
+TCK-00011,cust_0134,2026-07-17,Playback Quality,Low,true,5
+TCK-00083,cust_0138,2026-07-17,Content Request,Medium,true,
+TCK-00106,cust_0052,2026-07-17,Playback Quality,Medium,true,
+TCK-00180,cust_0033,2026-07-17,Account Access,Low,true,5
+TCK-00221,cust_0009,2026-07-17,Playback Quality,Critical,true,3
+TCK-00222,cust_0030,2026-07-17,Playback Quality,Medium,true,3
+TCK-00223,cust_0064,2026-07-17,Playback Quality,High,false,1
+TCK-00224,cust_0111,2026-07-17,Playback Quality,Medium,true,3
+TCK-00227,cust_0125,2026-07-17,Playback Quality,High,true,2
+TCK-00228,cust_0010,2026-07-17,Playback Quality,Critical,true,1
+TCK-00115,cust_0051,2026-07-19,Content Request,Medium,true,
+TCK-00057,cust_0133,2026-07-20,Playback Quality,Critical,true,
+TCK-00205,cust_0019,2026-07-20,Content Request,Low,true,
+TCK-00002,cust_0087,2026-07-21,Content Request,Low,true,
+TCK-00080,cust_0044,2026-07-21,Billing,Medium,false,
+TCK-00087,cust_0126,2026-07-21,Billing,Medium,true,
+TCK-00104,cust_0014,2026-07-21,Billing,High,true,
+TCK-00199,cust_0083,2026-07-21,Billing,Low,true,4
+TCK-00040,cust_0028,2026-07-22,Account Access,Low,true,1
+TCK-00082,cust_0044,2026-07-22,Account Access,Medium,true,5
+TCK-00204,cust_0045,2026-07-22,Other,Medium,true,
+TCK-00211,cust_0110,2026-07-22,Content Request,Medium,true,4
+TCK-00023,cust_0117,2026-07-23,Content Request,Medium,true,1
+TCK-00077,cust_0053,2026-07-23,Playback Quality,Medium,false,
+TCK-00091,cust_0036,2026-07-23,Billing,Medium,true,2
+TCK-00209,cust_0085,2026-07-24,Playback Quality,Low,true,
+TCK-00027,cust_0132,2026-07-25,Account Access,Critical,true,
+TCK-00030,cust_0087,2026-07-25,Account Access,Medium,false,
+TCK-00096,cust_0104,2026-07-25,Billing,Medium,true,
+TCK-00160,cust_0123,2026-07-25,Other,Low,true,
+TCK-00178,cust_0079,2026-07-25,Billing,Low,true,1
+TCK-00058,cust_0047,2026-07-26,Other,Medium,true,
+TCK-00127,cust_0052,2026-07-26,Playback Quality,Medium,false,
+TCK-00185,cust_0116,2026-07-26,Account Access,Medium,true,
+TCK-00213,cust_0098,2026-07-26,Other,Low,false,
+TCK-00235,cust_0099,2026-07-26,Billing,Critical,false,
+TCK-00086,cust_0087,2026-07-27,Playback Quality,Low,false,
+TCK-00147,cust_0078,2026-07-27,Playback Quality,Medium,true,
+TCK-00192,cust_0117,2026-07-28,Playback Quality,Medium,true,3
+TCK-00198,cust_0009,2026-07-28,Billing,Medium,true,
+TCK-00003,cust_0136,2026-07-29,Other,Low,true,
+TCK-00010,cust_0073,2026-07-29,Other,Medium,true,
+TCK-00064,cust_0105,2026-07-29,Other,Medium,true,4
+TCK-00084,cust_0142,2026-07-29,Billing,High,false,
+TCK-00095,cust_0088,2026-07-29,Other,High,true,3
+TCK-00124,cust_0136,2026-07-29,Playback Quality,Low,true,4
+TCK-00015,cust_0150,2026-07-30,Other,Critical,true,1
+TCK-00076,cust_0147,2026-07-30,Other,High,true,4
+TCK-00105,cust_0026,2026-07-30,Billing,Medium,true,
+TCK-00181,cust_0029,2026-07-30,Playback Quality,Low,false,
+TCK-00031,cust_0131,2026-07-31,Content Request,High,true,
+TCK-00046,cust_0089,2026-07-31,Billing,Low,false,
+TCK-00141,cust_0025,2026-07-31,Playback Quality,Medium,false,
+TCK-00001,cust_0149,2026-08-01,Other,Medium,true,3
+TCK-00120,cust_0105,2026-08-01,Billing,Low,false,
+TCK-00143,cust_0029,2026-08-01,Content Request,Medium,true,
+TCK-00152,cust_0068,2026-08-01,Account Access,Medium,true,3
+TCK-00168,cust_0076,2026-08-01,Billing,Low,false,
+TCK-00193,cust_0086,2026-08-01,Billing,High,true,
+TCK-00089,cust_0060,2026-08-02,Account Access,Critical,true,
+TCK-00101,cust_0019,2026-08-02,Account Access,Medium,true,2
+TCK-00212,cust_0027,2026-08-02,Playback Quality,High,false,

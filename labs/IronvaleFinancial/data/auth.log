@@ -1,0 +1,1664 @@
+2026-06-08T07:35:58Z vpn-gw02 sshd[20018]: Accepted password for civanov from 10.50.12.64 port 33649 ssh2 sessionid=SESSION-1009
+2026-06-08T07:40:18Z vpn-gw02 sshd[20003]: Accepted password for mnkosi from 10.50.11.13 port 48617 ssh2 sessionid=SESSION-1002
+2026-06-08T07:49:14Z vpn-gw02 sshd[20005]: Failed password for kivanov from 10.50.12.228 port 46570 ssh2
+2026-06-08T08:48:40Z vpn-gw02 sshd[21500]: Failed password for eramirez from 10.50.12.20 port 45737 ssh2
+2026-06-08T09:02:40Z vpn-gw02 sshd[21447]: Failed password for rcosta from 10.50.11.139 port 41585 ssh2
+2026-06-08T09:06:33Z vpn-gw01 sshd[20030]: Accepted password for livanov from 10.50.12.186 port 34604 ssh2 sessionid=SESSION-1015
+2026-06-08T09:21:43Z vpn-gw02 sshd[20014]: Accepted password for divanov from 10.50.9.209 port 33579 ssh2 sessionid=SESSION-1007
+2026-06-08T09:30:39Z vpn-gw02 sshd[21480]: Failed password for ybell from 10.50.14.160 port 46638 ssh2
+2026-06-08T09:56:30Z vpn-gw02 sshd[20012]: Accepted password for ssingh from 10.50.10.48 port 47465 ssh2 sessionid=SESSION-1006
+2026-06-08T10:36:46Z vpn-gw01 sshd[20022]: Accepted password for hivanov from 10.50.10.174 port 30360 ssh2 sessionid=SESSION-1011
+2026-06-08T11:10:40Z vpn-gw01 sshd[20016]: Accepted password for pcosta from 10.50.10.216 port 44528 ssh2 sessionid=SESSION-1008
+2026-06-08T11:31:19Z vpn-gw01 sshd[20034]: Accepted password for rcosta from 10.50.11.139 port 52529 ssh2 sessionid=SESSION-1017
+2026-06-08T11:33:26Z vpn-gw01 sshd[20032]: Accepted password for ncosta from 10.50.12.188 port 38233 ssh2 sessionid=SESSION-1016
+2026-06-08T12:50:03Z vpn-gw01 sshd[20040]: Accepted password for iivanov from 10.50.9.1 port 50964 ssh2 sessionid=SESSION-1020
+2026-06-08T13:23:20Z vpn-gw02 sshd[21538]: Failed password for llund from 10.50.14.36 port 54114 ssh2
+2026-06-08T13:43:53Z vpn-gw02 sshd[20020]: Accepted password for tcosta from 10.50.10.174 port 58654 ssh2 sessionid=SESSION-1010
+2026-06-08T13:52:37Z vpn-gw02 sshd[21450]: Failed password for ybell from 10.50.14.160 port 44597 ssh2
+2026-06-08T14:08:27Z vpn-gw02 sshd[20038]: Accepted password for ybell from 10.50.14.160 port 54443 ssh2 sessionid=SESSION-1019
+2026-06-08T14:16:06Z vpn-gw02 sshd[20026]: Accepted password for gcosta from 10.50.14.242 port 44520 ssh2 sessionid=SESSION-1013
+2026-06-08T14:33:30Z vpn-gw02 sshd[20004]: session closed for user mnkosi sessionid=SESSION-1002 duration=24792s
+2026-06-08T14:40:46Z vpn-gw01 sshd[20010]: Accepted password for llund from 10.50.14.36 port 47787 ssh2 sessionid=SESSION-1005
+2026-06-08T14:44:44Z vpn-gw02 sshd[20019]: session closed for user civanov sessionid=SESSION-1009 duration=25726s
+2026-06-08T15:16:55Z vpn-gw01 sshd[20036]: Accepted password for cpatel from 10.50.11.181 port 56841 ssh2 sessionid=SESSION-1018
+2026-06-08T15:20:53Z vpn-gw01 sshd[20024]: Accepted password for ocosta from 10.50.11.15 port 46414 ssh2 sessionid=SESSION-1012
+2026-06-08T15:46:11Z vpn-gw02 sshd[20044]: Accepted password for u221 from 10.50.12.186 port 57202 ssh2 sessionid=SESSION-1022
+2026-06-08T16:09:48Z vpn-gw01 sshd[20042]: Accepted password for vlund from 10.50.10.172 port 40158 ssh2 sessionid=SESSION-1021
+2026-06-08T16:16:37Z vpn-gw02 sshd[20006]: Accepted password for kivanov from 10.50.12.228 port 44932 ssh2 sessionid=SESSION-1003
+2026-06-08T16:37:21Z vpn-gw01 sshd[20001]: Accepted password for jlund from 10.50.13.111 port 38387 ssh2 sessionid=SESSION-1001
+2026-06-08T17:46:40Z vpn-gw01 sshd[20031]: session closed for user livanov sessionid=SESSION-1015 duration=31207s
+2026-06-08T17:54:25Z vpn-gw02 sshd[20013]: session closed for user ssingh sessionid=SESSION-1006 duration=28675s
+2026-06-08T18:17:47Z vpn-gw01 sshd[20028]: Accepted password for framirez from 10.50.13.153 port 39067 ssh2 sessionid=SESSION-1014
+2026-06-08T18:20:43Z vpn-gw01 sshd[20008]: Accepted password for alund from 10.50.10.8 port 45113 ssh2 sessionid=SESSION-1004
+2026-06-08T18:35:57Z vpn-gw01 sshd[20023]: session closed for user hivanov sessionid=SESSION-1011 duration=28751s
+2026-06-08T18:54:21Z vpn-gw01 sshd[20017]: session closed for user pcosta sessionid=SESSION-1008 duration=27821s
+2026-06-08T19:24:21Z vpn-gw02 sshd[20015]: session closed for user divanov sessionid=SESSION-1007 duration=36158s
+2026-06-08T19:55:54Z vpn-gw02 sshd[20021]: session closed for user tcosta sessionid=SESSION-1010 duration=22321s
+2026-06-08T19:57:58Z vpn-gw01 sshd[20035]: session closed for user rcosta sessionid=SESSION-1017 duration=30399s
+2026-06-08T20:01:27Z vpn-gw01 sshd[20033]: session closed for user ncosta sessionid=SESSION-1016 duration=30481s
+2026-06-08T21:30:54Z vpn-gw01 sshd[20011]: session closed for user llund sessionid=SESSION-1005 duration=24608s
+2026-06-08T22:07:02Z vpn-gw02 sshd[20027]: session closed for user gcosta sessionid=SESSION-1013 duration=28256s
+2026-06-08T22:20:32Z vpn-gw01 sshd[20037]: session closed for user cpatel sessionid=SESSION-1018 duration=25417s
+2026-06-08T22:21:34Z vpn-gw01 sshd[20025]: session closed for user ocosta sessionid=SESSION-1012 duration=25241s
+2026-06-08T22:28:43Z vpn-gw02 sshd[20039]: session closed for user ybell sessionid=SESSION-1019 duration=30016s
+2026-06-08T22:39:20Z vpn-gw01 sshd[20041]: session closed for user iivanov sessionid=SESSION-1020 duration=35357s
+2026-06-08T23:11:04Z vpn-gw01 sshd[20002]: session closed for user jlund sessionid=SESSION-1001 duration=23623s
+2026-06-08T23:15:22Z vpn-gw02 sshd[20045]: session closed for user u221 sessionid=SESSION-1022 duration=26951s
+2026-06-08T23:38:35Z vpn-gw01 sshd[20009]: session closed for user alund sessionid=SESSION-1004 duration=19072s
+2026-06-08T23:49:50Z vpn-gw01 sshd[20043]: session closed for user vlund sessionid=SESSION-1021 duration=27602s
+2026-06-08T23:53:28Z vpn-gw02 sshd[20007]: session closed for user kivanov sessionid=SESSION-1003 duration=27411s
+2026-06-08T23:56:42Z vpn-gw01 sshd[20029]: session closed for user framirez sessionid=SESSION-1014 duration=20335s
+2026-06-09T07:40:10Z vpn-gw01 sshd[21592]: Failed password for gcosta from 10.50.14.242 port 30228 ssh2
+2026-06-09T08:06:07Z vpn-gw02 sshd[21549]: Failed password for ssingh from 10.50.10.48 port 52870 ssh2
+2026-06-09T08:08:10Z vpn-gw02 sshd[20079]: Accepted password for rcosta from 10.50.11.139 port 40436 ssh2 sessionid=SESSION-1039
+2026-06-09T08:13:09Z vpn-gw02 sshd[21593]: Failed password for hivanov from 10.50.10.174 port 40604 ssh2
+2026-06-09T08:22:12Z vpn-gw01 sshd[20070]: Failed password for gcosta from 10.50.14.242 port 49169 ssh2
+2026-06-09T08:39:13Z vpn-gw01 sshd[20066]: Accepted password for eramirez from 10.50.12.20 port 45601 ssh2 sessionid=SESSION-1033
+2026-06-09T09:08:29Z vpn-gw02 sshd[21563]: Failed password for alund from 10.50.10.8 port 56582 ssh2
+2026-06-09T09:36:31Z vpn-gw02 sshd[20056]: Accepted password for pcosta from 10.50.10.216 port 55911 ssh2 sessionid=SESSION-1028
+2026-06-09T09:59:29Z vpn-gw02 sshd[21448]: Failed password for llund from 10.50.14.36 port 38238 ssh2
+2026-06-09T10:20:50Z vpn-gw02 sshd[20068]: Accepted password for ocosta from 10.50.11.15 port 39356 ssh2 sessionid=SESSION-1034
+2026-06-09T11:00:14Z vpn-gw01 sshd[20073]: Accepted password for framirez from 10.50.13.153 port 55039 ssh2 sessionid=SESSION-1036
+2026-06-09T11:15:50Z vpn-gw02 sshd[20083]: Accepted password for iivanov from 10.50.9.1 port 50934 ssh2 sessionid=SESSION-1041
+2026-06-09T11:25:53Z vpn-gw01 sshd[20058]: Accepted password for civanov from 10.50.12.64 port 31187 ssh2 sessionid=SESSION-1029
+2026-06-09T12:32:22Z vpn-gw02 sshd[20064]: Accepted password for nwong from 10.50.13.111 port 31571 ssh2 sessionid=SESSION-1032
+2026-06-09T12:45:03Z vpn-gw02 sshd[20052]: Accepted password for llund from 10.50.14.36 port 50598 ssh2 sessionid=SESSION-1026
+2026-06-09T13:15:22Z vpn-gw01 sshd[20075]: Accepted password for livanov from 10.50.12.186 port 48051 ssh2 sessionid=SESSION-1037
+2026-06-09T13:21:16Z vpn-gw02 sshd[21437]: Failed password for ybell from 10.50.14.160 port 47291 ssh2
+2026-06-09T13:45:28Z vpn-gw01 sshd[20085]: Accepted password for vlund from 10.50.10.172 port 32694 ssh2 sessionid=SESSION-1042
+2026-06-09T13:50:04Z vpn-gw01 sshd[21539]: Failed password for kivanov from 10.50.12.228 port 32504 ssh2
+2026-06-09T14:12:15Z vpn-gw02 sshd[20080]: session closed for user rcosta sessionid=SESSION-1039 duration=21845s
+2026-06-09T14:41:48Z vpn-gw02 sshd[21548]: Failed password for nwong from 10.50.13.111 port 41224 ssh2
+2026-06-09T14:55:14Z vpn-gw01 sshd[20046]: Accepted password for mnkosi from 10.50.11.13 port 58208 ssh2 sessionid=SESSION-1023
+2026-06-09T15:23:26Z vpn-gw02 sshd[20054]: Accepted password for divanov from 10.50.9.209 port 35611 ssh2 sessionid=SESSION-1027
+2026-06-09T17:17:33Z vpn-gw01 sshd[20071]: Accepted password for gcosta from 10.50.14.242 port 41524 ssh2 sessionid=SESSION-1035
+2026-06-09T17:28:35Z vpn-gw02 sshd[20087]: Accepted password for u221 from 10.50.12.186 port 44941 ssh2 sessionid=SESSION-1043
+2026-06-09T17:43:24Z vpn-gw01 sshd[20081]: Accepted password for cpatel from 10.50.11.181 port 33680 ssh2 sessionid=SESSION-1040
+2026-06-09T17:49:03Z vpn-gw02 sshd[20050]: Accepted password for alund from 10.50.10.8 port 38421 ssh2 sessionid=SESSION-1025
+2026-06-09T17:55:07Z vpn-gw02 sshd[20057]: session closed for user pcosta sessionid=SESSION-1028 duration=29916s
+2026-06-09T17:56:57Z vpn-gw01 sshd[20067]: session closed for user eramirez sessionid=SESSION-1033 duration=33464s
+2026-06-09T18:08:30Z vpn-gw02 sshd[20060]: Accepted password for epatel from 10.50.12.64 port 39871 ssh2 sessionid=SESSION-1030
+2026-06-09T18:14:22Z vpn-gw02 sshd[20048]: Accepted password for kivanov from 10.50.12.228 port 38421 ssh2 sessionid=SESSION-1024
+2026-06-09T18:46:24Z vpn-gw02 sshd[20062]: Accepted password for tcosta from 10.50.10.174 port 41329 ssh2 sessionid=SESSION-1031
+2026-06-09T18:56:11Z vpn-gw02 sshd[20077]: Accepted password for ncosta from 10.50.12.188 port 37641 ssh2 sessionid=SESSION-1038
+2026-06-09T19:05:58Z vpn-gw02 sshd[20053]: session closed for user llund sessionid=SESSION-1026 duration=22855s
+2026-06-09T19:28:26Z vpn-gw02 sshd[20065]: session closed for user nwong sessionid=SESSION-1032 duration=24964s
+2026-06-09T19:32:49Z vpn-gw01 sshd[20086]: session closed for user vlund sessionid=SESSION-1042 duration=20841s
+2026-06-09T20:05:20Z vpn-gw02 sshd[20069]: session closed for user ocosta sessionid=SESSION-1034 duration=35070s
+2026-06-09T20:17:30Z vpn-gw01 sshd[20059]: session closed for user civanov sessionid=SESSION-1029 duration=31897s
+2026-06-09T20:20:51Z vpn-gw02 sshd[20084]: session closed for user iivanov sessionid=SESSION-1041 duration=32701s
+2026-06-09T20:34:19Z vpn-gw01 sshd[20074]: session closed for user framirez sessionid=SESSION-1036 duration=34445s
+2026-06-09T22:13:15Z vpn-gw02 sshd[20055]: session closed for user divanov sessionid=SESSION-1027 duration=24589s
+2026-06-09T23:09:43Z vpn-gw02 sshd[20049]: session closed for user kivanov sessionid=SESSION-1024 duration=17721s
+2026-06-09T23:21:59Z vpn-gw01 sshd[20047]: session closed for user mnkosi sessionid=SESSION-1023 duration=30405s
+2026-06-09T23:26:44Z vpn-gw01 sshd[20076]: session closed for user livanov sessionid=SESSION-1037 duration=36682s
+2026-06-09T23:27:33Z vpn-gw02 sshd[20061]: session closed for user epatel sessionid=SESSION-1030 duration=19143s
+2026-06-09T23:32:57Z vpn-gw01 sshd[20072]: session closed for user gcosta sessionid=SESSION-1035 duration=22524s
+2026-06-09T23:34:07Z vpn-gw02 sshd[20078]: session closed for user ncosta sessionid=SESSION-1038 duration=16676s
+2026-06-09T23:35:14Z vpn-gw01 sshd[20082]: session closed for user cpatel sessionid=SESSION-1040 duration=21110s
+2026-06-09T23:40:04Z vpn-gw02 sshd[20063]: session closed for user tcosta sessionid=SESSION-1031 duration=17620s
+2026-06-09T23:43:20Z vpn-gw02 sshd[20051]: session closed for user alund sessionid=SESSION-1025 duration=21257s
+2026-06-09T23:45:17Z vpn-gw02 sshd[20088]: session closed for user u221 sessionid=SESSION-1043 duration=22602s
+2026-06-10T07:57:55Z vpn-gw02 sshd[20093]: Accepted password for alund from 10.50.10.8 port 32933 ssh2 sessionid=SESSION-1046
+2026-06-10T08:06:27Z vpn-gw01 sshd[20108]: Accepted password for hivanov from 10.50.10.174 port 45275 ssh2 sessionid=SESSION-1053
+2026-06-10T08:15:40Z vpn-gw01 sshd[20104]: Accepted password for tcosta from 10.50.10.174 port 47560 ssh2 sessionid=SESSION-1051
+2026-06-10T08:32:59Z vpn-gw02 sshd[20124]: Accepted password for ybell from 10.50.14.160 port 54976 ssh2 sessionid=SESSION-1061
+2026-06-10T08:37:02Z vpn-gw01 sshd[20116]: Accepted password for framirez from 10.50.13.153 port 35641 ssh2 sessionid=SESSION-1057
+2026-06-10T10:19:12Z vpn-gw02 sshd[20122]: Accepted password for cpatel from 10.50.11.181 port 41144 ssh2 sessionid=SESSION-1060
+2026-06-10T10:50:55Z vpn-gw01 sshd[20126]: Accepted password for iivanov from 10.50.9.1 port 41778 ssh2 sessionid=SESSION-1062
+2026-06-10T11:05:54Z vpn-gw01 sshd[20091]: Accepted password for mnkosi from 10.50.11.13 port 34856 ssh2 sessionid=SESSION-1045
+2026-06-10T11:20:30Z vpn-gw01 sshd[20098]: Accepted password for ssingh from 10.50.10.48 port 53186 ssh2 sessionid=SESSION-1048
+2026-06-10T11:24:11Z vpn-gw02 sshd[20120]: Accepted password for rcosta from 10.50.11.139 port 37816 ssh2 sessionid=SESSION-1059
+2026-06-10T12:12:18Z vpn-gw02 sshd[21571]: Failed password for tcosta from 10.50.10.174 port 58512 ssh2
+2026-06-10T12:14:21Z vpn-gw01 sshd[20089]: Accepted password for jlund from 10.50.13.111 port 56648 ssh2 sessionid=SESSION-1044
+2026-06-10T13:03:24Z vpn-gw02 sshd[20110]: Accepted password for eramirez from 10.50.12.20 port 49152 ssh2 sessionid=SESSION-1054
+2026-06-10T14:50:14Z vpn-gw02 sshd[20094]: session closed for user alund sessionid=SESSION-1046 duration=24739s
+2026-06-10T14:59:34Z vpn-gw01 sshd[20109]: session closed for user hivanov sessionid=SESSION-1053 duration=24787s
+2026-06-10T15:13:41Z vpn-gw02 sshd[20125]: session closed for user ybell sessionid=SESSION-1061 duration=24042s
+2026-06-10T15:16:50Z vpn-gw02 sshd[20112]: Accepted password for ocosta from 10.50.11.15 port 47559 ssh2 sessionid=SESSION-1055
+2026-06-10T15:48:37Z vpn-gw01 sshd[20114]: Accepted password for gcosta from 10.50.14.242 port 34711 ssh2 sessionid=SESSION-1056
+2026-06-10T15:51:55Z vpn-gw01 sshd[20117]: session closed for user framirez sessionid=SESSION-1057 duration=26093s
+2026-06-10T15:57:10Z vpn-gw02 sshd[20096]: Accepted password for llund from 10.50.14.36 port 52422 ssh2 sessionid=SESSION-1047
+2026-06-10T15:59:07Z vpn-gw02 sshd[20118]: Accepted password for livanov from 10.50.12.186 port 49460 ssh2 sessionid=SESSION-1058
+2026-06-10T16:16:59Z vpn-gw01 sshd[20105]: session closed for user tcosta sessionid=SESSION-1051 duration=28879s
+2026-06-10T17:17:40Z vpn-gw02 sshd[20102]: Accepted password for pcosta from 10.50.10.216 port 31308 ssh2 sessionid=SESSION-1050
+2026-06-10T17:29:44Z vpn-gw02 sshd[21420]: Failed password for cpatel from 10.50.11.181 port 51835 ssh2
+2026-06-10T17:41:47Z vpn-gw02 sshd[20123]: session closed for user cpatel sessionid=SESSION-1060 duration=26555s
+2026-06-10T17:59:08Z vpn-gw01 sshd[20127]: session closed for user iivanov sessionid=SESSION-1062 duration=25693s
+2026-06-10T18:06:16Z vpn-gw02 sshd[20100]: Accepted password for divanov from 10.50.9.209 port 56293 ssh2 sessionid=SESSION-1049
+2026-06-10T18:10:45Z vpn-gw02 sshd[20095]: Failed password for llund from 10.50.14.36 port 38567 ssh2
+2026-06-10T18:50:53Z vpn-gw01 sshd[20106]: Accepted password for nwong from 10.50.13.111 port 36605 ssh2 sessionid=SESSION-1052
+2026-06-10T18:52:28Z vpn-gw01 sshd[20128]: Accepted password for u221 from 10.50.12.186 port 50782 ssh2 sessionid=SESSION-1063
+2026-06-10T19:24:58Z vpn-gw02 sshd[20111]: session closed for user eramirez sessionid=SESSION-1054 duration=22894s
+2026-06-10T19:38:58Z vpn-gw02 sshd[20121]: session closed for user rcosta sessionid=SESSION-1059 duration=29687s
+2026-06-10T19:54:53Z vpn-gw01 sshd[20092]: session closed for user mnkosi sessionid=SESSION-1045 duration=31739s
+2026-06-10T20:01:39Z vpn-gw01 sshd[20099]: session closed for user ssingh sessionid=SESSION-1048 duration=31269s
+2026-06-10T22:17:51Z vpn-gw02 sshd[20097]: session closed for user llund sessionid=SESSION-1047 duration=22841s
+2026-06-10T22:43:28Z vpn-gw02 sshd[20119]: session closed for user livanov sessionid=SESSION-1058 duration=24261s
+2026-06-10T22:56:48Z vpn-gw01 sshd[20090]: session closed for user jlund sessionid=SESSION-1044 duration=38547s
+2026-06-10T23:20:12Z vpn-gw02 sshd[20113]: session closed for user ocosta sessionid=SESSION-1055 duration=29002s
+2026-06-10T23:28:39Z vpn-gw01 sshd[20115]: session closed for user gcosta sessionid=SESSION-1056 duration=27602s
+2026-06-10T23:29:03Z vpn-gw01 sshd[20129]: session closed for user u221 sessionid=SESSION-1063 duration=16595s
+2026-06-10T23:35:58Z vpn-gw01 sshd[20107]: session closed for user nwong sessionid=SESSION-1052 duration=17105s
+2026-06-10T23:41:04Z vpn-gw02 sshd[20101]: session closed for user divanov sessionid=SESSION-1049 duration=20088s
+2026-06-10T23:56:13Z vpn-gw02 sshd[20103]: session closed for user pcosta sessionid=SESSION-1050 duration=23913s
+2026-06-11T07:16:08Z vpn-gw01 sshd[20163]: Accepted password for u221 from 10.50.12.186 port 58456 ssh2 sessionid=SESSION-1080
+2026-06-11T07:22:14Z vpn-gw02 sshd[20142]: Accepted password for tcosta from 10.50.10.174 port 32194 ssh2 sessionid=SESSION-1070
+2026-06-11T07:43:56Z vpn-gw02 sshd[20150]: Accepted password for gcosta from 10.50.14.242 port 44702 ssh2 sessionid=SESSION-1074
+2026-06-11T08:39:09Z vpn-gw01 sshd[21614]: Failed password for ssingh from 10.50.10.48 port 51191 ssh2
+2026-06-11T08:50:45Z vpn-gw02 sshd[20156]: Accepted password for cpatel from 10.50.11.181 port 39903 ssh2 sessionid=SESSION-1077
+2026-06-11T08:55:02Z vpn-gw02 sshd[21504]: Failed password for u221 from 10.50.12.186 port 36050 ssh2
+2026-06-11T09:29:02Z vpn-gw02 sshd[20148]: Accepted password for ocosta from 10.50.11.15 port 58956 ssh2 sessionid=SESSION-1073
+2026-06-11T10:31:34Z vpn-gw01 sshd[21531]: Failed password for cpatel from 10.50.11.181 port 43709 ssh2
+2026-06-11T11:13:40Z vpn-gw01 sshd[20144]: Accepted password for hivanov from 10.50.10.174 port 52263 ssh2 sessionid=SESSION-1071
+2026-06-11T11:35:48Z vpn-gw01 sshd[20152]: Accepted password for ncosta from 10.50.12.188 port 57531 ssh2 sessionid=SESSION-1075
+2026-06-11T11:41:27Z vpn-gw02 sshd[20130]: Accepted password for mnkosi from 10.50.11.13 port 59927 ssh2 sessionid=SESSION-1064
+2026-06-11T12:22:16Z vpn-gw02 sshd[20134]: Accepted password for llund from 10.50.14.36 port 30858 ssh2 sessionid=SESSION-1066
+2026-06-11T14:00:57Z vpn-gw01 sshd[20162]: Failed password for u221 from 10.50.12.186 port 35661 ssh2
+2026-06-11T14:28:18Z vpn-gw01 sshd[21472]: Failed password for ssingh from 10.50.10.48 port 48652 ssh2
+2026-06-11T14:39:39Z vpn-gw02 sshd[20136]: Accepted password for divanov from 10.50.9.209 port 53185 ssh2 sessionid=SESSION-1067
+2026-06-11T14:48:02Z vpn-gw01 sshd[20164]: session closed for user u221 sessionid=SESSION-1080 duration=27114s
+2026-06-11T15:08:34Z vpn-gw02 sshd[20151]: session closed for user gcosta sessionid=SESSION-1074 duration=26678s
+2026-06-11T15:42:54Z vpn-gw02 sshd[20132]: Accepted password for alund from 10.50.10.8 port 53786 ssh2 sessionid=SESSION-1065
+2026-06-11T15:44:42Z vpn-gw02 sshd[20154]: Accepted password for rcosta from 10.50.11.139 port 34655 ssh2 sessionid=SESSION-1076
+2026-06-11T16:43:45Z vpn-gw02 sshd[20149]: session closed for user ocosta sessionid=SESSION-1073 duration=26083s
+2026-06-11T16:46:13Z vpn-gw02 sshd[20140]: Accepted password for epatel from 10.50.12.64 port 59504 ssh2 sessionid=SESSION-1069
+2026-06-11T17:05:06Z vpn-gw02 sshd[20157]: session closed for user cpatel sessionid=SESSION-1077 duration=29661s
+2026-06-11T17:05:50Z vpn-gw02 sshd[20158]: Accepted password for iivanov from 10.50.9.1 port 54648 ssh2 sessionid=SESSION-1078
+2026-06-11T17:06:28Z vpn-gw01 sshd[20160]: Accepted password for vlund from 10.50.10.172 port 46724 ssh2 sessionid=SESSION-1079
+2026-06-11T17:15:06Z vpn-gw01 sshd[20138]: Accepted password for pcosta from 10.50.10.216 port 57990 ssh2 sessionid=SESSION-1068
+2026-06-11T17:32:45Z vpn-gw02 sshd[21542]: Failed password for jlund from 10.50.13.111 port 44115 ssh2
+2026-06-11T17:37:34Z vpn-gw01 sshd[20145]: session closed for user hivanov sessionid=SESSION-1071 duration=23034s
+2026-06-11T17:47:11Z vpn-gw02 sshd[20143]: session closed for user tcosta sessionid=SESSION-1070 duration=37497s
+2026-06-11T18:27:53Z vpn-gw01 sshd[20146]: Accepted password for eramirez from 10.50.12.20 port 33501 ssh2 sessionid=SESSION-1072
+2026-06-11T18:54:57Z vpn-gw02 sshd[20131]: session closed for user mnkosi sessionid=SESSION-1064 duration=26010s
+2026-06-11T19:49:07Z vpn-gw01 sshd[20153]: session closed for user ncosta sessionid=SESSION-1075 duration=29599s
+2026-06-11T21:39:13Z vpn-gw02 sshd[20137]: session closed for user divanov sessionid=SESSION-1067 duration=25174s
+2026-06-11T22:41:17Z vpn-gw02 sshd[20135]: session closed for user llund sessionid=SESSION-1066 duration=37141s
+2026-06-11T23:00:19Z vpn-gw02 sshd[20141]: session closed for user epatel sessionid=SESSION-1069 duration=22446s
+2026-06-11T23:20:47Z vpn-gw02 sshd[20133]: session closed for user alund sessionid=SESSION-1065 duration=27473s
+2026-06-11T23:20:51Z vpn-gw01 sshd[20139]: session closed for user pcosta sessionid=SESSION-1068 duration=21945s
+2026-06-11T23:21:11Z vpn-gw01 sshd[20161]: session closed for user vlund sessionid=SESSION-1079 duration=22483s
+2026-06-11T23:22:20Z vpn-gw02 sshd[20155]: session closed for user rcosta sessionid=SESSION-1076 duration=27458s
+2026-06-11T23:25:02Z vpn-gw01 sshd[20147]: session closed for user eramirez sessionid=SESSION-1072 duration=17829s
+2026-06-11T23:51:35Z vpn-gw02 sshd[20159]: session closed for user iivanov sessionid=SESSION-1078 duration=24345s
+2026-06-12T07:08:40Z vpn-gw02 sshd[21486]: Failed password for mnkosi from 10.50.11.13 port 50864 ssh2
+2026-06-12T07:31:51Z vpn-gw01 sshd[20182]: Accepted password for nwong from 10.50.13.111 port 57751 ssh2 sessionid=SESSION-1089
+2026-06-12T07:45:15Z vpn-gw02 sshd[20190]: Accepted password for gcosta from 10.50.14.242 port 39560 ssh2 sessionid=SESSION-1093
+2026-06-12T07:56:51Z vpn-gw01 sshd[20192]: Accepted password for framirez from 10.50.13.153 port 48476 ssh2 sessionid=SESSION-1094
+2026-06-12T08:09:55Z vpn-gw02 sshd[21584]: Failed password for ncosta from 10.50.12.188 port 30707 ssh2
+2026-06-12T08:52:15Z vpn-gw01 sshd[20167]: Accepted password for mnkosi from 10.50.11.13 port 35280 ssh2 sessionid=SESSION-1082
+2026-06-12T09:17:45Z vpn-gw02 sshd[21600]: Failed password for pcosta from 10.50.10.216 port 59497 ssh2
+2026-06-12T09:26:04Z vpn-gw01 sshd[20169]: Accepted password for alund from 10.50.10.8 port 57361 ssh2 sessionid=SESSION-1083
+2026-06-12T09:53:06Z vpn-gw02 sshd[20177]: Accepted password for epatel from 10.50.12.64 port 30994 ssh2 sessionid=SESSION-1087
+2026-06-12T11:13:33Z vpn-gw01 sshd[20179]: Failed password for tcosta from 10.50.10.174 port 46359 ssh2
+2026-06-12T11:19:10Z vpn-gw01 sshd[20186]: Accepted password for eramirez from 10.50.12.20 port 50525 ssh2 sessionid=SESSION-1091
+2026-06-12T11:51:58Z vpn-gw01 sshd[20180]: Accepted password for tcosta from 10.50.10.174 port 36279 ssh2 sessionid=SESSION-1088
+2026-06-12T12:40:38Z vpn-gw02 sshd[20165]: Accepted password for jlund from 10.50.13.111 port 49154 ssh2 sessionid=SESSION-1081
+2026-06-12T13:00:29Z vpn-gw02 sshd[21576]: Failed password for kivanov from 10.50.12.228 port 30920 ssh2
+2026-06-12T13:02:06Z vpn-gw01 sshd[20193]: session closed for user framirez sessionid=SESSION-1094 duration=18315s
+2026-06-12T13:22:16Z vpn-gw01 sshd[20183]: session closed for user nwong sessionid=SESSION-1089 duration=21025s
+2026-06-12T14:32:39Z vpn-gw01 sshd[20168]: session closed for user mnkosi sessionid=SESSION-1082 duration=20424s
+2026-06-12T14:48:39Z vpn-gw02 sshd[20202]: Accepted password for iivanov from 10.50.9.1 port 50665 ssh2 sessionid=SESSION-1099
+2026-06-12T15:17:47Z vpn-gw02 sshd[20200]: Accepted password for ybell from 10.50.14.160 port 37921 ssh2 sessionid=SESSION-1098
+2026-06-12T15:24:12Z vpn-gw02 sshd[20178]: session closed for user epatel sessionid=SESSION-1087 duration=19866s
+2026-06-12T15:34:34Z vpn-gw02 sshd[20188]: Accepted password for ocosta from 10.50.11.15 port 37221 ssh2 sessionid=SESSION-1092
+2026-06-12T16:35:59Z vpn-gw02 sshd[20196]: Accepted password for rcosta from 10.50.11.139 port 50663 ssh2 sessionid=SESSION-1096
+2026-06-12T16:41:51Z vpn-gw02 sshd[20194]: Accepted password for ncosta from 10.50.12.188 port 40898 ssh2 sessionid=SESSION-1095
+2026-06-12T16:45:16Z vpn-gw02 sshd[20184]: Accepted password for hivanov from 10.50.10.174 port 48424 ssh2 sessionid=SESSION-1090
+2026-06-12T17:01:15Z vpn-gw01 sshd[20181]: session closed for user tcosta sessionid=SESSION-1088 duration=18557s
+2026-06-12T17:13:57Z vpn-gw02 sshd[20191]: session closed for user gcosta sessionid=SESSION-1093 duration=34122s
+2026-06-12T18:00:36Z vpn-gw01 sshd[20171]: Accepted password for llund from 10.50.14.36 port 55114 ssh2 sessionid=SESSION-1084
+2026-06-12T18:06:08Z vpn-gw02 sshd[20175]: Accepted password for civanov from 10.50.12.64 port 54237 ssh2 sessionid=SESSION-1086
+2026-06-12T18:07:18Z vpn-gw01 sshd[20187]: session closed for user eramirez sessionid=SESSION-1091 duration=24488s
+2026-06-12T18:08:44Z vpn-gw02 sshd[20204]: Accepted password for vlund from 10.50.10.172 port 40024 ssh2 sessionid=SESSION-1100
+2026-06-12T18:24:12Z vpn-gw01 sshd[20170]: session closed for user alund sessionid=SESSION-1083 duration=32288s
+2026-06-12T18:38:26Z vpn-gw01 sshd[20173]: Accepted password for pcosta from 10.50.10.216 port 47096 ssh2 sessionid=SESSION-1085
+2026-06-12T18:59:22Z vpn-gw01 sshd[20198]: Accepted password for cpatel from 10.50.11.181 port 48145 ssh2 sessionid=SESSION-1097
+2026-06-12T21:39:45Z vpn-gw02 sshd[20201]: session closed for user ybell sessionid=SESSION-1098 duration=22918s
+2026-06-12T22:03:50Z vpn-gw02 sshd[20203]: session closed for user iivanov sessionid=SESSION-1099 duration=26111s
+2026-06-12T22:34:55Z vpn-gw02 sshd[20166]: session closed for user jlund sessionid=SESSION-1081 duration=35657s
+2026-06-12T23:10:36Z vpn-gw02 sshd[20185]: session closed for user hivanov sessionid=SESSION-1090 duration=23120s
+2026-06-12T23:20:46Z vpn-gw01 sshd[20199]: session closed for user cpatel sessionid=SESSION-1097 duration=15684s
+2026-06-12T23:34:55Z vpn-gw02 sshd[20195]: session closed for user ncosta sessionid=SESSION-1095 duration=24784s
+2026-06-12T23:40:23Z vpn-gw01 sshd[20172]: session closed for user llund sessionid=SESSION-1084 duration=20387s
+2026-06-12T23:46:09Z vpn-gw02 sshd[20197]: session closed for user rcosta sessionid=SESSION-1096 duration=25810s
+2026-06-12T23:47:39Z vpn-gw02 sshd[20176]: session closed for user civanov sessionid=SESSION-1086 duration=20491s
+2026-06-12T23:48:35Z vpn-gw02 sshd[20189]: session closed for user ocosta sessionid=SESSION-1092 duration=29641s
+2026-06-12T23:52:25Z vpn-gw01 sshd[20174]: session closed for user pcosta sessionid=SESSION-1085 duration=18839s
+2026-06-12T23:54:32Z vpn-gw02 sshd[20205]: session closed for user vlund sessionid=SESSION-1100 duration=20748s
+2026-06-13T09:49:19Z vpn-gw01 sshd[21516]: Failed password for pcosta from 10.50.10.216 port 57152 ssh2
+2026-06-13T10:13:33Z vpn-gw01 sshd[21598]: Failed password for livanov from 10.50.12.186 port 49432 ssh2
+2026-06-13T10:53:12Z vpn-gw02 sshd[21561]: Failed password for u221 from 10.50.12.186 port 53900 ssh2
+2026-06-13T18:58:50Z vpn-gw01 sshd[21617]: Failed password for kivanov from 10.50.12.228 port 47702 ssh2
+2026-06-14T10:36:07Z vpn-gw02 sshd[21594]: Failed password for gcosta from 10.50.14.242 port 30920 ssh2
+2026-06-14T11:51:45Z vpn-gw02 sshd[21633]: Failed password for llund from 10.50.14.36 port 46987 ssh2
+2026-06-14T12:54:56Z vpn-gw02 sshd[21436]: Failed password for hivanov from 10.50.10.174 port 41171 ssh2
+2026-06-14T16:03:15Z vpn-gw01 sshd[21460]: Failed password for eramirez from 10.50.12.20 port 57114 ssh2
+2026-06-14T18:58:46Z vpn-gw02 sshd[21602]: Failed password for mnkosi from 10.50.11.13 port 48490 ssh2
+2026-06-15T07:24:27Z vpn-gw01 sshd[20216]: Accepted password for pcosta from 10.50.10.216 port 52368 ssh2 sessionid=SESSION-1106
+2026-06-15T07:43:01Z vpn-gw02 sshd[20214]: Accepted password for divanov from 10.50.9.209 port 58300 ssh2 sessionid=SESSION-1105
+2026-06-15T07:51:16Z vpn-gw02 sshd[20222]: Accepted password for tcosta from 10.50.10.174 port 41979 ssh2 sessionid=SESSION-1109
+2026-06-15T08:10:04Z vpn-gw01 sshd[20238]: Accepted password for cpatel from 10.50.11.181 port 58058 ssh2 sessionid=SESSION-1117
+2026-06-15T10:17:07Z vpn-gw01 sshd[20234]: Accepted password for ncosta from 10.50.12.188 port 36088 ssh2 sessionid=SESSION-1115
+2026-06-15T10:31:09Z vpn-gw01 sshd[20246]: Accepted password for u221 from 10.50.12.186 port 41078 ssh2 sessionid=SESSION-1121
+2026-06-15T10:34:24Z vpn-gw01 sshd[21537]: Failed password for ssingh from 10.50.10.48 port 54081 ssh2
+2026-06-15T11:05:47Z vpn-gw02 sshd[20230]: Accepted password for gcosta from 10.50.14.242 port 55078 ssh2 sessionid=SESSION-1113
+2026-06-15T11:41:44Z vpn-gw01 sshd[20244]: Accepted password for vlund from 10.50.10.172 port 55869 ssh2 sessionid=SESSION-1120
+2026-06-15T12:19:02Z vpn-gw01 sshd[20212]: Accepted password for llund from 10.50.14.36 port 52663 ssh2 sessionid=SESSION-1104
+2026-06-15T12:33:18Z vpn-gw02 sshd[20210]: Accepted password for kivanov from 10.50.12.228 port 36714 ssh2 sessionid=SESSION-1103
+2026-06-15T13:26:48Z vpn-gw02 sshd[20232]: Accepted password for livanov from 10.50.12.186 port 37351 ssh2 sessionid=SESSION-1114
+2026-06-15T13:39:48Z vpn-gw02 sshd[20223]: session closed for user tcosta sessionid=SESSION-1109 duration=20912s
+2026-06-15T13:45:29Z vpn-gw01 sshd[21618]: Failed password for ssingh from 10.50.10.48 port 38608 ssh2
+2026-06-15T14:06:14Z vpn-gw01 sshd[21560]: Failed password for jlund from 10.50.13.111 port 58607 ssh2
+2026-06-15T14:22:58Z vpn-gw01 sshd[20236]: Accepted password for rcosta from 10.50.11.139 port 41973 ssh2 sessionid=SESSION-1116
+2026-06-15T14:38:10Z vpn-gw02 sshd[21526]: Failed password for epatel from 10.50.12.64 port 48735 ssh2
+2026-06-15T14:52:05Z vpn-gw02 sshd[20218]: Accepted password for civanov from 10.50.12.64 port 35434 ssh2 sessionid=SESSION-1107
+2026-06-15T14:56:42Z vpn-gw01 sshd[20208]: Accepted password for mnkosi from 10.50.11.13 port 51949 ssh2 sessionid=SESSION-1102
+2026-06-15T15:08:29Z vpn-gw01 sshd[21463]: Failed password for ssingh from 10.50.10.48 port 51581 ssh2
+2026-06-15T15:12:56Z vpn-gw01 sshd[20226]: Accepted password for eramirez from 10.50.12.20 port 51703 ssh2 sessionid=SESSION-1111
+2026-06-15T16:09:25Z vpn-gw01 sshd[21559]: Failed password for hivanov from 10.50.10.174 port 39516 ssh2
+2026-06-15T16:30:20Z vpn-gw01 sshd[20217]: session closed for user pcosta sessionid=SESSION-1106 duration=32753s
+2026-06-15T16:35:27Z vpn-gw02 sshd[20215]: session closed for user divanov sessionid=SESSION-1105 duration=31946s
+2026-06-15T17:06:25Z vpn-gw01 sshd[20240]: Accepted password for ybell from 10.50.14.160 port 44749 ssh2 sessionid=SESSION-1118
+2026-06-15T17:15:48Z vpn-gw01 sshd[20206]: Accepted password for jlund from 10.50.13.111 port 52572 ssh2 sessionid=SESSION-1101
+2026-06-15T17:23:04Z vpn-gw01 sshd[20239]: session closed for user cpatel sessionid=SESSION-1117 duration=33180s
+2026-06-15T17:43:06Z vpn-gw01 sshd[20224]: Accepted password for hivanov from 10.50.10.174 port 34954 ssh2 sessionid=SESSION-1110
+2026-06-15T18:24:16Z vpn-gw01 sshd[20242]: Accepted password for iivanov from 10.50.9.1 port 31639 ssh2 sessionid=SESSION-1119
+2026-06-15T18:48:26Z vpn-gw01 sshd[20228]: Accepted password for ocosta from 10.50.11.15 port 59489 ssh2 sessionid=SESSION-1112
+2026-06-15T18:52:16Z vpn-gw01 sshd[20220]: Accepted password for epatel from 10.50.12.64 port 50670 ssh2 sessionid=SESSION-1108
+2026-06-15T18:59:41Z vpn-gw02 sshd[20231]: session closed for user gcosta sessionid=SESSION-1113 duration=28434s
+2026-06-15T19:24:40Z vpn-gw01 sshd[20213]: session closed for user llund sessionid=SESSION-1104 duration=25538s
+2026-06-15T19:33:42Z vpn-gw01 sshd[20235]: session closed for user ncosta sessionid=SESSION-1115 duration=33395s
+2026-06-15T20:25:11Z vpn-gw01 sshd[20245]: session closed for user vlund sessionid=SESSION-1120 duration=31407s
+2026-06-15T20:28:24Z vpn-gw02 sshd[20233]: session closed for user livanov sessionid=SESSION-1114 duration=25296s
+2026-06-15T20:51:11Z vpn-gw01 sshd[20247]: session closed for user u221 sessionid=SESSION-1121 duration=37202s
+2026-06-15T21:01:34Z vpn-gw02 sshd[20219]: session closed for user civanov sessionid=SESSION-1107 duration=22169s
+2026-06-15T22:09:31Z vpn-gw01 sshd[20209]: session closed for user mnkosi sessionid=SESSION-1102 duration=25969s
+2026-06-15T22:27:10Z vpn-gw02 sshd[20211]: session closed for user kivanov sessionid=SESSION-1103 duration=35632s
+2026-06-15T22:50:22Z vpn-gw01 sshd[20227]: session closed for user eramirez sessionid=SESSION-1111 duration=27446s
+2026-06-15T23:06:05Z vpn-gw01 sshd[20243]: session closed for user iivanov sessionid=SESSION-1119 duration=16909s
+2026-06-15T23:15:21Z vpn-gw01 sshd[20241]: session closed for user ybell sessionid=SESSION-1118 duration=22136s
+2026-06-15T23:16:43Z vpn-gw01 sshd[20221]: session closed for user epatel sessionid=SESSION-1108 duration=15867s
+2026-06-15T23:44:10Z vpn-gw01 sshd[20237]: session closed for user rcosta sessionid=SESSION-1116 duration=33672s
+2026-06-15T23:45:45Z vpn-gw01 sshd[20229]: session closed for user ocosta sessionid=SESSION-1112 duration=17839s
+2026-06-15T23:51:25Z vpn-gw01 sshd[20207]: session closed for user jlund sessionid=SESSION-1101 duration=23737s
+2026-06-15T23:53:59Z vpn-gw01 sshd[20225]: session closed for user hivanov sessionid=SESSION-1110 duration=22253s
+2026-06-16T07:26:30Z vpn-gw01 sshd[21424]: Failed password for vlund from 10.50.10.172 port 34234 ssh2
+2026-06-16T07:30:00Z vpn-gw01 sshd[20279]: Accepted password for iivanov from 10.50.9.1 port 31573 ssh2 sessionid=SESSION-1137
+2026-06-16T07:30:24Z vpn-gw01 sshd[21477]: Failed password for jlund from 10.50.13.111 port 56404 ssh2
+2026-06-16T07:49:02Z vpn-gw01 sshd[21469]: Failed password for llund from 10.50.14.36 port 50707 ssh2
+2026-06-16T08:00:09Z vpn-gw01 sshd[20275]: Accepted password for rcosta from 10.50.11.139 port 39563 ssh2 sessionid=SESSION-1135
+2026-06-16T09:21:11Z vpn-gw01 sshd[20264]: Accepted password for hivanov from 10.50.10.174 port 59266 ssh2 sessionid=SESSION-1130
+2026-06-16T09:42:49Z vpn-gw02 sshd[20260]: Accepted password for pcosta from 10.50.10.216 port 50997 ssh2 sessionid=SESSION-1128
+2026-06-16T11:34:20Z vpn-gw02 sshd[20266]: Accepted password for eramirez from 10.50.12.20 port 40289 ssh2 sessionid=SESSION-1131
+2026-06-16T12:16:36Z vpn-gw01 sshd[20252]: Accepted password for kivanov from 10.50.12.228 port 53309 ssh2 sessionid=SESSION-1124
+2026-06-16T12:59:52Z vpn-gw02 sshd[20271]: Accepted password for gcosta from 10.50.14.242 port 46384 ssh2 sessionid=SESSION-1133
+2026-06-16T13:27:35Z vpn-gw01 sshd[20277]: Accepted password for ybell from 10.50.14.160 port 46910 ssh2 sessionid=SESSION-1136
+2026-06-16T14:09:41Z vpn-gw02 sshd[20268]: Failed password for ocosta from 10.50.11.15 port 54214 ssh2
+2026-06-16T14:25:32Z vpn-gw01 sshd[21551]: Failed password for jlund from 10.50.13.111 port 54850 ssh2
+2026-06-16T14:46:22Z vpn-gw01 sshd[20256]: Accepted password for llund from 10.50.14.36 port 48283 ssh2 sessionid=SESSION-1126
+2026-06-16T14:48:29Z vpn-gw02 sshd[20248]: Accepted password for jlund from 10.50.13.111 port 47513 ssh2 sessionid=SESSION-1122
+2026-06-16T14:54:24Z vpn-gw02 sshd[20283]: Accepted password for u221 from 10.50.12.186 port 40532 ssh2 sessionid=SESSION-1139
+2026-06-16T15:01:43Z vpn-gw02 sshd[20273]: Accepted password for framirez from 10.50.13.153 port 34345 ssh2 sessionid=SESSION-1134
+2026-06-16T15:40:21Z vpn-gw02 sshd[20269]: Accepted password for ocosta from 10.50.11.15 port 41037 ssh2 sessionid=SESSION-1132
+2026-06-16T15:44:41Z vpn-gw01 sshd[20262]: Accepted password for tcosta from 10.50.10.174 port 58869 ssh2 sessionid=SESSION-1129
+2026-06-16T16:04:30Z vpn-gw01 sshd[20280]: session closed for user iivanov sessionid=SESSION-1137 duration=30870s
+2026-06-16T16:20:38Z vpn-gw01 sshd[20265]: session closed for user hivanov sessionid=SESSION-1130 duration=25167s
+2026-06-16T16:28:43Z vpn-gw01 sshd[20276]: session closed for user rcosta sessionid=SESSION-1135 duration=30514s
+2026-06-16T16:28:47Z vpn-gw02 sshd[20281]: Accepted password for vlund from 10.50.10.172 port 32760 ssh2 sessionid=SESSION-1138
+2026-06-16T16:55:51Z vpn-gw02 sshd[20261]: session closed for user pcosta sessionid=SESSION-1128 duration=25982s
+2026-06-16T16:57:06Z vpn-gw01 sshd[20254]: Accepted password for alund from 10.50.10.8 port 38275 ssh2 sessionid=SESSION-1125
+2026-06-16T17:03:00Z vpn-gw02 sshd[21514]: Failed password for nwong from 10.50.13.111 port 51515 ssh2
+2026-06-16T18:02:29Z vpn-gw01 sshd[20258]: Accepted password for divanov from 10.50.9.209 port 50856 ssh2 sessionid=SESSION-1127
+2026-06-16T18:04:32Z vpn-gw02 sshd[20250]: Accepted password for mnkosi from 10.50.11.13 port 51455 ssh2 sessionid=SESSION-1123
+2026-06-16T18:20:00Z vpn-gw02 sshd[20272]: session closed for user gcosta sessionid=SESSION-1133 duration=19208s
+2026-06-16T20:26:34Z vpn-gw02 sshd[20267]: session closed for user eramirez sessionid=SESSION-1131 duration=31934s
+2026-06-16T20:27:41Z vpn-gw01 sshd[20257]: session closed for user llund sessionid=SESSION-1126 duration=20479s
+2026-06-16T20:34:02Z vpn-gw01 sshd[20253]: session closed for user kivanov sessionid=SESSION-1124 duration=29846s
+2026-06-16T21:27:12Z vpn-gw01 sshd[20263]: session closed for user tcosta sessionid=SESSION-1129 duration=20551s
+2026-06-16T22:30:16Z vpn-gw01 sshd[20255]: session closed for user alund sessionid=SESSION-1125 duration=19990s
+2026-06-16T22:39:28Z vpn-gw01 sshd[20278]: session closed for user ybell sessionid=SESSION-1136 duration=33113s
+2026-06-16T23:01:16Z vpn-gw02 sshd[20249]: session closed for user jlund sessionid=SESSION-1122 duration=29567s
+2026-06-16T23:03:48Z vpn-gw01 sshd[20259]: session closed for user divanov sessionid=SESSION-1127 duration=18079s
+2026-06-16T23:07:43Z vpn-gw02 sshd[20251]: session closed for user mnkosi sessionid=SESSION-1123 duration=18191s
+2026-06-16T23:09:32Z vpn-gw02 sshd[20274]: session closed for user framirez sessionid=SESSION-1134 duration=29269s
+2026-06-16T23:42:08Z vpn-gw02 sshd[20284]: session closed for user u221 sessionid=SESSION-1139 duration=31664s
+2026-06-16T23:43:24Z vpn-gw02 sshd[20270]: session closed for user ocosta sessionid=SESSION-1132 duration=28983s
+2026-06-16T23:58:56Z vpn-gw02 sshd[20282]: session closed for user vlund sessionid=SESSION-1138 duration=27009s
+2026-06-17T09:03:04Z vpn-gw01 sshd[20299]: Accepted password for civanov from 10.50.12.64 port 43696 ssh2 sessionid=SESSION-1147
+2026-06-17T09:38:13Z vpn-gw02 sshd[20303]: Accepted password for nwong from 10.50.13.111 port 43974 ssh2 sessionid=SESSION-1149
+2026-06-17T10:02:27Z vpn-gw01 sshd[20295]: Accepted password for divanov from 10.50.9.209 port 50432 ssh2 sessionid=SESSION-1145
+2026-06-17T10:30:41Z vpn-gw01 sshd[20305]: Accepted password for hivanov from 10.50.10.174 port 35935 ssh2 sessionid=SESSION-1150
+2026-06-17T11:17:05Z vpn-gw02 sshd[20297]: Accepted password for pcosta from 10.50.10.216 port 30324 ssh2 sessionid=SESSION-1146
+2026-06-17T11:37:38Z vpn-gw02 sshd[20309]: Accepted password for ocosta from 10.50.11.15 port 32154 ssh2 sessionid=SESSION-1152
+2026-06-17T11:40:43Z vpn-gw01 sshd[20316]: Accepted password for cpatel from 10.50.11.181 port 46993 ssh2 sessionid=SESSION-1155
+2026-06-17T11:57:28Z vpn-gw02 sshd[20289]: Accepted password for kivanov from 10.50.12.228 port 34830 ssh2 sessionid=SESSION-1142
+2026-06-17T12:02:31Z vpn-gw01 sshd[20322]: Accepted password for u221 from 10.50.12.186 port 46182 ssh2 sessionid=SESSION-1158
+2026-06-17T12:50:50Z vpn-gw01 sshd[21623]: Failed password for nwong from 10.50.13.111 port 46052 ssh2
+2026-06-17T13:15:59Z vpn-gw01 sshd[21579]: Failed password for framirez from 10.50.13.153 port 45747 ssh2
+2026-06-17T13:22:16Z vpn-gw01 sshd[21603]: Failed password for iivanov from 10.50.9.1 port 59431 ssh2
+2026-06-17T14:32:26Z vpn-gw01 sshd[20320]: Accepted password for iivanov from 10.50.9.1 port 52408 ssh2 sessionid=SESSION-1157
+2026-06-17T14:36:25Z vpn-gw01 sshd[20293]: Accepted password for ssingh from 10.50.10.48 port 46176 ssh2 sessionid=SESSION-1144
+2026-06-17T15:03:44Z vpn-gw01 sshd[20300]: session closed for user civanov sessionid=SESSION-1147 duration=21640s
+2026-06-17T15:08:08Z vpn-gw01 sshd[20314]: Accepted password for ncosta from 10.50.12.188 port 33760 ssh2 sessionid=SESSION-1154
+2026-06-17T15:20:32Z vpn-gw01 sshd[20301]: Accepted password for epatel from 10.50.12.64 port 47933 ssh2 sessionid=SESSION-1148
+2026-06-17T15:48:11Z vpn-gw01 sshd[20318]: Accepted password for ybell from 10.50.14.160 port 37144 ssh2 sessionid=SESSION-1156
+2026-06-17T15:52:19Z vpn-gw01 sshd[21596]: Failed password for ocosta from 10.50.11.15 port 44941 ssh2
+2026-06-17T16:00:03Z vpn-gw01 sshd[20285]: Accepted password for jlund from 10.50.13.111 port 55666 ssh2 sessionid=SESSION-1140
+2026-06-17T16:30:35Z vpn-gw01 sshd[21610]: Failed password for ybell from 10.50.14.160 port 46543 ssh2
+2026-06-17T16:35:45Z vpn-gw01 sshd[20307]: Accepted password for eramirez from 10.50.12.20 port 30362 ssh2 sessionid=SESSION-1151
+2026-06-17T16:41:55Z vpn-gw01 sshd[20291]: Accepted password for llund from 10.50.14.36 port 30560 ssh2 sessionid=SESSION-1143
+2026-06-17T17:02:42Z vpn-gw02 sshd[20310]: session closed for user ocosta sessionid=SESSION-1152 duration=19504s
+2026-06-17T17:07:18Z vpn-gw02 sshd[20304]: session closed for user nwong sessionid=SESSION-1149 duration=26945s
+2026-06-17T17:09:25Z vpn-gw02 sshd[20311]: Accepted password for framirez from 10.50.13.153 port 57779 ssh2 sessionid=SESSION-1153
+2026-06-17T17:26:45Z vpn-gw01 sshd[21506]: Failed password for pcosta from 10.50.10.216 port 38939 ssh2
+2026-06-17T17:27:09Z vpn-gw02 sshd[20287]: Accepted password for mnkosi from 10.50.11.13 port 51611 ssh2 sessionid=SESSION-1141
+2026-06-17T17:45:16Z vpn-gw01 sshd[20313]: Failed password for ncosta from 10.50.12.188 port 36011 ssh2
+2026-06-17T17:58:07Z vpn-gw01 sshd[21494]: Failed password for framirez from 10.50.13.153 port 49700 ssh2
+2026-06-17T18:07:20Z vpn-gw01 sshd[20323]: session closed for user u221 sessionid=SESSION-1158 duration=21889s
+2026-06-17T19:04:14Z vpn-gw01 sshd[20296]: session closed for user divanov sessionid=SESSION-1145 duration=32507s
+2026-06-17T19:05:04Z vpn-gw02 sshd[20298]: session closed for user pcosta sessionid=SESSION-1146 duration=28079s
+2026-06-17T19:51:01Z vpn-gw01 sshd[20306]: session closed for user hivanov sessionid=SESSION-1150 duration=33620s
+2026-06-17T19:56:06Z vpn-gw01 sshd[20317]: session closed for user cpatel sessionid=SESSION-1155 duration=29723s
+2026-06-17T20:43:00Z vpn-gw02 sshd[20290]: session closed for user kivanov sessionid=SESSION-1142 duration=31532s
+2026-06-17T21:12:56Z vpn-gw01 sshd[20319]: session closed for user ybell sessionid=SESSION-1156 duration=19485s
+2026-06-17T21:33:49Z vpn-gw01 sshd[20321]: session closed for user iivanov sessionid=SESSION-1157 duration=25283s
+2026-06-17T22:02:38Z vpn-gw01 sshd[20315]: session closed for user ncosta sessionid=SESSION-1154 duration=24870s
+2026-06-17T22:27:52Z vpn-gw01 sshd[20286]: session closed for user jlund sessionid=SESSION-1140 duration=23269s
+2026-06-17T23:09:06Z vpn-gw02 sshd[20288]: session closed for user mnkosi sessionid=SESSION-1141 duration=20517s
+2026-06-17T23:11:53Z vpn-gw01 sshd[20294]: session closed for user ssingh sessionid=SESSION-1144 duration=30928s
+2026-06-17T23:25:39Z vpn-gw01 sshd[20292]: session closed for user llund sessionid=SESSION-1143 duration=24224s
+2026-06-17T23:31:12Z vpn-gw01 sshd[20302]: session closed for user epatel sessionid=SESSION-1148 duration=29440s
+2026-06-17T23:35:59Z vpn-gw01 sshd[20308]: session closed for user eramirez sessionid=SESSION-1151 duration=25214s
+2026-06-17T23:38:07Z vpn-gw02 sshd[20312]: session closed for user framirez sessionid=SESSION-1153 duration=23322s
+2026-06-18T07:18:37Z vpn-gw01 sshd[20326]: Accepted password for kivanov from 10.50.12.228 port 39688 ssh2 sessionid=SESSION-1160
+2026-06-18T07:27:47Z vpn-gw01 sshd[20349]: Accepted password for gcosta from 10.50.14.242 port 45628 ssh2 sessionid=SESSION-1171
+2026-06-18T07:35:25Z vpn-gw02 sshd[20337]: Accepted password for epatel from 10.50.12.64 port 48591 ssh2 sessionid=SESSION-1165
+2026-06-18T08:31:40Z vpn-gw02 sshd[21520]: Failed password for tcosta from 10.50.10.174 port 40123 ssh2
+2026-06-18T08:32:46Z vpn-gw02 sshd[21428]: Failed password for livanov from 10.50.12.186 port 50729 ssh2
+2026-06-18T09:22:02Z vpn-gw01 sshd[20355]: Failed password for rcosta from 10.50.11.139 port 59064 ssh2
+2026-06-18T09:36:24Z vpn-gw01 sshd[20343]: Accepted password for hivanov from 10.50.10.174 port 57683 ssh2 sessionid=SESSION-1168
+2026-06-18T09:44:16Z vpn-gw01 sshd[20324]: Accepted password for mnkosi from 10.50.11.13 port 55092 ssh2 sessionid=SESSION-1159
+2026-06-18T10:04:00Z vpn-gw02 sshd[21512]: Failed password for ybell from 10.50.14.160 port 39667 ssh2
+2026-06-18T10:58:38Z vpn-gw01 sshd[20353]: Accepted password for livanov from 10.50.12.186 port 44372 ssh2 sessionid=SESSION-1173
+2026-06-18T11:08:57Z vpn-gw01 sshd[21612]: Failed password for ssingh from 10.50.10.48 port 44174 ssh2
+2026-06-18T11:14:27Z vpn-gw02 sshd[20347]: Accepted password for ocosta from 10.50.11.15 port 39556 ssh2 sessionid=SESSION-1170
+2026-06-18T11:57:28Z vpn-gw01 sshd[20362]: Accepted password for vlund from 10.50.10.172 port 32127 ssh2 sessionid=SESSION-1177
+2026-06-18T12:13:16Z vpn-gw02 sshd[20335]: Accepted password for pcosta from 10.50.10.216 port 57538 ssh2 sessionid=SESSION-1164
+2026-06-18T13:43:51Z vpn-gw02 sshd[20341]: Accepted password for nwong from 10.50.13.111 port 59437 ssh2 sessionid=SESSION-1167
+2026-06-18T14:04:00Z vpn-gw02 sshd[20360]: Accepted password for ybell from 10.50.14.160 port 41886 ssh2 sessionid=SESSION-1176
+2026-06-18T14:07:49Z vpn-gw02 sshd[20328]: Failed password for alund from 10.50.10.8 port 59214 ssh2
+2026-06-18T14:11:49Z vpn-gw01 sshd[20356]: Accepted password for rcosta from 10.50.11.139 port 51690 ssh2 sessionid=SESSION-1174
+2026-06-18T14:14:37Z vpn-gw02 sshd[20333]: Accepted password for divanov from 10.50.9.209 port 44313 ssh2 sessionid=SESSION-1163
+2026-06-18T15:30:08Z vpn-gw01 sshd[20331]: Accepted password for llund from 10.50.14.36 port 33516 ssh2 sessionid=SESSION-1162
+2026-06-18T15:35:11Z vpn-gw01 sshd[20350]: session closed for user gcosta sessionid=SESSION-1171 duration=29244s
+2026-06-18T15:35:23Z vpn-gw02 sshd[21478]: Failed password for ocosta from 10.50.11.15 port 41051 ssh2
+2026-06-18T16:03:42Z vpn-gw01 sshd[20354]: session closed for user livanov sessionid=SESSION-1173 duration=18304s
+2026-06-18T16:23:05Z vpn-gw01 sshd[20358]: Accepted password for cpatel from 10.50.11.181 port 46404 ssh2 sessionid=SESSION-1175
+2026-06-18T16:41:57Z vpn-gw02 sshd[20338]: session closed for user epatel sessionid=SESSION-1165 duration=32792s
+2026-06-18T17:19:41Z vpn-gw01 sshd[20325]: session closed for user mnkosi sessionid=SESSION-1159 duration=27325s
+2026-06-18T17:24:45Z vpn-gw01 sshd[20327]: session closed for user kivanov sessionid=SESSION-1160 duration=36368s
+2026-06-18T17:25:22Z vpn-gw02 sshd[20339]: Accepted password for tcosta from 10.50.10.174 port 53049 ssh2 sessionid=SESSION-1166
+2026-06-18T18:06:21Z vpn-gw02 sshd[20348]: session closed for user ocosta sessionid=SESSION-1170 duration=24714s
+2026-06-18T18:46:07Z vpn-gw02 sshd[20351]: Accepted password for framirez from 10.50.13.153 port 39066 ssh2 sessionid=SESSION-1172
+2026-06-18T18:48:08Z vpn-gw01 sshd[20345]: Accepted password for eramirez from 10.50.12.20 port 35226 ssh2 sessionid=SESSION-1169
+2026-06-18T18:54:55Z vpn-gw02 sshd[20329]: Accepted password for alund from 10.50.10.8 port 32811 ssh2 sessionid=SESSION-1161
+2026-06-18T19:08:58Z vpn-gw02 sshd[20336]: session closed for user pcosta sessionid=SESSION-1164 duration=24942s
+2026-06-18T19:15:03Z vpn-gw01 sshd[20344]: session closed for user hivanov sessionid=SESSION-1168 duration=34719s
+2026-06-18T19:18:11Z vpn-gw01 sshd[20363]: session closed for user vlund sessionid=SESSION-1177 duration=26443s
+2026-06-18T20:07:52Z vpn-gw02 sshd[20342]: session closed for user nwong sessionid=SESSION-1167 duration=23041s
+2026-06-18T20:18:04Z vpn-gw02 sshd[20361]: session closed for user ybell sessionid=SESSION-1176 duration=22444s
+2026-06-18T21:18:08Z vpn-gw01 sshd[20332]: session closed for user llund sessionid=SESSION-1162 duration=20880s
+2026-06-18T22:02:30Z vpn-gw02 sshd[20334]: session closed for user divanov sessionid=SESSION-1163 duration=28073s
+2026-06-18T22:19:56Z vpn-gw01 sshd[20357]: session closed for user rcosta sessionid=SESSION-1174 duration=29287s
+2026-06-18T23:00:59Z vpn-gw02 sshd[20340]: session closed for user tcosta sessionid=SESSION-1166 duration=20137s
+2026-06-18T23:16:21Z vpn-gw02 sshd[20330]: session closed for user alund sessionid=SESSION-1161 duration=15686s
+2026-06-18T23:19:18Z vpn-gw01 sshd[20359]: session closed for user cpatel sessionid=SESSION-1175 duration=24973s
+2026-06-18T23:29:52Z vpn-gw02 sshd[20352]: session closed for user framirez sessionid=SESSION-1172 duration=17025s
+2026-06-18T23:37:40Z vpn-gw01 sshd[20346]: session closed for user eramirez sessionid=SESSION-1169 duration=17372s
+2026-06-19T07:02:32Z vpn-gw01 sshd[21574]: Failed password for cpatel from 10.50.11.181 port 41989 ssh2
+2026-06-19T07:29:21Z vpn-gw01 sshd[20400]: Accepted password for rcosta from 10.50.11.139 port 36243 ssh2 sessionid=SESSION-1195
+2026-06-19T07:48:45Z vpn-gw02 sshd[20388]: Accepted password for ocosta from 10.50.11.15 port 42190 ssh2 sessionid=SESSION-1190
+2026-06-19T08:16:55Z vpn-gw01 sshd[20376]: Accepted password for pcosta from 10.50.10.216 port 52275 ssh2 sessionid=SESSION-1184
+2026-06-19T08:23:55Z vpn-gw01 sshd[20402]: Accepted password for cpatel from 10.50.11.181 port 58056 ssh2 sessionid=SESSION-1196
+2026-06-19T08:50:41Z vpn-gw01 sshd[21588]: Failed password for jlund from 10.50.13.111 port 32938 ssh2
+2026-06-19T09:24:42Z vpn-gw01 sshd[21545]: Failed password for ncosta from 10.50.12.188 port 44579 ssh2
+2026-06-19T09:31:01Z vpn-gw01 sshd[21636]: Failed password for vlund from 10.50.10.172 port 58390 ssh2
+2026-06-19T10:49:03Z vpn-gw01 sshd[20386]: Accepted password for eramirez from 10.50.12.20 port 44312 ssh2 sessionid=SESSION-1189
+2026-06-19T11:04:56Z vpn-gw02 sshd[20397]: Accepted password for ncosta from 10.50.12.188 port 38357 ssh2 sessionid=SESSION-1194
+2026-06-19T11:15:42Z vpn-gw02 sshd[20372]: Accepted password for ssingh from 10.50.10.48 port 54147 ssh2 sessionid=SESSION-1182
+2026-06-19T12:07:48Z vpn-gw01 sshd[21555]: Failed password for gcosta from 10.50.14.242 port 31683 ssh2
+2026-06-19T12:27:00Z vpn-gw02 sshd[20364]: Accepted password for jlund from 10.50.13.111 port 56884 ssh2 sessionid=SESSION-1178
+2026-06-19T12:27:10Z vpn-gw01 sshd[21456]: Failed password for llund from 10.50.14.36 port 38164 ssh2
+2026-06-19T12:34:54Z vpn-gw02 sshd[20392]: Accepted password for framirez from 10.50.13.153 port 41127 ssh2 sessionid=SESSION-1192
+2026-06-19T12:43:29Z vpn-gw02 sshd[20382]: Accepted password for nwong from 10.50.13.111 port 39871 ssh2 sessionid=SESSION-1187
+2026-06-19T13:09:24Z vpn-gw01 sshd[20384]: Accepted password for hivanov from 10.50.10.174 port 36534 ssh2 sessionid=SESSION-1188
+2026-06-19T13:28:45Z vpn-gw01 sshd[20401]: session closed for user rcosta sessionid=SESSION-1195 duration=21564s
+2026-06-19T14:19:56Z vpn-gw01 sshd[20370]: Accepted password for llund from 10.50.14.36 port 51955 ssh2 sessionid=SESSION-1181
+2026-06-19T14:29:26Z vpn-gw01 sshd[20377]: session closed for user pcosta sessionid=SESSION-1184 duration=22351s
+2026-06-19T15:20:39Z vpn-gw01 sshd[20406]: Accepted password for iivanov from 10.50.9.1 port 50516 ssh2 sessionid=SESSION-1198
+2026-06-19T15:59:17Z vpn-gw02 sshd[20389]: session closed for user ocosta sessionid=SESSION-1190 duration=29432s
+2026-06-19T16:01:04Z vpn-gw02 sshd[20380]: Accepted password for tcosta from 10.50.10.174 port 42646 ssh2 sessionid=SESSION-1186
+2026-06-19T16:13:40Z vpn-gw01 sshd[21569]: Failed password for eramirez from 10.50.12.20 port 43550 ssh2
+2026-06-19T16:20:08Z vpn-gw01 sshd[20403]: session closed for user cpatel sessionid=SESSION-1196 duration=28573s
+2026-06-19T16:29:58Z vpn-gw02 sshd[20404]: Accepted password for ybell from 10.50.14.160 port 43187 ssh2 sessionid=SESSION-1197
+2026-06-19T17:10:04Z vpn-gw01 sshd[21529]: Failed password for epatel from 10.50.12.64 port 45916 ssh2
+2026-06-19T17:14:36Z vpn-gw02 sshd[20398]: session closed for user ncosta sessionid=SESSION-1194 duration=22180s
+2026-06-19T17:25:05Z vpn-gw01 sshd[20394]: Accepted password for livanov from 10.50.12.186 port 45682 ssh2 sessionid=SESSION-1193
+2026-06-19T17:31:59Z vpn-gw02 sshd[20366]: Accepted password for mnkosi from 10.50.11.13 port 58009 ssh2 sessionid=SESSION-1179
+2026-06-19T17:33:14Z vpn-gw02 sshd[20374]: Accepted password for divanov from 10.50.9.209 port 51737 ssh2 sessionid=SESSION-1183
+2026-06-19T17:35:16Z vpn-gw02 sshd[21556]: Failed password for divanov from 10.50.9.209 port 56032 ssh2
+2026-06-19T17:44:18Z vpn-gw02 sshd[20408]: Accepted password for vlund from 10.50.10.172 port 39554 ssh2 sessionid=SESSION-1199
+2026-06-19T17:45:09Z vpn-gw01 sshd[20368]: Accepted password for alund from 10.50.10.8 port 45480 ssh2 sessionid=SESSION-1180
+2026-06-19T17:48:27Z vpn-gw02 sshd[20396]: Failed password for ncosta from 10.50.12.188 port 45767 ssh2
+2026-06-19T18:03:19Z vpn-gw01 sshd[20399]: Failed password for rcosta from 10.50.11.139 port 40947 ssh2
+2026-06-19T18:10:03Z vpn-gw01 sshd[20390]: Accepted password for gcosta from 10.50.14.242 port 51718 ssh2 sessionid=SESSION-1191
+2026-06-19T18:23:20Z vpn-gw02 sshd[20365]: session closed for user jlund sessionid=SESSION-1178 duration=21380s
+2026-06-19T18:29:27Z vpn-gw02 sshd[20373]: session closed for user ssingh sessionid=SESSION-1182 duration=26025s
+2026-06-19T18:32:34Z vpn-gw01 sshd[20378]: Accepted password for epatel from 10.50.12.64 port 52738 ssh2 sessionid=SESSION-1185
+2026-06-19T19:15:42Z vpn-gw01 sshd[20387]: session closed for user eramirez sessionid=SESSION-1189 duration=30399s
+2026-06-19T20:24:59Z vpn-gw01 sshd[20371]: session closed for user llund sessionid=SESSION-1181 duration=21903s
+2026-06-19T21:00:15Z vpn-gw02 sshd[20383]: session closed for user nwong sessionid=SESSION-1187 duration=29806s
+2026-06-19T22:49:39Z vpn-gw02 sshd[20393]: session closed for user framirez sessionid=SESSION-1192 duration=36885s
+2026-06-19T23:17:36Z vpn-gw02 sshd[20409]: session closed for user vlund sessionid=SESSION-1199 duration=19998s
+2026-06-19T23:19:38Z vpn-gw02 sshd[20405]: session closed for user ybell sessionid=SESSION-1197 duration=24580s
+2026-06-19T23:22:25Z vpn-gw01 sshd[20369]: session closed for user alund sessionid=SESSION-1180 duration=20236s
+2026-06-19T23:22:54Z vpn-gw01 sshd[20385]: session closed for user hivanov sessionid=SESSION-1188 duration=36810s
+2026-06-19T23:24:18Z vpn-gw02 sshd[20381]: session closed for user tcosta sessionid=SESSION-1186 duration=26594s
+2026-06-19T23:26:41Z vpn-gw01 sshd[20391]: session closed for user gcosta sessionid=SESSION-1191 duration=18998s
+2026-06-19T23:40:36Z vpn-gw01 sshd[20395]: session closed for user livanov sessionid=SESSION-1193 duration=22531s
+2026-06-19T23:42:57Z vpn-gw02 sshd[20367]: session closed for user mnkosi sessionid=SESSION-1179 duration=22258s
+2026-06-19T23:46:13Z vpn-gw02 sshd[20375]: session closed for user divanov sessionid=SESSION-1183 duration=22379s
+2026-06-19T23:47:26Z vpn-gw01 sshd[20379]: session closed for user epatel sessionid=SESSION-1185 duration=18892s
+2026-06-19T23:55:33Z vpn-gw01 sshd[20407]: session closed for user iivanov sessionid=SESSION-1198 duration=30894s
+2026-06-20T10:16:00Z vpn-gw02 sshd[21558]: Failed password for divanov from 10.50.9.209 port 33600 ssh2
+2026-06-20T10:35:06Z vpn-gw02 sshd[21462]: Failed password for kivanov from 10.50.12.228 port 44074 ssh2
+2026-06-20T10:58:06Z vpn-gw01 sshd[21517]: Failed password for livanov from 10.50.12.186 port 30004 ssh2
+2026-06-20T12:19:07Z vpn-gw02 sshd[21632]: Failed password for hivanov from 10.50.10.174 port 38936 ssh2
+2026-06-20T15:22:46Z vpn-gw02 sshd[21601]: Failed password for divanov from 10.50.9.209 port 57947 ssh2
+2026-06-20T15:51:06Z vpn-gw01 sshd[21505]: Failed password for jlund from 10.50.13.111 port 47213 ssh2
+2026-06-21T13:53:09Z vpn-gw02 sshd[21533]: Failed password for gcosta from 10.50.14.242 port 44344 ssh2
+2026-06-21T15:22:51Z vpn-gw02 sshd[21492]: Failed password for hivanov from 10.50.10.174 port 33607 ssh2
+2026-06-21T17:09:15Z vpn-gw02 sshd[21568]: Failed password for ocosta from 10.50.11.15 port 31694 ssh2
+2026-06-22T07:10:30Z vpn-gw01 sshd[20418]: Accepted password for ssingh from 10.50.10.48 port 58024 ssh2 sessionid=SESSION-1204
+2026-06-22T07:37:32Z vpn-gw01 sshd[20416]: Accepted password for llund from 10.50.14.36 port 46721 ssh2 sessionid=SESSION-1203
+2026-06-22T08:19:11Z vpn-gw02 sshd[20410]: Accepted password for jlund from 10.50.13.111 port 58002 ssh2 sessionid=SESSION-1200
+2026-06-22T08:23:13Z vpn-gw01 sshd[21510]: Failed password for u221 from 10.50.12.186 port 47900 ssh2
+2026-06-22T08:42:35Z vpn-gw01 sshd[20439]: Accepted password for rcosta from 10.50.11.139 port 30821 ssh2 sessionid=SESSION-1214
+2026-06-22T09:19:59Z vpn-gw02 sshd[21513]: Failed password for framirez from 10.50.13.153 port 47002 ssh2
+2026-06-22T09:26:26Z vpn-gw01 sshd[20425]: Accepted password for epatel from 10.50.12.64 port 50784 ssh2 sessionid=SESSION-1207
+2026-06-22T09:45:49Z vpn-gw02 sshd[20443]: Accepted password for iivanov from 10.50.9.1 port 57483 ssh2 sessionid=SESSION-1216
+2026-06-22T09:53:09Z vpn-gw01 sshd[20435]: Accepted password for livanov from 10.50.12.186 port 52368 ssh2 sessionid=SESSION-1212
+2026-06-22T10:19:07Z vpn-gw01 sshd[20445]: Accepted password for vlund from 10.50.10.172 port 43909 ssh2 sessionid=SESSION-1217
+2026-06-22T11:19:22Z vpn-gw02 sshd[20414]: Accepted password for alund from 10.50.10.8 port 52764 ssh2 sessionid=SESSION-1202
+2026-06-22T11:31:51Z vpn-gw01 sshd[20429]: Accepted password for hivanov from 10.50.10.174 port 58956 ssh2 sessionid=SESSION-1209
+2026-06-22T12:30:12Z vpn-gw02 sshd[20431]: Accepted password for ocosta from 10.50.11.15 port 47395 ssh2 sessionid=SESSION-1210
+2026-06-22T13:13:09Z vpn-gw01 sshd[20412]: Accepted password for mnkosi from 10.50.11.13 port 44165 ssh2 sessionid=SESSION-1201
+2026-06-22T13:47:48Z vpn-gw02 sshd[20437]: Accepted password for ncosta from 10.50.12.188 port 33151 ssh2 sessionid=SESSION-1213
+2026-06-22T13:48:39Z vpn-gw02 sshd[21433]: Failed password for jlund from 10.50.13.111 port 43165 ssh2
+2026-06-22T14:12:23Z vpn-gw01 sshd[20417]: session closed for user llund sessionid=SESSION-1203 duration=23691s
+2026-06-22T14:17:51Z vpn-gw02 sshd[20422]: Failed password for civanov from 10.50.12.64 port 32431 ssh2
+2026-06-22T14:36:04Z vpn-gw02 sshd[20423]: Accepted password for civanov from 10.50.12.64 port 35274 ssh2 sessionid=SESSION-1206
+2026-06-22T15:23:18Z vpn-gw01 sshd[20440]: session closed for user rcosta sessionid=SESSION-1214 duration=24043s
+2026-06-22T15:51:13Z vpn-gw01 sshd[20426]: session closed for user epatel sessionid=SESSION-1207 duration=23087s
+2026-06-22T16:09:14Z vpn-gw02 sshd[20444]: session closed for user iivanov sessionid=SESSION-1216 duration=23005s
+2026-06-22T17:01:45Z vpn-gw01 sshd[20419]: session closed for user ssingh sessionid=SESSION-1204 duration=35475s
+2026-06-22T17:09:02Z vpn-gw01 sshd[20441]: Accepted password for cpatel from 10.50.11.181 port 55745 ssh2 sessionid=SESSION-1215
+2026-06-22T17:34:26Z vpn-gw02 sshd[20433]: Accepted password for framirez from 10.50.13.153 port 55281 ssh2 sessionid=SESSION-1211
+2026-06-22T18:21:09Z vpn-gw02 sshd[20411]: session closed for user jlund sessionid=SESSION-1200 duration=36118s
+2026-06-22T18:23:20Z vpn-gw01 sshd[21498]: Failed password for livanov from 10.50.12.186 port 51078 ssh2
+2026-06-22T18:27:00Z vpn-gw01 sshd[20420]: Accepted password for pcosta from 10.50.10.216 port 35961 ssh2 sessionid=SESSION-1205
+2026-06-22T18:32:10Z vpn-gw02 sshd[20427]: Accepted password for tcosta from 10.50.10.174 port 35404 ssh2 sessionid=SESSION-1208
+2026-06-22T18:51:10Z vpn-gw02 sshd[20432]: session closed for user ocosta sessionid=SESSION-1210 duration=22858s
+2026-06-22T19:25:54Z vpn-gw01 sshd[20413]: session closed for user mnkosi sessionid=SESSION-1201 duration=22365s
+2026-06-22T19:33:25Z vpn-gw01 sshd[20436]: session closed for user livanov sessionid=SESSION-1212 duration=34816s
+2026-06-22T19:56:33Z vpn-gw01 sshd[20446]: session closed for user vlund sessionid=SESSION-1217 duration=34646s
+2026-06-22T20:10:14Z vpn-gw01 sshd[20430]: session closed for user hivanov sessionid=SESSION-1209 duration=31103s
+2026-06-22T20:30:11Z vpn-gw02 sshd[20415]: session closed for user alund sessionid=SESSION-1202 duration=33049s
+2026-06-22T21:06:43Z vpn-gw02 sshd[20438]: session closed for user ncosta sessionid=SESSION-1213 duration=26335s
+2026-06-22T22:07:20Z vpn-gw02 sshd[20424]: session closed for user civanov sessionid=SESSION-1206 duration=27076s
+2026-06-22T23:12:00Z vpn-gw02 sshd[20428]: session closed for user tcosta sessionid=SESSION-1208 duration=16790s
+2026-06-22T23:12:15Z vpn-gw01 sshd[20421]: session closed for user pcosta sessionid=SESSION-1205 duration=17115s
+2026-06-22T23:31:44Z vpn-gw02 sshd[20434]: session closed for user framirez sessionid=SESSION-1211 duration=21438s
+2026-06-22T23:49:24Z vpn-gw01 sshd[20442]: session closed for user cpatel sessionid=SESSION-1215 duration=24022s
+2026-06-23T07:07:18Z vpn-gw02 sshd[20461]: Accepted password for epatel from 10.50.12.64 port 41447 ssh2 sessionid=SESSION-1225
+2026-06-23T07:21:20Z vpn-gw02 sshd[21425]: Failed password for llund from 10.50.14.36 port 57963 ssh2
+2026-06-23T07:39:10Z vpn-gw02 sshd[20459]: Accepted password for civanov from 10.50.12.64 port 32330 ssh2 sessionid=SESSION-1224
+2026-06-23T08:39:28Z vpn-gw01 sshd[20463]: Accepted password for tcosta from 10.50.10.174 port 34473 ssh2 sessionid=SESSION-1226
+2026-06-23T09:04:48Z vpn-gw01 sshd[20457]: Accepted password for ssingh from 10.50.10.48 port 45454 ssh2 sessionid=SESSION-1223
+2026-06-23T09:30:46Z vpn-gw02 sshd[20451]: Accepted password for kivanov from 10.50.12.228 port 39047 ssh2 sessionid=SESSION-1220
+2026-06-23T09:39:28Z vpn-gw02 sshd[21626]: Failed password for jlund from 10.50.13.111 port 43319 ssh2
+2026-06-23T09:46:43Z vpn-gw02 sshd[21620]: Failed password for livanov from 10.50.12.186 port 38276 ssh2
+2026-06-23T10:17:41Z vpn-gw01 sshd[20447]: Accepted password for jlund from 10.50.13.111 port 33931 ssh2 sessionid=SESSION-1218
+2026-06-23T10:48:29Z vpn-gw02 sshd[20467]: Accepted password for hivanov from 10.50.10.174 port 39461 ssh2 sessionid=SESSION-1228
+2026-06-23T11:28:51Z vpn-gw02 sshd[20473]: Accepted password for rcosta from 10.50.11.139 port 32883 ssh2 sessionid=SESSION-1231
+2026-06-23T11:45:14Z vpn-gw02 sshd[20453]: Accepted password for alund from 10.50.10.8 port 50213 ssh2 sessionid=SESSION-1221
+2026-06-23T11:57:14Z vpn-gw02 sshd[20465]: Accepted password for nwong from 10.50.13.111 port 34787 ssh2 sessionid=SESSION-1227
+2026-06-23T13:23:49Z vpn-gw02 sshd[20477]: Accepted password for ybell from 10.50.14.160 port 53082 ssh2 sessionid=SESSION-1233
+2026-06-23T13:24:37Z vpn-gw02 sshd[21476]: Failed password for livanov from 10.50.12.186 port 53571 ssh2
+2026-06-23T13:33:25Z vpn-gw02 sshd[20462]: session closed for user epatel sessionid=SESSION-1225 duration=23167s
+2026-06-23T14:00:00Z vpn-gw02 sshd[20460]: session closed for user civanov sessionid=SESSION-1224 duration=22850s
+2026-06-23T14:11:04Z vpn-gw01 sshd[20481]: Accepted password for vlund from 10.50.10.172 port 31499 ssh2 sessionid=SESSION-1235
+2026-06-23T15:21:28Z vpn-gw02 sshd[20479]: Accepted password for iivanov from 10.50.9.1 port 42023 ssh2 sessionid=SESSION-1234
+2026-06-23T15:44:58Z vpn-gw01 sshd[20455]: Accepted password for llund from 10.50.14.36 port 48083 ssh2 sessionid=SESSION-1222
+2026-06-23T15:50:04Z vpn-gw01 sshd[20464]: session closed for user tcosta sessionid=SESSION-1226 duration=25836s
+2026-06-23T15:58:24Z vpn-gw02 sshd[20449]: Accepted password for mnkosi from 10.50.11.13 port 41222 ssh2 sessionid=SESSION-1219
+2026-06-23T16:03:50Z vpn-gw01 sshd[20469]: Accepted password for framirez from 10.50.13.153 port 31876 ssh2 sessionid=SESSION-1229
+2026-06-23T16:41:27Z vpn-gw01 sshd[20458]: session closed for user ssingh sessionid=SESSION-1223 duration=27399s
+2026-06-23T16:54:27Z vpn-gw02 sshd[21566]: Failed password for divanov from 10.50.9.209 port 55070 ssh2
+2026-06-23T18:17:43Z vpn-gw01 sshd[20475]: Accepted password for cpatel from 10.50.11.181 port 31548 ssh2 sessionid=SESSION-1232
+2026-06-23T18:20:28Z vpn-gw01 sshd[20471]: Accepted password for ncosta from 10.50.12.188 port 34938 ssh2 sessionid=SESSION-1230
+2026-06-23T18:57:49Z vpn-gw02 sshd[20468]: session closed for user hivanov sessionid=SESSION-1228 duration=29360s
+2026-06-23T19:16:53Z vpn-gw02 sshd[20474]: session closed for user rcosta sessionid=SESSION-1231 duration=28082s
+2026-06-23T19:33:34Z vpn-gw02 sshd[20452]: session closed for user kivanov sessionid=SESSION-1220 duration=36168s
+2026-06-23T19:59:24Z vpn-gw02 sshd[20478]: session closed for user ybell sessionid=SESSION-1233 duration=23735s
+2026-06-23T20:09:43Z vpn-gw02 sshd[20454]: session closed for user alund sessionid=SESSION-1221 duration=30269s
+2026-06-23T20:40:11Z vpn-gw02 sshd[20466]: session closed for user nwong sessionid=SESSION-1227 duration=31377s
+2026-06-23T20:40:53Z vpn-gw01 sshd[20482]: session closed for user vlund sessionid=SESSION-1235 duration=23389s
+2026-06-23T20:45:00Z vpn-gw01 sshd[20448]: session closed for user jlund sessionid=SESSION-1218 duration=37639s
+2026-06-23T21:09:12Z vpn-gw02 sshd[20480]: session closed for user iivanov sessionid=SESSION-1234 duration=20864s
+2026-06-23T22:02:47Z vpn-gw01 sshd[20456]: session closed for user llund sessionid=SESSION-1222 duration=22669s
+2026-06-23T23:06:01Z vpn-gw01 sshd[20476]: session closed for user cpatel sessionid=SESSION-1232 duration=17298s
+2026-06-23T23:47:54Z vpn-gw02 sshd[20450]: session closed for user mnkosi sessionid=SESSION-1219 duration=28170s
+2026-06-23T23:57:20Z vpn-gw01 sshd[20470]: session closed for user framirez sessionid=SESSION-1229 duration=28410s
+2026-06-23T23:59:52Z vpn-gw01 sshd[20472]: session closed for user ncosta sessionid=SESSION-1230 duration=20364s
+2026-06-24T07:38:37Z vpn-gw01 sshd[20487]: Accepted password for kivanov from 10.50.12.228 port 32046 ssh2 sessionid=SESSION-1238
+2026-06-24T07:51:27Z vpn-gw02 sshd[20500]: Accepted password for civanov from 10.50.12.64 port 53137 ssh2 sessionid=SESSION-1244
+2026-06-24T08:53:14Z vpn-gw02 sshd[20522]: Failed password for cpatel from 10.50.11.181 port 53894 ssh2
+2026-06-24T09:04:28Z vpn-gw02 sshd[20497]: Accepted password for pcosta from 10.50.10.216 port 39338 ssh2 sessionid=SESSION-1243
+2026-06-24T09:30:06Z vpn-gw02 sshd[20493]: Accepted password for ssingh from 10.50.10.48 port 43000 ssh2 sessionid=SESSION-1241
+2026-06-24T09:44:10Z vpn-gw02 sshd[20525]: Accepted password for ybell from 10.50.14.160 port 37351 ssh2 sessionid=SESSION-1256
+2026-06-24T11:08:10Z vpn-gw02 sshd[20516]: Accepted password for livanov from 10.50.12.186 port 44288 ssh2 sessionid=SESSION-1252
+2026-06-24T11:22:19Z vpn-gw01 sshd[20527]: Accepted password for iivanov from 10.50.9.1 port 36805 ssh2 sessionid=SESSION-1257
+2026-06-24T11:28:24Z vpn-gw01 sshd[20506]: Accepted password for hivanov from 10.50.10.174 port 57017 ssh2 sessionid=SESSION-1247
+2026-06-24T11:32:33Z vpn-gw01 sshd[21564]: Failed password for civanov from 10.50.12.64 port 38798 ssh2
+2026-06-24T11:50:02Z vpn-gw02 sshd[20510]: Accepted password for ocosta from 10.50.11.15 port 33485 ssh2 sessionid=SESSION-1249
+2026-06-24T12:00:26Z vpn-gw01 sshd[21616]: Failed password for ssingh from 10.50.10.48 port 46941 ssh2
+2026-06-24T12:22:24Z vpn-gw01 sshd[20512]: Accepted password for gcosta from 10.50.14.242 port 34111 ssh2 sessionid=SESSION-1250
+2026-06-24T12:35:11Z vpn-gw02 sshd[20520]: Accepted password for rcosta from 10.50.11.139 port 31893 ssh2 sessionid=SESSION-1254
+2026-06-24T12:40:08Z vpn-gw02 sshd[20523]: Accepted password for cpatel from 10.50.11.181 port 45716 ssh2 sessionid=SESSION-1255
+2026-06-24T12:42:27Z vpn-gw02 sshd[21627]: Failed password for livanov from 10.50.12.186 port 40961 ssh2
+2026-06-24T12:50:48Z vpn-gw01 sshd[20495]: Accepted password for divanov from 10.50.9.209 port 47271 ssh2 sessionid=SESSION-1242
+2026-06-24T13:00:53Z vpn-gw02 sshd[20489]: Accepted password for alund from 10.50.10.8 port 54801 ssh2 sessionid=SESSION-1239
+2026-06-24T13:32:53Z vpn-gw01 sshd[20488]: session closed for user kivanov sessionid=SESSION-1238 duration=21256s
+2026-06-24T13:42:01Z vpn-gw02 sshd[20502]: Accepted password for tcosta from 10.50.10.174 port 57501 ssh2 sessionid=SESSION-1245
+2026-06-24T13:48:09Z vpn-gw02 sshd[20501]: session closed for user civanov sessionid=SESSION-1244 duration=21402s
+2026-06-24T14:02:27Z vpn-gw01 sshd[20529]: Accepted password for u221 from 10.50.12.186 port 52487 ssh2 sessionid=SESSION-1258
+2026-06-24T14:08:02Z vpn-gw02 sshd[20483]: Accepted password for jlund from 10.50.13.111 port 49307 ssh2 sessionid=SESSION-1236
+2026-06-24T14:12:22Z vpn-gw02 sshd[20499]: Failed password for civanov from 10.50.12.64 port 53630 ssh2
+2026-06-24T14:17:29Z vpn-gw01 sshd[20514]: Accepted password for framirez from 10.50.13.153 port 32306 ssh2 sessionid=SESSION-1251
+2026-06-24T14:27:53Z vpn-gw02 sshd[20491]: Accepted password for llund from 10.50.14.36 port 31584 ssh2 sessionid=SESSION-1240
+2026-06-24T15:33:06Z vpn-gw01 sshd[20508]: Accepted password for eramirez from 10.50.12.20 port 55735 ssh2 sessionid=SESSION-1248
+2026-06-24T15:54:37Z vpn-gw01 sshd[20504]: Accepted password for nwong from 10.50.13.111 port 34458 ssh2 sessionid=SESSION-1246
+2026-06-24T16:46:47Z vpn-gw02 sshd[20526]: session closed for user ybell sessionid=SESSION-1256 duration=25357s
+2026-06-24T17:05:03Z vpn-gw02 sshd[20494]: session closed for user ssingh sessionid=SESSION-1241 duration=27297s
+2026-06-24T17:44:25Z vpn-gw02 sshd[20498]: session closed for user pcosta sessionid=SESSION-1243 duration=31197s
+2026-06-24T18:26:59Z vpn-gw02 sshd[20511]: session closed for user ocosta sessionid=SESSION-1249 duration=23817s
+2026-06-24T18:41:58Z vpn-gw01 sshd[20485]: Accepted password for mnkosi from 10.50.11.13 port 39919 ssh2 sessionid=SESSION-1237
+2026-06-24T18:55:19Z vpn-gw01 sshd[20518]: Accepted password for ncosta from 10.50.12.188 port 37420 ssh2 sessionid=SESSION-1253
+2026-06-24T19:58:45Z vpn-gw02 sshd[20521]: session closed for user rcosta sessionid=SESSION-1254 duration=26614s
+2026-06-24T20:05:16Z vpn-gw01 sshd[20507]: session closed for user hivanov sessionid=SESSION-1247 duration=31012s
+2026-06-24T20:07:23Z vpn-gw01 sshd[20496]: session closed for user divanov sessionid=SESSION-1242 duration=26195s
+2026-06-24T20:43:35Z vpn-gw02 sshd[20517]: session closed for user livanov sessionid=SESSION-1252 duration=34525s
+2026-06-24T21:04:16Z vpn-gw01 sshd[20515]: session closed for user framirez sessionid=SESSION-1251 duration=24407s
+2026-06-24T21:08:04Z vpn-gw02 sshd[20492]: session closed for user llund sessionid=SESSION-1240 duration=24011s
+2026-06-24T21:18:05Z vpn-gw01 sshd[20530]: session closed for user u221 sessionid=SESSION-1258 duration=26138s
+2026-06-24T21:19:51Z vpn-gw01 sshd[20505]: session closed for user nwong sessionid=SESSION-1246 duration=19514s
+2026-06-24T21:27:22Z vpn-gw01 sshd[20528]: session closed for user iivanov sessionid=SESSION-1257 duration=36303s
+2026-06-24T21:30:58Z vpn-gw02 sshd[20524]: session closed for user cpatel sessionid=SESSION-1255 duration=31850s
+2026-06-24T22:11:13Z vpn-gw01 sshd[20513]: session closed for user gcosta sessionid=SESSION-1250 duration=35329s
+2026-06-24T22:28:26Z vpn-gw02 sshd[20503]: session closed for user tcosta sessionid=SESSION-1245 duration=31585s
+2026-06-24T22:45:48Z vpn-gw02 sshd[20484]: session closed for user jlund sessionid=SESSION-1236 duration=31066s
+2026-06-24T22:51:20Z vpn-gw02 sshd[20490]: session closed for user alund sessionid=SESSION-1239 duration=35427s
+2026-06-24T23:19:46Z vpn-gw01 sshd[20486]: session closed for user mnkosi sessionid=SESSION-1237 duration=16668s
+2026-06-24T23:33:33Z vpn-gw01 sshd[20509]: session closed for user eramirez sessionid=SESSION-1248 duration=28827s
+2026-06-24T23:38:52Z vpn-gw01 sshd[20519]: session closed for user ncosta sessionid=SESSION-1253 duration=17013s
+2026-06-25T07:26:13Z vpn-gw02 sshd[21608]: Failed password for framirez from 10.50.13.153 port 32511 ssh2
+2026-06-25T07:47:57Z vpn-gw02 sshd[21465]: Failed password for ybell from 10.50.14.160 port 44803 ssh2
+2026-06-25T08:10:43Z vpn-gw01 sshd[20548]: Accepted password for tcosta from 10.50.10.174 port 59513 ssh2 sessionid=SESSION-1267
+2026-06-25T08:44:39Z vpn-gw02 sshd[21597]: Failed password for livanov from 10.50.12.186 port 30431 ssh2
+2026-06-25T09:01:45Z vpn-gw02 sshd[20550]: Accepted password for nwong from 10.50.13.111 port 37453 ssh2 sessionid=SESSION-1268
+2026-06-25T09:11:27Z vpn-gw01 sshd[20544]: Accepted password for pcosta from 10.50.10.216 port 38219 ssh2 sessionid=SESSION-1265
+2026-06-25T09:31:48Z vpn-gw01 sshd[20539]: Accepted password for ssingh from 10.50.10.48 port 32648 ssh2 sessionid=SESSION-1263
+2026-06-25T09:57:43Z vpn-gw02 sshd[20558]: Accepted password for gcosta from 10.50.14.242 port 46636 ssh2 sessionid=SESSION-1272
+2026-06-25T10:01:58Z vpn-gw02 sshd[20533]: Accepted password for mnkosi from 10.50.11.13 port 30861 ssh2 sessionid=SESSION-1260
+2026-06-25T10:42:05Z vpn-gw01 sshd[20541]: Accepted password for divanov from 10.50.9.209 port 33949 ssh2 sessionid=SESSION-1264
+2026-06-25T10:45:02Z vpn-gw02 sshd[20566]: Accepted password for ybell from 10.50.14.160 port 50452 ssh2 sessionid=SESSION-1276
+2026-06-25T10:59:25Z vpn-gw02 sshd[20537]: Accepted password for alund from 10.50.10.8 port 30425 ssh2 sessionid=SESSION-1262
+2026-06-25T11:33:32Z vpn-gw02 sshd[20562]: Accepted password for ncosta from 10.50.12.188 port 47627 ssh2 sessionid=SESSION-1274
+2026-06-25T11:45:37Z vpn-gw01 sshd[20556]: Accepted password for ocosta from 10.50.11.15 port 40529 ssh2 sessionid=SESSION-1271
+2026-06-25T11:47:30Z vpn-gw02 sshd[20552]: Accepted password for hivanov from 10.50.10.174 port 52585 ssh2 sessionid=SESSION-1269
+2026-06-25T14:17:21Z vpn-gw01 sshd[20543]: Failed password for pcosta from 10.50.10.216 port 57450 ssh2
+2026-06-25T14:24:59Z vpn-gw01 sshd[20560]: Accepted password for livanov from 10.50.12.186 port 32171 ssh2 sessionid=SESSION-1273
+2026-06-25T14:47:55Z vpn-gw01 sshd[21443]: Failed password for nwong from 10.50.13.111 port 38334 ssh2
+2026-06-25T15:00:17Z vpn-gw02 sshd[20568]: Accepted password for u221 from 10.50.12.186 port 44726 ssh2 sessionid=SESSION-1277
+2026-06-25T15:12:46Z vpn-gw02 sshd[20531]: Accepted password for jlund from 10.50.13.111 port 59962 ssh2 sessionid=SESSION-1259
+2026-06-25T15:25:08Z vpn-gw01 sshd[20549]: session closed for user tcosta sessionid=SESSION-1267 duration=26065s
+2026-06-25T15:28:43Z vpn-gw02 sshd[21546]: Failed password for divanov from 10.50.9.209 port 36031 ssh2
+2026-06-25T15:53:54Z vpn-gw02 sshd[20559]: session closed for user gcosta sessionid=SESSION-1272 duration=21371s
+2026-06-25T16:16:33Z vpn-gw01 sshd[20546]: Accepted password for epatel from 10.50.12.64 port 57819 ssh2 sessionid=SESSION-1266
+2026-06-25T16:26:28Z vpn-gw01 sshd[20545]: session closed for user pcosta sessionid=SESSION-1265 duration=26101s
+2026-06-25T16:54:00Z vpn-gw01 sshd[21499]: Failed password for llund from 10.50.14.36 port 56634 ssh2
+2026-06-25T17:18:39Z vpn-gw01 sshd[20540]: session closed for user ssingh sessionid=SESSION-1263 duration=28011s
+2026-06-25T17:21:15Z vpn-gw01 sshd[20564]: Accepted password for rcosta from 10.50.11.139 port 34613 ssh2 sessionid=SESSION-1275
+2026-06-25T17:40:07Z vpn-gw02 sshd[20553]: session closed for user hivanov sessionid=SESSION-1269 duration=21157s
+2026-06-25T17:48:45Z vpn-gw02 sshd[20551]: session closed for user nwong sessionid=SESSION-1268 duration=31620s
+2026-06-25T17:52:19Z vpn-gw02 sshd[20535]: Accepted password for kivanov from 10.50.12.228 port 47661 ssh2 sessionid=SESSION-1261
+2026-06-25T18:00:14Z vpn-gw02 sshd[20554]: Accepted password for eramirez from 10.50.12.20 port 46164 ssh2 sessionid=SESSION-1270
+2026-06-25T18:10:26Z vpn-gw02 sshd[20534]: session closed for user mnkosi sessionid=SESSION-1260 duration=29308s
+2026-06-25T18:56:47Z vpn-gw02 sshd[20567]: session closed for user ybell sessionid=SESSION-1276 duration=29505s
+2026-06-25T19:11:59Z vpn-gw02 sshd[20563]: session closed for user ncosta sessionid=SESSION-1274 duration=27507s
+2026-06-25T20:28:59Z vpn-gw02 sshd[20538]: session closed for user alund sessionid=SESSION-1262 duration=34174s
+2026-06-25T20:30:43Z vpn-gw01 sshd[20542]: session closed for user divanov sessionid=SESSION-1264 duration=35318s
+2026-06-25T21:58:49Z vpn-gw01 sshd[20557]: session closed for user ocosta sessionid=SESSION-1271 duration=36792s
+2026-06-25T22:03:40Z vpn-gw02 sshd[20569]: session closed for user u221 sessionid=SESSION-1277 duration=25403s
+2026-06-25T22:56:26Z vpn-gw02 sshd[20532]: session closed for user jlund sessionid=SESSION-1259 duration=27820s
+2026-06-25T23:17:59Z vpn-gw02 sshd[20555]: session closed for user eramirez sessionid=SESSION-1270 duration=19065s
+2026-06-25T23:20:27Z vpn-gw01 sshd[20547]: session closed for user epatel sessionid=SESSION-1266 duration=25434s
+2026-06-25T23:43:03Z vpn-gw02 sshd[20536]: session closed for user kivanov sessionid=SESSION-1261 duration=21044s
+2026-06-25T23:48:45Z vpn-gw01 sshd[20565]: session closed for user rcosta sessionid=SESSION-1275 duration=23250s
+2026-06-25T23:52:15Z vpn-gw01 sshd[20561]: session closed for user livanov sessionid=SESSION-1273 duration=34036s
+2026-06-26T07:41:12Z vpn-gw02 sshd[20574]: Accepted password for alund from 10.50.10.8 port 49583 ssh2 sessionid=SESSION-1280
+2026-06-26T09:37:35Z vpn-gw02 sshd[20578]: Accepted password for ssingh from 10.50.10.48 port 42535 ssh2 sessionid=SESSION-1282
+2026-06-26T09:43:45Z vpn-gw02 sshd[20572]: Accepted password for mnkosi from 10.50.11.13 port 34967 ssh2 sessionid=SESSION-1279
+2026-06-26T10:31:20Z vpn-gw01 sshd[20570]: Accepted password for jlund from 10.50.13.111 port 31727 ssh2 sessionid=SESSION-1278
+2026-06-26T11:14:52Z vpn-gw01 sshd[20576]: Accepted password for llund from 10.50.14.36 port 59188 ssh2 sessionid=SESSION-1281
+2026-06-26T11:48:43Z vpn-gw01 sshd[20605]: Failed password for ybell from 10.50.14.160 port 37553 ssh2
+2026-06-26T12:48:30Z vpn-gw01 sshd[20606]: Accepted password for ybell from 10.50.14.160 port 46663 ssh2 sessionid=SESSION-1295
+2026-06-26T12:50:07Z vpn-gw01 sshd[21629]: Failed password for llund from 10.50.14.36 port 45558 ssh2
+2026-06-26T13:29:40Z vpn-gw01 sshd[20597]: Accepted password for gcosta from 10.50.14.242 port 42483 ssh2 sessionid=SESSION-1291
+2026-06-26T13:32:38Z vpn-gw01 sshd[20592]: Accepted password for eramirez from 10.50.12.20 port 40795 ssh2 sessionid=SESSION-1289
+2026-06-26T14:05:08Z vpn-gw02 sshd[20601]: Accepted password for ncosta from 10.50.12.188 port 43970 ssh2 sessionid=SESSION-1293
+2026-06-26T14:11:16Z vpn-gw01 sshd[20594]: Accepted password for ocosta from 10.50.11.15 port 48550 ssh2 sessionid=SESSION-1290
+2026-06-26T14:37:19Z vpn-gw01 sshd[20599]: Accepted password for livanov from 10.50.12.186 port 45760 ssh2 sessionid=SESSION-1292
+2026-06-26T14:45:28Z vpn-gw02 sshd[20608]: Accepted password for vlund from 10.50.10.172 port 34130 ssh2 sessionid=SESSION-1296
+2026-06-26T14:45:49Z vpn-gw02 sshd[20580]: Accepted password for pcosta from 10.50.10.216 port 48026 ssh2 sessionid=SESSION-1283
+2026-06-26T14:53:20Z vpn-gw02 sshd[20586]: Accepted password for tcosta from 10.50.10.174 port 47546 ssh2 sessionid=SESSION-1286
+2026-06-26T14:56:25Z vpn-gw01 sshd[20596]: Failed password for gcosta from 10.50.14.242 port 37324 ssh2
+2026-06-26T15:14:05Z vpn-gw01 sshd[21507]: Failed password for llund from 10.50.14.36 port 48426 ssh2
+2026-06-26T15:16:17Z vpn-gw02 sshd[20575]: session closed for user alund sessionid=SESSION-1280 duration=27305s
+2026-06-26T15:21:33Z vpn-gw02 sshd[20579]: session closed for user ssingh sessionid=SESSION-1282 duration=20638s
+2026-06-26T15:42:36Z vpn-gw02 sshd[20573]: session closed for user mnkosi sessionid=SESSION-1279 duration=21531s
+2026-06-26T16:04:24Z vpn-gw01 sshd[20582]: Accepted password for civanov from 10.50.12.64 port 47416 ssh2 sessionid=SESSION-1284
+2026-06-26T16:57:01Z vpn-gw02 sshd[20603]: Accepted password for cpatel from 10.50.11.181 port 55179 ssh2 sessionid=SESSION-1294
+2026-06-26T16:58:17Z vpn-gw01 sshd[20588]: Accepted password for nwong from 10.50.13.111 port 31775 ssh2 sessionid=SESSION-1287
+2026-06-26T17:44:21Z vpn-gw01 sshd[20584]: Accepted password for epatel from 10.50.12.64 port 55407 ssh2 sessionid=SESSION-1285
+2026-06-26T18:03:51Z vpn-gw01 sshd[21435]: Failed password for nwong from 10.50.13.111 port 43901 ssh2
+2026-06-26T18:15:41Z vpn-gw01 sshd[20590]: Accepted password for hivanov from 10.50.10.174 port 35767 ssh2 sessionid=SESSION-1288
+2026-06-26T18:19:04Z vpn-gw02 sshd[20610]: Accepted password for u221 from 10.50.12.186 port 37708 ssh2 sessionid=SESSION-1297
+2026-06-26T19:30:08Z vpn-gw01 sshd[20571]: session closed for user jlund sessionid=SESSION-1278 duration=32328s
+2026-06-26T19:31:40Z vpn-gw01 sshd[20607]: session closed for user ybell sessionid=SESSION-1295 duration=24190s
+2026-06-26T19:51:36Z vpn-gw01 sshd[20577]: session closed for user llund sessionid=SESSION-1281 duration=31004s
+2026-06-26T20:10:01Z vpn-gw02 sshd[20602]: session closed for user ncosta sessionid=SESSION-1293 duration=21893s
+2026-06-26T20:32:52Z vpn-gw01 sshd[20598]: session closed for user gcosta sessionid=SESSION-1291 duration=25392s
+2026-06-26T21:24:54Z vpn-gw01 sshd[20595]: session closed for user ocosta sessionid=SESSION-1290 duration=26018s
+2026-06-26T22:08:29Z vpn-gw02 sshd[20581]: session closed for user pcosta sessionid=SESSION-1283 duration=26560s
+2026-06-26T23:07:06Z vpn-gw02 sshd[20611]: session closed for user u221 sessionid=SESSION-1297 duration=17282s
+2026-06-26T23:15:56Z vpn-gw01 sshd[20585]: session closed for user epatel sessionid=SESSION-1285 duration=19895s
+2026-06-26T23:23:40Z vpn-gw02 sshd[20604]: session closed for user cpatel sessionid=SESSION-1294 duration=23199s
+2026-06-26T23:26:01Z vpn-gw01 sshd[20583]: session closed for user civanov sessionid=SESSION-1284 duration=26497s
+2026-06-26T23:29:40Z vpn-gw01 sshd[20589]: session closed for user nwong sessionid=SESSION-1287 duration=23483s
+2026-06-26T23:30:33Z vpn-gw01 sshd[20591]: session closed for user hivanov sessionid=SESSION-1288 duration=18892s
+2026-06-26T23:38:15Z vpn-gw01 sshd[20600]: session closed for user livanov sessionid=SESSION-1292 duration=32456s
+2026-06-26T23:41:17Z vpn-gw01 sshd[20593]: session closed for user eramirez sessionid=SESSION-1289 duration=36519s
+2026-06-26T23:46:47Z vpn-gw02 sshd[20587]: session closed for user tcosta sessionid=SESSION-1286 duration=32007s
+2026-06-26T23:55:08Z vpn-gw02 sshd[20609]: session closed for user vlund sessionid=SESSION-1296 duration=32980s
+2026-06-27T08:59:42Z vpn-gw02 sshd[21484]: Failed password for llund from 10.50.14.36 port 44490 ssh2
+2026-06-27T14:33:31Z vpn-gw02 sshd[21613]: Failed password for kivanov from 10.50.12.228 port 59304 ssh2
+2026-06-27T15:33:58Z vpn-gw01 sshd[21431]: Failed password for hivanov from 10.50.10.174 port 44090 ssh2
+2026-06-27T18:30:28Z vpn-gw02 sshd[21483]: Failed password for ncosta from 10.50.12.188 port 34738 ssh2
+2026-06-28T13:06:56Z vpn-gw01 sshd[21459]: Failed password for iivanov from 10.50.9.1 port 30017 ssh2
+2026-06-28T13:29:12Z vpn-gw01 sshd[21421]: Failed password for tcosta from 10.50.10.174 port 31246 ssh2
+2026-06-28T13:54:03Z vpn-gw01 sshd[21446]: Failed password for livanov from 10.50.12.186 port 31236 ssh2
+2026-06-29T07:09:47Z vpn-gw02 sshd[20618]: Accepted password for alund from 10.50.10.8 port 46238 ssh2 sessionid=SESSION-1301
+2026-06-29T07:35:03Z vpn-gw02 sshd[20643]: Accepted password for rcosta from 10.50.11.139 port 36827 ssh2 sessionid=SESSION-1313
+2026-06-29T08:36:03Z vpn-gw02 sshd[20624]: Accepted password for divanov from 10.50.9.209 port 45310 ssh2 sessionid=SESSION-1304
+2026-06-29T08:58:15Z vpn-gw02 sshd[20636]: Accepted password for framirez from 10.50.13.153 port 36393 ssh2 sessionid=SESSION-1310
+2026-06-29T09:02:24Z vpn-gw02 sshd[20612]: Accepted password for jlund from 10.50.13.111 port 52080 ssh2 sessionid=SESSION-1298
+2026-06-29T09:23:14Z vpn-gw01 sshd[20626]: Accepted password for pcosta from 10.50.10.216 port 39451 ssh2 sessionid=SESSION-1305
+2026-06-29T09:59:40Z vpn-gw02 sshd[20628]: Accepted password for epatel from 10.50.12.64 port 53839 ssh2 sessionid=SESSION-1306
+2026-06-29T10:38:37Z vpn-gw01 sshd[20645]: Accepted password for cpatel from 10.50.11.181 port 52482 ssh2 sessionid=SESSION-1314
+2026-06-29T12:57:38Z vpn-gw01 sshd[20620]: Accepted password for llund from 10.50.14.36 port 50276 ssh2 sessionid=SESSION-1302
+2026-06-29T13:52:25Z vpn-gw01 sshd[20649]: Accepted password for u221 from 10.50.12.186 port 57199 ssh2 sessionid=SESSION-1316
+2026-06-29T14:19:29Z vpn-gw01 sshd[20614]: Accepted password for mnkosi from 10.50.11.13 port 55512 ssh2 sessionid=SESSION-1299
+2026-06-29T14:24:24Z vpn-gw02 sshd[20619]: session closed for user alund sessionid=SESSION-1301 duration=26077s
+2026-06-29T14:52:16Z vpn-gw01 sshd[20641]: Accepted password for ncosta from 10.50.12.188 port 32942 ssh2 sessionid=SESSION-1312
+2026-06-29T15:17:58Z vpn-gw01 sshd[20647]: Accepted password for iivanov from 10.50.9.1 port 47856 ssh2 sessionid=SESSION-1315
+2026-06-29T15:51:59Z vpn-gw02 sshd[20644]: session closed for user rcosta sessionid=SESSION-1313 duration=29816s
+2026-06-29T15:59:27Z vpn-gw01 sshd[20627]: session closed for user pcosta sessionid=SESSION-1305 duration=23773s
+2026-06-29T16:05:44Z vpn-gw01 sshd[20639]: Accepted password for livanov from 10.50.12.186 port 48603 ssh2 sessionid=SESSION-1311
+2026-06-29T16:08:55Z vpn-gw02 sshd[20632]: Accepted password for eramirez from 10.50.12.20 port 44500 ssh2 sessionid=SESSION-1308
+2026-06-29T16:30:11Z vpn-gw01 sshd[20622]: Accepted password for ssingh from 10.50.10.48 port 53592 ssh2 sessionid=SESSION-1303
+2026-06-29T16:54:47Z vpn-gw02 sshd[20616]: Accepted password for kivanov from 10.50.12.228 port 55905 ssh2 sessionid=SESSION-1300
+2026-06-29T17:12:57Z vpn-gw02 sshd[20630]: Accepted password for tcosta from 10.50.10.174 port 33662 ssh2 sessionid=SESSION-1307
+2026-06-29T17:22:49Z vpn-gw02 sshd[20629]: session closed for user epatel sessionid=SESSION-1306 duration=26589s
+2026-06-29T17:41:04Z vpn-gw01 sshd[20638]: Failed password for livanov from 10.50.12.186 port 51760 ssh2
+2026-06-29T17:45:00Z vpn-gw02 sshd[20637]: session closed for user framirez sessionid=SESSION-1310 duration=31605s
+2026-06-29T17:47:00Z vpn-gw02 sshd[20625]: session closed for user divanov sessionid=SESSION-1304 duration=33057s
+2026-06-29T18:31:39Z vpn-gw01 sshd[20634]: Accepted password for ocosta from 10.50.11.15 port 52583 ssh2 sessionid=SESSION-1309
+2026-06-29T19:04:46Z vpn-gw01 sshd[20621]: session closed for user llund sessionid=SESSION-1302 duration=22028s
+2026-06-29T19:41:14Z vpn-gw02 sshd[20613]: session closed for user jlund sessionid=SESSION-1298 duration=38330s
+2026-06-29T20:30:32Z vpn-gw01 sshd[20646]: session closed for user cpatel sessionid=SESSION-1314 duration=35515s
+2026-06-29T21:09:02Z vpn-gw01 sshd[20615]: session closed for user mnkosi sessionid=SESSION-1299 duration=24573s
+2026-06-29T22:10:38Z vpn-gw01 sshd[20642]: session closed for user ncosta sessionid=SESSION-1312 duration=26302s
+2026-06-29T23:00:12Z vpn-gw02 sshd[20617]: session closed for user kivanov sessionid=SESSION-1300 duration=21925s
+2026-06-29T23:02:26Z vpn-gw01 sshd[20640]: session closed for user livanov sessionid=SESSION-1311 duration=25002s
+2026-06-29T23:13:45Z vpn-gw01 sshd[20623]: session closed for user ssingh sessionid=SESSION-1303 duration=24214s
+2026-06-29T23:24:17Z vpn-gw02 sshd[20631]: session closed for user tcosta sessionid=SESSION-1307 duration=22280s
+2026-06-29T23:33:11Z vpn-gw02 sshd[20633]: session closed for user eramirez sessionid=SESSION-1308 duration=26656s
+2026-06-29T23:44:29Z vpn-gw01 sshd[20648]: session closed for user iivanov sessionid=SESSION-1315 duration=30391s
+2026-06-29T23:48:49Z vpn-gw01 sshd[20650]: session closed for user u221 sessionid=SESSION-1316 duration=35784s
+2026-06-29T23:51:49Z vpn-gw01 sshd[20635]: session closed for user ocosta sessionid=SESSION-1309 duration=19210s
+2026-06-30T07:00:21Z vpn-gw01 sshd[20687]: Failed password for ybell from 10.50.14.160 port 30742 ssh2
+2026-06-30T07:08:25Z vpn-gw01 sshd[20675]: Accepted password for gcosta from 10.50.14.242 port 40145 ssh2 sessionid=SESSION-1329
+2026-06-30T07:53:21Z vpn-gw02 sshd[20677]: Accepted password for framirez from 10.50.13.153 port 59305 ssh2 sessionid=SESSION-1330
+2026-06-30T08:02:10Z vpn-gw01 sshd[20665]: Accepted password for epatel from 10.50.12.64 port 47636 ssh2 sessionid=SESSION-1324
+2026-06-30T08:47:22Z vpn-gw02 sshd[20690]: Accepted password for iivanov from 10.50.9.1 port 50286 ssh2 sessionid=SESSION-1336
+2026-06-30T09:06:38Z vpn-gw01 sshd[20671]: Accepted password for hivanov from 10.50.10.174 port 37844 ssh2 sessionid=SESSION-1327
+2026-06-30T09:14:35Z vpn-gw01 sshd[20667]: Accepted password for tcosta from 10.50.10.174 port 35653 ssh2 sessionid=SESSION-1325
+2026-06-30T09:28:43Z vpn-gw01 sshd[20692]: Accepted password for vlund from 10.50.10.172 port 48600 ssh2 sessionid=SESSION-1337
+2026-06-30T09:44:28Z vpn-gw01 sshd[20673]: Accepted password for ocosta from 10.50.11.15 port 47946 ssh2 sessionid=SESSION-1328
+2026-06-30T09:54:36Z vpn-gw01 sshd[21493]: Failed password for hivanov from 10.50.10.174 port 56074 ssh2
+2026-06-30T10:36:25Z vpn-gw02 sshd[20679]: Accepted password for livanov from 10.50.12.186 port 57371 ssh2 sessionid=SESSION-1331
+2026-06-30T11:09:57Z vpn-gw01 sshd[21624]: Failed password for ybell from 10.50.14.160 port 37068 ssh2
+2026-06-30T12:27:40Z vpn-gw01 sshd[20685]: Accepted password for cpatel from 10.50.11.181 port 39375 ssh2 sessionid=SESSION-1334
+2026-06-30T12:38:23Z vpn-gw01 sshd[20651]: Accepted password for jlund from 10.50.13.111 port 38721 ssh2 sessionid=SESSION-1317
+2026-06-30T12:40:12Z vpn-gw01 sshd[20663]: Accepted password for civanov from 10.50.12.64 port 31873 ssh2 sessionid=SESSION-1323
+2026-06-30T12:46:31Z vpn-gw01 sshd[20688]: Accepted password for ybell from 10.50.14.160 port 54393 ssh2 sessionid=SESSION-1335
+2026-06-30T13:23:03Z vpn-gw02 sshd[21434]: Failed password for framirez from 10.50.13.153 port 32720 ssh2
+2026-06-30T14:02:11Z vpn-gw02 sshd[20653]: Accepted password for mnkosi from 10.50.11.13 port 41100 ssh2 sessionid=SESSION-1318
+2026-06-30T14:11:40Z vpn-gw01 sshd[20683]: Accepted password for rcosta from 10.50.11.139 port 59081 ssh2 sessionid=SESSION-1333
+2026-06-30T14:39:52Z vpn-gw01 sshd[20661]: Accepted password for divanov from 10.50.9.209 port 39684 ssh2 sessionid=SESSION-1322
+2026-06-30T15:02:58Z vpn-gw01 sshd[20668]: session closed for user tcosta sessionid=SESSION-1325 duration=20903s
+2026-06-30T15:06:58Z vpn-gw02 sshd[20655]: Accepted password for alund from 10.50.10.8 port 35050 ssh2 sessionid=SESSION-1319
+2026-06-30T15:48:36Z vpn-gw01 sshd[20669]: Accepted password for nwong from 10.50.13.111 port 36311 ssh2 sessionid=SESSION-1326
+2026-06-30T15:55:07Z vpn-gw01 sshd[20657]: Accepted password for llund from 10.50.14.36 port 54599 ssh2 sessionid=SESSION-1320
+2026-06-30T15:58:32Z vpn-gw01 sshd[20666]: session closed for user epatel sessionid=SESSION-1324 duration=28582s
+2026-06-30T16:05:59Z vpn-gw02 sshd[20659]: Accepted password for ssingh from 10.50.10.48 port 49497 ssh2 sessionid=SESSION-1321
+2026-06-30T16:10:18Z vpn-gw01 sshd[20672]: session closed for user hivanov sessionid=SESSION-1327 duration=25420s
+2026-06-30T16:20:00Z vpn-gw02 sshd[21532]: Failed password for livanov from 10.50.12.186 port 50240 ssh2
+2026-06-30T16:31:49Z vpn-gw01 sshd[20674]: session closed for user ocosta sessionid=SESSION-1328 duration=24441s
+2026-06-30T16:35:18Z vpn-gw02 sshd[20678]: session closed for user framirez sessionid=SESSION-1330 duration=31317s
+2026-06-30T16:44:10Z vpn-gw02 sshd[20681]: Accepted password for ncosta from 10.50.12.188 port 44576 ssh2 sessionid=SESSION-1332
+2026-06-30T17:09:12Z vpn-gw01 sshd[20676]: session closed for user gcosta sessionid=SESSION-1329 duration=36047s
+2026-06-30T17:09:12Z vpn-gw02 sshd[20680]: session closed for user livanov sessionid=SESSION-1331 duration=23567s
+2026-06-30T17:20:40Z vpn-gw02 sshd[20694]: Accepted password for u221 from 10.50.12.186 port 42027 ssh2 sessionid=SESSION-1338
+2026-06-30T17:28:17Z vpn-gw02 sshd[20691]: session closed for user iivanov sessionid=SESSION-1336 duration=31255s
+2026-06-30T18:28:42Z vpn-gw01 sshd[20693]: session closed for user vlund sessionid=SESSION-1337 duration=32399s
+2026-06-30T18:29:03Z vpn-gw02 sshd[21464]: Failed password for rcosta from 10.50.11.139 port 40826 ssh2
+2026-06-30T20:16:49Z vpn-gw01 sshd[20686]: session closed for user cpatel sessionid=SESSION-1334 duration=28149s
+2026-06-30T20:36:58Z vpn-gw01 sshd[20652]: session closed for user jlund sessionid=SESSION-1317 duration=28715s
+2026-06-30T21:18:42Z vpn-gw01 sshd[20684]: session closed for user rcosta sessionid=SESSION-1333 duration=25622s
+2026-06-30T21:44:08Z vpn-gw02 sshd[20654]: session closed for user mnkosi sessionid=SESSION-1318 duration=27717s
+2026-06-30T22:28:31Z vpn-gw01 sshd[20689]: session closed for user ybell sessionid=SESSION-1335 duration=34920s
+2026-06-30T22:30:14Z vpn-gw01 sshd[20664]: session closed for user civanov sessionid=SESSION-1323 duration=35402s
+2026-06-30T22:33:13Z vpn-gw01 sshd[20662]: session closed for user divanov sessionid=SESSION-1322 duration=28401s
+2026-06-30T22:57:06Z vpn-gw02 sshd[20656]: session closed for user alund sessionid=SESSION-1319 duration=28208s
+2026-06-30T23:03:53Z vpn-gw02 sshd[20695]: session closed for user u221 sessionid=SESSION-1338 duration=20593s
+2026-06-30T23:09:30Z vpn-gw02 sshd[20660]: session closed for user ssingh sessionid=SESSION-1321 duration=25411s
+2026-06-30T23:26:08Z vpn-gw01 sshd[20670]: session closed for user nwong sessionid=SESSION-1326 duration=27452s
+2026-06-30T23:47:38Z vpn-gw02 sshd[20682]: session closed for user ncosta sessionid=SESSION-1332 duration=25408s
+2026-06-30T23:49:32Z vpn-gw01 sshd[20658]: session closed for user llund sessionid=SESSION-1320 duration=28465s
+2026-07-01T07:54:21Z vpn-gw01 sshd[21444]: Failed password for mnkosi from 10.50.11.13 port 33765 ssh2
+2026-07-01T09:01:32Z vpn-gw02 sshd[20736]: Accepted password for vlund from 10.50.10.172 port 53762 ssh2 sessionid=SESSION-1359
+2026-07-01T09:58:34Z vpn-gw01 sshd[21524]: Failed password for gcosta from 10.50.14.242 port 42431 ssh2
+2026-07-01T11:16:47Z vpn-gw01 sshd[20722]: Accepted password for ocosta from 10.50.11.15 port 50356 ssh2 sessionid=SESSION-1352
+2026-07-01T11:25:03Z vpn-gw02 sshd[20702]: Accepted password for alund from 10.50.10.8 port 41977 ssh2 sessionid=SESSION-1342
+2026-07-01T11:25:18Z vpn-gw01 sshd[20696]: Accepted password for jlund from 10.50.13.111 port 53769 ssh2 sessionid=SESSION-1339
+2026-07-01T11:41:59Z vpn-gw02 sshd[20726]: Accepted password for framirez from 10.50.13.153 port 46927 ssh2 sessionid=SESSION-1354
+2026-07-01T12:28:31Z vpn-gw01 sshd[20710]: Accepted password for civanov from 10.50.12.64 port 34415 ssh2 sessionid=SESSION-1346
+2026-07-01T13:15:36Z vpn-gw02 sshd[20716]: Accepted password for nwong from 10.50.13.111 port 43126 ssh2 sessionid=SESSION-1349
+2026-07-01T13:42:05Z vpn-gw01 sshd[20706]: Accepted password for ssingh from 10.50.10.48 port 45961 ssh2 sessionid=SESSION-1344
+2026-07-01T14:06:28Z vpn-gw02 sshd[20714]: Accepted password for tcosta from 10.50.10.174 port 36973 ssh2 sessionid=SESSION-1348
+2026-07-01T14:14:06Z vpn-gw01 sshd[20712]: Accepted password for epatel from 10.50.12.64 port 38414 ssh2 sessionid=SESSION-1347
+2026-07-01T14:22:41Z vpn-gw02 sshd[20708]: Accepted password for pcosta from 10.50.10.216 port 38121 ssh2 sessionid=SESSION-1345
+2026-07-01T14:41:16Z vpn-gw02 sshd[20732]: Accepted password for cpatel from 10.50.11.181 port 46863 ssh2 sessionid=SESSION-1357
+2026-07-01T14:41:37Z vpn-gw01 sshd[20720]: Accepted password for eramirez from 10.50.12.20 port 41463 ssh2 sessionid=SESSION-1351
+2026-07-01T14:44:38Z vpn-gw01 sshd[21461]: Failed password for cpatel from 10.50.11.181 port 37524 ssh2
+2026-07-01T16:08:23Z vpn-gw01 sshd[21567]: Failed password for iivanov from 10.50.9.1 port 45315 ssh2
+2026-07-01T16:17:56Z vpn-gw02 sshd[21518]: Failed password for ssingh from 10.50.10.48 port 46792 ssh2
+2026-07-01T16:19:48Z vpn-gw01 sshd[20734]: Accepted password for ybell from 10.50.14.160 port 56917 ssh2 sessionid=SESSION-1358
+2026-07-01T16:28:46Z vpn-gw01 sshd[20738]: Accepted password for u221 from 10.50.12.186 port 57325 ssh2 sessionid=SESSION-1360
+2026-07-01T16:46:01Z vpn-gw01 sshd[20728]: Accepted password for ncosta from 10.50.12.188 port 43519 ssh2 sessionid=SESSION-1355
+2026-07-01T16:56:36Z vpn-gw02 sshd[20698]: Accepted password for mnkosi from 10.50.11.13 port 37956 ssh2 sessionid=SESSION-1340
+2026-07-01T17:05:11Z vpn-gw02 sshd[20724]: Accepted password for gcosta from 10.50.14.242 port 52746 ssh2 sessionid=SESSION-1353
+2026-07-01T17:38:34Z vpn-gw02 sshd[20727]: session closed for user framirez sessionid=SESSION-1354 duration=21395s
+2026-07-01T17:48:18Z vpn-gw02 sshd[20730]: Accepted password for rcosta from 10.50.11.139 port 37410 ssh2 sessionid=SESSION-1356
+2026-07-01T17:50:06Z vpn-gw02 sshd[20704]: Accepted password for llund from 10.50.14.36 port 43097 ssh2 sessionid=SESSION-1343
+2026-07-01T18:26:51Z vpn-gw01 sshd[20700]: Accepted password for kivanov from 10.50.12.228 port 39511 ssh2 sessionid=SESSION-1341
+2026-07-01T18:40:06Z vpn-gw02 sshd[20718]: Accepted password for hivanov from 10.50.10.174 port 58539 ssh2 sessionid=SESSION-1350
+2026-07-01T18:48:16Z vpn-gw01 sshd[20723]: session closed for user ocosta sessionid=SESSION-1352 duration=27089s
+2026-07-01T19:06:46Z vpn-gw01 sshd[20711]: session closed for user civanov sessionid=SESSION-1346 duration=23895s
+2026-07-01T19:08:56Z vpn-gw02 sshd[20703]: session closed for user alund sessionid=SESSION-1342 duration=27833s
+2026-07-01T19:26:40Z vpn-gw02 sshd[20737]: session closed for user vlund sessionid=SESSION-1359 duration=37508s
+2026-07-01T19:54:06Z vpn-gw01 sshd[20697]: session closed for user jlund sessionid=SESSION-1339 duration=30528s
+2026-07-01T20:09:03Z vpn-gw02 sshd[20709]: session closed for user pcosta sessionid=SESSION-1345 duration=20782s
+2026-07-01T20:54:17Z vpn-gw02 sshd[20733]: session closed for user cpatel sessionid=SESSION-1357 duration=22381s
+2026-07-01T20:56:22Z vpn-gw02 sshd[20715]: session closed for user tcosta sessionid=SESSION-1348 duration=24594s
+2026-07-01T21:18:24Z vpn-gw01 sshd[20713]: session closed for user epatel sessionid=SESSION-1347 duration=25458s
+2026-07-01T21:20:00Z vpn-gw01 sshd[20721]: session closed for user eramirez sessionid=SESSION-1351 duration=23903s
+2026-07-01T22:08:19Z vpn-gw02 sshd[20717]: session closed for user nwong sessionid=SESSION-1349 duration=31963s
+2026-07-01T22:42:33Z vpn-gw01 sshd[20707]: session closed for user ssingh sessionid=SESSION-1344 duration=32428s
+2026-07-01T23:04:30Z vpn-gw01 sshd[20701]: session closed for user kivanov sessionid=SESSION-1341 duration=16659s
+2026-07-01T23:21:01Z vpn-gw02 sshd[20719]: session closed for user hivanov sessionid=SESSION-1350 duration=16855s
+2026-07-01T23:21:58Z vpn-gw02 sshd[20725]: session closed for user gcosta sessionid=SESSION-1353 duration=22607s
+2026-07-01T23:26:21Z vpn-gw01 sshd[20729]: session closed for user ncosta sessionid=SESSION-1355 duration=24020s
+2026-07-01T23:30:47Z vpn-gw02 sshd[20705]: session closed for user llund sessionid=SESSION-1343 duration=20441s
+2026-07-01T23:33:28Z vpn-gw01 sshd[20739]: session closed for user u221 sessionid=SESSION-1360 duration=25482s
+2026-07-01T23:43:58Z vpn-gw02 sshd[20699]: session closed for user mnkosi sessionid=SESSION-1340 duration=24442s
+2026-07-01T23:49:52Z vpn-gw01 sshd[20735]: session closed for user ybell sessionid=SESSION-1358 duration=27004s
+2026-07-01T23:53:10Z vpn-gw02 sshd[20731]: session closed for user rcosta sessionid=SESSION-1356 duration=21892s
+2026-07-02T07:33:20Z vpn-gw01 sshd[20745]: Accepted password for alund from 10.50.10.8 port 57350 ssh2 sessionid=SESSION-1363
+2026-07-02T07:36:10Z vpn-gw02 sshd[20753]: Accepted password for epatel from 10.50.12.64 port 54119 ssh2 sessionid=SESSION-1367
+2026-07-02T10:11:25Z vpn-gw01 sshd[20759]: Accepted password for ocosta from 10.50.11.15 port 49212 ssh2 sessionid=SESSION-1370
+2026-07-02T10:18:05Z vpn-gw02 sshd[21487]: Failed password for eramirez from 10.50.12.20 port 54439 ssh2
+2026-07-02T10:22:48Z vpn-gw02 sshd[20747]: Accepted password for llund from 10.50.14.36 port 40916 ssh2 sessionid=SESSION-1364
+2026-07-02T10:26:53Z vpn-gw02 sshd[21557]: Failed password for pcosta from 10.50.10.216 port 58059 ssh2
+2026-07-02T11:28:03Z vpn-gw02 sshd[20772]: Accepted password for vlund from 10.50.10.172 port 54887 ssh2 sessionid=SESSION-1376
+2026-07-02T12:01:11Z vpn-gw01 sshd[20742]: Failed password for mnkosi from 10.50.11.13 port 30382 ssh2
+2026-07-02T12:04:27Z vpn-gw01 sshd[20774]: Accepted password for u221 from 10.50.12.186 port 58915 ssh2 sessionid=SESSION-1377
+2026-07-02T12:30:22Z vpn-gw01 sshd[20751]: Accepted password for civanov from 10.50.12.64 port 49719 ssh2 sessionid=SESSION-1366
+2026-07-02T14:38:41Z vpn-gw01 sshd[20755]: Accepted password for nwong from 10.50.13.111 port 59249 ssh2 sessionid=SESSION-1368
+2026-07-02T14:39:01Z vpn-gw01 sshd[20761]: Accepted password for gcosta from 10.50.14.242 port 45301 ssh2 sessionid=SESSION-1371
+2026-07-02T14:47:50Z vpn-gw02 sshd[20754]: session closed for user epatel sessionid=SESSION-1367 duration=25900s
+2026-07-02T14:56:05Z vpn-gw02 sshd[20770]: Accepted password for iivanov from 10.50.9.1 port 44596 ssh2 sessionid=SESSION-1375
+2026-07-02T15:15:00Z vpn-gw01 sshd[20743]: Accepted password for mnkosi from 10.50.11.13 port 38889 ssh2 sessionid=SESSION-1362
+2026-07-02T15:16:41Z vpn-gw02 sshd[20757]: Accepted password for eramirez from 10.50.12.20 port 54684 ssh2 sessionid=SESSION-1369
+2026-07-02T15:56:17Z vpn-gw02 sshd[20749]: Accepted password for ssingh from 10.50.10.48 port 33906 ssh2 sessionid=SESSION-1365
+2026-07-02T16:14:00Z vpn-gw01 sshd[20746]: session closed for user alund sessionid=SESSION-1363 duration=31240s
+2026-07-02T16:37:26Z vpn-gw02 sshd[20763]: Failed password for ncosta from 10.50.12.188 port 45415 ssh2
+2026-07-02T17:29:28Z vpn-gw01 sshd[20766]: Accepted password for cpatel from 10.50.11.181 port 36692 ssh2 sessionid=SESSION-1373
+2026-07-02T17:36:31Z vpn-gw02 sshd[20773]: session closed for user vlund sessionid=SESSION-1376 duration=22108s
+2026-07-02T17:52:40Z vpn-gw01 sshd[20760]: session closed for user ocosta sessionid=SESSION-1370 duration=27675s
+2026-07-02T18:08:58Z vpn-gw01 sshd[20775]: session closed for user u221 sessionid=SESSION-1377 duration=21871s
+2026-07-02T18:14:49Z vpn-gw02 sshd[20768]: Accepted password for ybell from 10.50.14.160 port 56962 ssh2 sessionid=SESSION-1374
+2026-07-02T18:17:32Z vpn-gw02 sshd[20740]: Accepted password for jlund from 10.50.13.111 port 31627 ssh2 sessionid=SESSION-1361
+2026-07-02T18:19:37Z vpn-gw02 sshd[20764]: Accepted password for ncosta from 10.50.12.188 port 45967 ssh2 sessionid=SESSION-1372
+2026-07-02T19:24:53Z vpn-gw01 sshd[20752]: session closed for user civanov sessionid=SESSION-1366 duration=24871s
+2026-07-02T20:04:33Z vpn-gw02 sshd[20748]: session closed for user llund sessionid=SESSION-1364 duration=34905s
+2026-07-02T21:38:17Z vpn-gw01 sshd[20762]: session closed for user gcosta sessionid=SESSION-1371 duration=25156s
+2026-07-02T22:44:24Z vpn-gw02 sshd[20771]: session closed for user iivanov sessionid=SESSION-1375 duration=28099s
+2026-07-02T23:07:47Z vpn-gw02 sshd[20750]: session closed for user ssingh sessionid=SESSION-1365 duration=25890s
+2026-07-02T23:10:39Z vpn-gw01 sshd[20767]: session closed for user cpatel sessionid=SESSION-1373 duration=20471s
+2026-07-02T23:19:31Z vpn-gw02 sshd[20769]: session closed for user ybell sessionid=SESSION-1374 duration=18282s
+2026-07-02T23:19:42Z vpn-gw02 sshd[20765]: session closed for user ncosta sessionid=SESSION-1372 duration=18005s
+2026-07-02T23:21:14Z vpn-gw02 sshd[20741]: session closed for user jlund sessionid=SESSION-1361 duration=18222s
+2026-07-02T23:30:11Z vpn-gw01 sshd[20756]: session closed for user nwong sessionid=SESSION-1368 duration=31890s
+2026-07-02T23:35:06Z vpn-gw01 sshd[20744]: session closed for user mnkosi sessionid=SESSION-1362 duration=30006s
+2026-07-02T23:35:06Z vpn-gw02 sshd[20758]: session closed for user eramirez sessionid=SESSION-1369 duration=29905s
+2026-07-03T07:58:49Z vpn-gw02 sshd[21482]: Failed password for pcosta from 10.50.10.216 port 41103 ssh2
+2026-07-03T09:11:18Z vpn-gw02 sshd[20815]: Accepted password for vlund from 10.50.10.172 port 55370 ssh2 sessionid=SESSION-1397
+2026-07-03T09:42:32Z vpn-gw02 sshd[21485]: Failed password for nwong from 10.50.13.111 port 34530 ssh2
+2026-07-03T10:02:03Z vpn-gw01 sshd[21585]: Failed password for rcosta from 10.50.11.139 port 37090 ssh2
+2026-07-03T10:26:56Z vpn-gw02 sshd[20792]: Accepted password for epatel from 10.50.12.64 port 31595 ssh2 sessionid=SESSION-1386
+2026-07-03T11:13:42Z vpn-gw02 sshd[20798]: Accepted password for ocosta from 10.50.11.15 port 30055 ssh2 sessionid=SESSION-1389
+2026-07-03T11:23:08Z vpn-gw01 sshd[20806]: Accepted password for rcosta from 10.50.11.139 port 45441 ssh2 sessionid=SESSION-1393
+2026-07-03T11:42:44Z vpn-gw01 sshd[20794]: Accepted password for hivanov from 10.50.10.174 port 41471 ssh2 sessionid=SESSION-1387
+2026-07-03T12:00:14Z vpn-gw02 sshd[20804]: Accepted password for ncosta from 10.50.12.188 port 33146 ssh2 sessionid=SESSION-1392
+2026-07-03T12:15:40Z vpn-gw02 sshd[21438]: Failed password for ssingh from 10.50.10.48 port 57475 ssh2
+2026-07-03T12:31:31Z vpn-gw02 sshd[20810]: Failed password for ybell from 10.50.14.160 port 50675 ssh2
+2026-07-03T12:32:38Z vpn-gw02 sshd[20813]: Accepted password for iivanov from 10.50.9.1 port 33919 ssh2 sessionid=SESSION-1396
+2026-07-03T12:37:37Z vpn-gw01 sshd[20782]: Accepted password for alund from 10.50.10.8 port 31193 ssh2 sessionid=SESSION-1381
+2026-07-03T13:20:39Z vpn-gw01 sshd[20790]: Accepted password for civanov from 10.50.12.64 port 53881 ssh2 sessionid=SESSION-1385
+2026-07-03T13:23:20Z vpn-gw02 sshd[20808]: Accepted password for cpatel from 10.50.11.181 port 32165 ssh2 sessionid=SESSION-1394
+2026-07-03T13:49:31Z vpn-gw01 sshd[20784]: Accepted password for llund from 10.50.14.36 port 52312 ssh2 sessionid=SESSION-1382
+2026-07-03T14:12:59Z vpn-gw02 sshd[20811]: Accepted password for ybell from 10.50.14.160 port 42037 ssh2 sessionid=SESSION-1395
+2026-07-03T15:51:30Z vpn-gw02 sshd[20786]: Accepted password for divanov from 10.50.9.209 port 55453 ssh2 sessionid=SESSION-1383
+2026-07-03T15:55:25Z vpn-gw02 sshd[20788]: Accepted password for pcosta from 10.50.10.216 port 42563 ssh2 sessionid=SESSION-1384
+2026-07-03T16:00:16Z vpn-gw01 sshd[20817]: Accepted password for u221 from 10.50.12.186 port 57634 ssh2 sessionid=SESSION-1398
+2026-07-03T16:41:35Z vpn-gw02 sshd[20816]: session closed for user vlund sessionid=SESSION-1397 duration=27017s
+2026-07-03T16:43:40Z vpn-gw02 sshd[20776]: Accepted password for jlund from 10.50.13.111 port 40718 ssh2 sessionid=SESSION-1378
+2026-07-03T16:56:09Z vpn-gw02 sshd[20802]: Accepted password for livanov from 10.50.12.186 port 56929 ssh2 sessionid=SESSION-1391
+2026-07-03T17:31:39Z vpn-gw02 sshd[20800]: Accepted password for framirez from 10.50.13.153 port 34650 ssh2 sessionid=SESSION-1390
+2026-07-03T17:42:56Z vpn-gw01 sshd[20778]: Accepted password for mnkosi from 10.50.11.13 port 56874 ssh2 sessionid=SESSION-1379
+2026-07-03T17:46:20Z vpn-gw02 sshd[20799]: session closed for user ocosta sessionid=SESSION-1389 duration=23558s
+2026-07-03T18:08:21Z vpn-gw01 sshd[20780]: Accepted password for kivanov from 10.50.12.228 port 38247 ssh2 sessionid=SESSION-1380
+2026-07-03T18:13:22Z vpn-gw01 sshd[20796]: Accepted password for eramirez from 10.50.12.20 port 44163 ssh2 sessionid=SESSION-1388
+2026-07-03T18:29:46Z vpn-gw02 sshd[20793]: session closed for user epatel sessionid=SESSION-1386 duration=28970s
+2026-07-03T18:50:18Z vpn-gw02 sshd[21451]: Failed password for rcosta from 10.50.11.139 port 31955 ssh2
+2026-07-03T19:07:43Z vpn-gw01 sshd[20783]: session closed for user alund sessionid=SESSION-1381 duration=23406s
+2026-07-03T19:27:15Z vpn-gw02 sshd[20805]: session closed for user ncosta sessionid=SESSION-1392 duration=26821s
+2026-07-03T19:28:19Z vpn-gw01 sshd[20807]: session closed for user rcosta sessionid=SESSION-1393 duration=29111s
+2026-07-03T20:21:02Z vpn-gw01 sshd[20795]: session closed for user hivanov sessionid=SESSION-1387 duration=31098s
+2026-07-03T20:23:06Z vpn-gw02 sshd[20809]: session closed for user cpatel sessionid=SESSION-1394 duration=25186s
+2026-07-03T20:28:38Z vpn-gw02 sshd[20812]: session closed for user ybell sessionid=SESSION-1395 duration=22539s
+2026-07-03T21:24:47Z vpn-gw01 sshd[20785]: session closed for user llund sessionid=SESSION-1382 duration=27316s
+2026-07-03T21:25:18Z vpn-gw02 sshd[20789]: session closed for user pcosta sessionid=SESSION-1384 duration=19793s
+2026-07-03T21:32:45Z vpn-gw02 sshd[20814]: session closed for user iivanov sessionid=SESSION-1396 duration=32407s
+2026-07-03T21:48:17Z vpn-gw02 sshd[20787]: session closed for user divanov sessionid=SESSION-1383 duration=21407s
+2026-07-03T21:50:30Z vpn-gw01 sshd[20791]: session closed for user civanov sessionid=SESSION-1385 duration=30591s
+2026-07-03T23:03:30Z vpn-gw01 sshd[20797]: session closed for user eramirez sessionid=SESSION-1388 duration=17408s
+2026-07-03T23:07:17Z vpn-gw02 sshd[20777]: session closed for user jlund sessionid=SESSION-1378 duration=23017s
+2026-07-03T23:10:18Z vpn-gw01 sshd[20818]: session closed for user u221 sessionid=SESSION-1398 duration=25802s
+2026-07-03T23:21:21Z vpn-gw01 sshd[20781]: session closed for user kivanov sessionid=SESSION-1380 duration=18780s
+2026-07-03T23:25:18Z vpn-gw01 sshd[20779]: session closed for user mnkosi sessionid=SESSION-1379 duration=20542s
+2026-07-03T23:30:56Z vpn-gw02 sshd[20801]: session closed for user framirez sessionid=SESSION-1390 duration=21557s
+2026-07-03T23:40:07Z vpn-gw02 sshd[20803]: session closed for user livanov sessionid=SESSION-1391 duration=24238s
+2026-07-04T10:23:33Z vpn-gw02 sshd[21599]: Failed password for kivanov from 10.50.12.228 port 45810 ssh2
+2026-07-04T12:50:09Z vpn-gw02 sshd[21619]: Failed password for ncosta from 10.50.12.188 port 36463 ssh2
+2026-07-04T14:37:56Z vpn-gw02 sshd[21475]: Failed password for rcosta from 10.50.11.139 port 34342 ssh2
+2026-07-04T15:57:49Z vpn-gw01 sshd[21575]: Failed password for divanov from 10.50.9.209 port 52970 ssh2
+2026-07-05T10:19:30Z vpn-gw01 sshd[21523]: Failed password for vlund from 10.50.10.172 port 33481 ssh2
+2026-07-05T10:50:12Z vpn-gw02 sshd[21547]: Failed password for mnkosi from 10.50.11.13 port 38227 ssh2
+2026-07-05T17:15:37Z vpn-gw02 sshd[21589]: Failed password for vlund from 10.50.10.172 port 46211 ssh2
+2026-07-05T18:58:13Z vpn-gw02 sshd[21502]: Failed password for u221 from 10.50.12.186 port 57723 ssh2
+2026-07-06T07:02:13Z vpn-gw01 sshd[20837]: Accepted password for hivanov from 10.50.10.174 port 46601 ssh2 sessionid=SESSION-1408
+2026-07-06T07:09:20Z vpn-gw01 sshd[21509]: Failed password for iivanov from 10.50.9.1 port 42453 ssh2
+2026-07-06T07:16:34Z vpn-gw01 sshd[20835]: Accepted password for nwong from 10.50.13.111 port 56511 ssh2 sessionid=SESSION-1407
+2026-07-06T07:23:21Z vpn-gw02 sshd[20844]: Accepted password for livanov from 10.50.12.186 port 48544 ssh2 sessionid=SESSION-1411
+2026-07-06T07:58:57Z vpn-gw02 sshd[20831]: Accepted password for epatel from 10.50.12.64 port 39412 ssh2 sessionid=SESSION-1405
+2026-07-06T08:08:52Z vpn-gw01 sshd[20852]: Accepted password for iivanov from 10.50.9.1 port 59996 ssh2 sessionid=SESSION-1415
+2026-07-06T10:11:41Z vpn-gw01 sshd[20823]: Accepted password for kivanov from 10.50.12.228 port 34811 ssh2 sessionid=SESSION-1401
+2026-07-06T10:28:12Z vpn-gw01 sshd[20850]: Accepted password for cpatel from 10.50.11.181 port 56525 ssh2 sessionid=SESSION-1414
+2026-07-06T10:37:44Z vpn-gw01 sshd[20827]: Accepted password for divanov from 10.50.9.209 port 48001 ssh2 sessionid=SESSION-1403
+2026-07-06T11:10:21Z vpn-gw01 sshd[20819]: Accepted password for jlund from 10.50.13.111 port 41639 ssh2 sessionid=SESSION-1399
+2026-07-06T11:26:55Z vpn-gw02 sshd[20843]: Failed password for livanov from 10.50.12.186 port 32613 ssh2
+2026-07-06T12:22:03Z vpn-gw01 sshd[20846]: Accepted password for ncosta from 10.50.12.188 port 51311 ssh2 sessionid=SESSION-1412
+2026-07-06T13:16:49Z vpn-gw01 sshd[20854]: Accepted password for vlund from 10.50.10.172 port 30913 ssh2 sessionid=SESSION-1416
+2026-07-06T13:24:50Z vpn-gw02 sshd[20821]: Accepted password for mnkosi from 10.50.11.13 port 46986 ssh2 sessionid=SESSION-1400
+2026-07-06T14:07:27Z vpn-gw02 sshd[20832]: session closed for user epatel sessionid=SESSION-1405 duration=22110s
+2026-07-06T14:27:00Z vpn-gw01 sshd[20829]: Accepted password for pcosta from 10.50.10.216 port 42426 ssh2 sessionid=SESSION-1404
+2026-07-06T14:39:44Z vpn-gw01 sshd[20833]: Accepted password for tcosta from 10.50.10.174 port 47891 ssh2 sessionid=SESSION-1406
+2026-07-06T14:40:27Z vpn-gw01 sshd[20853]: session closed for user iivanov sessionid=SESSION-1415 duration=23495s
+2026-07-06T15:50:08Z vpn-gw02 sshd[20845]: session closed for user livanov sessionid=SESSION-1411 duration=30407s
+2026-07-06T16:09:39Z vpn-gw01 sshd[20828]: session closed for user divanov sessionid=SESSION-1403 duration=19915s
+2026-07-06T16:54:47Z vpn-gw01 sshd[20841]: Accepted password for gcosta from 10.50.14.242 port 39903 ssh2 sessionid=SESSION-1410
+2026-07-06T16:59:29Z vpn-gw01 sshd[20838]: session closed for user hivanov sessionid=SESSION-1408 duration=35836s
+2026-07-06T17:00:05Z vpn-gw01 sshd[21452]: Failed password for iivanov from 10.50.9.1 port 53017 ssh2
+2026-07-06T17:09:13Z vpn-gw01 sshd[20820]: session closed for user jlund sessionid=SESSION-1399 duration=21532s
+2026-07-06T17:17:38Z vpn-gw01 sshd[20856]: Accepted password for u221 from 10.50.12.186 port 49455 ssh2 sessionid=SESSION-1417
+2026-07-06T17:21:27Z vpn-gw01 sshd[20836]: session closed for user nwong sessionid=SESSION-1407 duration=36293s
+2026-07-06T17:24:00Z vpn-gw02 sshd[20839]: Accepted password for ocosta from 10.50.11.15 port 49108 ssh2 sessionid=SESSION-1409
+2026-07-06T17:39:06Z vpn-gw02 sshd[20848]: Accepted password for rcosta from 10.50.11.139 port 57582 ssh2 sessionid=SESSION-1413
+2026-07-06T17:59:28Z vpn-gw01 sshd[20825]: Accepted password for llund from 10.50.14.36 port 38235 ssh2 sessionid=SESSION-1402
+2026-07-06T18:05:47Z vpn-gw01 sshd[20851]: session closed for user cpatel sessionid=SESSION-1414 duration=27455s
+2026-07-06T18:59:30Z vpn-gw01 sshd[20847]: session closed for user ncosta sessionid=SESSION-1412 duration=23847s
+2026-07-06T20:10:02Z vpn-gw01 sshd[20824]: session closed for user kivanov sessionid=SESSION-1401 duration=35901s
+2026-07-06T20:11:43Z vpn-gw01 sshd[20855]: session closed for user vlund sessionid=SESSION-1416 duration=24894s
+2026-07-06T20:11:47Z vpn-gw02 sshd[20822]: session closed for user mnkosi sessionid=SESSION-1400 duration=24417s
+2026-07-06T21:16:39Z vpn-gw01 sshd[20830]: session closed for user pcosta sessionid=SESSION-1404 duration=24579s
+2026-07-06T22:43:35Z vpn-gw01 sshd[20842]: session closed for user gcosta sessionid=SESSION-1410 duration=20928s
+2026-07-06T23:11:29Z vpn-gw01 sshd[20857]: session closed for user u221 sessionid=SESSION-1417 duration=21231s
+2026-07-06T23:17:10Z vpn-gw02 sshd[20840]: session closed for user ocosta sessionid=SESSION-1409 duration=21190s
+2026-07-06T23:18:15Z vpn-gw01 sshd[20826]: session closed for user llund sessionid=SESSION-1402 duration=19127s
+2026-07-06T23:21:16Z vpn-gw01 sshd[20834]: session closed for user tcosta sessionid=SESSION-1406 duration=31292s
+2026-07-06T23:38:20Z vpn-gw02 sshd[20849]: session closed for user rcosta sessionid=SESSION-1413 duration=21554s
+2026-07-07T08:51:49Z vpn-gw01 sshd[20887]: Accepted password for ocosta from 10.50.11.15 port 55470 ssh2 sessionid=SESSION-1432
+2026-07-07T09:15:27Z vpn-gw02 sshd[20893]: Accepted password for ncosta from 10.50.12.188 port 33398 ssh2 sessionid=SESSION-1435
+2026-07-07T10:25:29Z vpn-gw02 sshd[20891]: Accepted password for livanov from 10.50.12.186 port 39312 ssh2 sessionid=SESSION-1434
+2026-07-07T10:43:32Z vpn-gw01 sshd[20883]: Accepted password for hivanov from 10.50.10.174 port 46283 ssh2 sessionid=SESSION-1430
+2026-07-07T10:56:07Z vpn-gw01 sshd[20861]: Accepted password for mnkosi from 10.50.11.13 port 36896 ssh2 sessionid=SESSION-1419
+2026-07-07T11:08:51Z vpn-gw01 sshd[20903]: Accepted password for vlund from 10.50.10.172 port 57122 ssh2 sessionid=SESSION-1440
+2026-07-07T11:09:29Z vpn-gw01 sshd[20869]: Accepted password for ssingh from 10.50.10.48 port 39384 ssh2 sessionid=SESSION-1423
+2026-07-07T11:46:27Z vpn-gw02 sshd[20881]: Accepted password for nwong from 10.50.13.111 port 59283 ssh2 sessionid=SESSION-1429
+2026-07-07T12:23:05Z vpn-gw02 sshd[20899]: Accepted password for ybell from 10.50.14.160 port 51902 ssh2 sessionid=SESSION-1438
+2026-07-07T12:24:40Z vpn-gw01 sshd[20858]: Failed password for jlund from 10.50.13.111 port 58439 ssh2
+2026-07-07T12:45:01Z vpn-gw02 sshd[20889]: Accepted password for framirez from 10.50.13.153 port 42397 ssh2 sessionid=SESSION-1433
+2026-07-07T13:11:46Z vpn-gw02 sshd[21491]: Failed password for civanov from 10.50.12.64 port 56689 ssh2
+2026-07-07T13:12:06Z vpn-gw01 sshd[20859]: Accepted password for jlund from 10.50.13.111 port 59126 ssh2 sessionid=SESSION-1418
+2026-07-07T14:01:58Z vpn-gw01 sshd[20875]: Accepted password for civanov from 10.50.12.64 port 49909 ssh2 sessionid=SESSION-1426
+2026-07-07T14:02:32Z vpn-gw02 sshd[20879]: Accepted password for tcosta from 10.50.10.174 port 46555 ssh2 sessionid=SESSION-1428
+2026-07-07T14:05:35Z vpn-gw01 sshd[20867]: Accepted password for llund from 10.50.14.36 port 51134 ssh2 sessionid=SESSION-1422
+2026-07-07T14:39:28Z vpn-gw02 sshd[20895]: Accepted password for rcosta from 10.50.11.139 port 58112 ssh2 sessionid=SESSION-1436
+2026-07-07T15:27:15Z vpn-gw01 sshd[21479]: Failed password for llund from 10.50.14.36 port 50390 ssh2
+2026-07-07T15:33:09Z vpn-gw02 sshd[21630]: Failed password for gcosta from 10.50.14.242 port 59176 ssh2
+2026-07-07T15:51:16Z vpn-gw02 sshd[21615]: Failed password for vlund from 10.50.10.172 port 37158 ssh2
+2026-07-07T16:05:14Z vpn-gw02 sshd[20901]: Accepted password for iivanov from 10.50.9.1 port 41407 ssh2 sessionid=SESSION-1439
+2026-07-07T16:27:57Z vpn-gw01 sshd[20884]: session closed for user hivanov sessionid=SESSION-1430 duration=20665s
+2026-07-07T16:32:31Z vpn-gw01 sshd[20885]: Accepted password for eramirez from 10.50.12.20 port 37385 ssh2 sessionid=SESSION-1431
+2026-07-07T16:40:59Z vpn-gw01 sshd[20862]: session closed for user mnkosi sessionid=SESSION-1419 duration=20692s
+2026-07-07T16:49:19Z vpn-gw02 sshd[20894]: session closed for user ncosta sessionid=SESSION-1435 duration=27232s
+2026-07-07T17:05:44Z vpn-gw02 sshd[20905]: Accepted password for u221 from 10.50.12.186 port 56951 ssh2 sessionid=SESSION-1441
+2026-07-07T17:11:45Z vpn-gw01 sshd[20888]: session closed for user ocosta sessionid=SESSION-1432 duration=29996s
+2026-07-07T17:27:32Z vpn-gw01 sshd[20873]: Accepted password for pcosta from 10.50.10.216 port 42026 ssh2 sessionid=SESSION-1425
+2026-07-07T17:28:59Z vpn-gw01 sshd[20865]: Accepted password for alund from 10.50.10.8 port 53542 ssh2 sessionid=SESSION-1421
+2026-07-07T17:40:31Z vpn-gw01 sshd[20871]: Accepted password for divanov from 10.50.9.209 port 40291 ssh2 sessionid=SESSION-1424
+2026-07-07T17:40:38Z vpn-gw02 sshd[21525]: Failed password for hivanov from 10.50.10.174 port 46149 ssh2
+2026-07-07T17:41:00Z vpn-gw01 sshd[20863]: Accepted password for kivanov from 10.50.12.228 port 32489 ssh2 sessionid=SESSION-1420
+2026-07-07T17:52:01Z vpn-gw01 sshd[20877]: Accepted password for epatel from 10.50.12.64 port 34256 ssh2 sessionid=SESSION-1427
+2026-07-07T17:52:35Z vpn-gw01 sshd[20870]: session closed for user ssingh sessionid=SESSION-1423 duration=24186s
+2026-07-07T17:55:59Z vpn-gw02 sshd[20897]: Accepted password for cpatel from 10.50.11.181 port 46783 ssh2 sessionid=SESSION-1437
+2026-07-07T18:11:31Z vpn-gw02 sshd[20882]: session closed for user nwong sessionid=SESSION-1429 duration=23104s
+2026-07-07T19:04:59Z vpn-gw02 sshd[20892]: session closed for user livanov sessionid=SESSION-1434 duration=31170s
+2026-07-07T19:22:41Z vpn-gw01 sshd[20860]: session closed for user jlund sessionid=SESSION-1418 duration=22235s
+2026-07-07T20:13:37Z vpn-gw02 sshd[20900]: session closed for user ybell sessionid=SESSION-1438 duration=28232s
+2026-07-07T20:26:42Z vpn-gw01 sshd[20904]: session closed for user vlund sessionid=SESSION-1440 duration=33471s
+2026-07-07T21:41:16Z vpn-gw02 sshd[20890]: session closed for user framirez sessionid=SESSION-1433 duration=32175s
+2026-07-07T22:42:26Z vpn-gw02 sshd[20880]: session closed for user tcosta sessionid=SESSION-1428 duration=31194s
+2026-07-07T22:50:33Z vpn-gw01 sshd[20876]: session closed for user civanov sessionid=SESSION-1426 duration=31715s
+2026-07-07T23:06:13Z vpn-gw01 sshd[20868]: session closed for user llund sessionid=SESSION-1422 duration=32438s
+2026-07-07T23:09:00Z vpn-gw01 sshd[20866]: session closed for user alund sessionid=SESSION-1421 duration=20401s
+2026-07-07T23:27:54Z vpn-gw02 sshd[20898]: session closed for user cpatel sessionid=SESSION-1437 duration=19915s
+2026-07-07T23:28:54Z vpn-gw01 sshd[20886]: session closed for user eramirez sessionid=SESSION-1431 duration=24983s
+2026-07-07T23:33:46Z vpn-gw02 sshd[20896]: session closed for user rcosta sessionid=SESSION-1436 duration=32058s
+2026-07-07T23:34:04Z vpn-gw02 sshd[20902]: session closed for user iivanov sessionid=SESSION-1439 duration=26930s
+2026-07-07T23:40:59Z vpn-gw01 sshd[20874]: session closed for user pcosta sessionid=SESSION-1425 duration=22407s
+2026-07-07T23:48:09Z vpn-gw01 sshd[20864]: session closed for user kivanov sessionid=SESSION-1420 duration=22029s
+2026-07-07T23:48:45Z vpn-gw02 sshd[20906]: session closed for user u221 sessionid=SESSION-1441 duration=24181s
+2026-07-07T23:50:52Z vpn-gw01 sshd[20878]: session closed for user epatel sessionid=SESSION-1427 duration=21531s
+2026-07-07T23:55:23Z vpn-gw01 sshd[20872]: session closed for user divanov sessionid=SESSION-1424 duration=22492s
+2026-07-08T07:08:49Z vpn-gw01 sshd[21470]: Failed password for gcosta from 10.50.14.242 port 57290 ssh2
+2026-07-08T07:25:23Z vpn-gw01 sshd[20915]: Accepted password for ssingh from 10.50.10.48 port 46032 ssh2 sessionid=SESSION-1446
+2026-07-08T07:27:38Z vpn-gw02 sshd[20909]: Accepted password for kivanov from 10.50.12.228 port 59457 ssh2 sessionid=SESSION-1443
+2026-07-08T07:31:40Z vpn-gw01 sshd[20922]: Accepted password for tcosta from 10.50.10.174 port 39385 ssh2 sessionid=SESSION-1449
+2026-07-08T07:50:10Z vpn-gw01 sshd[20928]: Accepted password for ocosta from 10.50.11.15 port 32267 ssh2 sessionid=SESSION-1452
+2026-07-08T07:55:06Z vpn-gw02 sshd[20913]: Accepted password for llund from 10.50.14.36 port 48005 ssh2 sessionid=SESSION-1445
+2026-07-08T08:43:31Z vpn-gw02 sshd[20932]: Accepted password for ncosta from 10.50.12.188 port 59640 ssh2 sessionid=SESSION-1454
+2026-07-08T09:35:47Z vpn-gw01 sshd[20926]: Accepted password for hivanov from 10.50.10.174 port 42878 ssh2 sessionid=SESSION-1451
+2026-07-08T09:57:09Z vpn-gw02 sshd[21495]: Failed password for tcosta from 10.50.10.174 port 33875 ssh2
+2026-07-08T10:54:29Z vpn-gw01 sshd[21581]: Failed password for iivanov from 10.50.9.1 port 51523 ssh2
+2026-07-08T10:55:25Z vpn-gw02 sshd[20917]: Failed password for divanov from 10.50.9.209 port 51165 ssh2
+2026-07-08T11:12:43Z vpn-gw02 sshd[20942]: Accepted password for vlund from 10.50.10.172 port 34513 ssh2 sessionid=SESSION-1459
+2026-07-08T11:32:06Z vpn-gw02 sshd[20930]: Accepted password for livanov from 10.50.12.186 port 32411 ssh2 sessionid=SESSION-1453
+2026-07-08T11:45:29Z vpn-gw01 sshd[20924]: Accepted password for nwong from 10.50.13.111 port 49415 ssh2 sessionid=SESSION-1450
+2026-07-08T12:01:20Z vpn-gw02 sshd[20907]: Accepted password for jlund from 10.50.13.111 port 38358 ssh2 sessionid=SESSION-1442
+2026-07-08T12:21:25Z vpn-gw01 sshd[20940]: Accepted password for iivanov from 10.50.9.1 port 58718 ssh2 sessionid=SESSION-1458
+2026-07-08T13:20:07Z vpn-gw02 sshd[21535]: Failed password for ybell from 10.50.14.160 port 43962 ssh2
+2026-07-08T13:36:15Z vpn-gw01 sshd[20923]: session closed for user tcosta sessionid=SESSION-1449 duration=21875s
+2026-07-08T13:51:53Z vpn-gw01 sshd[20929]: session closed for user ocosta sessionid=SESSION-1452 duration=21703s
+2026-07-08T14:52:35Z vpn-gw02 sshd[20918]: Accepted password for divanov from 10.50.9.209 port 43482 ssh2 sessionid=SESSION-1447
+2026-07-08T15:04:15Z vpn-gw01 sshd[20916]: session closed for user ssingh sessionid=SESSION-1446 duration=27532s
+2026-07-08T15:18:21Z vpn-gw01 sshd[21488]: Failed password for nwong from 10.50.13.111 port 57481 ssh2
+2026-07-08T15:46:52Z vpn-gw02 sshd[20920]: Accepted password for civanov from 10.50.12.64 port 43849 ssh2 sessionid=SESSION-1448
+2026-07-08T16:30:38Z vpn-gw01 sshd[20927]: session closed for user hivanov sessionid=SESSION-1451 duration=24891s
+2026-07-08T16:59:53Z vpn-gw02 sshd[20911]: Accepted password for alund from 10.50.10.8 port 40546 ssh2 sessionid=SESSION-1444
+2026-07-08T17:08:14Z vpn-gw02 sshd[20910]: session closed for user kivanov sessionid=SESSION-1443 duration=34836s
+2026-07-08T17:35:14Z vpn-gw02 sshd[21604]: Failed password for mnkosi from 10.50.11.13 port 50038 ssh2
+2026-07-08T17:37:44Z vpn-gw01 sshd[20936]: Accepted password for cpatel from 10.50.11.181 port 33728 ssh2 sessionid=SESSION-1456
+2026-07-08T17:59:19Z vpn-gw02 sshd[20914]: session closed for user llund sessionid=SESSION-1445 duration=36253s
+2026-07-08T18:00:23Z vpn-gw02 sshd[20931]: session closed for user livanov sessionid=SESSION-1453 duration=23297s
+2026-07-08T18:14:46Z vpn-gw02 sshd[20938]: Accepted password for ybell from 10.50.14.160 port 48434 ssh2 sessionid=SESSION-1457
+2026-07-08T18:18:46Z vpn-gw01 sshd[20934]: Accepted password for rcosta from 10.50.11.139 port 40174 ssh2 sessionid=SESSION-1455
+2026-07-08T18:21:50Z vpn-gw02 sshd[20908]: session closed for user jlund sessionid=SESSION-1442 duration=22830s
+2026-07-08T18:24:00Z vpn-gw01 sshd[20941]: session closed for user iivanov sessionid=SESSION-1458 duration=21755s
+2026-07-08T18:48:40Z vpn-gw02 sshd[20933]: session closed for user ncosta sessionid=SESSION-1454 duration=36309s
+2026-07-08T18:53:29Z vpn-gw01 sshd[21552]: Failed password for civanov from 10.50.12.64 port 45674 ssh2
+2026-07-08T20:41:40Z vpn-gw02 sshd[20943]: session closed for user vlund sessionid=SESSION-1459 duration=34137s
+2026-07-08T21:33:05Z vpn-gw01 sshd[20925]: session closed for user nwong sessionid=SESSION-1450 duration=35256s
+2026-07-08T22:34:33Z vpn-gw02 sshd[20921]: session closed for user civanov sessionid=SESSION-1448 duration=24461s
+2026-07-08T23:06:09Z vpn-gw01 sshd[20937]: session closed for user cpatel sessionid=SESSION-1456 duration=19705s
+2026-07-08T23:07:42Z vpn-gw02 sshd[20919]: session closed for user divanov sessionid=SESSION-1447 duration=29707s
+2026-07-08T23:17:34Z vpn-gw02 sshd[20912]: session closed for user alund sessionid=SESSION-1444 duration=22661s
+2026-07-08T23:27:04Z vpn-gw02 sshd[20939]: session closed for user ybell sessionid=SESSION-1457 duration=18738s
+2026-07-08T23:45:53Z vpn-gw01 sshd[20935]: session closed for user rcosta sessionid=SESSION-1455 duration=19627s
+2026-07-09T07:10:03Z vpn-gw01 sshd[20957]: Accepted password for nwong from 10.50.13.111 port 34475 ssh2 sessionid=SESSION-1466
+2026-07-09T07:36:37Z vpn-gw02 sshd[20961]: Accepted password for eramirez from 10.50.12.20 port 45029 ssh2 sessionid=SESSION-1468
+2026-07-09T07:43:16Z vpn-gw02 sshd[20973]: Accepted password for ybell from 10.50.14.160 port 43109 ssh2 sessionid=SESSION-1474
+2026-07-09T07:43:22Z vpn-gw01 sshd[20946]: Accepted password for mnkosi from 10.50.11.13 port 59845 ssh2 sessionid=SESSION-1461
+2026-07-09T07:45:56Z vpn-gw01 sshd[20948]: Accepted password for ssingh from 10.50.10.48 port 44962 ssh2 sessionid=SESSION-1462
+2026-07-09T08:08:32Z vpn-gw01 sshd[20971]: Accepted password for rcosta from 10.50.11.139 port 52332 ssh2 sessionid=SESSION-1473
+2026-07-09T08:30:34Z vpn-gw02 sshd[20959]: Accepted password for hivanov from 10.50.10.174 port 31474 ssh2 sessionid=SESSION-1467
+2026-07-09T09:03:49Z vpn-gw02 sshd[20953]: Accepted password for pcosta from 10.50.10.216 port 42090 ssh2 sessionid=SESSION-1464
+2026-07-09T10:08:18Z vpn-gw01 sshd[20977]: Accepted password for vlund from 10.50.10.172 port 58920 ssh2 sessionid=SESSION-1476
+2026-07-09T10:58:18Z vpn-gw02 sshd[20963]: Accepted password for ocosta from 10.50.11.15 port 59969 ssh2 sessionid=SESSION-1469
+2026-07-09T11:34:53Z vpn-gw01 sshd[20965]: Accepted password for gcosta from 10.50.14.242 port 35544 ssh2 sessionid=SESSION-1470
+2026-07-09T12:02:32Z vpn-gw02 sshd[20951]: Accepted password for divanov from 10.50.9.209 port 34442 ssh2 sessionid=SESSION-1463
+2026-07-09T12:40:20Z vpn-gw02 sshd[20950]: Failed password for divanov from 10.50.9.209 port 42630 ssh2
+2026-07-09T13:02:02Z vpn-gw02 sshd[20967]: Accepted password for framirez from 10.50.13.153 port 53878 ssh2 sessionid=SESSION-1471
+2026-07-09T13:19:57Z vpn-gw02 sshd[21497]: Failed password for vlund from 10.50.10.172 port 36788 ssh2
+2026-07-09T13:25:11Z vpn-gw02 sshd[20974]: session closed for user ybell sessionid=SESSION-1474 duration=20515s
+2026-07-09T13:28:03Z vpn-gw01 sshd[20947]: session closed for user mnkosi sessionid=SESSION-1461 duration=20681s
+2026-07-09T14:06:19Z vpn-gw01 sshd[20958]: session closed for user nwong sessionid=SESSION-1466 duration=24976s
+2026-07-09T14:54:43Z vpn-gw01 sshd[20975]: Accepted password for iivanov from 10.50.9.1 port 50805 ssh2 sessionid=SESSION-1475
+2026-07-09T15:13:18Z vpn-gw01 sshd[20969]: Accepted password for livanov from 10.50.12.186 port 59421 ssh2 sessionid=SESSION-1472
+2026-07-09T15:50:49Z vpn-gw02 sshd[20960]: session closed for user hivanov sessionid=SESSION-1467 duration=26415s
+2026-07-09T16:23:17Z vpn-gw01 sshd[20978]: session closed for user vlund sessionid=SESSION-1476 duration=22499s
+2026-07-09T16:24:08Z vpn-gw01 sshd[20949]: session closed for user ssingh sessionid=SESSION-1462 duration=31092s
+2026-07-09T16:43:56Z vpn-gw01 sshd[20972]: session closed for user rcosta sessionid=SESSION-1473 duration=30924s
+2026-07-09T17:02:50Z vpn-gw02 sshd[20962]: session closed for user eramirez sessionid=SESSION-1468 duration=33973s
+2026-07-09T17:19:11Z vpn-gw02 sshd[20954]: session closed for user pcosta sessionid=SESSION-1464 duration=29722s
+2026-07-09T17:31:22Z vpn-gw01 sshd[20966]: session closed for user gcosta sessionid=SESSION-1470 duration=21389s
+2026-07-09T17:57:56Z vpn-gw02 sshd[20964]: session closed for user ocosta sessionid=SESSION-1469 duration=25178s
+2026-07-09T18:24:31Z vpn-gw01 sshd[20979]: Accepted password for u221 from 10.50.12.186 port 40201 ssh2 sessionid=SESSION-1477
+2026-07-09T18:53:17Z vpn-gw02 sshd[20944]: Accepted password for jlund from 10.50.13.111 port 34029 ssh2 sessionid=SESSION-1460
+2026-07-09T18:57:12Z vpn-gw02 sshd[20955]: Accepted password for civanov from 10.50.12.64 port 42442 ssh2 sessionid=SESSION-1465
+2026-07-09T19:32:20Z vpn-gw02 sshd[20968]: session closed for user framirez sessionid=SESSION-1471 duration=23418s
+2026-07-09T21:38:17Z vpn-gw02 sshd[20952]: session closed for user divanov sessionid=SESSION-1463 duration=34545s
+2026-07-09T23:00:44Z vpn-gw01 sshd[20980]: session closed for user u221 sessionid=SESSION-1477 duration=16573s
+2026-07-09T23:22:37Z vpn-gw01 sshd[20976]: session closed for user iivanov sessionid=SESSION-1475 duration=30474s
+2026-07-09T23:42:52Z vpn-gw02 sshd[20945]: session closed for user jlund sessionid=SESSION-1460 duration=17375s
+2026-07-09T23:44:46Z vpn-gw01 sshd[20970]: session closed for user livanov sessionid=SESSION-1472 duration=30688s
+2026-07-09T23:46:03Z vpn-gw02 sshd[20956]: session closed for user civanov sessionid=SESSION-1465 duration=17331s
+2026-07-10T07:35:29Z vpn-gw02 sshd[21427]: Failed password for iivanov from 10.50.9.1 port 59209 ssh2
+2026-07-10T08:52:51Z vpn-gw01 sshd[20987]: Accepted password for divanov from 10.50.9.209 port 59452 ssh2 sessionid=SESSION-1481
+2026-07-10T09:43:27Z vpn-gw01 sshd[21017]: Accepted password for u221 from 10.50.12.186 port 34755 ssh2 sessionid=SESSION-1496
+2026-07-10T10:12:46Z vpn-gw01 sshd[21007]: Accepted password for ncosta from 10.50.12.188 port 53275 ssh2 sessionid=SESSION-1491
+2026-07-10T10:19:06Z vpn-gw02 sshd[21570]: Failed password for ybell from 10.50.14.160 port 57014 ssh2
+2026-07-10T10:49:52Z vpn-gw01 sshd[21001]: Accepted password for ocosta from 10.50.11.15 port 41365 ssh2 sessionid=SESSION-1488
+2026-07-10T10:52:46Z vpn-gw01 sshd[21005]: Accepted password for livanov from 10.50.12.186 port 30379 ssh2 sessionid=SESSION-1490
+2026-07-10T10:54:54Z vpn-gw02 sshd[21011]: Accepted password for cpatel from 10.50.11.181 port 41648 ssh2 sessionid=SESSION-1493
+2026-07-10T11:38:45Z vpn-gw01 sshd[20995]: Accepted password for nwong from 10.50.13.111 port 41137 ssh2 sessionid=SESSION-1485
+2026-07-10T11:56:39Z vpn-gw02 sshd[20989]: Accepted password for civanov from 10.50.12.64 port 40480 ssh2 sessionid=SESSION-1482
+2026-07-10T12:20:48Z vpn-gw02 sshd[21515]: Failed password for ssingh from 10.50.10.48 port 36990 ssh2
+2026-07-10T12:52:01Z vpn-gw01 sshd[21508]: Failed password for jlund from 10.50.13.111 port 37282 ssh2
+2026-07-10T13:11:36Z vpn-gw01 sshd[21439]: Failed password for ssingh from 10.50.10.48 port 55207 ssh2
+2026-07-10T13:14:22Z vpn-gw02 sshd[20983]: Accepted password for llund from 10.50.14.36 port 56900 ssh2 sessionid=SESSION-1479
+2026-07-10T13:19:58Z vpn-gw02 sshd[20981]: Accepted password for kivanov from 10.50.12.228 port 57487 ssh2 sessionid=SESSION-1478
+2026-07-10T14:29:12Z vpn-gw02 sshd[20997]: Accepted password for hivanov from 10.50.10.174 port 43722 ssh2 sessionid=SESSION-1486
+2026-07-10T14:49:09Z vpn-gw01 sshd[20988]: session closed for user divanov sessionid=SESSION-1481 duration=21378s
+2026-07-10T15:41:53Z vpn-gw02 sshd[21015]: Accepted password for vlund from 10.50.10.172 port 53591 ssh2 sessionid=SESSION-1495
+2026-07-10T15:52:32Z vpn-gw01 sshd[21003]: Accepted password for framirez from 10.50.13.153 port 43464 ssh2 sessionid=SESSION-1489
+2026-07-10T16:15:33Z vpn-gw01 sshd[21018]: session closed for user u221 sessionid=SESSION-1496 duration=23526s
+2026-07-10T16:17:52Z vpn-gw01 sshd[20985]: Accepted password for ssingh from 10.50.10.48 port 38050 ssh2 sessionid=SESSION-1480
+2026-07-10T16:18:26Z vpn-gw02 sshd[21013]: Accepted password for iivanov from 10.50.9.1 port 55320 ssh2 sessionid=SESSION-1494
+2026-07-10T16:51:39Z vpn-gw01 sshd[21002]: session closed for user ocosta sessionid=SESSION-1488 duration=21707s
+2026-07-10T17:12:41Z vpn-gw02 sshd[20991]: Accepted password for epatel from 10.50.12.64 port 51541 ssh2 sessionid=SESSION-1483
+2026-07-10T17:13:59Z vpn-gw02 sshd[21009]: Accepted password for rcosta from 10.50.11.139 port 45455 ssh2 sessionid=SESSION-1492
+2026-07-10T17:46:45Z vpn-gw02 sshd[20990]: session closed for user civanov sessionid=SESSION-1482 duration=21006s
+2026-07-10T18:11:54Z vpn-gw02 sshd[20999]: Accepted password for eramirez from 10.50.12.20 port 55752 ssh2 sessionid=SESSION-1487
+2026-07-10T18:12:21Z vpn-gw01 sshd[20993]: Accepted password for tcosta from 10.50.10.174 port 42272 ssh2 sessionid=SESSION-1484
+2026-07-10T18:58:05Z vpn-gw02 sshd[21012]: session closed for user cpatel sessionid=SESSION-1493 duration=28991s
+2026-07-10T19:18:04Z vpn-gw01 sshd[21006]: session closed for user livanov sessionid=SESSION-1490 duration=30318s
+2026-07-10T19:58:24Z vpn-gw01 sshd[21008]: session closed for user ncosta sessionid=SESSION-1491 duration=35138s
+2026-07-10T21:33:09Z vpn-gw01 sshd[20996]: session closed for user nwong sessionid=SESSION-1485 duration=35664s
+2026-07-10T21:38:01Z vpn-gw01 sshd[21004]: session closed for user framirez sessionid=SESSION-1489 duration=20729s
+2026-07-10T22:30:43Z vpn-gw02 sshd[21014]: session closed for user iivanov sessionid=SESSION-1494 duration=22337s
+2026-07-10T23:09:44Z vpn-gw01 sshd[20986]: session closed for user ssingh sessionid=SESSION-1480 duration=24712s
+2026-07-10T23:10:54Z vpn-gw02 sshd[21000]: session closed for user eramirez sessionid=SESSION-1487 duration=17940s
+2026-07-10T23:12:30Z vpn-gw02 sshd[20998]: session closed for user hivanov sessionid=SESSION-1486 duration=31398s
+2026-07-10T23:26:05Z vpn-gw02 sshd[20982]: session closed for user kivanov sessionid=SESSION-1478 duration=36367s
+2026-07-10T23:26:13Z vpn-gw02 sshd[21010]: session closed for user rcosta sessionid=SESSION-1492 duration=22334s
+2026-07-10T23:37:10Z vpn-gw02 sshd[21016]: session closed for user vlund sessionid=SESSION-1495 duration=28517s
+2026-07-10T23:49:23Z vpn-gw02 sshd[20992]: session closed for user epatel sessionid=SESSION-1483 duration=23802s
+2026-07-10T23:49:24Z vpn-gw02 sshd[20984]: session closed for user llund sessionid=SESSION-1479 duration=38102s
+2026-07-10T23:57:10Z vpn-gw01 sshd[20994]: session closed for user tcosta sessionid=SESSION-1484 duration=20689s
+2026-07-11T08:40:19Z vpn-gw02 sshd[21489]: Failed password for cpatel from 10.50.11.181 port 55874 ssh2
+2026-07-11T13:46:46Z vpn-gw02 sshd[21631]: Failed password for u221 from 10.50.12.186 port 47850 ssh2
+2026-07-11T16:03:23Z vpn-gw01 sshd[21590]: Failed password for ybell from 10.50.14.160 port 42764 ssh2
+2026-07-11T16:46:41Z vpn-gw02 sshd[21625]: Failed password for epatel from 10.50.12.64 port 36177 ssh2
+2026-07-11T17:02:40Z vpn-gw01 sshd[21635]: Failed password for pcosta from 10.50.10.216 port 45082 ssh2
+2026-07-12T10:05:46Z vpn-gw01 sshd[21550]: Failed password for divanov from 10.50.9.209 port 41832 ssh2
+2026-07-12T16:49:30Z vpn-gw01 sshd[21511]: Failed password for civanov from 10.50.12.64 port 32670 ssh2
+2026-07-12T17:51:02Z vpn-gw02 sshd[21503]: Failed password for kivanov from 10.50.12.228 port 47769 ssh2
+2026-07-13T07:00:30Z vpn-gw02 sshd[21027]: Accepted password for ssingh from 10.50.10.48 port 38598 ssh2 sessionid=SESSION-1501
+2026-07-13T07:05:59Z vpn-gw01 sshd[21029]: Accepted password for pcosta from 10.50.10.216 port 37881 ssh2 sessionid=SESSION-1502
+2026-07-13T07:35:10Z vpn-gw01 sshd[21046]: Accepted password for framirez from 10.50.13.153 port 38587 ssh2 sessionid=SESSION-1510
+2026-07-13T07:37:14Z vpn-gw01 sshd[21519]: Failed password for gcosta from 10.50.14.242 port 54932 ssh2
+2026-07-13T07:43:13Z vpn-gw01 sshd[21025]: Accepted password for llund from 10.50.14.36 port 44414 ssh2 sessionid=SESSION-1500
+2026-07-13T10:12:32Z vpn-gw01 sshd[21050]: Accepted password for ncosta from 10.50.12.188 port 34816 ssh2 sessionid=SESSION-1512
+2026-07-13T10:48:41Z vpn-gw01 sshd[21061]: Accepted password for u221 from 10.50.12.186 port 34252 ssh2 sessionid=SESSION-1517
+2026-07-13T10:52:14Z vpn-gw01 sshd[21023]: Accepted password for alund from 10.50.10.8 port 49809 ssh2 sessionid=SESSION-1499
+2026-07-13T11:17:10Z vpn-gw01 sshd[21637]: Failed password for jlund from 10.50.13.111 port 44182 ssh2
+2026-07-13T11:34:00Z vpn-gw01 sshd[21019]: Accepted password for jlund from 10.50.13.111 port 43478 ssh2 sessionid=SESSION-1497
+2026-07-13T12:51:41Z vpn-gw02 sshd[21039]: Accepted password for eramirez from 10.50.12.20 port 57636 ssh2 sessionid=SESSION-1507
+2026-07-13T14:02:26Z vpn-gw02 sshd[21454]: Failed password for tcosta from 10.50.10.174 port 34531 ssh2
+2026-07-13T14:02:39Z vpn-gw02 sshd[21468]: Failed password for cpatel from 10.50.11.181 port 42983 ssh2
+2026-07-13T14:38:05Z vpn-gw02 sshd[21605]: Failed password for cpatel from 10.50.11.181 port 41018 ssh2
+2026-07-13T14:53:26Z vpn-gw01 sshd[21621]: Failed password for rcosta from 10.50.11.139 port 32376 ssh2
+2026-07-13T15:02:08Z vpn-gw02 sshd[21031]: Accepted password for civanov from 10.50.12.64 port 37620 ssh2 sessionid=SESSION-1503
+2026-07-13T15:04:26Z vpn-gw01 sshd[21041]: Failed password for ocosta from 10.50.11.15 port 54120 ssh2
+2026-07-13T15:09:22Z vpn-gw02 sshd[21028]: session closed for user ssingh sessionid=SESSION-1501 duration=29332s
+2026-07-13T16:07:03Z vpn-gw02 sshd[21044]: Accepted password for gcosta from 10.50.14.242 port 42470 ssh2 sessionid=SESSION-1509
+2026-07-13T16:12:33Z vpn-gw02 sshd[21057]: Accepted password for iivanov from 10.50.9.1 port 48420 ssh2 sessionid=SESSION-1515
+2026-07-13T16:15:30Z vpn-gw01 sshd[21021]: Accepted password for mnkosi from 10.50.11.13 port 42637 ssh2 sessionid=SESSION-1498
+2026-07-13T16:26:25Z vpn-gw01 sshd[21024]: session closed for user alund sessionid=SESSION-1499 duration=20051s
+2026-07-13T16:29:23Z vpn-gw01 sshd[21048]: Accepted password for livanov from 10.50.12.186 port 55011 ssh2 sessionid=SESSION-1511
+2026-07-13T16:39:32Z vpn-gw02 sshd[21059]: Accepted password for vlund from 10.50.10.172 port 38222 ssh2 sessionid=SESSION-1516
+2026-07-13T16:45:47Z vpn-gw01 sshd[21047]: session closed for user framirez sessionid=SESSION-1510 duration=33037s
+2026-07-13T16:45:49Z vpn-gw01 sshd[21037]: Accepted password for hivanov from 10.50.10.174 port 59379 ssh2 sessionid=SESSION-1506
+2026-07-13T16:50:43Z vpn-gw02 sshd[21052]: Accepted password for cpatel from 10.50.11.181 port 48248 ssh2 sessionid=SESSION-1513
+2026-07-13T17:06:44Z vpn-gw01 sshd[21026]: session closed for user llund sessionid=SESSION-1500 duration=33811s
+2026-07-13T17:13:30Z vpn-gw02 sshd[21056]: Failed password for iivanov from 10.50.9.1 port 32401 ssh2
+2026-07-13T17:54:29Z vpn-gw01 sshd[21030]: session closed for user pcosta sessionid=SESSION-1502 duration=38910s
+2026-07-13T17:58:28Z vpn-gw02 sshd[21054]: Accepted password for ybell from 10.50.14.160 port 44721 ssh2 sessionid=SESSION-1514
+2026-07-13T18:10:19Z vpn-gw01 sshd[21033]: Accepted password for tcosta from 10.50.10.174 port 36425 ssh2 sessionid=SESSION-1504
+2026-07-13T18:25:53Z vpn-gw01 sshd[21042]: Accepted password for ocosta from 10.50.11.15 port 45111 ssh2 sessionid=SESSION-1508
+2026-07-13T18:35:09Z vpn-gw02 sshd[21035]: Accepted password for nwong from 10.50.13.111 port 38356 ssh2 sessionid=SESSION-1505
+2026-07-13T18:58:30Z vpn-gw01 sshd[21062]: session closed for user u221 sessionid=SESSION-1517 duration=29389s
+2026-07-13T20:16:51Z vpn-gw01 sshd[21051]: session closed for user ncosta sessionid=SESSION-1512 duration=36259s
+2026-07-13T20:42:19Z vpn-gw01 sshd[21020]: session closed for user jlund sessionid=SESSION-1497 duration=32899s
+2026-07-13T20:47:09Z vpn-gw02 sshd[21040]: session closed for user eramirez sessionid=SESSION-1507 duration=28528s
+2026-07-13T23:03:37Z vpn-gw02 sshd[21058]: session closed for user iivanov sessionid=SESSION-1515 duration=24664s
+2026-07-13T23:05:21Z vpn-gw02 sshd[21053]: session closed for user cpatel sessionid=SESSION-1513 duration=22478s
+2026-07-13T23:06:32Z vpn-gw01 sshd[21049]: session closed for user livanov sessionid=SESSION-1511 duration=23829s
+2026-07-13T23:07:28Z vpn-gw01 sshd[21043]: session closed for user ocosta sessionid=SESSION-1508 duration=16895s
+2026-07-13T23:22:16Z vpn-gw02 sshd[21036]: session closed for user nwong sessionid=SESSION-1505 duration=17227s
+2026-07-13T23:23:47Z vpn-gw01 sshd[21038]: session closed for user hivanov sessionid=SESSION-1506 duration=23878s
+2026-07-13T23:43:45Z vpn-gw01 sshd[21022]: session closed for user mnkosi sessionid=SESSION-1498 duration=26895s
+2026-07-13T23:50:47Z vpn-gw01 sshd[21034]: session closed for user tcosta sessionid=SESSION-1504 duration=20428s
+2026-07-13T23:51:37Z vpn-gw02 sshd[21055]: session closed for user ybell sessionid=SESSION-1514 duration=21189s
+2026-07-13T23:53:40Z vpn-gw02 sshd[21060]: session closed for user vlund sessionid=SESSION-1516 duration=26048s
+2026-07-13T23:57:21Z vpn-gw02 sshd[21032]: session closed for user civanov sessionid=SESSION-1503 duration=32113s
+2026-07-13T23:57:35Z vpn-gw02 sshd[21045]: session closed for user gcosta sessionid=SESSION-1509 duration=28232s
+2026-07-14T03:10:00Z vpn-gw01 sshd[21638]: Failed password for svc-backup from 46.16.202.234 port 30565 ssh2
+2026-07-14T03:10:23Z vpn-gw01 sshd[21639]: Failed password for svc-backup from 46.16.202.234 port 30592 ssh2
+2026-07-14T03:10:46Z vpn-gw01 sshd[21640]: Failed password for svc-backup from 46.16.202.234 port 44935 ssh2
+2026-07-14T03:11:09Z vpn-gw01 sshd[21641]: Failed password for svc-backup from 46.16.202.234 port 47060 ssh2
+2026-07-14T03:11:32Z vpn-gw01 sshd[21642]: Failed password for svc-backup from 46.16.202.234 port 36341 ssh2
+2026-07-14T03:11:55Z vpn-gw01 sshd[21643]: Failed password for svc-backup from 46.16.202.234 port 49582 ssh2
+2026-07-14T03:12:18Z vpn-gw01 sshd[21644]: Failed password for svc-backup from 46.16.202.234 port 31001 ssh2
+2026-07-14T03:12:41Z vpn-gw01 sshd[21645]: Failed password for svc-backup from 46.16.202.234 port 55213 ssh2
+2026-07-14T03:13:04Z vpn-gw01 sshd[21646]: Failed password for svc-backup from 46.16.202.234 port 55742 ssh2
+2026-07-14T03:13:27Z vpn-gw01 sshd[21647]: Failed password for svc-backup from 46.16.202.234 port 39666 ssh2
+2026-07-14T03:13:50Z vpn-gw01 sshd[21648]: Failed password for svc-backup from 46.16.202.234 port 41776 ssh2
+2026-07-14T03:14:13Z vpn-gw01 sshd[21649]: Failed password for svc-backup from 46.16.202.234 port 45779 ssh2
+2026-07-14T03:14:36Z vpn-gw01 sshd[21650]: Failed password for svc-backup from 46.16.202.234 port 52414 ssh2
+2026-07-14T03:14:59Z vpn-gw01 sshd[21651]: Failed password for svc-backup from 46.16.202.234 port 35111 ssh2
+2026-07-14T03:15:22Z vpn-gw01 sshd[21652]: Failed password for svc-backup from 46.16.202.234 port 43758 ssh2
+2026-07-14T03:15:45Z vpn-gw01 sshd[21653]: Failed password for svc-backup from 46.16.202.234 port 50818 ssh2
+2026-07-14T03:16:08Z vpn-gw01 sshd[21654]: Failed password for svc-backup from 46.16.202.234 port 34281 ssh2
+2026-07-14T03:16:31Z vpn-gw01 sshd[21655]: Failed password for svc-backup from 46.16.202.234 port 35189 ssh2
+2026-07-14T03:16:59Z vpn-gw01 sshd[21656]: PAM: Maximum authentication attempts exceeded for svc-backup from 46.16.202.234
+2026-07-14T03:17:39Z vpn-gw01 sshd[21657]: Accepted password for svc-backup from 46.16.202.234 port 50305 ssh2 sessionid=SESSION-1691
+2026-07-14T03:38:11Z vpn-gw01 sshd[21658]: session closed for user svc-backup sessionid=SESSION-1691 duration=1232s
+2026-07-14T07:23:46Z vpn-gw01 sshd[21095]: Accepted password for ncosta from 10.50.12.188 port 58267 ssh2 sessionid=SESSION-1533
+2026-07-14T07:26:55Z vpn-gw01 sshd[21099]: Accepted password for cpatel from 10.50.11.181 port 47141 ssh2 sessionid=SESSION-1535
+2026-07-14T07:41:06Z vpn-gw02 sshd[21080]: Accepted password for tcosta from 10.50.10.174 port 36766 ssh2 sessionid=SESSION-1526
+2026-07-14T07:52:44Z vpn-gw02 sshd[21105]: Failed password for u221 from 10.50.12.186 port 36387 ssh2
+2026-07-14T09:40:20Z vpn-gw02 sshd[21432]: Failed password for epatel from 10.50.12.64 port 59375 ssh2
+2026-07-14T10:01:05Z vpn-gw02 sshd[21063]: Accepted password for jlund from 10.50.13.111 port 56648 ssh2 sessionid=SESSION-1518
+2026-07-14T10:45:11Z vpn-gw02 sshd[21106]: Accepted password for u221 from 10.50.12.186 port 39150 ssh2 sessionid=SESSION-1538
+2026-07-14T12:01:24Z vpn-gw02 sshd[21085]: Accepted password for hivanov from 10.50.10.174 port 57466 ssh2 sessionid=SESSION-1528
+2026-07-14T12:46:05Z vpn-gw01 sshd[21089]: Accepted password for ocosta from 10.50.11.15 port 32212 ssh2 sessionid=SESSION-1530
+2026-07-14T13:11:38Z vpn-gw02 sshd[21458]: Failed password for ssingh from 10.50.10.48 port 40015 ssh2
+2026-07-14T13:20:19Z vpn-gw02 sshd[21093]: Accepted password for livanov from 10.50.12.186 port 48342 ssh2 sessionid=SESSION-1532
+2026-07-14T13:23:08Z vpn-gw01 sshd[21070]: Accepted password for alund from 10.50.10.8 port 55877 ssh2 sessionid=SESSION-1521
+2026-07-14T13:37:31Z vpn-gw01 sshd[21078]: Accepted password for epatel from 10.50.12.64 port 48799 ssh2 sessionid=SESSION-1525
+2026-07-14T13:49:21Z vpn-gw01 sshd[21065]: Failed password for mnkosi from 10.50.11.13 port 56559 ssh2
+2026-07-14T13:49:22Z vpn-gw01 sshd[21418]: Failed password for ssingh from 10.50.10.48 port 39236 ssh2
+2026-07-14T14:04:31Z vpn-gw02 sshd[21083]: Accepted password for nwong from 10.50.13.111 port 59665 ssh2 sessionid=SESSION-1527
+2026-07-14T14:15:48Z vpn-gw02 sshd[21091]: Accepted password for gcosta from 10.50.14.242 port 41294 ssh2 sessionid=SESSION-1531
+2026-07-14T14:42:28Z vpn-gw01 sshd[21074]: Accepted password for divanov from 10.50.9.209 port 51747 ssh2 sessionid=SESSION-1523
+2026-07-14T14:59:33Z vpn-gw02 sshd[21082]: Failed password for nwong from 10.50.13.111 port 34235 ssh2
+2026-07-14T14:59:57Z vpn-gw01 sshd[21066]: Accepted password for mnkosi from 10.50.11.13 port 43867 ssh2 sessionid=SESSION-1519
+2026-07-14T15:05:30Z vpn-gw02 sshd[21081]: session closed for user tcosta sessionid=SESSION-1526 duration=26664s
+2026-07-14T15:38:10Z vpn-gw01 sshd[21096]: session closed for user ncosta sessionid=SESSION-1533 duration=29664s
+2026-07-14T15:41:39Z vpn-gw01 sshd[21097]: Accepted password for rcosta from 10.50.11.139 port 35161 ssh2 sessionid=SESSION-1534
+2026-07-14T15:57:38Z vpn-gw02 sshd[21103]: Accepted password for iivanov from 10.50.9.1 port 53509 ssh2 sessionid=SESSION-1537
+2026-07-14T16:10:11Z vpn-gw01 sshd[21076]: Accepted password for civanov from 10.50.12.64 port 48829 ssh2 sessionid=SESSION-1524
+2026-07-14T16:12:32Z vpn-gw01 sshd[21101]: Accepted password for ybell from 10.50.14.160 port 34982 ssh2 sessionid=SESSION-1536
+2026-07-14T16:27:38Z vpn-gw02 sshd[21107]: session closed for user u221 sessionid=SESSION-1538 duration=20547s
+2026-07-14T16:54:45Z vpn-gw01 sshd[21100]: session closed for user cpatel sessionid=SESSION-1535 duration=34070s
+2026-07-14T17:27:17Z vpn-gw01 sshd[21072]: Accepted password for ssingh from 10.50.10.48 port 54044 ssh2 sessionid=SESSION-1522
+2026-07-14T17:46:22Z vpn-gw01 sshd[21068]: Accepted password for kivanov from 10.50.12.228 port 45884 ssh2 sessionid=SESSION-1520
+2026-07-14T18:07:05Z vpn-gw01 sshd[21090]: session closed for user ocosta sessionid=SESSION-1530 duration=19260s
+2026-07-14T18:34:07Z vpn-gw01 sshd[21087]: Accepted password for eramirez from 10.50.12.20 port 55458 ssh2 sessionid=SESSION-1529
+2026-07-14T18:44:48Z vpn-gw02 sshd[21086]: session closed for user hivanov sessionid=SESSION-1528 duration=24204s
+2026-07-14T19:50:40Z vpn-gw02 sshd[21094]: session closed for user livanov sessionid=SESSION-1532 duration=23421s
+2026-07-14T20:22:30Z vpn-gw02 sshd[21064]: session closed for user jlund sessionid=SESSION-1518 duration=37285s
+2026-07-14T20:40:47Z vpn-gw02 sshd[21092]: session closed for user gcosta sessionid=SESSION-1531 duration=23099s
+2026-07-14T22:21:09Z vpn-gw02 sshd[21104]: session closed for user iivanov sessionid=SESSION-1537 duration=23011s
+2026-07-14T22:31:12Z vpn-gw01 sshd[21075]: session closed for user divanov sessionid=SESSION-1523 duration=28124s
+2026-07-14T22:50:53Z vpn-gw01 sshd[21079]: session closed for user epatel sessionid=SESSION-1525 duration=33202s
+2026-07-14T23:13:02Z vpn-gw01 sshd[21098]: session closed for user rcosta sessionid=SESSION-1534 duration=27083s
+2026-07-14T23:13:08Z vpn-gw01 sshd[21069]: session closed for user kivanov sessionid=SESSION-1520 duration=19606s
+2026-07-14T23:13:39Z vpn-gw01 sshd[21073]: session closed for user ssingh sessionid=SESSION-1522 duration=20782s
+2026-07-14T23:29:19Z vpn-gw01 sshd[21067]: session closed for user mnkosi sessionid=SESSION-1519 duration=30562s
+2026-07-14T23:32:40Z vpn-gw01 sshd[21077]: session closed for user civanov sessionid=SESSION-1524 duration=26549s
+2026-07-14T23:39:56Z vpn-gw01 sshd[21088]: session closed for user eramirez sessionid=SESSION-1529 duration=18349s
+2026-07-14T23:51:59Z vpn-gw01 sshd[21071]: session closed for user alund sessionid=SESSION-1521 duration=37731s
+2026-07-14T23:53:32Z vpn-gw01 sshd[21102]: session closed for user ybell sessionid=SESSION-1536 duration=27660s
+2026-07-14T23:59:19Z vpn-gw02 sshd[21084]: session closed for user nwong sessionid=SESSION-1527 duration=35688s
+2026-07-15T07:33:54Z vpn-gw01 sshd[21144]: Accepted password for u221 from 10.50.12.186 port 42795 ssh2 sessionid=SESSION-1557
+2026-07-15T08:09:53Z vpn-gw02 sshd[21120]: Accepted password for civanov from 10.50.12.64 port 38746 ssh2 sessionid=SESSION-1545
+2026-07-15T09:12:41Z vpn-gw02 sshd[21136]: Accepted password for cpatel from 10.50.11.181 port 54548 ssh2 sessionid=SESSION-1553
+2026-07-15T09:28:48Z vpn-gw02 sshd[21543]: Failed password for vlund from 10.50.10.172 port 59431 ssh2
+2026-07-15T09:37:35Z vpn-gw02 sshd[21112]: Accepted password for kivanov from 10.50.12.228 port 55179 ssh2 sessionid=SESSION-1541
+2026-07-15T09:41:15Z vpn-gw01 sshd[21118]: Accepted password for divanov from 10.50.9.209 port 47497 ssh2 sessionid=SESSION-1544
+2026-07-15T10:38:02Z vpn-gw02 sshd[21134]: Accepted password for ncosta from 10.50.12.188 port 44163 ssh2 sessionid=SESSION-1552
+2026-07-15T11:05:16Z vpn-gw02 sshd[21130]: Accepted password for gcosta from 10.50.14.242 port 36820 ssh2 sessionid=SESSION-1550
+2026-07-15T11:14:44Z vpn-gw01 sshd[21124]: Accepted password for nwong from 10.50.13.111 port 34394 ssh2 sessionid=SESSION-1547
+2026-07-15T12:05:37Z vpn-gw02 sshd[21110]: Accepted password for mnkosi from 10.50.11.13 port 52713 ssh2 sessionid=SESSION-1540
+2026-07-15T12:51:10Z vpn-gw02 sshd[21128]: Accepted password for ocosta from 10.50.11.15 port 55432 ssh2 sessionid=SESSION-1549
+2026-07-15T13:05:27Z vpn-gw01 sshd[21521]: Failed password for civanov from 10.50.12.64 port 51257 ssh2
+2026-07-15T13:53:58Z vpn-gw02 sshd[21455]: Failed password for nwong from 10.50.13.111 port 41584 ssh2
+2026-07-15T13:54:46Z vpn-gw02 sshd[21622]: Failed password for jlund from 10.50.13.111 port 54615 ssh2
+2026-07-15T14:06:17Z vpn-gw02 sshd[21114]: Accepted password for alund from 10.50.10.8 port 48824 ssh2 sessionid=SESSION-1542
+2026-07-15T14:11:49Z vpn-gw02 sshd[21132]: Accepted password for livanov from 10.50.12.186 port 34074 ssh2 sessionid=SESSION-1551
+2026-07-15T14:29:37Z vpn-gw02 sshd[21578]: Failed password for gcosta from 10.50.14.242 port 55327 ssh2
+2026-07-15T14:48:40Z vpn-gw01 sshd[21116]: Accepted password for llund from 10.50.14.36 port 54535 ssh2 sessionid=SESSION-1543
+2026-07-15T15:14:26Z vpn-gw01 sshd[21119]: session closed for user divanov sessionid=SESSION-1544 duration=19991s
+2026-07-15T15:17:44Z vpn-gw02 sshd[21137]: session closed for user cpatel sessionid=SESSION-1553 duration=21903s
+2026-07-15T15:45:02Z vpn-gw01 sshd[21138]: Accepted password for ybell from 10.50.14.160 port 39539 ssh2 sessionid=SESSION-1554
+2026-07-15T15:45:21Z vpn-gw02 sshd[21126]: Accepted password for hivanov from 10.50.10.174 port 34350 ssh2 sessionid=SESSION-1548
+2026-07-15T16:04:16Z vpn-gw02 sshd[21108]: Accepted password for jlund from 10.50.13.111 port 49481 ssh2 sessionid=SESSION-1539
+2026-07-15T16:20:57Z vpn-gw02 sshd[21142]: Accepted password for vlund from 10.50.10.172 port 41979 ssh2 sessionid=SESSION-1556
+2026-07-15T16:36:10Z vpn-gw01 sshd[21145]: session closed for user u221 sessionid=SESSION-1557 duration=32536s
+2026-07-15T16:56:31Z vpn-gw02 sshd[21121]: session closed for user civanov sessionid=SESSION-1545 duration=31598s
+2026-07-15T17:15:21Z vpn-gw02 sshd[21122]: Accepted password for epatel from 10.50.12.64 port 34170 ssh2 sessionid=SESSION-1546
+2026-07-15T17:19:17Z vpn-gw02 sshd[21577]: Failed password for gcosta from 10.50.14.242 port 54140 ssh2
+2026-07-15T18:38:19Z vpn-gw02 sshd[21140]: Accepted password for iivanov from 10.50.9.1 port 45147 ssh2 sessionid=SESSION-1555
+2026-07-15T18:45:09Z vpn-gw02 sshd[21111]: session closed for user mnkosi sessionid=SESSION-1540 duration=23972s
+2026-07-15T18:49:48Z vpn-gw02 sshd[21442]: Failed password for jlund from 10.50.13.111 port 40206 ssh2
+2026-07-15T19:17:22Z vpn-gw02 sshd[21113]: session closed for user kivanov sessionid=SESSION-1541 duration=34787s
+2026-07-15T19:35:02Z vpn-gw01 sshd[21125]: session closed for user nwong sessionid=SESSION-1547 duration=30018s
+2026-07-15T20:03:13Z vpn-gw02 sshd[21131]: session closed for user gcosta sessionid=SESSION-1550 duration=32277s
+2026-07-15T20:42:52Z vpn-gw02 sshd[21135]: session closed for user ncosta sessionid=SESSION-1552 duration=36290s
+2026-07-15T21:24:19Z vpn-gw01 sshd[21117]: session closed for user llund sessionid=SESSION-1543 duration=23739s
+2026-07-15T22:43:07Z vpn-gw02 sshd[21129]: session closed for user ocosta sessionid=SESSION-1549 duration=35517s
+2026-07-15T23:00:49Z vpn-gw02 sshd[21141]: session closed for user iivanov sessionid=SESSION-1555 duration=15750s
+2026-07-15T23:07:01Z vpn-gw02 sshd[21133]: session closed for user livanov sessionid=SESSION-1551 duration=32112s
+2026-07-15T23:23:06Z vpn-gw01 sshd[21139]: session closed for user ybell sessionid=SESSION-1554 duration=27484s
+2026-07-15T23:27:05Z vpn-gw02 sshd[21143]: session closed for user vlund sessionid=SESSION-1556 duration=25568s
+2026-07-15T23:48:16Z vpn-gw02 sshd[21127]: session closed for user hivanov sessionid=SESSION-1548 duration=28975s
+2026-07-15T23:51:31Z vpn-gw02 sshd[21109]: session closed for user jlund sessionid=SESSION-1539 duration=28035s
+2026-07-15T23:55:40Z vpn-gw02 sshd[21115]: session closed for user alund sessionid=SESSION-1542 duration=35363s
+2026-07-15T23:58:57Z vpn-gw02 sshd[21123]: session closed for user epatel sessionid=SESSION-1546 duration=24216s
+2026-07-16T03:17:05Z vpn-gw01 sshd[21659]: Accepted password for svc-backup from 46.16.202.234 port 46355 ssh2 sessionid=SESSION-1692
+2026-07-16T03:31:44Z vpn-gw01 sshd[21660]: session closed for user svc-backup sessionid=SESSION-1692 duration=879s
+2026-07-16T07:35:40Z vpn-gw01 sshd[21172]: Accepted password for rcosta from 10.50.11.139 port 56707 ssh2 sessionid=SESSION-1571
+2026-07-16T07:36:37Z vpn-gw01 sshd[21422]: Failed password for kivanov from 10.50.12.228 port 55487 ssh2
+2026-07-16T09:27:37Z vpn-gw02 sshd[21164]: Accepted password for gcosta from 10.50.14.242 port 40792 ssh2 sessionid=SESSION-1567
+2026-07-16T09:33:04Z vpn-gw01 sshd[21166]: Accepted password for framirez from 10.50.13.153 port 57159 ssh2 sessionid=SESSION-1568
+2026-07-16T10:51:32Z vpn-gw02 sshd[21152]: Accepted password for civanov from 10.50.12.64 port 51492 ssh2 sessionid=SESSION-1561
+2026-07-16T11:13:55Z vpn-gw01 sshd[21429]: Failed password for hivanov from 10.50.10.174 port 49058 ssh2
+2026-07-16T12:21:31Z vpn-gw02 sshd[21158]: Accepted password for nwong from 10.50.13.111 port 42143 ssh2 sessionid=SESSION-1564
+2026-07-16T13:23:51Z vpn-gw01 sshd[21471]: Failed password for civanov from 10.50.12.64 port 37333 ssh2
+2026-07-16T13:46:26Z vpn-gw01 sshd[21156]: Accepted password for tcosta from 10.50.10.174 port 44346 ssh2 sessionid=SESSION-1563
+2026-07-16T14:23:36Z vpn-gw02 sshd[21148]: Accepted password for llund from 10.50.14.36 port 31895 ssh2 sessionid=SESSION-1559
+2026-07-16T14:58:42Z vpn-gw01 sshd[21168]: Accepted password for livanov from 10.50.12.186 port 49146 ssh2 sessionid=SESSION-1569
+2026-07-16T15:00:01Z vpn-gw02 sshd[21634]: Failed password for u221 from 10.50.12.186 port 35598 ssh2
+2026-07-16T15:20:31Z vpn-gw02 sshd[21176]: Accepted password for ybell from 10.50.14.160 port 50881 ssh2 sessionid=SESSION-1573
+2026-07-16T15:25:39Z vpn-gw02 sshd[21165]: session closed for user gcosta sessionid=SESSION-1567 duration=21482s
+2026-07-16T15:44:44Z vpn-gw02 sshd[21170]: Accepted password for ncosta from 10.50.12.188 port 52972 ssh2 sessionid=SESSION-1570
+2026-07-16T15:55:31Z vpn-gw01 sshd[21173]: session closed for user rcosta sessionid=SESSION-1571 duration=29991s
+2026-07-16T16:31:59Z vpn-gw02 sshd[21178]: Accepted password for vlund from 10.50.10.172 port 42306 ssh2 sessionid=SESSION-1574
+2026-07-16T16:55:36Z vpn-gw01 sshd[21160]: Accepted password for hivanov from 10.50.10.174 port 36687 ssh2 sessionid=SESSION-1565
+2026-07-16T16:56:49Z vpn-gw02 sshd[21146]: Accepted password for kivanov from 10.50.12.228 port 44863 ssh2 sessionid=SESSION-1558
+2026-07-16T16:57:21Z vpn-gw02 sshd[21154]: Accepted password for epatel from 10.50.12.64 port 41659 ssh2 sessionid=SESSION-1562
+2026-07-16T16:58:08Z vpn-gw02 sshd[21150]: Accepted password for pcosta from 10.50.10.216 port 49180 ssh2 sessionid=SESSION-1560
+2026-07-16T17:12:16Z vpn-gw02 sshd[21153]: session closed for user civanov sessionid=SESSION-1561 duration=22844s
+2026-07-16T17:25:25Z vpn-gw02 sshd[21174]: Accepted password for cpatel from 10.50.11.181 port 52256 ssh2 sessionid=SESSION-1572
+2026-07-16T18:20:55Z vpn-gw01 sshd[21167]: session closed for user framirez sessionid=SESSION-1568 duration=31671s
+2026-07-16T18:29:45Z vpn-gw02 sshd[21162]: Accepted password for ocosta from 10.50.11.15 port 42232 ssh2 sessionid=SESSION-1566
+2026-07-16T19:25:30Z vpn-gw02 sshd[21159]: session closed for user nwong sessionid=SESSION-1564 duration=25439s
+2026-07-16T21:48:18Z vpn-gw02 sshd[21177]: session closed for user ybell sessionid=SESSION-1573 duration=23267s
+2026-07-16T22:48:07Z vpn-gw02 sshd[21149]: session closed for user llund sessionid=SESSION-1559 duration=30271s
+2026-07-16T22:57:39Z vpn-gw02 sshd[21155]: session closed for user epatel sessionid=SESSION-1562 duration=21618s
+2026-07-16T23:00:17Z vpn-gw02 sshd[21163]: session closed for user ocosta sessionid=SESSION-1566 duration=16232s
+2026-07-16T23:01:29Z vpn-gw02 sshd[21151]: session closed for user pcosta sessionid=SESSION-1560 duration=21801s
+2026-07-16T23:07:05Z vpn-gw01 sshd[21157]: session closed for user tcosta sessionid=SESSION-1563 duration=33639s
+2026-07-16T23:08:13Z vpn-gw02 sshd[21179]: session closed for user vlund sessionid=SESSION-1574 duration=23774s
+2026-07-16T23:34:24Z vpn-gw01 sshd[21161]: session closed for user hivanov sessionid=SESSION-1565 duration=23928s
+2026-07-16T23:35:52Z vpn-gw02 sshd[21147]: session closed for user kivanov sessionid=SESSION-1558 duration=23943s
+2026-07-16T23:42:22Z vpn-gw02 sshd[21175]: session closed for user cpatel sessionid=SESSION-1572 duration=22617s
+2026-07-16T23:43:02Z vpn-gw02 sshd[21171]: session closed for user ncosta sessionid=SESSION-1570 duration=28698s
+2026-07-16T23:49:35Z vpn-gw01 sshd[21169]: session closed for user livanov sessionid=SESSION-1569 duration=31853s
+2026-07-17T07:25:53Z vpn-gw01 sshd[21200]: Accepted password for nwong from 10.50.13.111 port 56594 ssh2 sessionid=SESSION-1585
+2026-07-17T07:38:30Z vpn-gw01 sshd[21194]: Accepted password for civanov from 10.50.12.64 port 36888 ssh2 sessionid=SESSION-1582
+2026-07-17T07:41:26Z vpn-gw02 sshd[21188]: Accepted password for ssingh from 10.50.10.48 port 37250 ssh2 sessionid=SESSION-1579
+2026-07-17T08:05:12Z vpn-gw02 sshd[21202]: Accepted password for hivanov from 10.50.10.174 port 43418 ssh2 sessionid=SESSION-1586
+2026-07-17T08:09:18Z vpn-gw01 sshd[21216]: Accepted password for cpatel from 10.50.11.181 port 41566 ssh2 sessionid=SESSION-1593
+2026-07-17T08:19:07Z vpn-gw01 sshd[21449]: Failed password for ncosta from 10.50.12.188 port 33688 ssh2
+2026-07-17T08:36:56Z vpn-gw01 sshd[21544]: Failed password for tcosta from 10.50.10.174 port 37918 ssh2
+2026-07-17T08:57:09Z vpn-gw01 sshd[21218]: Accepted password for ybell from 10.50.14.160 port 31596 ssh2 sessionid=SESSION-1594
+2026-07-17T09:13:21Z vpn-gw01 sshd[21214]: Accepted password for rcosta from 10.50.11.139 port 52078 ssh2 sessionid=SESSION-1592
+2026-07-17T09:14:52Z vpn-gw02 sshd[21198]: Accepted password for tcosta from 10.50.10.174 port 41308 ssh2 sessionid=SESSION-1584
+2026-07-17T09:42:36Z vpn-gw01 sshd[21212]: Accepted password for livanov from 10.50.12.186 port 46859 ssh2 sessionid=SESSION-1591
+2026-07-17T10:59:34Z vpn-gw02 sshd[21222]: Accepted password for vlund from 10.50.10.172 port 58370 ssh2 sessionid=SESSION-1596
+2026-07-17T11:11:17Z vpn-gw01 sshd[21186]: Accepted password for llund from 10.50.14.36 port 58721 ssh2 sessionid=SESSION-1578
+2026-07-17T11:14:37Z vpn-gw01 sshd[21196]: Accepted password for epatel from 10.50.12.64 port 46741 ssh2 sessionid=SESSION-1583
+2026-07-17T12:39:53Z vpn-gw02 sshd[21206]: Accepted password for ocosta from 10.50.11.15 port 45780 ssh2 sessionid=SESSION-1588
+2026-07-17T13:06:46Z vpn-gw02 sshd[21190]: Accepted password for divanov from 10.50.9.209 port 53944 ssh2 sessionid=SESSION-1580
+2026-07-17T13:10:07Z vpn-gw02 sshd[21536]: Failed password for vlund from 10.50.10.172 port 43776 ssh2
+2026-07-17T13:43:41Z vpn-gw02 sshd[21184]: Accepted password for kivanov from 10.50.12.228 port 51122 ssh2 sessionid=SESSION-1577
+2026-07-17T13:56:24Z vpn-gw02 sshd[21182]: Accepted password for mnkosi from 10.50.11.13 port 32988 ssh2 sessionid=SESSION-1576
+2026-07-17T14:13:40Z vpn-gw01 sshd[21180]: Accepted password for jlund from 10.50.13.111 port 57799 ssh2 sessionid=SESSION-1575
+2026-07-17T14:56:22Z vpn-gw01 sshd[21219]: session closed for user ybell sessionid=SESSION-1594 duration=21553s
+2026-07-17T15:06:52Z vpn-gw02 sshd[21203]: session closed for user hivanov sessionid=SESSION-1586 duration=25300s
+2026-07-17T15:26:20Z vpn-gw01 sshd[21220]: Accepted password for iivanov from 10.50.9.1 port 57979 ssh2 sessionid=SESSION-1595
+2026-07-17T15:41:54Z vpn-gw01 sshd[21192]: Accepted password for pcosta from 10.50.10.216 port 42308 ssh2 sessionid=SESSION-1581
+2026-07-17T16:06:29Z vpn-gw02 sshd[21199]: session closed for user tcosta sessionid=SESSION-1584 duration=24697s
+2026-07-17T16:23:16Z vpn-gw02 sshd[21189]: session closed for user ssingh sessionid=SESSION-1579 duration=31310s
+2026-07-17T17:25:34Z vpn-gw01 sshd[21195]: session closed for user civanov sessionid=SESSION-1582 duration=35224s
+2026-07-17T17:33:50Z vpn-gw01 sshd[21208]: Accepted password for gcosta from 10.50.14.242 port 47115 ssh2 sessionid=SESSION-1589
+2026-07-17T17:36:14Z vpn-gw01 sshd[21217]: session closed for user cpatel sessionid=SESSION-1593 duration=34016s
+2026-07-17T17:46:21Z vpn-gw01 sshd[21201]: session closed for user nwong sessionid=SESSION-1585 duration=37228s
+2026-07-17T18:10:07Z vpn-gw02 sshd[21204]: Accepted password for eramirez from 10.50.12.20 port 57089 ssh2 sessionid=SESSION-1587
+2026-07-17T18:10:52Z vpn-gw01 sshd[21215]: session closed for user rcosta sessionid=SESSION-1592 duration=32251s
+2026-07-17T18:24:23Z vpn-gw01 sshd[21210]: Accepted password for framirez from 10.50.13.153 port 53404 ssh2 sessionid=SESSION-1590
+2026-07-17T18:30:49Z vpn-gw02 sshd[21207]: session closed for user ocosta sessionid=SESSION-1588 duration=21056s
+2026-07-17T18:36:47Z vpn-gw01 sshd[21213]: session closed for user livanov sessionid=SESSION-1591 duration=32051s
+2026-07-17T19:36:02Z vpn-gw01 sshd[21187]: session closed for user llund sessionid=SESSION-1578 duration=30285s
+2026-07-17T20:04:15Z vpn-gw02 sshd[21223]: session closed for user vlund sessionid=SESSION-1596 duration=32681s
+2026-07-17T20:29:22Z vpn-gw01 sshd[21197]: session closed for user epatel sessionid=SESSION-1583 duration=33285s
+2026-07-17T22:45:54Z vpn-gw01 sshd[21181]: session closed for user jlund sessionid=SESSION-1575 duration=30734s
+2026-07-17T23:02:50Z vpn-gw02 sshd[21183]: session closed for user mnkosi sessionid=SESSION-1576 duration=32786s
+2026-07-17T23:08:25Z vpn-gw02 sshd[21205]: session closed for user eramirez sessionid=SESSION-1587 duration=17898s
+2026-07-17T23:13:38Z vpn-gw01 sshd[21209]: session closed for user gcosta sessionid=SESSION-1589 duration=20388s
+2026-07-17T23:19:12Z vpn-gw01 sshd[21211]: session closed for user framirez sessionid=SESSION-1590 duration=17689s
+2026-07-17T23:23:04Z vpn-gw02 sshd[21185]: session closed for user kivanov sessionid=SESSION-1577 duration=34763s
+2026-07-17T23:27:48Z vpn-gw01 sshd[21193]: session closed for user pcosta sessionid=SESSION-1581 duration=27954s
+2026-07-17T23:41:09Z vpn-gw01 sshd[21221]: session closed for user iivanov sessionid=SESSION-1595 duration=29689s
+2026-07-17T23:48:19Z vpn-gw02 sshd[21191]: session closed for user divanov sessionid=SESSION-1580 duration=38493s
+2026-07-18T10:18:20Z vpn-gw02 sshd[21553]: Failed password for gcosta from 10.50.14.242 port 32338 ssh2
+2026-07-18T11:08:26Z vpn-gw02 sshd[21586]: Failed password for vlund from 10.50.10.172 port 45808 ssh2
+2026-07-18T17:43:22Z vpn-gw02 sshd[21573]: Failed password for hivanov from 10.50.10.174 port 33189 ssh2
+2026-07-19T02:02:58Z vpn-gw01 sshd[21661]: Accepted password for svc-backup from 46.16.202.234 port 32878 ssh2 sessionid=SESSION-1693
+2026-07-19T02:13:21Z vpn-gw01 sshd[21662]: session closed for user svc-backup sessionid=SESSION-1693 duration=623s
+2026-07-19T11:33:45Z vpn-gw01 sshd[21607]: Failed password for ncosta from 10.50.12.188 port 47612 ssh2
+2026-07-19T14:13:03Z vpn-gw02 sshd[21541]: Failed password for cpatel from 10.50.11.181 port 35826 ssh2
+2026-07-19T14:54:45Z vpn-gw01 sshd[21490]: Failed password for alund from 10.50.10.8 port 43774 ssh2
+2026-07-19T17:05:56Z vpn-gw02 sshd[21554]: Failed password for framirez from 10.50.13.153 port 44037 ssh2
+2026-07-19T18:34:21Z vpn-gw01 sshd[21595]: Failed password for pcosta from 10.50.10.216 port 34250 ssh2
+2026-07-19T18:50:57Z vpn-gw01 sshd[21530]: Failed password for cpatel from 10.50.11.181 port 51324 ssh2
+2026-07-20T08:12:58Z vpn-gw02 sshd[21242]: Accepted password for ocosta from 10.50.11.15 port 55164 ssh2 sessionid=SESSION-1606
+2026-07-20T08:14:10Z vpn-gw01 sshd[21453]: Failed password for framirez from 10.50.13.153 port 48120 ssh2
+2026-07-20T08:42:06Z vpn-gw01 sshd[21252]: Accepted password for cpatel from 10.50.11.181 port 42545 ssh2 sessionid=SESSION-1611
+2026-07-20T08:43:32Z vpn-gw01 sshd[21250]: Accepted password for rcosta from 10.50.11.139 port 33858 ssh2 sessionid=SESSION-1610
+2026-07-20T09:50:02Z vpn-gw02 sshd[21467]: Failed password for iivanov from 10.50.9.1 port 44422 ssh2
+2026-07-20T10:55:22Z vpn-gw02 sshd[21236]: Accepted password for epatel from 10.50.12.64 port 45204 ssh2 sessionid=SESSION-1603
+2026-07-20T11:38:15Z vpn-gw01 sshd[21238]: Accepted password for tcosta from 10.50.10.174 port 43766 ssh2 sessionid=SESSION-1604
+2026-07-20T11:42:22Z vpn-gw02 sshd[21240]: Accepted password for nwong from 10.50.13.111 port 51332 ssh2 sessionid=SESSION-1605
+2026-07-20T12:27:47Z vpn-gw02 sshd[21254]: Accepted password for ybell from 10.50.14.160 port 32024 ssh2 sessionid=SESSION-1612
+2026-07-20T13:45:09Z vpn-gw02 sshd[21230]: Accepted password for alund from 10.50.10.8 port 47368 ssh2 sessionid=SESSION-1600
+2026-07-20T14:10:01Z vpn-gw02 sshd[21234]: Accepted password for civanov from 10.50.12.64 port 33853 ssh2 sessionid=SESSION-1602
+2026-07-20T14:36:26Z vpn-gw02 sshd[21611]: Failed password for nwong from 10.50.13.111 port 47742 ssh2
+2026-07-20T14:51:24Z vpn-gw02 sshd[21226]: Accepted password for mnkosi from 10.50.11.13 port 38921 ssh2 sessionid=SESSION-1598
+2026-07-20T15:04:24Z vpn-gw01 sshd[21253]: session closed for user cpatel sessionid=SESSION-1611 duration=22938s
+2026-07-20T15:09:55Z vpn-gw02 sshd[21228]: Accepted password for kivanov from 10.50.12.228 port 35119 ssh2 sessionid=SESSION-1599
+2026-07-20T15:14:14Z vpn-gw02 sshd[21244]: Accepted password for gcosta from 10.50.14.242 port 59117 ssh2 sessionid=SESSION-1607
+2026-07-20T15:16:05Z vpn-gw01 sshd[21248]: Accepted password for ncosta from 10.50.12.188 port 53851 ssh2 sessionid=SESSION-1609
+2026-07-20T15:49:19Z vpn-gw02 sshd[21232]: Accepted password for llund from 10.50.14.36 port 42161 ssh2 sessionid=SESSION-1601
+2026-07-20T16:10:59Z vpn-gw02 sshd[21591]: Failed password for rcosta from 10.50.11.139 port 55252 ssh2
+2026-07-20T16:18:59Z vpn-gw01 sshd[21580]: Failed password for nwong from 10.50.13.111 port 47047 ssh2
+2026-07-20T16:55:17Z vpn-gw02 sshd[21441]: Failed password for livanov from 10.50.12.186 port 48326 ssh2
+2026-07-20T17:48:00Z vpn-gw02 sshd[21243]: session closed for user ocosta sessionid=SESSION-1606 duration=34502s
+2026-07-20T18:08:07Z vpn-gw01 sshd[21251]: session closed for user rcosta sessionid=SESSION-1610 duration=33875s
+2026-07-20T18:22:20Z vpn-gw01 sshd[21246]: Accepted password for livanov from 10.50.12.186 port 59229 ssh2 sessionid=SESSION-1608
+2026-07-20T18:38:26Z vpn-gw02 sshd[21241]: session closed for user nwong sessionid=SESSION-1605 duration=24964s
+2026-07-20T18:50:48Z vpn-gw02 sshd[21224]: Accepted password for jlund from 10.50.13.111 port 34178 ssh2 sessionid=SESSION-1597
+2026-07-20T20:01:40Z vpn-gw02 sshd[21227]: session closed for user mnkosi sessionid=SESSION-1598 duration=18616s
+2026-07-20T20:37:50Z vpn-gw02 sshd[21237]: session closed for user epatel sessionid=SESSION-1603 duration=34948s
+2026-07-20T20:45:39Z vpn-gw02 sshd[21255]: session closed for user ybell sessionid=SESSION-1612 duration=29872s
+2026-07-20T21:12:51Z vpn-gw01 sshd[21239]: session closed for user tcosta sessionid=SESSION-1604 duration=34476s
+2026-07-20T21:25:33Z vpn-gw02 sshd[21245]: session closed for user gcosta sessionid=SESSION-1607 duration=22279s
+2026-07-20T22:44:18Z vpn-gw02 sshd[21229]: session closed for user kivanov sessionid=SESSION-1599 duration=27263s
+2026-07-20T22:45:51Z vpn-gw02 sshd[21231]: session closed for user alund sessionid=SESSION-1600 duration=32442s
+2026-07-20T23:02:38Z vpn-gw02 sshd[21225]: session closed for user jlund sessionid=SESSION-1597 duration=15110s
+2026-07-20T23:18:53Z vpn-gw01 sshd[21247]: session closed for user livanov sessionid=SESSION-1608 duration=17793s
+2026-07-20T23:41:56Z vpn-gw02 sshd[21235]: session closed for user civanov sessionid=SESSION-1602 duration=34315s
+2026-07-20T23:48:17Z vpn-gw02 sshd[21233]: session closed for user llund sessionid=SESSION-1601 duration=28738s
+2026-07-20T23:56:43Z vpn-gw01 sshd[21249]: session closed for user ncosta sessionid=SESSION-1609 duration=31238s
+2026-07-21T07:03:04Z vpn-gw02 sshd[21562]: Failed password for kivanov from 10.50.12.228 port 53660 ssh2
+2026-07-21T07:25:50Z vpn-gw02 sshd[21528]: Failed password for framirez from 10.50.13.153 port 31253 ssh2
+2026-07-21T07:44:23Z vpn-gw01 sshd[21268]: Accepted password for divanov from 10.50.9.209 port 34567 ssh2 sessionid=SESSION-1619
+2026-07-21T08:25:37Z vpn-gw02 sshd[21299]: Accepted password for u221 from 10.50.12.186 port 30949 ssh2 sessionid=SESSION-1634
+2026-07-21T08:38:26Z vpn-gw02 sshd[21291]: Accepted password for rcosta from 10.50.11.139 port 38154 ssh2 sessionid=SESSION-1630
+2026-07-21T08:51:36Z vpn-gw02 sshd[21289]: Accepted password for livanov from 10.50.12.186 port 37251 ssh2 sessionid=SESSION-1629
+2026-07-21T09:22:01Z vpn-gw01 sshd[21474]: Failed password for cpatel from 10.50.11.181 port 58772 ssh2
+2026-07-21T10:36:12Z vpn-gw01 sshd[21445]: Failed password for ocosta from 10.50.11.15 port 48910 ssh2
+2026-07-21T10:58:10Z vpn-gw01 sshd[21272]: Failed password for civanov from 10.50.12.64 port 44829 ssh2
+2026-07-21T11:51:28Z vpn-gw01 sshd[21260]: Accepted password for kivanov from 10.50.12.228 port 52094 ssh2 sessionid=SESSION-1615
+2026-07-21T12:13:07Z vpn-gw01 sshd[21270]: Accepted password for pcosta from 10.50.10.216 port 59697 ssh2 sessionid=SESSION-1620
+2026-07-21T12:22:46Z vpn-gw01 sshd[21256]: Accepted password for jlund from 10.50.13.111 port 43525 ssh2 sessionid=SESSION-1613
+2026-07-21T12:30:47Z vpn-gw02 sshd[21281]: Accepted password for hivanov from 10.50.10.174 port 40370 ssh2 sessionid=SESSION-1625
+2026-07-21T13:01:01Z vpn-gw01 sshd[21258]: Accepted password for mnkosi from 10.50.11.13 port 43129 ssh2 sessionid=SESSION-1614
+2026-07-21T13:29:41Z vpn-gw01 sshd[21269]: session closed for user divanov sessionid=SESSION-1619 duration=20718s
+2026-07-21T13:45:32Z vpn-gw02 sshd[21277]: Accepted password for tcosta from 10.50.10.174 port 35275 ssh2 sessionid=SESSION-1623
+2026-07-21T14:12:35Z vpn-gw02 sshd[21275]: Accepted password for epatel from 10.50.12.64 port 53951 ssh2 sessionid=SESSION-1622
+2026-07-21T14:14:33Z vpn-gw02 sshd[21292]: session closed for user rcosta sessionid=SESSION-1630 duration=20167s
+2026-07-21T14:53:39Z vpn-gw01 sshd[21293]: Accepted password for cpatel from 10.50.11.181 port 52856 ssh2 sessionid=SESSION-1631
+2026-07-21T14:57:50Z vpn-gw01 sshd[21266]: Accepted password for ssingh from 10.50.10.48 port 46774 ssh2 sessionid=SESSION-1618
+2026-07-21T15:15:10Z vpn-gw02 sshd[21283]: Accepted password for ocosta from 10.50.11.15 port 53939 ssh2 sessionid=SESSION-1626
+2026-07-21T15:21:15Z vpn-gw01 sshd[21285]: Accepted password for gcosta from 10.50.14.242 port 36723 ssh2 sessionid=SESSION-1627
+2026-07-21T15:22:20Z vpn-gw01 sshd[21273]: Accepted password for civanov from 10.50.12.64 port 45784 ssh2 sessionid=SESSION-1621
+2026-07-21T16:26:28Z vpn-gw02 sshd[21287]: Accepted password for framirez from 10.50.13.153 port 39286 ssh2 sessionid=SESSION-1628
+2026-07-21T16:32:05Z vpn-gw01 sshd[21295]: Accepted password for iivanov from 10.50.9.1 port 32381 ssh2 sessionid=SESSION-1632
+2026-07-21T16:34:05Z vpn-gw02 sshd[21290]: session closed for user livanov sessionid=SESSION-1629 duration=27749s
+2026-07-21T16:42:23Z vpn-gw02 sshd[21262]: Accepted password for alund from 10.50.10.8 port 43358 ssh2 sessionid=SESSION-1616
+2026-07-21T17:51:07Z vpn-gw02 sshd[21279]: Accepted password for nwong from 10.50.13.111 port 53139 ssh2 sessionid=SESSION-1624
+2026-07-21T18:25:38Z vpn-gw02 sshd[21282]: session closed for user hivanov sessionid=SESSION-1625 duration=21291s
+2026-07-21T18:25:42Z vpn-gw02 sshd[21297]: Accepted password for vlund from 10.50.10.172 port 32550 ssh2 sessionid=SESSION-1633
+2026-07-21T18:32:05Z vpn-gw02 sshd[21300]: session closed for user u221 sessionid=SESSION-1634 duration=36388s
+2026-07-21T18:59:55Z vpn-gw02 sshd[21264]: Accepted password for llund from 10.50.14.36 port 44372 ssh2 sessionid=SESSION-1617
+2026-07-21T20:01:24Z vpn-gw01 sshd[21257]: session closed for user jlund sessionid=SESSION-1613 duration=27518s
+2026-07-21T20:05:48Z vpn-gw01 sshd[21259]: session closed for user mnkosi sessionid=SESSION-1614 duration=25487s
+2026-07-21T20:07:49Z vpn-gw01 sshd[21294]: session closed for user cpatel sessionid=SESSION-1631 duration=18850s
+2026-07-21T20:37:12Z vpn-gw01 sshd[21271]: session closed for user pcosta sessionid=SESSION-1620 duration=30245s
+2026-07-21T20:40:43Z vpn-gw02 sshd[21276]: session closed for user epatel sessionid=SESSION-1622 duration=23288s
+2026-07-21T20:58:32Z vpn-gw01 sshd[21261]: session closed for user kivanov sessionid=SESSION-1615 duration=32824s
+2026-07-21T22:26:16Z vpn-gw01 sshd[21296]: session closed for user iivanov sessionid=SESSION-1632 duration=21251s
+2026-07-21T22:42:03Z vpn-gw02 sshd[21278]: session closed for user tcosta sessionid=SESSION-1623 duration=32191s
+2026-07-21T22:47:56Z vpn-gw01 sshd[21267]: session closed for user ssingh sessionid=SESSION-1618 duration=28206s
+2026-07-21T22:53:08Z vpn-gw02 sshd[21263]: session closed for user alund sessionid=SESSION-1616 duration=22245s
+2026-07-21T23:06:21Z vpn-gw02 sshd[21298]: session closed for user vlund sessionid=SESSION-1633 duration=16839s
+2026-07-21T23:15:44Z vpn-gw02 sshd[21265]: session closed for user llund sessionid=SESSION-1617 duration=15349s
+2026-07-21T23:17:10Z vpn-gw01 sshd[21286]: session closed for user gcosta sessionid=SESSION-1627 duration=28555s
+2026-07-21T23:17:12Z vpn-gw02 sshd[21288]: session closed for user framirez sessionid=SESSION-1628 duration=24644s
+2026-07-21T23:27:56Z vpn-gw01 sshd[21274]: session closed for user civanov sessionid=SESSION-1621 duration=29136s
+2026-07-21T23:48:07Z vpn-gw02 sshd[21280]: session closed for user nwong sessionid=SESSION-1624 duration=21420s
+2026-07-21T23:54:24Z vpn-gw02 sshd[21284]: session closed for user ocosta sessionid=SESSION-1626 duration=31154s
+2026-07-22T07:26:05Z vpn-gw01 sshd[21339]: Accepted password for rcosta from 10.50.11.139 port 33446 ssh2 sessionid=SESSION-1654
+2026-07-22T07:38:03Z vpn-gw01 sshd[21329]: Accepted password for ocosta from 10.50.11.15 port 46964 ssh2 sessionid=SESSION-1649
+2026-07-22T07:43:03Z vpn-gw02 sshd[21565]: Failed password for ssingh from 10.50.10.48 port 56619 ssh2
+2026-07-22T08:05:29Z vpn-gw01 sshd[21331]: Accepted password for gcosta from 10.50.14.242 port 44998 ssh2 sessionid=SESSION-1650
+2026-07-22T08:47:39Z vpn-gw02 sshd[21337]: Accepted password for ncosta from 10.50.12.188 port 54429 ssh2 sessionid=SESSION-1653
+2026-07-22T09:39:50Z vpn-gw02 sshd[21341]: Accepted password for cpatel from 10.50.11.181 port 35173 ssh2 sessionid=SESSION-1655
+2026-07-22T10:01:09Z vpn-gw02 sshd[21311]: Accepted password for ssingh from 10.50.10.48 port 50223 ssh2 sessionid=SESSION-1640
+2026-07-22T10:51:19Z vpn-gw01 sshd[21333]: Accepted password for framirez from 10.50.13.153 port 37954 ssh2 sessionid=SESSION-1651
+2026-07-22T11:11:23Z vpn-gw02 sshd[21335]: Accepted password for livanov from 10.50.12.186 port 35698 ssh2 sessionid=SESSION-1652
+2026-07-22T11:44:41Z vpn-gw01 sshd[21301]: Accepted password for jlund from 10.50.13.111 port 58170 ssh2 sessionid=SESSION-1635
+2026-07-22T11:56:47Z vpn-gw02 sshd[21501]: Failed password for kivanov from 10.50.12.228 port 38823 ssh2
+2026-07-22T12:09:25Z vpn-gw02 sshd[21313]: Accepted password for divanov from 10.50.9.209 port 43779 ssh2 sessionid=SESSION-1641
+2026-07-22T12:32:11Z vpn-gw01 sshd[21323]: Accepted password for nwong from 10.50.13.111 port 49104 ssh2 sessionid=SESSION-1646
+2026-07-22T13:23:13Z vpn-gw01 sshd[21315]: Accepted password for pcosta from 10.50.10.216 port 43761 ssh2 sessionid=SESSION-1642
+2026-07-22T14:08:22Z vpn-gw01 sshd[21540]: Failed password for iivanov from 10.50.9.1 port 43582 ssh2
+2026-07-22T14:26:28Z vpn-gw01 sshd[21309]: Accepted password for llund from 10.50.14.36 port 33993 ssh2 sessionid=SESSION-1639
+2026-07-22T14:33:35Z vpn-gw01 sshd[21332]: session closed for user gcosta sessionid=SESSION-1650 duration=23286s
+2026-07-22T14:34:53Z vpn-gw02 sshd[21325]: Accepted password for hivanov from 10.50.10.174 port 43335 ssh2 sessionid=SESSION-1647
+2026-07-22T14:56:37Z vpn-gw02 sshd[21338]: session closed for user ncosta sessionid=SESSION-1653 duration=22138s
+2026-07-22T14:59:39Z vpn-gw02 sshd[21303]: Accepted password for mnkosi from 10.50.11.13 port 48319 ssh2 sessionid=SESSION-1636
+2026-07-22T15:06:54Z vpn-gw02 sshd[21342]: session closed for user cpatel sessionid=SESSION-1655 duration=19624s
+2026-07-22T15:28:12Z vpn-gw01 sshd[21430]: Failed password for civanov from 10.50.12.64 port 39299 ssh2
+2026-07-22T15:45:55Z vpn-gw02 sshd[21327]: Accepted password for eramirez from 10.50.12.20 port 36839 ssh2 sessionid=SESSION-1648
+2026-07-22T15:48:30Z vpn-gw02 sshd[21440]: Failed password for divanov from 10.50.9.209 port 30570 ssh2
+2026-07-22T16:28:01Z vpn-gw02 sshd[21343]: Accepted password for iivanov from 10.50.9.1 port 45885 ssh2 sessionid=SESSION-1656
+2026-07-22T16:42:17Z vpn-gw01 sshd[21340]: session closed for user rcosta sessionid=SESSION-1654 duration=33372s
+2026-07-22T16:43:03Z vpn-gw01 sshd[21317]: Accepted password for civanov from 10.50.12.64 port 38181 ssh2 sessionid=SESSION-1643
+2026-07-22T16:53:39Z vpn-gw01 sshd[21330]: session closed for user ocosta sessionid=SESSION-1649 duration=33336s
+2026-07-22T16:54:55Z vpn-gw02 sshd[21305]: Accepted password for kivanov from 10.50.12.228 port 48461 ssh2 sessionid=SESSION-1637
+2026-07-22T17:00:08Z vpn-gw02 sshd[21312]: session closed for user ssingh sessionid=SESSION-1640 duration=25139s
+2026-07-22T17:42:35Z vpn-gw01 sshd[21319]: Accepted password for epatel from 10.50.12.64 port 42698 ssh2 sessionid=SESSION-1644
+2026-07-22T17:43:03Z vpn-gw01 sshd[21321]: Accepted password for tcosta from 10.50.10.174 port 58290 ssh2 sessionid=SESSION-1645
+2026-07-22T17:52:02Z vpn-gw01 sshd[21345]: Accepted password for u221 from 10.50.12.186 port 58938 ssh2 sessionid=SESSION-1657
+2026-07-22T18:00:44Z vpn-gw01 sshd[21324]: session closed for user nwong sessionid=SESSION-1646 duration=19713s
+2026-07-22T18:00:45Z vpn-gw01 sshd[21307]: Accepted password for alund from 10.50.10.8 port 58532 ssh2 sessionid=SESSION-1638
+2026-07-22T18:24:27Z vpn-gw02 sshd[21336]: session closed for user livanov sessionid=SESSION-1652 duration=25984s
+2026-07-22T18:55:54Z vpn-gw02 sshd[21314]: session closed for user divanov sessionid=SESSION-1641 duration=24389s
+2026-07-22T19:31:57Z vpn-gw01 sshd[21334]: session closed for user framirez sessionid=SESSION-1651 duration=31238s
+2026-07-22T21:18:29Z vpn-gw01 sshd[21302]: session closed for user jlund sessionid=SESSION-1635 duration=34428s
+2026-07-22T21:23:53Z vpn-gw02 sshd[21326]: session closed for user hivanov sessionid=SESSION-1647 duration=24540s
+2026-07-22T22:36:49Z vpn-gw02 sshd[21304]: session closed for user mnkosi sessionid=SESSION-1636 duration=27430s
+2026-07-22T23:01:53Z vpn-gw01 sshd[21320]: session closed for user epatel sessionid=SESSION-1644 duration=19158s
+2026-07-22T23:02:52Z vpn-gw01 sshd[21310]: session closed for user llund sessionid=SESSION-1639 duration=30984s
+2026-07-22T23:15:18Z vpn-gw02 sshd[21344]: session closed for user iivanov sessionid=SESSION-1656 duration=24437s
+2026-07-22T23:20:38Z vpn-gw01 sshd[21316]: session closed for user pcosta sessionid=SESSION-1642 duration=35845s
+2026-07-22T23:22:34Z vpn-gw01 sshd[21308]: session closed for user alund sessionid=SESSION-1638 duration=19309s
+2026-07-22T23:22:53Z vpn-gw01 sshd[21322]: session closed for user tcosta sessionid=SESSION-1645 duration=20390s
+2026-07-22T23:41:30Z vpn-gw01 sshd[21346]: session closed for user u221 sessionid=SESSION-1657 duration=20968s
+2026-07-22T23:43:22Z vpn-gw02 sshd[21306]: session closed for user kivanov sessionid=SESSION-1637 duration=24507s
+2026-07-22T23:58:59Z vpn-gw01 sshd[21318]: session closed for user civanov sessionid=SESSION-1643 duration=26156s
+2026-07-22T23:59:38Z vpn-gw02 sshd[21328]: session closed for user eramirez sessionid=SESSION-1648 duration=29623s
+2026-07-23T04:11:21Z vpn-gw01 sshd[21663]: Accepted password for svc-backup from 46.16.202.234 port 38531 ssh2 sessionid=SESSION-1694
+2026-07-23T04:23:39Z vpn-gw01 sshd[21664]: session closed for user svc-backup sessionid=SESSION-1694 duration=738s
+2026-07-23T08:03:56Z vpn-gw01 sshd[21351]: Accepted password for alund from 10.50.10.8 port 52140 ssh2 sessionid=SESSION-1660
+2026-07-23T08:50:22Z vpn-gw02 sshd[21496]: Failed password for ybell from 10.50.14.160 port 34863 ssh2
+2026-07-23T09:32:31Z vpn-gw01 sshd[21357]: Failed password for tcosta from 10.50.10.174 port 57174 ssh2
+2026-07-23T10:44:29Z vpn-gw01 sshd[21582]: Failed password for gcosta from 10.50.14.242 port 48177 ssh2
+2026-07-23T10:57:12Z vpn-gw02 sshd[21606]: Failed password for iivanov from 10.50.9.1 port 50021 ssh2
+2026-07-23T11:38:44Z vpn-gw02 sshd[21360]: Accepted password for eramirez from 10.50.12.20 port 36779 ssh2 sessionid=SESSION-1664
+2026-07-23T12:40:03Z vpn-gw01 sshd[21376]: Accepted password for vlund from 10.50.10.172 port 41869 ssh2 sessionid=SESSION-1672
+2026-07-23T12:54:27Z vpn-gw02 sshd[21457]: Failed password for u221 from 10.50.12.186 port 57106 ssh2
+2026-07-23T12:54:43Z vpn-gw02 sshd[21370]: Accepted password for rcosta from 10.50.11.139 port 38132 ssh2 sessionid=SESSION-1669
+2026-07-23T12:56:11Z vpn-gw01 sshd[21364]: Accepted password for framirez from 10.50.13.153 port 37907 ssh2 sessionid=SESSION-1666
+2026-07-23T13:46:32Z vpn-gw02 sshd[21366]: Accepted password for livanov from 10.50.12.186 port 50856 ssh2 sessionid=SESSION-1667
+2026-07-23T14:42:12Z vpn-gw01 sshd[21353]: Accepted password for divanov from 10.50.9.209 port 39622 ssh2 sessionid=SESSION-1661
+2026-07-23T14:52:10Z vpn-gw02 sshd[21378]: Accepted password for u221 from 10.50.12.186 port 50031 ssh2 sessionid=SESSION-1673
+2026-07-23T15:26:53Z vpn-gw01 sshd[21534]: Failed password for ssingh from 10.50.10.48 port 39165 ssh2
+2026-07-23T15:34:33Z vpn-gw01 sshd[21372]: Accepted password for cpatel from 10.50.11.181 port 37430 ssh2 sessionid=SESSION-1670
+2026-07-23T15:46:43Z vpn-gw02 sshd[21374]: Accepted password for iivanov from 10.50.9.1 port 33591 ssh2 sessionid=SESSION-1671
+2026-07-23T16:03:21Z vpn-gw02 sshd[21473]: Failed password for civanov from 10.50.12.64 port 38834 ssh2
+2026-07-23T16:20:38Z vpn-gw01 sshd[21572]: Failed password for alund from 10.50.10.8 port 57460 ssh2
+2026-07-23T16:38:28Z vpn-gw01 sshd[21352]: session closed for user alund sessionid=SESSION-1660 duration=30872s
+2026-07-23T16:45:14Z vpn-gw02 sshd[21347]: Accepted password for jlund from 10.50.13.111 port 53126 ssh2 sessionid=SESSION-1658
+2026-07-23T17:22:33Z vpn-gw01 sshd[21362]: Accepted password for ocosta from 10.50.11.15 port 43433 ssh2 sessionid=SESSION-1665
+2026-07-23T17:27:28Z vpn-gw02 sshd[21361]: session closed for user eramirez sessionid=SESSION-1664 duration=20924s
+2026-07-23T17:27:58Z vpn-gw01 sshd[21358]: Accepted password for tcosta from 10.50.10.174 port 38016 ssh2 sessionid=SESSION-1663
+2026-07-23T17:33:56Z vpn-gw02 sshd[21368]: Accepted password for ncosta from 10.50.12.188 port 50831 ssh2 sessionid=SESSION-1668
+2026-07-23T17:38:35Z vpn-gw01 sshd[21628]: Failed password for hivanov from 10.50.10.174 port 30727 ssh2
+2026-07-23T18:33:31Z vpn-gw01 sshd[21349]: Accepted password for kivanov from 10.50.12.228 port 59002 ssh2 sessionid=SESSION-1659
+2026-07-23T18:41:41Z vpn-gw01 sshd[21355]: Accepted password for pcosta from 10.50.10.216 port 38120 ssh2 sessionid=SESSION-1662
+2026-07-23T19:27:18Z vpn-gw02 sshd[21367]: session closed for user livanov sessionid=SESSION-1667 duration=20446s
+2026-07-23T19:28:10Z vpn-gw02 sshd[21371]: session closed for user rcosta sessionid=SESSION-1669 duration=23607s
+2026-07-23T21:02:29Z vpn-gw02 sshd[21379]: session closed for user u221 sessionid=SESSION-1673 duration=22219s
+2026-07-23T21:02:56Z vpn-gw02 sshd[21375]: session closed for user iivanov sessionid=SESSION-1671 duration=18973s
+2026-07-23T22:15:53Z vpn-gw01 sshd[21377]: session closed for user vlund sessionid=SESSION-1672 duration=34550s
+2026-07-23T22:22:29Z vpn-gw01 sshd[21365]: session closed for user framirez sessionid=SESSION-1666 duration=33978s
+2026-07-23T23:09:26Z vpn-gw01 sshd[21373]: session closed for user cpatel sessionid=SESSION-1670 duration=27293s
+2026-07-23T23:20:53Z vpn-gw01 sshd[21354]: session closed for user divanov sessionid=SESSION-1661 duration=31121s
+2026-07-23T23:21:30Z vpn-gw01 sshd[21356]: session closed for user pcosta sessionid=SESSION-1662 duration=16789s
+2026-07-23T23:35:07Z vpn-gw01 sshd[21359]: session closed for user tcosta sessionid=SESSION-1663 duration=22029s
+2026-07-23T23:37:26Z vpn-gw02 sshd[21369]: session closed for user ncosta sessionid=SESSION-1668 duration=21810s
+2026-07-23T23:41:15Z vpn-gw01 sshd[21350]: session closed for user kivanov sessionid=SESSION-1659 duration=18464s
+2026-07-23T23:41:53Z vpn-gw01 sshd[21363]: session closed for user ocosta sessionid=SESSION-1665 duration=22760s
+2026-07-23T23:58:00Z vpn-gw02 sshd[21348]: session closed for user jlund sessionid=SESSION-1658 duration=25966s
+2026-07-24T08:00:03Z vpn-gw02 sshd[21411]: Failed password for ybell from 10.50.14.160 port 55432 ssh2
+2026-07-24T08:09:18Z vpn-gw02 sshd[21407]: Accepted password for livanov from 10.50.12.186 port 49871 ssh2 sessionid=SESSION-1686
+2026-07-24T08:50:36Z vpn-gw02 sshd[21414]: Accepted password for iivanov from 10.50.9.1 port 34580 ssh2 sessionid=SESSION-1689
+2026-07-24T08:50:44Z vpn-gw02 sshd[21393]: Failed password for tcosta from 10.50.10.174 port 48722 ssh2
+2026-07-24T09:20:36Z vpn-gw02 sshd[21403]: Accepted password for ocosta from 10.50.11.15 port 38392 ssh2 sessionid=SESSION-1684
+2026-07-24T09:32:25Z vpn-gw02 sshd[21380]: Failed password for jlund from 10.50.13.111 port 49244 ssh2
+2026-07-24T09:45:01Z vpn-gw02 sshd[21423]: Failed password for epatel from 10.50.12.64 port 54701 ssh2
+2026-07-24T09:57:11Z vpn-gw02 sshd[21587]: Failed password for vlund from 10.50.10.172 port 53729 ssh2
+2026-07-24T10:09:31Z vpn-gw01 sshd[21391]: Accepted password for epatel from 10.50.12.64 port 49172 ssh2 sessionid=SESSION-1679
+2026-07-24T10:20:48Z vpn-gw01 sshd[21409]: Accepted password for rcosta from 10.50.11.139 port 45483 ssh2 sessionid=SESSION-1687
+2026-07-24T10:25:22Z vpn-gw02 sshd[21387]: Accepted password for divanov from 10.50.9.209 port 42363 ssh2 sessionid=SESSION-1677
+2026-07-24T10:53:05Z vpn-gw02 sshd[21394]: Accepted password for tcosta from 10.50.10.174 port 44252 ssh2 sessionid=SESSION-1680
+2026-07-24T11:48:30Z vpn-gw01 sshd[21426]: Failed password for civanov from 10.50.12.64 port 49404 ssh2
+2026-07-24T12:12:08Z vpn-gw02 sshd[21419]: Failed password for nwong from 10.50.13.111 port 48971 ssh2
+2026-07-24T12:35:00Z vpn-gw02 sshd[21412]: Accepted password for ybell from 10.50.14.160 port 40898 ssh2 sessionid=SESSION-1688
+2026-07-24T13:32:51Z vpn-gw02 sshd[21396]: Accepted password for nwong from 10.50.13.111 port 34196 ssh2 sessionid=SESSION-1681
+2026-07-24T13:53:26Z vpn-gw01 sshd[21389]: Accepted password for pcosta from 10.50.10.216 port 42367 ssh2 sessionid=SESSION-1678
+2026-07-24T14:22:05Z vpn-gw02 sshd[21405]: Accepted password for gcosta from 10.50.14.242 port 54663 ssh2 sessionid=SESSION-1685
+2026-07-24T14:51:41Z vpn-gw02 sshd[21416]: Accepted password for u221 from 10.50.12.186 port 48457 ssh2 sessionid=SESSION-1690
+2026-07-24T15:13:22Z vpn-gw01 sshd[21401]: Accepted password for eramirez from 10.50.12.20 port 37973 ssh2 sessionid=SESSION-1683
+2026-07-24T15:15:47Z vpn-gw02 sshd[21415]: session closed for user iivanov sessionid=SESSION-1689 duration=23111s
+2026-07-24T15:19:42Z vpn-gw01 sshd[21609]: Failed password for u221 from 10.50.12.186 port 40475 ssh2
+2026-07-24T15:30:08Z vpn-gw01 sshd[21400]: Failed password for eramirez from 10.50.12.20 port 48962 ssh2
+2026-07-24T15:54:52Z vpn-gw01 sshd[21385]: Accepted password for llund from 10.50.14.36 port 52916 ssh2 sessionid=SESSION-1676
+2026-07-24T16:37:35Z vpn-gw02 sshd[21388]: session closed for user divanov sessionid=SESSION-1677 duration=22333s
+2026-07-24T16:44:55Z vpn-gw01 sshd[21398]: Accepted password for hivanov from 10.50.10.174 port 43724 ssh2 sessionid=SESSION-1682
+2026-07-24T16:53:46Z vpn-gw01 sshd[21410]: session closed for user rcosta sessionid=SESSION-1687 duration=23578s
+2026-07-24T17:42:23Z vpn-gw01 sshd[21392]: session closed for user epatel sessionid=SESSION-1679 duration=27172s
+2026-07-24T17:51:12Z vpn-gw02 sshd[21408]: session closed for user livanov sessionid=SESSION-1686 duration=34914s
+2026-07-24T17:58:14Z vpn-gw02 sshd[21381]: Accepted password for jlund from 10.50.13.111 port 46344 ssh2 sessionid=SESSION-1674
+2026-07-24T18:12:36Z vpn-gw02 sshd[21404]: session closed for user ocosta sessionid=SESSION-1684 duration=31920s
+2026-07-24T18:20:56Z vpn-gw02 sshd[21383]: Accepted password for alund from 10.50.10.8 port 42315 ssh2 sessionid=SESSION-1675
+2026-07-24T20:23:16Z vpn-gw02 sshd[21417]: session closed for user u221 sessionid=SESSION-1690 duration=19895s
+2026-07-24T20:47:15Z vpn-gw02 sshd[21395]: session closed for user tcosta sessionid=SESSION-1680 duration=35650s
+2026-07-24T20:52:34Z vpn-gw01 sshd[21390]: session closed for user pcosta sessionid=SESSION-1678 duration=25148s
+2026-07-24T21:00:53Z vpn-gw02 sshd[21406]: session closed for user gcosta sessionid=SESSION-1685 duration=23928s
+2026-07-24T21:14:39Z vpn-gw02 sshd[21397]: session closed for user nwong sessionid=SESSION-1681 duration=27708s
+2026-07-24T22:20:09Z vpn-gw02 sshd[21413]: session closed for user ybell sessionid=SESSION-1688 duration=35109s
+2026-07-24T23:14:52Z vpn-gw01 sshd[21386]: session closed for user llund sessionid=SESSION-1676 duration=26400s
+2026-07-24T23:17:21Z vpn-gw01 sshd[21402]: session closed for user eramirez sessionid=SESSION-1683 duration=29039s
+2026-07-24T23:25:47Z vpn-gw02 sshd[21382]: session closed for user jlund sessionid=SESSION-1674 duration=19653s
+2026-07-24T23:25:50Z vpn-gw01 sshd[21399]: session closed for user hivanov sessionid=SESSION-1682 duration=24055s
+2026-07-24T23:36:43Z vpn-gw02 sshd[21384]: session closed for user alund sessionid=SESSION-1675 duration=18947s
+2026-07-25T13:23:26Z vpn-gw02 sshd[21527]: Failed password for ncosta from 10.50.12.188 port 46767 ssh2
+2026-07-25T14:27:19Z vpn-gw02 sshd[21583]: Failed password for hivanov from 10.50.10.174 port 57344 ssh2
+2026-07-25T14:30:06Z vpn-gw01 sshd[21481]: Failed password for jlund from 10.50.13.111 port 44885 ssh2
+2026-07-25T14:42:55Z vpn-gw01 sshd[21466]: Failed password for cpatel from 10.50.11.181 port 42420 ssh2
+2026-07-26T17:23:53Z vpn-gw02 sshd[21522]: Failed password for u221 from 10.50.12.186 port 57834 ssh2
