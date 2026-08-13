@@ -10,8 +10,8 @@ You've just started as a junior data analyst at GlobalCart, an online retailer s
 
 Dataset: `/mnt/990pro/Work/repo/splunk-step/sales_data.csv` (6,000 events, 2026-05-01 to 2026-07-26)
 
-> [!warning] Environment drift since this writeup
-> These searches were written against the environment as it stood on 2026-07-31 and no
+> [!WARNING]
+> **Environment drift since this writeup.** These searches were written against the environment as it stood on 2026-07-31 and no
 > longer all run as-is. Current state is in [globalcart-manifest](../../environment/globalcart-manifest.md).
 >
 > **Lookup names have changed.** Every `| lookup` below names a superseded definition:
