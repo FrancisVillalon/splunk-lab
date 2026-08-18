@@ -38,5 +38,4 @@ they stay useful for every scenario built on this baseline.
 | Splunk Web serves HTTPS           | `curl -k -I https://172.16.58.10:8000` returns 200; plain HTTP on 8000 no longer answers         |
 | Indexes visible to `user`         | `\| eventcount summarize=false index=*` as a user-only account lists `main` and nothing else     |
 | Indexes visible to `power`        | Same search as a power-only account lists `_internal`, `history`, `main`, `summary` only         |
-| Scenario indexes unreachable      | `index=globalcart` as either account returns no results                                          |
 | Lookup File Editing app installed | `\| rest /services/apps/local \| table title, version, disabled` shows it at 4.0.7, not disabled |

@@ -1,0 +1,33 @@
+services:
+  splunk:
+    image: splunk/splunk:10.4.2
+    container_name: splunk
+    hostname: splunk
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+      - "127.0.0.1:8089:8089"
+    environment:
+      TZ: Asia/Singapore
+      SPLUNK_START_ARGS: --accept-license
+      SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
+      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+      nproc: 20480
+    volumes:
+      - splunk-etc:/opt/splunk/etc
+      - splunk-var:/opt/splunk/var
+      - ./default.yml:/tmp/defaults/default.yml
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: 8G
+volumes:
+  splunk-etc:
+    external: true
+  splunk-var:
+    external: true

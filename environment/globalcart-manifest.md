@@ -15,7 +15,7 @@ Full writeup: [GlobalCart](../labs/GlobalCart/GlobalCart.md)
 | File           | Index      | Sourcetype       | App        | TZ             | Events | Span                    |
 | -------------- | ---------- | ---------------- | ---------- | -------------- | ------ | ----------------------- |
 | sales_data.csv | globalcart | globalcart:sales | globalcart | Asia/Singapore | 6000   | 2026-05-01 → 2026-07-26 |
-
+Do note that when checking number of events to also scope to `sourcetype=globalcart:sales` as alerts with log event action will be writing to this index as well.
 # Required Objects
 
 Everything below lives in the globalcart app, is readable by globalcart_analyst, and is
@@ -53,11 +53,11 @@ left to the conf files.
 
 ## Reports, Dashboards & Alerts
 
-| Name                  | Type      | Purpose                                                                                                                                                                                        |
-| --------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Revenue by Device     | report    | Revenue split by device                                                                                                                                                                        |
-| Revenue by Device     | dashboard | Single panel over the report above                                                                                                                                                             |
-| Too much revenue lost | alert     | Fires when all time refund revenue > $500; triggered alert (high sev) + log event. Time range is set to all time to guarantee it fires. This was created for to test alerting in the scenario. |
+| Name                  | Type      | Purpose                                                                                                                                                                                        | Owned  by | Display For |
+| --------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------- |
+| Revenue by Device     | report    | Revenue split by device                                                                                                                                                                        | john      | Owner       |
+| Revenue by Device     | dashboard | Single panel over the report above                                                                                                                                                             | john      | Owner       |
+| Too much revenue lost | alert     | Fires when all time refund revenue > $500; triggered alert (high sev) + log event. Time range is set to all time to guarantee it fires. This was created for to test alerting in the scenario. | john      | Owner       |
 
 # Role & Users
 
@@ -65,9 +65,9 @@ left to the conf files.
 | ------------------ | -------- | --------------- | ----------- |
 | globalcart_analyst | power    | globalcart      | globalcart  |
 
-| Username | Full Name  | Email                   | Role                 | Default App  | TZ                          |
-| -------- | ---------- | ----------------------- | -------------------- | ------------ | --------------------------- |
-| john   | John Doe | john.d@globalcart.com | globalcart_analyst | globalcart | Asia/Singapore GMT +08:00 |
+| Username | Full Name | Email                 | Role               | Default App | TZ                        |
+| -------- | --------- | --------------------- | ------------------ | ----------- | ------------------------- |
+| john     | John Doe  | john.d@globalcart.com | globalcart_analyst | globalcart  | Asia/Singapore GMT +08:00 |
 # Verification
 
 | Check                         | Expected                   | Notes                                                                           |
