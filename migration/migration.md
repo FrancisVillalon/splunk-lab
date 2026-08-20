@@ -1,3 +1,8 @@
+---
+status: complete
+created: 2026-08-19
+updated: 2026-08-20
+---
 # Summary
 Documents all the steps taken to migrate the environment
 # Create named docker volumes
@@ -12,9 +17,9 @@ docker volume create splunk-etc
 docker volume create splunk-var
 
 # Populate named volumes using a throwaway alpine container
-docker run --rm -i -v splunk-etc:/data alpine sh -c 'tar -xzf - --strip-components=1 -C /data && chown -R 41812:41812 /data' < /mnt/990pro/Work/repo/splunk-step/splunk-backup/2026-08-18-UtL3PIXA/splunk-etc-2026-08-18.tar.gz
-  
-docker run --rm -i -v splunk-var:/data alpine sh -c 'tar -xzf - --strip-components=1 -C /data && chown -R 41812:41812 /data' < /mnt/990pro/Work/repo/splunk-step/splunk-backup/2026-08-18-UtL3PIXA/splunk-var-2026-08-18.tar.gz
+docker run --rm -i -v splunk-etc:/data alpine sh -c 'tar -xzf - --strip-components=1 -C /data && chown -R 41812:41812 /data' < /mnt/990pro/Work/repo/splunk-step/splunk-backup/<backup_folder>/<backup_etc>
+
+docker run --rm -i -v splunk-var:/data alpine sh -c 'tar -xzf - --strip-components=1 -C /data && chown -R 41812:41812 /data' < /mnt/990pro/Work/repo/splunk-step/splunk-backup/<backup_folder>/<backup_var>
   
 # Check owernship and mode
 docker run --rm -v splunk-etc:/etc-data -v splunk-var:/var-data alpine ls -ld /etc-data /var-data
@@ -56,7 +61,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2"
+          cpus: "4"
           memory: 8G
 volumes:
   splunk-etc:
@@ -64,3 +69,13 @@ volumes:
   splunk-var:
     external: true
 ```
+
+# Run Docker
+
+```bash
+docker compose up -d  # -> Start docker container
+docker compose logs -f # -> Ensure ansible playbook ran successfully
+docker ps -a # -> Ensure docker container is healthy
+```
+
+After docker container is running and known to be healthy, run post migration checks.

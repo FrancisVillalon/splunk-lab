@@ -226,7 +226,7 @@ This charts the failed logins by time binned by days and compares the last week 
 
 __Failed logins comparison__
 
-This shows a abnormal spike in failed logins on `Mon Jul 14`, the Monday 1 week before.
+This shows a abnormal spike in failed logins on `Tue Jul 14`, the Tuesday 1 week before.
 The current query shows all failed logins including `src_ip`s that are from the internal network `10.50.0.0/16`.
 If we add `| where NOT cidrmatch("10.50.0.0/16",src_ip)` we will see the following,
 

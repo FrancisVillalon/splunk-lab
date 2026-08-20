@@ -12,9 +12,9 @@ Junior data analyst at GlobalCart, an online retailer across 12 countries. Ad-ho
 Full writeup: [GlobalCart](../labs/GlobalCart/GlobalCart.md)
 # Dataset
 
-| File           | Index      | Sourcetype       | App        | TZ             | Events | Span                    |
-| -------------- | ---------- | ---------------- | ---------- | -------------- | ------ | ----------------------- |
-| sales_data.csv | globalcart | globalcart:sales | globalcart | Asia/Singapore | 6000   | 2026-05-01 → 2026-07-26 |
+| File           | Index      | Sourcetype       | App        | TZ             | Events | Span                    | Indexed time (epoch time) |
+| -------------- | ---------- | ---------------- | ---------- | -------------- | ------ | ----------------------- | ------------------------- |
+| sales_data.csv | globalcart | globalcart:sales | globalcart | Asia/Singapore | 6000   | 2026-05-01 → 2026-07-26 | 1786605521                |
 Do note that when checking number of events to also scope to `sourcetype=globalcart:sales` as alerts with log event action will be writing to this index as well.
 # Required Objects
 
@@ -70,12 +70,62 @@ left to the conf files.
 | john     | John Doe  | john.d@globalcart.com | globalcart_analyst | globalcart  | Asia/Singapore GMT +08:00 |
 # Verification
 
-| Check                         | Expected                   | Notes                                                                           |
-| ----------------------------- | -------------------------- | ------------------------------------------------------------------------------- |
-| Events indexed                | 6000                       | Scoped to globalcart:sales                                                      |
-| Unique Customers in Beauty    | 958                        |                                                                                 |
-| Total revenue                 | $2,037,941.60              | Equals dataset’s full revenue                                                   |
-| Best category + priority tier | Books / Tier3, 1051 orders | Checks if category_to_priority lookup and event data match                      |
-| category_to_priority rows     | 6                          | Covers all 6 categories in the dataset, check with `\| inputlookup definition`  |
-| country_to_region rows        | 12                         | Covers all 12 countries in the dataset, check with  `\| inputlookup definition` |
-| product_to_cost rows          | 30                         | Covers all 30 products in the dataset, check with `\| inputlookup definition`   |
+| Check                         | Expected                                                  | Notes                                                                                                                                                                   |
+| ----------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `_indextime`                  | `min=1786605521` `max=1786605521`<br>`sum=10719633126000` | The entire csv was added in bulk so the real check is that <br>`min == max` and the `sum` remains the same otherwise there are events that have a different index time. |
+| `_time`                       | `min=1777565523` `max=1785081493`<br>`sum=10688027062398` | The values here should all match otherwise the parsed event time is erroneous.                                                                                          |
+| Events indexed                | 6000                                                      | Scoped to globalcart:sales                                                                                                                                              |
+| Unique Customers in Beauty    | 958                                                       |                                                                                                                                                                         |
+| Total revenue                 | $2,037,941.60                                             | Equals dataset’s full revenue                                                                                                                                           |
+| Best category + priority tier | Books / Tier3, 1051 orders                                | Checks if category_to_priority lookup and event data match                                                                                                              |
+| category_to_priority checksum | 6                                                         | Covers all 6 categories in the dataset, check with `\| inputlookup definition`                                                                                          |
+| country_to_region rows        | 12                                                        | Covers all 12 countries in the dataset, check with  `\| inputlookup definition`                                                                                         |
+| product_to_cost rows          | 30                                                        | Covers all 30 products in the dataset, check with `\| inputlookup definition`                                                                                           |
+
+```sql
+1 -- Check _indextime
+index=globalcart sourcetype=globalcart:sales earliest=0 latest=now
+| stats count, min(_indextime) as i_min, max(_indextime) as i_max, sum(_indextime) as i_sum
+| foreach *_min *_max [ eval <<FIELD>>_formatted=strftime(<<FIELD>>,"%F %T %Z")]
+
+2 -- Check _time
+index=globalcart sourcetype=globalcart:sales earliest=0 latest=now
+| stats count, min(_time) as t_min, max(_time) as t_max, sum(_time) as t_sum
+| foreach *_min *_max [ eval <<FIELD>>_formatted=strftime(<<FIELD>>,"%F %T %Z")]
+
+3 -- Events indexed
+index=globalcart sourcetype=globalcart:sales earliest=0 latest=now
+| stats count
+
+4 -- Unique customers in beauty
+index=globalcart sourcetype=globalcart:sales earliest=0 latest=now category="Beauty"
+| stats dc(customer_id) as UniqueCustomers
+
+5 -- Total Revenue 
+index=globalcart sourcetype=globalcart:sales earliest=0 latest=now 
+| stats sum(revenue) as TotalRevenue
+| fieldformat TotalRevenue="$".tostring(TotalRevenue,"commas")
+
+6 -- Best category + priority tier
+index=globalcart sourcetype=globalcart:sales earliest=0 latest=now 
+| lookup category_to_priority category OUTPUT priority 
+| stats count as orders by category, priority
+| sort -orders limit=1
+
+7 -- category_to_priority lookup rows
+| inputlookup category_to_priority | stats count
+
+8 -- country_to_region lookup rows
+| inputlookup country_to_region | stats count
+
+9 -- product_to_cost lookup rows
+| inputlookup product_to_cost | stats count
+
+10 -- checksum rows in lookup
+| inputlookup <lookup_name> 
+| eval k=_key
+| tojson output_field=j
+| eval j=md5(j)
+| stats list(j) as hashes
+| eval hash=md5(mvjoin(hashes,"~"))
+```

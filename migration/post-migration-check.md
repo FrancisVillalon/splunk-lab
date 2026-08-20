@@ -4,10 +4,53 @@ created: 2026-08-14
 updated: 2026-08-17
 ---
 # Summary
-This documents the verification and preparation steps before the migration starts and guides you to create a snapshot of the current state.
+This document details all the checks conduct post-migration to determine if the migration was a success and if it is good enough to retire the source system.
 
+# Docker Container Checks
+Check container health, ansible playbook completed with no errors
+
+```
+docker ps -a
+docker compose logs -f
+```
+
+Check `splunk.secret` in the container has the same sha512 check sum as the original 
+```
+docker exec -u 0 -it splunk sha512sum /opt/splunk/etc/auth/splunk.secret
+```
+
+Check ownership and mode of `/opt/splunk/etc` and `/opt/splunk/var`, ensure it is owned by `41812`
+
+```
+docker exec -u 0 -it splunk ls -ldn /opt/splunk/etc
+docker exec -u 0 -it splunk ls -ldn /opt/splunk/var
+```
+
+Check ports published 
+
+```
+docker port splunk
+```
+
+Check the resource limit was applied
+
+```
+docker exec splunk cat /sys/fs/cgroup/memory.max
+docker exec splunk cat /sys/fs/cgroup/cpu.max      # "quota period", e.g. "200000 100000" = 2 CPUs
+docker exec splunk cat /sys/fs/cgroup/memory.current
+```
+
+Check that the web instance is reachable over `https` and not on `http`
+
+```
+curl -k -I https://127.0.0.1:8000 
+curl -k -I http://127.0.0.1:8000 # Should be empty reply
+```
+
+> [!note]
+> Replace splunk with what ever the container name is
 # Splunk Version
-Check the Splunk version 
+Check the Splunk version matches with the pre-migration
 
 ```
 | rest /services/server/info
@@ -15,7 +58,7 @@ Check the Splunk version
 ```
 
 # Splunk License
-Check the Splunk license
+Check the Splunk license matches with the pre-migration
 
 ```
 | rest /services/licenser/licenses
@@ -23,10 +66,59 @@ Check the Splunk license
 | eval expiration_readable=strftime(expiration_time, "%Y-%m-%d %H:%M:%S")
 | table license_hash label quota_GB expiration_readable status max_violations window_period
 ```
+# KVStore Restore
+First login into splunk
 
+```bash
+docker exec -u splunk -it splunk /opt/splunk/bin/splunk login
+```
+
+First check that the kvstore is healthy in this splunk instance
+
+```bash
+docker exec -u splunk splunk /opt/splunk/bin/splunk show kvstore-status 
+```
+
+Check what kvstore backups landed in the docker container. The kvstore backup that was made in pre-migration should exist there.
+
+```bash
+docker exec -u splunk splunk ls -lh /opt/splunk/var/lib/splunk/kvstorebackup/
+```
+
+If there is no kvstorebackup present in the above folder, we need to copy the kvstorebackup that was made in pre-migration into this folder.
+
+```bash
+docker cp path/to/kvstorebackup/file.tar.gz splunk:/opt/splunk/var/lib/splunk/kvstorebackup/
+docker exec -u root splunk chown -R 41812:41812 /opt/splunk/var/lib/splunk/kvstorebackup
+```
+
+Freeze writes by going into maintenance mode
+
+```bash
+docker exec -u splunk splunk /opt/splunk/bin/splunk enable kvstore-maintenance-mode 
+docker exec -u splunk splunk /opt/splunk/bin/splunk show kvstore-status 
+```
+
+Restore the kvstore 
+
+```bash
+docker exec -u splunk splunk /opt/splunk/bin/splunk restore kvstore -pointInTime true -archiveName <archivename> 
+```
+
+Unfreeze by exiting maintenance mode
+
+```bash
+docker exec -u splunk splunk /opt/splunk/bin/splunk disable kvstore-maintenance-mode 
+```
+
+Verify the kvstore is healthy 
+
+```bash
+docker exec -u splunk splunk /opt/splunk/bin/splunk show kvstore-status 
+```
 
 # Knowledge Objects Inventory 
-Inventory the knowledge objects created. These mainly look at the knowledge objects created for the globalcart scenario.
+Inventory the knowledge objects created and check them against the pre-migration
 
 ## Apps 
 Check for `globalcart` and `lookup_editor` as these are the ones we added in the `globalcart-manifest` and `baseline-splunk-config`
@@ -116,8 +208,7 @@ Then check the collections
 ```
 
 # Known Searches
-The following list should be verified using SPL to ensure the data is in a good state. 
-Pin all seraches to the `all time` time range.
+These proves the data survived the move. The following list should be verified using SPL with the time range set to `all time`.
 
 | Scenario   | Check                                              | Expected                                                  |
 | ---------- | -------------------------------------------------- | --------------------------------------------------------- |
@@ -179,94 +270,13 @@ index=globalcart sourcetype=globalcart:sales earliest=0 latest=now
 | eval hash=md5(mvjoin(hashes,"~"))
 ```
 
-# Freeze the Instance & Backup
-Backups will be first created in `/tmp` and then moved to  `/mnt/hgfs/splunk-step-repo/splunk-backup` to hold the backups
+# Functional Checks
 
-```bash
-# Login
-sudo -u splunk -H /opt/splunk/bin/splunk login
+| Check                                                                                                      | Status |
+| ---------------------------------------------------------------------------------------------------------- | ------ |
+| Log in as `john`                                                                                           |        |
+| `john` can search `globalcart` but not sensitive indexes like  `_audit`                                    |        |
+| `Too much revenue lost` alert is still scheduled, fires and writes to `globalcart:alerts`                  |        |
+| `splunk stop` the container, `docker compose down` then `docker compose up` and see if the state survives. |        |
 
-# Check if both backupRestoreStatus and status is ready
-sudo -u splunk -H /opt/splunk/bin/splunk show kvstore-status
-
-# Create backup of kvstore 
-sudo -u splunk -H /opt/splunk/bin/splunk backup kvstore -pointInTime true -archiveName kvstore-backup-<date>
-
-# Change to root user, run rest of the commands as root
-sudo su -
-
-# Check ownership of /etc and /var, the owner must resolve to splunk
-stat -c '%U %G %u %g %a %n' /opt/splunk/etc
-stat -c '%U %G %u %g %a %n' /opt/splunk/var
-
-# Check kvstore backup
-ls -lh /opt/splunk/var/lib/splunk/kvstorebackup/
-tar -tzf /opt/splunk/var/lib/splunk/kvstorebackup/kvstore-backup-<date>.tar.gz | head -50
-gzip -t  /opt/splunk/var/lib/splunk/kvstorebackup/kvstore-backup-<date>.tar.gz
-
-# Move kvstore backup to /tmp
-cp /opt/splunk/var/lib/splunk/kvstorebackup/kvstore-backup-<date>.tar.gz /tmp/
- 
-# Stop Splunk so on-disk state is consistent
-systemctl stop Splunkd
-systemctl is-active Splunkd
-ps -eo user,comm | grep -Ei 'splunk|mongod'
-
-# Archive the state that has to travel, preserving ownership and permissions
-tar -czpf /tmp/splunk-etc-<date>.tar.gz -C /opt/splunk etc
-tar -czpf /tmp/splunk-var-<date>.tar.gz \
---exclude='var/run/*' \
---exclude='var/lib/splunk/kvstore/*' \
--C /opt/splunk var 
-
-# Check exclusions took effect
-tar -tzf /tmp/splunk-var-<date>.tar.gz | grep -E '^var/(run|lib/splunk/kvstore)/.' | head
-tar -tzf /tmp/splunk-var-<date>.tar.gz | grep kvstorebackup | head
-gzip -t /tmp/splunk-etc-<date>.tar.gz /tmp/splunk-var-<date>.tar.gz && echo "tarballs exists"
-
-# Copy splunk.secret to /tmp
-cp /opt/splunk/etc/auth/splunk.secret /tmp/
-# Check license file name
-ls /opt/splunk/etc/licenses/enterprise
-# Copy license file to /tmp
-cp /opt/splunk/etc/licenses/enterprise/Splunk.License.lic /tmp/
-
-# Checksum all so the copy can be proven intact on the other side
-cd /tmp
-sha512sum \
-splunk-etc-<date>.tar.gz \
-splunk-var-<date>.tar.gz \
-kvstore-backup-<date>.tar.gz \
-splunk.secret \
-Splunk.License.lic \
-| tee splunk-migration.sha512
-
-
-# Move everything into the mounted folder, this only works if the mounted folder has allow_other in etc/fstab
-cp /tmp/splunk-etc-<date>.tar.gz \
-/tmp/splunk-var-<date>.tar.gz \
-/tmp/kvstore-backup-<date>.tar.gz \
-/tmp/splunk.secret \
-/tmp/Splunk.License.lic \
-/tmp/splunk-migration.sha512 \
-/mnt/hgfs/splunk-step-repo/splunk-backup/
-```
-
-Then shutdown the VM and perform a **snapshot** .
-
-Also check on the hostside the backups were correctly moved into the mounted folder
-```bash
-cd path/to/folder
-sha512sum -c splunk-migration.sha512
-```
-
-# Artifacts
-
-| Artifact                       | Size | Path |
-| ------------------------------ | ---- | ---- |
-| `splunk-etc-<date>.tar.gz`     |      |      |
-| `splunk-var-<date>.tar.gz`     |      |      |
-| `kvstore-backup-<date>.tar.gz` |      |      |
-| `splunk.secret`                |      |      |
-| License file (actual name:  )  |      |      |
-
+# Accepted Deviations

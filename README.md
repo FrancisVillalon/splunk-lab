@@ -10,6 +10,7 @@ synthetic company datasets.
 environment/   baseline VM + Splunk set, environment manifest
 labs/          one folder per scenario (writeup + data + images)
 scripts/       helper scripts
+migration/     VM to Docker migration runbook + checks
 ```
  
 ## Labs
@@ -25,3 +26,13 @@ scripts/       helper scripts
 - [baseline-ubuntu-vm](environment/baseline-ubuntu-vm.md) — base VM setup
 - [baseline-splunk-config](environment/baseline-splunk-config.md) — instance-wide Splunk config
 - [globalcart-manifest](environment/globalcart-manifest.md) — object inventory for the GlobalCart scenario
+
+## Migration
+
+Moving the instance from the Ubuntu VM to Docker on localhost.
+
+- [migration-readiness-check](migration/migration-readiness-check.md) — scope, target design, go/no-go
+- [pre-migration-check](migration/pre-migration-check.md) — inventory and verify before the move
+- [migration](migration/migration.md) — the migration steps
+- [post-migration-check](migration/post-migration-check.md) — verify the move succeeded
+- [Snapshot-template](migration/Snapshot-template.md) — template for capturing state either side of the move

@@ -7,6 +7,9 @@ SPLUNK_HOME=/opt/splunk
 DEST_BASE=/mnt/hgfs/splunk-step-repo/splunk-backup
 KV_DIR="$SPLUNK_HOME/var/lib/splunk/kvstorebackup"
 SUCCESS=0
+# Snapshot related
+VMPATH="/mnt/990pro/Work/vms/vmware-vms/splunk/splunk.vmx"
+SNAP="pre-migration-$DATE"
 # Create temp and delete on script exit
 STAGE=$(mktemp -d /tmp/splunk-snapshot-"$DATE"-XXXXXXXX)
 DEST=""
@@ -193,9 +196,11 @@ echo "[$(date)] Copying data to destination folder..."
 cp "splunk-etc-$DATE.tar.gz" "splunk-var-$DATE.tar.gz" "$KV_TGZ" splunk.secret "$LICENSE_BASE" \
   splunk-migration.sha512 "$DEST/"
 sync
+
 echo "[$(date)] Checking SHA512 hashes"
 if (cd "$DEST" && sha512sum -c splunk-migration.sha512); then
   echo "[$(date)] Hashes verified! Snapshot done!"
+  SUCCESS=1
 else
   echo "[$(date)] Hash mismatch."
   exit 1
@@ -222,4 +227,3 @@ echo "| splunk UID:GID on the VM | \`$SPLUNK_ID\` |"
 echo "| Mode on \`$SPLUNK_HOME/etc\` | $ETC_MODE |"
 echo "| Mode on \`$SPLUNK_HOME/var\` | $VAR_MODE |"
 echo "[$(date)] Report: $REPORT"
-SUCCESS=1

@@ -2,6 +2,7 @@ import urllib3
 import os
 import requests
 from dotenv import load_dotenv
+from urllib.parse import quote
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -51,13 +52,13 @@ class Splunk:
         self.s.headers["Authorization"] = f"Splunk {r.json()['sessionKey']}"
 
     def logout(self):
-        """Invalidate the session key server-side."""
+        """Invalidate the session key server-side by supplying session key to httpauth-tokens endpoint"""
         auth = self.s.headers.get("Authorization", "")
         session_key = auth.removeprefix("Splunk ")
         try:
             if session_key:
                 r = self.s.delete(
-                    f"{self.url}/services/authentication/httpauth-tokens/{session_key}",
+                    f"{self.url}/services/authentication/httpauth-tokens/{quote(session_key, safe='')}",
                     timeout=30,
                 )
                 if r.status_code != 200:
@@ -94,6 +95,27 @@ class Splunk:
                 break
             offset += page_size
         return entries
+
+    # Not robust, check
+    def search(self, spl, earliest="-24@h", latest="now"):
+        """Run SPL via oneshot, return list of result dicts."""
+        if not spl.lstrip().startswith("|"):
+            spl = f"search {spl}"
+        r = self.s.post(
+            self.url + "/services/search/jobs",
+            data={
+                "search": spl,
+                "exec_mode": "oneshot",
+                "output_mode": "json",
+                "earliest_time": earliest,
+                "latest_time": latest,
+                "count": 0,
+            },
+            timeout=300,
+        )
+        if r.status_code != 200:
+            raise SplunkError(f"search -> {r.status_code}: {self._why(r)}")
+        return r.json().get("results", [])
 
     # Context
     def __enter__(self):
