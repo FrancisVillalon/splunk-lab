@@ -1,4 +1,5 @@
 splunk-snapshot/.env
-*/.env
 splunk-snapshot/venv
-
+containers/old-docker/data-backup
+**/.env
+**/passwd
