@@ -7,20 +7,38 @@ SPLUNK_HOME=/opt/splunk
 DEST_BASE=/mnt/hgfs/splunk-step-repo/splunk-backup
 KV_DIR="$SPLUNK_HOME/var/lib/splunk/kvstorebackup"
 SUCCESS=0
-# Snapshot related
-VMPATH="/mnt/990pro/Work/vms/vmware-vms/splunk/splunk.vmx"
-SNAP="pre-migration-$DATE"
-# Create temp and delete on script exit
+KV_MAINT=0
+KV_MODE_TIMEOUT=${KV_MODE_TIMEOUT:-120}
 STAGE=$(mktemp -d /tmp/splunk-snapshot-"$DATE"-XXXXXXXX)
 DEST=""
 
 # define cleanup
 clean() {
+  if ((KV_MAINT)); then
+    echo "[$(date)] Something failed during kvstore backup...Disabling kvstore maintenance mode"
+    # A disable issued mid-transition is rejected and the queued enable still lands, so
+    # let the mode settle first, then disable, then confirm it actually came back.
+    for _ in {1..3}; do
+      kv_wait_for maintenance 30 || true
+      splunk disable kvstore-maintenance-mode || true
+      if kv_wait_for ready "$KV_MODE_TIMEOUT"; then
+        KV_MAINT=0
+        echo "[$(date)] kvstore is back out of maintenance mode"
+        break
+      fi
+    done
+    if ((KV_MAINT)); then
+      echo "[$(date)] FAILED to disable maintenance mode — run 'splunk disable kvstore-maintenance-mode' by hand"
+    fi
+  fi
+
   cd /
   rm -rf "$STAGE"
   ((SUCCESS)) || rm -rf "$DEST"
 }
 trap clean EXIT
+trap 'exit 130' INT
+trap 'exit 143' TERM
 
 # --- (0) Setup
 # Check if script is running as sudo
@@ -46,8 +64,25 @@ sudo -u splunk -H /opt/splunk/bin/splunk login
 # Define splunk() function
 splunk() { sudo -u splunk -H "$SPLUNK_HOME/bin/splunk" "$@"; }
 
+# Function to check if kvstore is in a desired mode
+kv_wait_for() {
+  local want=$1 deadline=$((SECONDS + ${2:-120})) out
+  while ((SECONDS < deadline)); do
+    out=$(splunk show kvstore-status) || true
+    if grep -q "status : $want" <<<"$out"; then
+      return 0
+    fi
+    sleep 2
+  done
+  return 1
+}
+
 # --- (1) KVStore backup
-echo "[$(date)] Checking kvstore-status"
+echo "[$(date)] Checking kvstore-status is healthy"
+if ! kv_wait_for ready "$KV_MODE_TIMEOUT"; then
+  echo "[$(date)] kvstore status is not ready after ${KV_MODE_TIMEOUT}s"
+  exit 1
+fi
 kvstore_status=$(splunk show kvstore-status)
 if ! grep -q "backupRestoreStatus : Ready" <<<"$kvstore_status"; then
   echo "[$(date)] backRestoreStatus is not ready"
@@ -55,26 +90,40 @@ if ! grep -q "backupRestoreStatus : Ready" <<<"$kvstore_status"; then
 else
   echo "[$(date)] backupRestoreStatus is ready!"
 fi
-if ! grep -q "status : ready" <<<"$kvstore_status"; then
-  echo "[$(date)] status is not ready."
+echo "[$(date)] kvstore is ready and healthy!"
+
+echo "[$(date)] Enable kvstore maintenance mode"
+KV_MAINT=1
+splunk enable kvstore-maintenance-mode
+
+echo "[$(date)] Waiting for kvstore to enter maintenance mode"
+if ! kv_wait_for maintenance "$KV_MODE_TIMEOUT"; then
+  echo "[$(date)] kvstore never entered maintenance mode after ${KV_MODE_TIMEOUT}s"
+  exit 1
+fi
+kvstore_status=$(splunk show kvstore-status)
+if ! grep -q "backupRestoreStatus : Ready" <<<"$kvstore_status"; then
+  echo "[$(date)] backRestoreStatus is not ready"
   exit 1
 else
-  echo "[$(date)] status is ready!"
+  echo "[$(date)] backupRestoreStatus is ready!"
 fi
+echo "[$(date)] kvstore is in maintenance mode and ready!"
 
-# ----
-echo "[$(date)] Backing up kvstore"
-splunk backup kvstore -pointInTime true -archiveName "kvstore-backup-$DATE" || {
+# ---- Create the kvstore backup with a unique name
+KV_ARCHIVE="kvstore-backup-$(date +%F-%H%M%S)"
+echo "[$(date)] Backing up kvstore as $KV_ARCHIVE"
+splunk backup kvstore -pointInTime true -archiveName "$KV_ARCHIVE" || {
   echo "[$(date)] kvstore backup command failed"
   exit 1
 }
 
-echo "[$(date)] Waiting for kvstore tarball"
+echo "[$(date)] Waiting for kvstore tarball $KV_ARCHIVE"
 KV_TIMEOUT=${KV_TIMEOUT:-600}
 deadline=$((SECONDS + KV_TIMEOUT))
 KV_TGZ=""
 while ((SECONDS < deadline)); do
-  KV_TGZ=$(ls -t "$KV_DIR" 2>/dev/null | grep "^kvstore-backup-$DATE.*\.tar\.gz$" | head -1) || true
+  KV_TGZ=$(ls -t "$KV_DIR" 2>/dev/null | grep "^${KV_ARCHIVE}.*\.tar\.gz$" | head -1) || true
   [[ -n $KV_TGZ ]] && break
   sleep 2
 done
@@ -85,13 +134,20 @@ done
 
 echo "[$(date)] Waiting for $KV_TGZ to finish writing"
 prev=-1
-while
-  size=$(stat -c%s "$KV_DIR/$KV_TGZ")
-  [[ $size -ne $prev ]]
-do
+deadline=$((SECONDS + KV_TIMEOUT))
+while ((SECONDS < deadline)); do
+  size=$(stat -c%s "$KV_DIR/$KV_TGZ") || {
+    echo "[$(date)] cannot stat $KV_DIR/$KV_TGZ"
+    exit 1
+  }
+  [[ $size -eq $prev ]] && break
   prev=$size
   sleep 2
 done
+((SECONDS < deadline)) || {
+  echo "[$(date)] $KV_TGZ was still growing after ${KV_TIMEOUT}s"
+  exit 1
+}
 
 echo "[$(date)] Checking if gzip is valid"
 if ! gzip -t "$KV_DIR/$KV_TGZ"; then
@@ -103,6 +159,15 @@ fi
 
 echo "[$(date)] Staging kvstore backup"
 cp -p "$KV_DIR/$KV_TGZ" "$STAGE/"
+
+echo "[$(date)] Disabling kvstore maintenance mode"
+splunk disable kvstore-maintenance-mode
+if ! kv_wait_for ready "$KV_MODE_TIMEOUT"; then
+  echo "[$(date)] kvstore did not return to ready after ${KV_MODE_TIMEOUT}s"
+  exit 1
+fi
+KV_MAINT=0
+echo "[$(date)] kvstore is out of maintenance mode and ready!"
 # ---
 
 # --- (2) Ownership & Permissions of existing folders that need to be reassigned appropriately
@@ -128,9 +193,9 @@ echo "[$(date)] Stopped"
 echo "[$(date)] Backing up and staging \$SPLUNK_HOME/etc"
 tar -czf "$STAGE/splunk-etc-$DATE.tar.gz" -C "$SPLUNK_HOME" etc
 
-echo "[$(date)] Backing up and staging \$SPLUNK_HOME/var, excluding /var/run/* & /var/lib/splunk/kvstore/*"
+echo "[$(date)] Backing up and staging \$SPLUNK_HOME/var, excluding /var/run/* & /var/lib/splunk/kvstore/* & /var/packages/*"
 tar -cf "$STAGE/splunk-var-$DATE.tar" \
-  --exclude='var/run/*' --exclude='var/lib/splunk/kvstore/*' -C "$SPLUNK_HOME" var
+  --exclude='var/run/*' --exclude='var/lib/splunk/kvstore/*' --exclude='var/packages/*' -C "$SPLUNK_HOME" var
 
 # KV VERSION FILE
 KV_VERSIONFILE=$(cd "$SPLUNK_HOME/var/run/splunk/kvstore_upgrade" && ls -1 versionFile* 2>/dev/null | head -1)
@@ -146,8 +211,8 @@ gzip "$STAGE/splunk-var-$DATE.tar"
 # --- (5) Check backups
 echo "[$(date)] Checking if exclusions were applied"
 [[ $(tar -tzf "$STAGE/splunk-var-$DATE.tar.gz" |
-  grep -Ev "^var/run/splunk/kvstore_upgrade/$KV_VERSIONFILE\$" | # Invert match
-  grep -Ec '^var/(run|lib/splunk/kvstore)/.') -eq 0 ]] || {      #supress normal output --> print count of matches
+  grep -Ev "^var/run/splunk/kvstore_upgrade/$KV_VERSIONFILE\$" |     # Invert match
+  grep -Ec '^var/(run|lib/splunk/kvstore|packages)/.') -eq 0 ]] || { #supress normal output --> print count of matches
   echo "[$(date)] excluded paths leaked into the var tarball"
   exit 1
 }
