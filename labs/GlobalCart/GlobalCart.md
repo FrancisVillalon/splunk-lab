@@ -8,7 +8,7 @@ updated: 2026-07-31
 
 You've just started as a junior data analyst at GlobalCart, an online retailer selling across 12 countries. It's Q3 2026, and your manager has dropped a stack of ad-hoc questions on your desk ahead of Friday's leadership review. The `sales_data.csv` is already loaded, so go find the answers in Splunk rather than Excel.
 
-Dataset: `/mnt/990pro/Work/repo/splunk-step/sales_data.csv` (6,000 events, 2026-05-01 to 2026-07-26)
+Dataset: [`data/sales_data.csv`](data/sales_data.csv) (6,000 events, 2026-05-01 to 2026-07-26)
 
 > [!WARNING]
 > **Environment drift since this writeup.** These searches were written against the environment as it stood on 2026-07-31 and no

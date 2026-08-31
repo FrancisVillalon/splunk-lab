@@ -1,272 +1,98 @@
 ---
-status: in-progress
+status: complete
 created: 2026-08-14
-updated: 2026-08-17
+updated: 2026-08-31
 ---
 # Summary
 This documents the verification and preparation steps before the migration starts and guides you to create a snapshot of the current state.
-
-# Splunk Version
-Check the Splunk version 
-
-```
-| rest /services/server/info
-| table activeLicenseGroup activeLicenseSubgroup version build licenseSignature
-```
-
-# Splunk License
-Check the Splunk license
-
-```
-| rest /services/licenser/licenses
-| eval quota_GB=round(quota/1024/1024/1024,2)
-| eval expiration_readable=strftime(expiration_time, "%Y-%m-%d %H:%M:%S")
-| table license_hash label quota_GB expiration_readable status max_violations window_period
-```
-
-
-# Knowledge Objects Inventory 
-Inventory the knowledge objects created. These mainly look at the knowledge objects created for the globalcart scenario.
-
-## Apps 
-Check for `globalcart` and `lookup_editor` as these are the ones we added in the `globalcart-manifest` and `baseline-splunk-config`
-
-```
-| rest /services/apps/local 
-| table title, version, disabled
-| search title=globalcart OR title=lookup_editor
-```
-
-## Saved Searches (Reports/Alerts)
-Check the reports and alerts created in the globalcart-manifest are found 
-
-```
-| rest /servicesNS/-/-/saved/searches
-| search "eai:acl.sharing"="user"
-| table title "eai:acl.owner" "eai:acl.app" "eai:acl.sharing"
-```
-
-## Dashboards
-Check the created dashboards in the globalcart-manifest are found 
-
-```
-| rest /servicesNS/-/-/data/ui/views
-| search isDashboard=1 eai:acl.app=globalcart
-| table title label "eai:acl.app" "eai:acl.owner" "eai:acl.sharing" isVisible
-```
-## Indexes
-Check information about the `globalcart` index which is the only index we added 
-
-```
-| rest /services/data/indexes 
-| search title=globalcart
-| table title disabled currentDBSizeMB totalEventCount maxDataSize frozenTimePeriodInSecs homePath coldPath thawedPath eai:acl.app eai:acl.owner eai:acl.sharing
-```
-## Sourcetypes
-Check `globalcart:sales` is shown in the sourcetypes. 
-
-```
-| rest /servicesNS/-/-/configs/conf-props 
-| search title=globalcart:sales
-| table title TZ author category description eai:acl.app eai:acl.owner eai:acl.perms.read eai:acl.perms.write
-```
-
-Do note that the alert action log event does not create a stanza when a sourcetype is defined in the action. Therefore `globalcart:alerts` is not visible in this query. 
-## Roles
-Check the base roles and created roles like `globalcart_analyst` exists and have the appropriate access to indexes and number of capabilities
-
-```
-| rest /services/authorization/roles 
-| table title, srchIndexesAllowed, capabilities
-| eval capabilities_count=mvcount(capabilities)
-| fields - capabilities
-```
-
-## Users
-Check the users that exist on the splunk instance
-
- ```
-| rest /services/authentication/users 
-| table title, roles, defaultApp, tz
- ```
-
-## Lookups
-First check lookup table files
-
-```
-| rest /servicesNS/-/-/data/lookup-table-files
-| search eai:acl.app=globalcart
-| table author eai:acl.app eai:acl.perms.read eai:acl.perms.write title id updated
-```
-
-Then check the collections 
-
-```
-| rest /servicesNS/-/-/storage/collections/config
-| search title=region OR title=cost_supplier
-| table title author disabled eai:acl.app eai:acl.perms.read eai:acl.perms.write
-```
-
- Finally check lookup definitions which will show both kv store lookups and file based lookups
-
-```
-| rest /servicesNS/-/-/data/transforms/lookups
-| search eai:acl.app=globalcart
-| table author eai:acl.app eai:acl.perms.read eai:acl.perms.write title id updated
-```
-
-# Known Searches
-The following list should be verified using SPL to ensure the data is in a good state. 
-Pin all seraches to the `all time` time range.
-
-| Scenario   | Check                                              | Expected                                                  |
-| ---------- | -------------------------------------------------- | --------------------------------------------------------- |
-| GlobalCart | `_indextime`                                       | `min=1786605521` `max=1786605521`<br>`sum=10719633126000` |
-| GlobalCart | `_time`                                            | `min=1777565523` `max=1785081493`<br>`sum=10688027062398` |
-| GlobalCart | Events indexed with source type `globalcart:sales` | 6000                                                      |
-| GlobalCart | Total revenue                                      | $2,037,941.60                                             |
-| GlobalCart | Best category + priority tier                      | Books / Tier3, 1051 orders                                |
-| GlobalCart | Unique customers in Beauty                         | 958                                                       |
-| GlobalCart | category_to_priority rows                          | 6                                                         |
-| GlobalCart | country_to_region rows                             | 12                                                        |
-| GlobalCart | product_to_cost rows                               | 30                                                        |
+The check results are not recorded here. This document is used as a reference to guide the creation of the pre-migration snapshot.
+# Splunk Version & License
+Check the Splunk version and ensure that the license is valid
 
 ```sql
-1 -- Check _indextime
-index=globalcart sourcetype=globalcart:sales earliest=0 latest=now
-| stats count, min(_indextime) as i_min, max(_indextime) as i_max, sum(_indextime) as i_sum
-| foreach *_min *_max [ eval <<FIELD>>_formatted=strftime(<<FIELD>>,"%F %T %Z")]
+| rest /services/server/info
+| eval errors=validate(
+version=="10.4.2","Expected Version 10.4.2, found ".version,
+activeLicenseGroup=="Enterprise", "Expected Enterprise, found ".activeLicenseGroup,
+upper(licenseState)=="OK", "License has outstanding warnings or quota issues"
+)
+| eval result=if(isnull(errors),"PASS","FAIL")
+| table result activeLicenseGroup activeLicenseSubgroup version build licenseSignature licenseState
+```
 
-2 -- Check _time
-index=globalcart sourcetype=globalcart:sales earliest=0 latest=now
-| stats count, min(_time) as t_min, max(_time) as t_max, sum(_time) as t_sum
-| foreach *_min *_max [ eval <<FIELD>>_formatted=strftime(<<FIELD>>,"%F %T %Z")]
+Check the License
 
-3 -- Events indexed
-index=globalcart sourcetype=globalcart:sales earliest=0 latest=now
-| stats count
+```sql
+| rest /services/licenser/licenses
+| eval quota_GB=round(quota/1024/1024/1024,2),expiration_readable=strftime(expiration_time,"%Y-%m-%d %H:%M:%S")
+| eval errors=validate(
+      upper(status)=="VALID",  "License status is ".status,
+      expiration_time>now(),   "License expired on ".expiration_readable)
+| eval result=if(isnull(errors),"PASS","FAIL")
+| table result errors license_hash label quota_GB expiration_readable max_violations window_period
+```
 
-4 -- Unique customers in beauty
-index=globalcart sourcetype=globalcart:sales earliest=0 latest=now category="Beauty"
-| stats dc(customer_id) as UniqueCustomers
+# Roles
+Check the base roles and the capabilities they hold. Scenario-specific role scoping is asserted in the scenario manifests.
 
-5 -- Total Revenue 
-index=globalcart sourcetype=globalcart:sales earliest=0 latest=now 
-| stats sum(revenue) as TotalRevenue
-| fieldformat TotalRevenue="$".tostring(TotalRevenue,"commas")
+```sql
+| rest /services/authorization/roles
+| eval capabilities_count=mvcount(capabilities)
+| table title srchIndexesAllowed capabilities_count
+```
 
-6 -- Best category + priority tier
-index=globalcart sourcetype=globalcart:sales earliest=0 latest=now 
-| lookup category_to_priority category OUTPUT priority 
-| stats count as orders by category, priority
-| sort -orders limit=1
+# Users
+Check the users that exist on the splunk instance. Scenario-specific user setup is asserted in the scenario manifests.
 
-7 -- category_to_priority lookup rows
-| inputlookup category_to_priority | stats count
+```sql
+| rest /services/authentication/users
+| table title roles defaultApp tz
+```
 
-8 -- country_to_region lookup rows
-| inputlookup country_to_region | stats count
 
-9 -- product_to_cost lookup rows
-| inputlookup product_to_cost | stats count
+# Scenario Checks
+Run every check in the globalcart scenario manifest to ensure that the Splunk instance meets all the needs as detailed in [Scenario Needs](../environment/globalcart-manifest.md#Scenario%20Needs).
 
-10 -- checksum rows in a lookup
-| inputlookup <lookup_name> 
-| eval k=_key
-| tojson output_field=j
-| eval j=md5(j)
-| stats list(j) as hashes
-| eval hash=md5(mvjoin(hashes,"~"))
+| Scenario   | Manifest                                                            |
+| ---------- | ------------------------------------------------------------------- |
+| GlobalCart | [Verification Checks](../environment/globalcart-manifest.md#Verification%20Checks) |
+
+# Logs check
+Check the logs if any of the existing components has had any error logs in the past 8 hours. This is to check for any failures in the current Splunk deployment before freezing the state.
+
+```sql
+index=_internal earliest=-8h source=*splunkd.log log_level IN (WARN,ERROR,FATAL)
+| stats count as log_count by log_level, component
+| eval log_level_num=case(
+log_level="FATAL",2,
+log_level="ERROR", 1,
+log_level="WARN", 0
+)
+| sort - log_level_num, - log_count
+| fields - log_level_num
 ```
 
 # Freeze the Instance & Backup
-Backups will be first created in `/tmp` and then moved to  `/mnt/hgfs/splunk-step-repo/splunk-backup` to hold the backups
+Backups will be first created in a staging folder then moved to a mounted folder to hold the backups. Below is the **general shape** of the process that will be carried out. The actual implementation will be done through a bash script which will differ due to automation.
 
-```bash
-# Login
-sudo -u splunk -H /opt/splunk/bin/splunk login
+| #   | Stage                                                                             | Note                                                                                                                             |
+| --- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Login as the `splunk` service account                                             |                                                                                                                                  |
+| 2   | Check `kvstore-status`, both `status` and `backupRestoreStatus` are ready         | Gate. Do not back up a kvstore that is mid-operation                                                                             |
+| 3   | Enable kvstore maintenance mode                                                   | Freezes writes so the backup is a clean point in time                                                                            |
+| 4   | Create the point-in-time kvstore backup                                           | `splunk backup kvstore` needs a running instance, which is why it precedes the stop                                              |
+| 5   | Switch to root for the remaining stages                                           |                                                                                                                                  |
+| 6   | Check `/opt/splunk/etc` and `/opt/splunk/var` resolve to owner `splunk`           | Ownership has to be correct before it is captured into the tarballs                                                              |
+| 7   | Verify the kvstore archive is intact                                              | List contents and `gzip -t`                                                                                                      |
+| 8   | Copy the kvstore backup to `/tmp`                                                 |                                                                                                                                  |
+| 9   | Stop `Splunkd`, confirm no `splunk`, `mongod`, `postgresd`  etc. processes remain | On-disk state is only consistent from here on                                                                                    |
+| 10  | Archive `etc` and `var` to `/tmp`, preserving ownership and permissions           | Excludes `var/run` and `var/lib/splunk/kvstore`. The kvstore travels as the stage 4 backup, not as the raw mongo directory       |
+| 11  | Confirm the exclusions took effect and both tarballs pass `gzip -t`               |                                                                                                                                  |
+| 12  | Copy `splunk.secret` to `/tmp`                                                    | Also present inside the `etc` tarball. This standalone copy is the spare and the checksum reference for the post-migration check |
+| 13  | Copy the license file to `/tmp`                                                   | Confirm the actual filename first                                                                                                |
+| 14  | `sha512sum` every artifact into `splunk-migration.sha512`                         | This is what proves the copy intact on the other side                                                                            |
+| 15  | Copy all artifacts into the mounted folder                                        | Only works if the mount has `allow_other` set in `/etc/fstab`                                                                    |
+| 16  | Shut down the VM and take a snapshot                                              | This snapshot is the rollback point for the whole migration                                                                      |
+| 17  | On the host, run `sha512sum -c splunk-migration.sha512`                           | Verifies the artifacts crossed the mount intact                                                                                  |
 
-# Check if both backupRestoreStatus and status is ready
-sudo -u splunk -H /opt/splunk/bin/splunk show kvstore-status
-
-# Create backup of kvstore 
-sudo -u splunk -H /opt/splunk/bin/splunk backup kvstore -pointInTime true -archiveName kvstore-backup-<date>
-
-# Change to root user, run rest of the commands as root
-sudo su -
-
-# Check ownership of /etc and /var, the owner must resolve to splunk
-stat -c '%U %G %u %g %a %n' /opt/splunk/etc
-stat -c '%U %G %u %g %a %n' /opt/splunk/var
-
-# Check kvstore backup
-ls -lh /opt/splunk/var/lib/splunk/kvstorebackup/
-tar -tzf /opt/splunk/var/lib/splunk/kvstorebackup/kvstore-backup-<date>.tar.gz | head -50
-gzip -t  /opt/splunk/var/lib/splunk/kvstorebackup/kvstore-backup-<date>.tar.gz
-
-# Move kvstore backup to /tmp
-cp /opt/splunk/var/lib/splunk/kvstorebackup/kvstore-backup-<date>.tar.gz /tmp/
- 
-# Stop Splunk so on-disk state is consistent
-systemctl stop Splunkd
-systemctl is-active Splunkd
-ps -eo user,comm | grep -Ei 'splunk|mongod'
-
-# Archive the state that has to travel, preserving ownership and permissions
-tar -czpf /tmp/splunk-etc-<date>.tar.gz -C /opt/splunk etc
-tar -czpf /tmp/splunk-var-<date>.tar.gz \
---exclude='var/run/*' \
---exclude='var/lib/splunk/kvstore/*' \
--C /opt/splunk var 
-
-# Check exclusions took effect
-tar -tzf /tmp/splunk-var-<date>.tar.gz | grep -E '^var/(run|lib/splunk/kvstore)/.' | head
-tar -tzf /tmp/splunk-var-<date>.tar.gz | grep kvstorebackup | head
-gzip -t /tmp/splunk-etc-<date>.tar.gz /tmp/splunk-var-<date>.tar.gz && echo "tarballs exists"
-
-# Copy splunk.secret to /tmp
-cp /opt/splunk/etc/auth/splunk.secret /tmp/
-# Check license file name
-ls /opt/splunk/etc/licenses/enterprise
-# Copy license file to /tmp
-cp /opt/splunk/etc/licenses/enterprise/Splunk.License.lic /tmp/
-
-# Checksum all so the copy can be proven intact on the other side
-cd /tmp
-sha512sum \
-splunk-etc-<date>.tar.gz \
-splunk-var-<date>.tar.gz \
-kvstore-backup-<date>.tar.gz \
-splunk.secret \
-Splunk.License.lic \
-| tee splunk-migration.sha512
-
-
-# Move everything into the mounted folder, this only works if the mounted folder has allow_other in etc/fstab
-cp /tmp/splunk-etc-<date>.tar.gz \
-/tmp/splunk-var-<date>.tar.gz \
-/tmp/kvstore-backup-<date>.tar.gz \
-/tmp/splunk.secret \
-/tmp/Splunk.License.lic \
-/tmp/splunk-migration.sha512 \
-/mnt/hgfs/splunk-step-repo/splunk-backup/
-```
-
-Then shutdown the VM and perform a **snapshot** .
-
-Also check on the hostside the backups were correctly moved into the mounted folder
-```bash
-cd path/to/folder
-sha512sum -c splunk-migration.sha512
-```
-
-# Artifacts
-
-| Artifact                       | Size | Path |
-| ------------------------------ | ---- | ---- |
-| `splunk-etc-<date>.tar.gz`     |      |      |
-| `splunk-var-<date>.tar.gz`     |      |      |
-| `kvstore-backup-<date>.tar.gz` |      |      |
-| `splunk.secret`                |      |      |
-| License file (actual name:  )  |      |      |
-
+Include a section in the pre-migration snapshot `# Script Output` that shows the full output of the script.

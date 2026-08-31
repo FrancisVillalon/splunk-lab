@@ -382,7 +382,7 @@ sudo vim /etc/fstab
 
 # Append this to the fstab file
 # Ensure the share name matches what was seen in vmware-hgfsclient
-.host:/splunk-step-repo  /mnt/hgfs/splunk-step-repo  fuse.vmhgfs-fuse  allow_other,ro,nofail,_netdev  0  0
+.host:/splunk-step-repo  /mnt/hgfs/splunk-step-repo  fuse.vmhgfs-fuse  allow_other,nofail,_netdev  0  0
 
 # reload systemctl daemons then mount
 # Systemd regenerates mount units from fstab

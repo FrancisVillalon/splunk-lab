@@ -12,7 +12,7 @@ Four raw log exports have landed on your desk straight off the collection tier, 
 
 ## Dataset
 
-All four files live in this folder (`/mnt/990pro/Work/repo/splunk-step/IronvaleFinancial/`). Total: **5,221 events**, spanning **2026-06-08 to 2026-07-26**.
+All four files live in [`data/`](data/). Total: **5,221 events**, spanning **2026-06-08 to 2026-07-26**.
 
 | File            | Suggested sourcetype | Format                                         | Notes                                                                                                                                                                               |
 | --------------- | -------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -4,7 +4,7 @@ set -euo pipefail
 # Vars
 DATE=$(date +%F)
 SPLUNK_HOME=/opt/splunk
-DEST_BASE=/mnt/hgfs/splunk-step-repo/splunk-backup
+DEST_BASE=/mnt/hgfs/splunk-lab-resources/splunk-backup
 KV_DIR="$SPLUNK_HOME/var/lib/splunk/kvstorebackup"
 SUCCESS=0
 KV_MAINT=0

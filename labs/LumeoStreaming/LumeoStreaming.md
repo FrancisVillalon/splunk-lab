@@ -11,7 +11,7 @@ updated: 2026-08-12
 The telemetry is still sitting in flat files, and it is deliberately messy: inconsistent casing, stray units, missing values. Normalising it is part of the analysis rather than a detour from it. The lab runs across six Splunk Power User areas: **Comparing Values**, **Result Modification**, **Correlation Analysis**, **Multivalue Fields**, **Knowledge Objects**, and **Data Models**.
 
 
-Data can be found at`/mnt/990pro/Work/repo/splunk-step/LumeoStreaming`.
+Data can be found in [`data/`](data/).
 
 ## Dataset
 

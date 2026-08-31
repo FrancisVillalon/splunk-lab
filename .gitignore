@@ -1,5 +1,21 @@
-splunk-snapshot/.env
-splunk-snapshot/venv
-containers/old-docker/data-backup
+# --- Secrets -----------------------------------------------------------------
+# Never commit these. The etc tarball contains splunk.secret, and passwd holds
+# the Splunk user hashes, so these rules are generic on purpose: a backup
+# dropped in a new folder must stay ignored without editing this file first.
 **/.env
 **/passwd
+**/data-backup/
+*.tar.gz
+splunk.secret
+*.lic
+*.license
+
+# --- Environments / build artefacts ------------------------------------------
+**/__pycache__/
+*.py[cod]
+
+# --- Work in progress ---------------------------------------------------------
+# REST API snapshot tooling. Unfinished, kept locally until it does something
+# useful. Anchored with a leading slash so it cannot match the top-level
+# snapshots/ directory.
+/splunk-snapshot/
