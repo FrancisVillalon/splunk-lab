@@ -15,7 +15,9 @@ Full writeup: [GlobalCart](../labs/GlobalCart/GlobalCart.md)
 | File           | Index      | Sourcetype       | App        | TZ             | Events | Span                    | Indexed time (epoch time) |
 | -------------- | ---------- | ---------------- | ---------- | -------------- | ------ | ----------------------- | ------------------------- |
 | sales_data.csv | globalcart | globalcart:sales | globalcart | Asia/Singapore | 6000   | 2026-05-01 → 2026-07-26 | 1786605521                |
+
 Do note that when checking number of events to also scope to `sourcetype=globalcart:sales` as alerts with log event action will be writing to this index as well.
+
 # Required Objects
 
 Everything below lives in the globalcart app, is readable and writable by globalcart_analyst and admin
