@@ -13,9 +13,13 @@ splunk.secret
 # --- Environments / build artefacts ------------------------------------------
 **/__pycache__/
 *.py[cod]
+**.code-workspace
+**/archive
 
 # --- Work in progress ---------------------------------------------------------
 # REST API snapshot tooling. Unfinished, kept locally until it does something
 # useful. Anchored with a leading slash so it cannot match the top-level
 # snapshots/ directory.
-/splunk-snapshot/
+/splunk-snapshot/snapshots/*
+/splunk-snapshot/rest-tool/
+

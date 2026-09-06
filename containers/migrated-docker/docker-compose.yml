@@ -21,6 +21,7 @@ services:
       - splunk-etc:/opt/splunk/etc
       - splunk-var:/opt/splunk/var
       - ./default.yml:/tmp/defaults/default.yml
+      - /mnt/990pro/Work/repo/splunk-lab/splunk-snapshot:/mnt/splunk-snapshot:rw
     deploy:
       resources:
         limits:
