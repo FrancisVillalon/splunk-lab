@@ -1,7 +1,7 @@
 ---
 status: complete
 ---
-> [!note]
+> [!NOTE]
 > Content can vary as required. This only provides a skeleton for the document.
 > 
 

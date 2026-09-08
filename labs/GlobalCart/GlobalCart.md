@@ -189,7 +189,7 @@ Then assign the same permissions as the lookup table file.
 
 __Assigning permissions for the lookup definition__
 
->[!NOTE]
+> [!NOTE]
 >Permissions for the lookup table file should be higher or equal to the permissions of the lookup definition it is associated with.
 
 ### Answer
@@ -204,7 +204,7 @@ index="globalcart" earliest=-14@d latest=@d
 | xyseries _time priority avg_revenue
 ```
 
-> [!warning]
+> [!WARNING]
 > This search returns nothing today. `-14@d latest=@d` was a live window when written but
 > now opens after the dataset's last event (2026-07-26), and `KVPriority` is no longer the
 > definition name. To reproduce the screenshot, use an absolute range inside the data and
@@ -238,7 +238,7 @@ To create a kv lookup we first need to do the following,
 
 To get started on creating a `kvlookup` for this question we need to define the actual database where our KV store data lives in. All KV store collections live in an embedded MongoDB instance that ships with Splunk.
 
->[!NOTE]
+> [!NOTE]
 > To refresh, MongoDB's hierarchy is as follows, 
 > Database → Collection (Table) → Document (Row) → Fields (Columns, but flexible/schema-less)
 
@@ -271,7 +271,7 @@ There are a few ways to do this and we will do it through the native SPL way whi
 
 We first create a csv file containing the data we want to insert and make sure the fields match.
 
->[!NOTE]
+> [!NOTE]
 If the fields in the csv do not match in the collections, this will cause silent failure where the undeclared fields are just dropped.
 If the fields in the csv match the collections but not the transforms, then the undeclared fields are invisible to Splunk but written in the collection.
 
@@ -448,7 +448,7 @@ I defined the following search and just made it so it looks back 2 days until no
 This will ensure the alert fires.
 We then save this as alert and do the following,
 
-> [!warning]
+> [!WARNING]
 > The `-2d@d` window no longer fires. It guaranteed a hit while the data was recent, but
 > the dataset ends 2026-07-26 and the window now sits entirely past it, so the search
 > returns no refunds and the trigger condition is never met. The alert in the current

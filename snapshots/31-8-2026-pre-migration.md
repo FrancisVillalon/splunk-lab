@@ -172,7 +172,7 @@ __Alert is scheduled__
 
 __Alert fires__
 
-> [!note]
+> [!NOTE]
 > The alert is throttled for 1 day(s)
 
 

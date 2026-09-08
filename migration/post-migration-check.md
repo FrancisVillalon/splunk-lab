@@ -1,7 +1,7 @@
 ---
 status: complete
 created: 2026-08-14
-updated: 2026-08-31
+updated: 2026-09-08
 ---
 # Summary
 This document details all the checks that will be conducted in the post-migration. 
@@ -24,6 +24,13 @@ Check ownership and mode of `/opt/splunk/etc` and `/opt/splunk/var`, ensure it i
 ```bash
 docker exec -u 0 -it splunk ls -ldn /opt/splunk/etc
 docker exec -u 0 -it splunk ls -ldn /opt/splunk/var
+```
+
+Then confirm nothing nested was missed by the recursive chown at extract time. Both should return `0`.
+
+```bash
+docker exec -u 0 -it splunk find /opt/splunk/etc /opt/splunk/var ! -uid 41812 | wc -l
+docker exec -u 0 -it splunk find /opt/splunk/etc /opt/splunk/var ! -gid 41812 | wc -l
 ```
 
 Check ports published 
@@ -58,7 +65,7 @@ docker compose up -d
 # Check compose logs as well as Splunk warnings if any
 ```
 
-> [!note]
+> [!NOTE]
 > Replace splunk with whatever the container name is
 # Splunk Version & License
 Check the Splunk version 
@@ -161,11 +168,11 @@ After the migration check the hash of artifacts.
 | --------------- | ------ |
 | `splunk.secret` |        |
 # Scenario Checks
-Run every check in the globalcart scenario manifest to ensure that the Splunk instance meets all the needs as detailed in [Scenario Needs](../environment/globalcart-manifest.md#Scenario%20Needs).
+Run every check in the globalcart scenario manifest to ensure that the Splunk instance meets all the needs as detailed in [Scenario Needs](../environment/globalcart-manifest.md#scenario-needs).
 
 | Scenario   | Manifest                                                            |
 | ---------- | ------------------------------------------------------------------- |
-| GlobalCart | [Verification Checks](../environment/globalcart-manifest.md#Verification%20Checks) |
+| GlobalCart | [Verification Checks](../environment/globalcart-manifest.md#verification-checks) |
 # Logs check
 After the instance is up we perform the following checks
 

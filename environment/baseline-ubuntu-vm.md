@@ -1,13 +1,17 @@
 ---
 status: complete
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-09-08
 ---
 # Summary
 This document details the end-to-end build of the baseline Splunk VM from a standard install of Ubuntu Server 22.04.5. The end result is an Ubuntu Server running under VMware, reachable over SSH on the NAT subnet, with Splunk Enterprise running as a systemd service under a dedicated unprivileged account and Splunk Web exposed to the host. It serves as a reproducible splunk baseline instance.
 
 > [!WARNING]
 > **Not production.** Single-instance lab built on an isolated NAT subnet.
+
+> [!WARNING]
+> Retired in this lab for baseline-docker-container
+> 
 
 # Machine Configuration Summary
 
@@ -151,7 +155,7 @@ sudo netplan apply
 sudo netplan get
 ```
 
-> [!note]
+> [!NOTE]
 > World readable netplan configs will not be used and trying to do so will prompt Ubuntu to set the appropriate permissions
 
 This produces,
@@ -160,7 +164,7 @@ This produces,
 
 __Netplan applied__
 
-> [!note]
+> [!NOTE]
 > The number prefixed to each netplan yaml file determines the order in which they are parsed. Later netplan configs take precedence.
 > If networking breaks, check if another netplan with a larger prefix is taking precedence.
 
@@ -175,7 +179,7 @@ sudo ufw enable
 sudo ufw status verbose
 ```
 
-> [!note]
+> [!NOTE]
 > If you are configuring the server from SSH by the time you reach this section, ensure to allow SSH before enabling ufw. Otherwise, you will be locked out and you have to interact with the VM directly.
 
 This should produce the following output on the guest machine,
@@ -301,7 +305,7 @@ and if the seeded credentials  work
 
 __Successful login using seeded credentials__
 
-> [!note]
+> [!NOTE]
 > Splunk usually consumes the seed file ensuring it does not remain on disk with the plaintext password. It is good practice to check rather than assume. Check if the seed file still exists in `$SPLUNK_HOME/etc/system/local` after the first login and delete with `sudo rm -f /opt/splunk/etc/system/local/user-seed.conf` if exists.
 
 ## Changing Splunk to be managed by systemctl
@@ -351,7 +355,7 @@ After a successful restart, `Setting > License` should show the updated volume l
 
 __Developer License Installed Example__
 # Optional: Mounting shared folder
-I want to mount a read-only folder that exists on my host system to the VM. This read-only folder serves as a convenient means to push files into the guest system but is not strictly required for its operation.
+I want to mount a folder that exists on my host system to the VM. This folder serves as a convenient means to push files into the guest system but is not strictly required for its operation.
 
 First we configure the VMware machine to have shared folders enabled and configured as shown below,
 
@@ -476,7 +480,7 @@ sudo find /opt/splunk/etc /opt/splunk/var ! -group splunk | wc -l
 
 __Ownership properly configured__
 
-> [!note]
+> [!NOTE]
 > root-owned files under `bin/` and `lib/` are expected
 
 ## Verify Splunk Web and Splunk Management API is reachable on host
@@ -491,7 +495,7 @@ curl -k -I --connect-timeout 5 https://172.16.58.10:8089/services/server/info
 
 __Responses from both endpoints__
 
-> [!note]
+> [!NOTE]
 > A 401 response from `curl -k -I --connect-timeout 5 https://172.16.58.10:8089/services/server/info` means the service is up and running
 
 

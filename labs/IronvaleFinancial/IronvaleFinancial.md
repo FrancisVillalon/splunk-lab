@@ -512,7 +512,7 @@ index="ironvale_soc" sourcetype="ironvale:auth"
 
 __Transactions where duration calculated by `transaction` does not match the `session_duration`__
 
-> [!note]
+> [!NOTE]
 >  When using transaction we should note that the calculated duration from invoking transaction will clobber any existing duration field. Therefore, the original duration values for any given event will actually be overwritten.
 
 
@@ -809,7 +809,7 @@ We will create the csv first as shown below,
 
 __Created `known_bad_ips.csv`__
 
-> [!note]
+> [!NOTE]
 > The IPs here are IPs that we have found to be suspicious. `26.223.216.103` caused the highest amount of blocked firewall actions, significantly more than every other IP. `46.16.202.234` caused the highest amount of login failures, significantly more than every other IP. However, the threat types here are not derived from a thorough investigation of the dataset, they are created by us to simulate threat intel that can be used to enrich our queries. They are not necessarily the ground truth of the threat type of an IP.
 
 
@@ -831,7 +831,7 @@ Which shows,
 
 __Verifying lookup was loaded__
 
-> [!note]
+> [!NOTE]
 > We use a uploaded csv as the lookup table file in this question. However, a KV lookup will be preferred here as that form of lookup allows for CRUD operations. This is highly valuable for an ever evolving list such as this.
 
 

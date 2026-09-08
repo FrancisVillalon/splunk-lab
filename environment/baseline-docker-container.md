@@ -1,7 +1,7 @@
 ---
 status: complete
 created: 2026-08-19
-updated: 2026-08-31
+updated: 2026-09-08
 ---
 # Summary
 Documents all the steps taken to get a working docker container with Splunk version 10.4.2.
@@ -49,7 +49,7 @@ The password is supplied separately so it stays out of the compose file. This is
 SPLUNK_PASSWORD=<existing admin password from the source VM>
 ```
 
-> [!note]
+> [!NOTE]
 > `user-seed.conf` is deliberately not used here. See the provisioning method decision in [migration-readiness-check](../migration/migration-readiness-check.md).
 
 # Create the docker compose
@@ -61,6 +61,7 @@ services:
     container_name: splunk
     hostname: splunk
     restart: unless-stopped
+    stop_grace_period: 5m
     ports:
       - "127.0.0.1:8000:8000"
       - "127.0.0.1:8089:8089"

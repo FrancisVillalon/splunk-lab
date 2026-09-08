@@ -4,6 +4,7 @@ services:
     container_name: splunk
     hostname: splunk
     restart: unless-stopped
+    stop_grace_period: 5m
     ports:
       - "127.0.0.1:8000:8000"
       - "127.0.0.1:8089:8089"
