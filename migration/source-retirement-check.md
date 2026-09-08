@@ -27,6 +27,7 @@ To determine if the migration is successful and complete we can refer to the fol
 | Backup artifacts intact on the host             | PASS  | 31/08/2026 |
 | Leftover items check clean                      | PASS  | 31/08/2026 |
 | Target has run the soak period without incident | PASS  | 08/09/2026 |
+
 The source system will be **retired on 8 September 2026**, the target will have a week of real use to surface anything the post-migration checks did not.
 
 # Retirement Actions
