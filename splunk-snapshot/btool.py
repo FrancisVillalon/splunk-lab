@@ -9,9 +9,8 @@ log = logger.get_logger(__name__)
 
 
 class BTool:
-    def __init__(self, splunk_home="/opt/splunk", host=None):
+    def __init__(self, splunk_home="/opt/splunk"):
         self.home = splunk_home
-        self.host = host
         self.splunk_bin = f"{self.home}/bin/splunk"
 
     def _run(self, argv):
