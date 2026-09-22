@@ -9,12 +9,24 @@ volumes:
   uf1-etc:
   ds1-etc:
   ds1-var:
+  idx1-etc:
+  idx1-var:
   splunk-etc:
     external: true
   splunk-var:
     external: true
 
 services:
+  copier:
+    image: alpine
+    profiles: ["tools"]
+    volumes:
+      - splunk-etc:/from/etc:ro
+      - splunk-var:/from/var:ro
+      - idx1-etc:/to/etc
+      - idx1-var:/to/var
+    command: sh -c 'cp -a /from/etc/. /to/etc/; cp -a /from/var/. /to/var/'
+
   flog:
     image: mingrammer/flog
     container_name: flog
@@ -69,7 +81,6 @@ services:
     restart: unless-stopped
     stop_grace_period: 5m
     ports:
-      - "8000:8000"
       - "9997:9997"
     networks:
       - splunknet
@@ -86,8 +97,8 @@ services:
         hard: 65536
       nproc: 20480
     volumes:
-      - splunk-etc:/opt/splunk/etc
-      - splunk-var:/opt/splunk/var
+      - idx1-etc:/opt/splunk/etc
+      - idx1-var:/opt/splunk/var
       - ./default.yml:/tmp/defaults/default.yml
     depends_on:
       - ds1
@@ -121,8 +132,6 @@ services:
     volumes:
       - ds1-etc:/opt/splunk/etc
       - ds1-var:/opt/splunk/var
-      # This will be replaced later with the script that rsyncs deployment apps + serverclass
-      - /mnt/990pro/Work/repo/splunk-lab-resources/deployment-apps:/opt/splunk/etc/deployment-apps
     deploy:
       resources:
         limits:
