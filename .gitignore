@@ -15,6 +15,7 @@ splunk.secret
 *.py[cod]
 **.code-workspace
 **/archive
+**/notes
 
 # --- Work in progress ---------------------------------------------------------
 # REST API snapshot tooling. Unfinished, kept locally until it does something

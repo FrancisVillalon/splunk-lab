@@ -1,0 +1,14 @@
+[transforms/_ruleset%3Aglobal_settings]
+owner = admin
+version = 10.4.2
+modtime = 1790548166.843484000
+
+[transforms/_rule%3Aruleset_flog_access%3Amask%3A%3Am69k5wcs]
+owner = admin
+version = 10.4.2
+modtime = 1790549028.818791000
+
+[props/flog_access]
+owner = admin
+version = 10.4.2
+modtime = 1790549028.819842000

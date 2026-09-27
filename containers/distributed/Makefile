@@ -25,15 +25,14 @@ reload:
 ## Provision ds1's own base config. ds1 is not a deployment client, so
 ## nothing pushes to it -- this target is its config-management plane.
 provision-ds: up
-	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/1_all_forwarder_outputs /opt/splunk/etc/apps/ds_outputs_override
-	$(COMPOSE) cp ./deployment-apps/1_all_forwarder_outputs/ $(DS):/opt/splunk/etc/apps/
-	$(COMPOSE) cp ./ds1-apps/ds_outputs_override/ $(DS):/opt/splunk/etc/apps/
-	$(COMPOSE) exec -T -u 0 $(DS) chown -R splunk:splunk /opt/splunk/etc/apps/1_all_forwarder_outputs /opt/splunk/etc/apps/ds_outputs_override
+	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/1_all_outputs_to_indexers
+	$(COMPOSE) cp ./deployment-apps/1_all_outputs_to_indexers/ $(DS):/opt/splunk/etc/apps/
+	$(COMPOSE) exec -T -u 0 $(DS) chown -R splunk:splunk /opt/splunk/etc/apps/1_all_outputs_to_indexers
 	$(COMPOSE) exec -T -u splunk $(DS) $(SPLUNK) restart
 
 ## Remove ds1's locally provisioned apps, reverting it to a non-forwarding DS
 deprovision-ds: up
-	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/1_all_forwarder_outputs /opt/splunk/etc/apps/ds_outputs_override
+	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/1_all_forwarder_outputs /opt/splunk/etc/apps/1_all_outputs_to_indexers
 	$(COMPOSE) exec -T -u splunk $(DS) $(SPLUNK) restart
 
 ## Check the currently loaded deployment apps and clients

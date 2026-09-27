@@ -7,6 +7,8 @@ volumes:
   sh1-etc:
   sh1-var:
   uf1-etc:
+  hf1-etc:
+  hf1-var:
   ds1-etc:
   ds1-var:
   idx1-etc:
@@ -69,8 +71,7 @@ services:
       - uf1-etc:/opt/splunkforwarder/etc
     depends_on:
       - flog
-      - idx1
-      - ds1
+      - hf1
     networks:
       - splunknet
 
@@ -80,8 +81,6 @@ services:
     hostname: idx1
     restart: unless-stopped
     stop_grace_period: 5m
-    ports:
-      - "9997:9997"
     networks:
       - splunknet
     environment:
@@ -89,7 +88,6 @@ services:
       SPLUNK_START_ARGS: --accept-license
       SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
       SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
-      SPLUNK_ENABLE_LISTEN: 9997
       SPLUNK_DEPLOYMENT_SERVER: ds1
     ulimits:
       nofile:
@@ -145,7 +143,7 @@ services:
     restart: unless-stopped
     stop_grace_period: 5m
     ports:
-      - "8002:8000"
+      - "8000:8000"
     networks:
       - splunknet
     environment:
@@ -153,6 +151,7 @@ services:
       SPLUNK_START_ARGS: --accept-license
       SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
       SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+      SPLUNK_DEPLOYMENT_SERVER: ds1
     ulimits:
       nofile:
         soft: 65536
@@ -163,6 +162,41 @@ services:
       - sh1-var:/opt/splunk/var
     depends_on:
       - idx1
+      - ds1
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: 8G
+
+  hf1:
+    image: splunk/splunk:10.4.2
+    container_name: hf1
+    hostname: hf1
+    restart: unless-stopped
+    stop_grace_period: 5m
+    ports:
+      - "8002:8000"
+      - "9997:9997"
+    networks:
+      - splunknet
+    environment:
+      TZ: Asia/Singapore
+      SPLUNK_START_ARGS: --accept-license
+      SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
+      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+      SPLUNK_DEPLOYMENT_SERVER: ds1
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+      nproc: 20480
+    volumes:
+      - hf1-etc:/opt/splunk/etc
+      - hf1-var:/opt/splunk/var
+    depends_on:
+      - idx1
+      - ds1
     deploy:
       resources:
         limits:
