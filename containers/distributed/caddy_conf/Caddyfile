@@ -1,0 +1,50 @@
+sh1.localhost {
+	log
+	tls internal
+	reverse_proxy https://sh1:8000 {
+		header_down Location ^https?://sh1:8000 https://sh1.localhost # Fixes splunk's internal redirects
+		transport http {
+			tls_insecure_skip_verify # using splunk self signed cert
+		}
+	}
+}
+hf1.localhost {
+	log
+	tls internal
+	reverse_proxy https://hf1:8000 {
+		header_down Location ^https?://hf1:8000 https://hf1.localhost # Fixes splunk's internal redirects
+		transport http {
+			tls_insecure_skip_verify
+		}
+	}
+}
+
+ds1.localhost {
+	log
+	tls internal
+	reverse_proxy https://ds1:8000 {
+		header_down Location ^https?://ds1:8000 https://ds1.localhost # Fixes splunk's internal redirects
+		transport http {
+			tls_insecure_skip_verify
+		}
+	}
+}
+
+ds1-api.localhost {
+	log
+	tls internal
+	reverse_proxy https://ds1:8089 {
+		transport http {
+			tls_insecure_skip_verify
+		}
+	}
+}
+
+hec.localhost {
+	tls internal
+	reverse_proxy https://hf1:8088 {
+		transport http {
+			tls_insecure_skip_verify
+		}
+	}
+}

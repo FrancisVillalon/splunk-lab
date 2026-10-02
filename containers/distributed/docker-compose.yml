@@ -13,12 +13,15 @@ volumes:
   ds1-var:
   idx1-etc:
   idx1-var:
+  caddy_data:
+  caddy_config:
   splunk-etc:
     external: true
   splunk-var:
     external: true
 
 services:
+  # Utility services
   copier:
     image: alpine
     profiles: ["tools"]
@@ -29,6 +32,34 @@ services:
       - idx1-var:/to/var
     command: sh -c 'cp -a /from/etc/. /to/etc/; cp -a /from/var/. /to/var/'
 
+  caddy:
+    image: caddy:2
+    container_name: caddy
+    restart: unless-stopped
+    networks:
+      - splunknet
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - $PWD/caddy_conf:/etc/caddy
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - ds1
+      - sh1
+      - hf1
+    logging:
+      driver: splunk
+      options:
+        splunk-url: "https://hec.localhost"
+        splunk-token: ${CADDY_HEC_TOKEN}
+        splunk-format: "json"
+        splunk-insecureskipverify: "true"
+        splunk-verify-connection: "false"
+
+  # Log generators
   flog:
     image: mingrammer/flog
     container_name: flog
@@ -134,9 +165,6 @@ services:
     hostname: ds1
     restart: unless-stopped
     stop_grace_period: 5m
-    ports:
-      - "8001:8000"
-      - "8089:8089"
     networks:
       - splunknet
     environment:
@@ -164,8 +192,6 @@ services:
     hostname: sh1
     restart: unless-stopped
     stop_grace_period: 5m
-    ports:
-      - "8000:8000"
     networks:
       - splunknet
     environment:
@@ -197,9 +223,6 @@ services:
     hostname: hf1
     restart: unless-stopped
     stop_grace_period: 5m
-    ports:
-      - "8002:8000"
-      - "9997:9997"
     networks:
       - splunknet
     environment:

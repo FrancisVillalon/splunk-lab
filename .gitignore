@@ -15,7 +15,13 @@ splunk.secret
 *.py[cod]
 **.code-workspace
 **/archive
+
+# Distributed environment ignore
 **/notes
+**.crt
+# redact http token
+/containers/distributed/deployment-apps/caddy_inputs/local/inputs.conf 
+
 
 # --- Work in progress ---------------------------------------------------------
 # REST API snapshot tooling. Unfinished, kept locally until it does something
