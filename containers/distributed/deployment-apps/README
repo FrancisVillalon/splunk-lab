@@ -4,3 +4,17 @@ configuration.
 For details on configuring as a deployment server, see 
 $SPLUNK_HOME/etc/system/README/serverclass.conf.spec, serverclass.conf.example or the Admin manual 
 at http://docs.splunk.com/Documentation.
+
+# Custom Naming conventions for this lab
+## Infrastructure apps: <scope>_<function>
+- The scope dictates which tier  the app is for: all, idx, hf, uf or sh
+- all means any splunk instance that needs it. serverclass.conf will decide which host actually gets it.
+- Examples: all_indexes -> Defines indexes for all indexers, uf_outputs_to_hf -> defines outputs for ufs to hfs
+
+## Data apps: <source>_<function>
+- Source is the data source name, like flog or pythonLogGen
+- The function represents what the app does for the source
+- Examples: flog_props_search -> Defines the search time props for flog, flog_inputs -> Defines the inputs for flog i.e. the monitor stanza
+
+# Usage of prefixes:
+Prefixes should be added to the app name when required to enforce precedence.
