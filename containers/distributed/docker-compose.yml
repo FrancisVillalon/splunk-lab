@@ -56,6 +56,28 @@ services:
     networks:
       - splunknet
 
+  pythonLogGen:
+    image: python:3.12-slim
+    container_name: pythonLogGen
+    command: python -u /app/gen.py
+    volumes:
+      - $PWD/pythonLogGen/:/app
+    environment:
+      TARGET: hf1
+      PORT: "5514"
+      PROTO: udp
+    restart: unless-stopped
+    networks:
+      - splunknet
+    depends_on:
+      - hf1
+
+  # Splunk lab services
+  # uf -> Universal Forwarder
+  # hf -> Heavy Forwarder
+  # idx -> Indexer
+  # sh -> Search Head
+  # ds -> Deployment Server
   uf1:
     image: splunk/universalforwarder:10.4.2
     container_name: uf1
