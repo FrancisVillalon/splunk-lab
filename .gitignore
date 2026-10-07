@@ -21,6 +21,8 @@ splunk.secret
 **.crt
 # redact http token
 /containers/distributed/deployment-apps/caddy_inputs/local/inputs.conf 
+# redact deployment pass4SymmKey
+/containers/distributed/deployment-apps/all_deployment_key/local/server.conf
 
 
 # --- Work in progress ---------------------------------------------------------

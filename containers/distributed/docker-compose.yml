@@ -1,3 +1,28 @@
+# Shared blocks, reused below via YAML anchors
+x-splunk-env: &splunk-env
+  TZ: Asia/Singapore
+  SPLUNK_START_ARGS: --accept-license
+  SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
+  SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+  SPLUNK_PASS4SYMMKEY: ${SPLUNK_PASS4SYMMKEY}
+
+x-splunk-server: &splunk-server
+  image: splunk/splunk:10.4.2
+  restart: unless-stopped
+  stop_grace_period: 5m
+  networks:
+    - splunknet
+  ulimits:
+    nofile:
+      soft: 65536
+      hard: 65536
+    nproc: 20480
+  deploy:
+    resources:
+      limits:
+        cpus: "2"
+        memory: 8G
+
 networks:
   splunknet:
     driver: bridge
@@ -47,13 +72,16 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
-      - ds1
-      - sh1
-      - hf1
+      ds1:
+        condition: service_started
+      sh1:
+        condition: service_started
+      hf1:
+        condition: service_healthy
     logging:
       driver: splunk
       options:
-        splunk-url: "https://hec.localhost"
+        splunk-url: "https://127.0.0.1:8088"
         splunk-token: ${CADDY_HEC_TOKEN}
         splunk-format: "json"
         splunk-insecureskipverify: "true"
@@ -80,7 +108,7 @@ services:
         "-w",
         "-l",
         "-d",
-        "20s",
+        "2s",
       ]
     volumes:
       - flog-logs:/var/log/flog
@@ -114,10 +142,7 @@ services:
     container_name: uf1
     hostname: uf1
     environment:
-      TZ: Asia/Singapore
-      SPLUNK_START_ARGS: --accept-license
-      SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
-      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+      <<: *splunk-env
       SPLUNK_DEPLOYMENT_SERVER: ds1
     volumes:
       - flog-logs:/var/log/flog:ro
@@ -129,121 +154,54 @@ services:
       - splunknet
 
   idx1:
-    image: splunk/splunk:10.4.2
+    <<: *splunk-server
     container_name: idx1
     hostname: idx1
-    restart: unless-stopped
-    stop_grace_period: 5m
-    networks:
-      - splunknet
     environment:
-      TZ: Asia/Singapore
-      SPLUNK_START_ARGS: --accept-license
-      SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
-      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+      <<: *splunk-env
       SPLUNK_DEPLOYMENT_SERVER: ds1
-    ulimits:
-      nofile:
-        soft: 65536
-        hard: 65536
-      nproc: 20480
     volumes:
       - idx1-etc:/opt/splunk/etc
       - idx1-var:/opt/splunk/var
-      - ./default.yml:/tmp/defaults/default.yml
     depends_on:
       - ds1
-    deploy:
-      resources:
-        limits:
-          cpus: "2"
-          memory: 8G
 
   ds1:
-    image: splunk/splunk:10.4.2
+    <<: *splunk-server
     container_name: ds1
     hostname: ds1
-    restart: unless-stopped
-    stop_grace_period: 5m
-    networks:
-      - splunknet
     environment:
-      TZ: Asia/Singapore
-      SPLUNK_START_ARGS: --accept-license
-      SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
-      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
-    ulimits:
-      nofile:
-        soft: 65536
-        hard: 65536
-      nproc: 20480
+      <<: *splunk-env
     volumes:
       - ds1-etc:/opt/splunk/etc
       - ds1-var:/opt/splunk/var
-    deploy:
-      resources:
-        limits:
-          cpus: "2"
-          memory: 8G
 
   sh1:
-    image: splunk/splunk:10.4.2
+    <<: *splunk-server
     container_name: sh1
     hostname: sh1
-    restart: unless-stopped
-    stop_grace_period: 5m
-    networks:
-      - splunknet
     environment:
-      TZ: Asia/Singapore
-      SPLUNK_START_ARGS: --accept-license
-      SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
-      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+      <<: *splunk-env
       SPLUNK_DEPLOYMENT_SERVER: ds1
-    ulimits:
-      nofile:
-        soft: 65536
-        hard: 65536
-      nproc: 20480
     volumes:
       - sh1-etc:/opt/splunk/etc
       - sh1-var:/opt/splunk/var
     depends_on:
       - idx1
       - ds1
-    deploy:
-      resources:
-        limits:
-          cpus: "2"
-          memory: 8G
 
   hf1:
-    image: splunk/splunk:10.4.2
+    <<: *splunk-server
     container_name: hf1
     hostname: hf1
-    restart: unless-stopped
-    stop_grace_period: 5m
-    networks:
-      - splunknet
+    ports:
+      - "127.0.0.1:8088:8088"
     environment:
-      TZ: Asia/Singapore
-      SPLUNK_START_ARGS: --accept-license
-      SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
-      SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
+      <<: *splunk-env
       SPLUNK_DEPLOYMENT_SERVER: ds1
-    ulimits:
-      nofile:
-        soft: 65536
-        hard: 65536
-      nproc: 20480
     volumes:
       - hf1-etc:/opt/splunk/etc
       - hf1-var:/opt/splunk/var
     depends_on:
       - idx1
       - ds1
-    deploy:
-      resources:
-        limits:
-          cpus: "2"
-          memory: 8G

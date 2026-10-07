@@ -30,14 +30,15 @@ reload:
 ## Provision ds1's own base config. ds1 is not a deployment client, so
 ## nothing pushes to it -- this target is its config-management plane.
 provision-ds: up
-	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/all_outputs_to_idx
+	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/all_outputs_to_idx /opt/splunk/etc/apps/all_deployment_key
 	$(COMPOSE) cp ./deployment-apps/all_outputs_to_idx/ $(DS):/opt/splunk/etc/apps/
-	$(COMPOSE) exec -T -u 0 $(DS) chown -R splunk:splunk /opt/splunk/etc/apps/all_outputs_to_idx
+	$(COMPOSE) cp ./deployment-apps/all_deployment_key/ $(DS):/opt/splunk/etc/apps/
+	$(COMPOSE) exec -T -u 0 $(DS) chown -R splunk:splunk /opt/splunk/etc/apps/all_outputs_to_idx /opt/splunk/etc/apps/all_deployment_key
 	$(COMPOSE) exec -T -u splunk $(DS) $(SPLUNK) restart
 
 ## Remove ds1's locally provisioned apps, reverting it to a non-forwarding DS
 deprovision-ds: up
-	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/all_outputs_to_idx
+	$(COMPOSE) exec -T -u 0 $(DS) rm -rf /opt/splunk/etc/apps/all_outputs_to_idx /opt/splunk/etc/apps/all_deployment_key
 	$(COMPOSE) exec -T -u splunk $(DS) $(SPLUNK) restart
 
 ## Check the currently loaded deployment apps and clients

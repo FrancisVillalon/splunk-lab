@@ -39,12 +39,3 @@ ds1-api.localhost {
 		}
 	}
 }
-
-hec.localhost {
-	tls internal
-	reverse_proxy https://hf1:8088 {
-		transport http {
-			tls_insecure_skip_verify
-		}
-	}
-}
