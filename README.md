@@ -15,7 +15,7 @@ retires 4 Sep after a soak window.
 | 3 | [pre-check](migration/pre-migration-check.md) → [snapshot](snapshots/31-8-2026-pre-migration.md) | State captured and frozen? | done |
 | 4 | [container-build](environment/baseline-docker-container.md) | What got built? | done |
 | 5 | [post-check](migration/post-migration-check.md) → [snapshot](snapshots/31-8-2026-post-migration.md) | Did state survive? | done |
-| 6 | [retirement-check](migration/source-retirement-check.md) | Can the source go? | in progress |
+| 6 | [retirement-check](migration/source-retirement-check.md) | Can the source go? | done |
 
 Worth a look:
 
