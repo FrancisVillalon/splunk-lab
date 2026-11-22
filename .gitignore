@@ -1,3 +1,6 @@
+# Root rules apply to the whole repo. Rules for one folder live in that
+# folder's own .gitignore (containers/distributed/, splunk-snapshot/).
+
 # --- Secrets -----------------------------------------------------------------
 # Never commit these. The etc tarball contains splunk.secret, and passwd holds
 # the Splunk user hashes, so these rules are generic on purpose: a backup
@@ -9,26 +12,14 @@
 splunk.secret
 *.lic
 *.license
+# Keys and certs (private keys, CSRs, Splunk combined PEMs)
+*.pem
+*.key
+*.csr
+*.crt
 
 # --- Environments / build artefacts ------------------------------------------
 **/__pycache__/
 *.py[cod]
 **.code-workspace
 **/archive
-
-# Distributed environment ignore
-**/notes
-**.crt
-# redact http token
-/containers/distributed/deployment-apps/caddy_inputs/local/inputs.conf 
-# redact deployment pass4SymmKey
-/containers/distributed/deployment-apps/all_deployment_key/local/server.conf
-
-
-# --- Work in progress ---------------------------------------------------------
-# REST API snapshot tooling. Unfinished, kept locally until it does something
-# useful. Anchored with a leading slash so it cannot match the top-level
-# snapshots/ directory.
-/splunk-snapshot/snapshots/*
-/splunk-snapshot/rest-tool/
-

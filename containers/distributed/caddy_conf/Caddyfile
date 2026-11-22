@@ -39,3 +39,9 @@ ds1-api.localhost {
 		}
 	}
 }
+
+lldap.localhost {
+	log
+	tls internal
+	reverse_proxy lldap:17170
+}

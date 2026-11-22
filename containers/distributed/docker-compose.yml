@@ -5,6 +5,9 @@ x-splunk-env: &splunk-env
   SPLUNK_GENERAL_TERMS: --accept-sgt-current-at-splunk-com
   SPLUNK_PASSWORD: ${SPLUNK_PASSWORD}
   SPLUNK_PASS4SYMMKEY: ${SPLUNK_PASS4SYMMKEY}
+  # Ansible automatically provisions the splunktcp stanza unless the port is zero
+  # The stanza which it provisions should be handled by the deployment server
+  SPLUNK_S2S_PORT: "0"
 
 x-splunk-server: &splunk-server
   image: splunk/splunk:10.4.2
@@ -40,6 +43,7 @@ volumes:
   idx1-var:
   caddy_data:
   caddy_config:
+  lldap-data:
   splunk-etc:
     external: true
   splunk-var:
@@ -56,6 +60,22 @@ services:
       - idx1-etc:/to/etc
       - idx1-var:/to/var
     command: sh -c 'cp -a /from/etc/. /to/etc/; cp -a /from/var/. /to/var/'
+
+  lldap:
+    image: lldap/lldap:v0.6.3
+    container_name: lldap
+    hostname: lldap
+    restart: unless-stopped
+    networks:
+      - splunknet
+    environment:
+      TZ: Asia/Singapore
+      LLDAP_JWT_SECRET: ${LLDAP_JWT_SECRET}
+      LLDAP_KEY_SEED: ${LLDAP_KEY_SEED}
+      LLDAP_LDAP_BASE_DN: dc=lab,dc=local
+      LLDAP_LDAP_USER_PASS: ${LLDAP_ADMIN_PASSWORD}
+    volumes:
+      - lldap-data:/data
 
   caddy:
     image: caddy:2
@@ -78,6 +98,8 @@ services:
         condition: service_started
       hf1:
         condition: service_healthy
+      lldap:
+        condition: service_started
     logging:
       driver: splunk
       options:

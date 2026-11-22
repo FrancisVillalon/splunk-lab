@@ -1,0 +1,29 @@
+[lldap]
+SSLEnabled = 0
+anonymous_referrals = 1
+bindDN = uid=splunk_bind,ou=people,dc=lab,dc=local
+# password here should be encrypted using splunk.secret. 
+# Note that all nodes that this app is deployed to must share the splunk.secret otherwise this password cannot be decrypted
+bindDNpassword = LDAP_BIND_PASSWORD_ENCRYPTED
+charset = utf8
+emailAttribute = mail
+enableRangeRetrieval = 0
+groupBaseDN = ou=groups,dc=lab,dc=local
+groupBaseFilter = (objectClass=groupOfUniqueNames)
+groupMappingAttribute = dn
+groupMemberAttribute = member
+groupNameAttribute = cn
+host = lldap
+nestedGroups = 0
+network_timeout = 20
+pagelimit = -1
+port = 3890
+realNameAttribute = cn
+sizelimit = 1000
+timelimit = 15
+userBaseDN = ou=people,dc=lab,dc=local
+userNameAttribute = uid
+
+[authentication]
+authSettings = lldap
+authType = LDAP

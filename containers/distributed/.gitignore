@@ -1,0 +1,17 @@
+# Distributed environment ignores. Paths starting with / are relative to this folder.
+
+# Local notes and bind-mount artefacts
+notes
+splunk.conf.spec
+
+# Private CA, host keys and certs (see certs/README.md)
+/certs/*
+!/certs/README.md
+
+# Deployment apps holding plaintext secrets
+# HEC token
+/deployment-apps/caddy_inputs/local/inputs.conf
+# pass4SymmKey
+/deployment-apps/all_deployment_key/local/server.conf
+# ldap secret
+/deployment-apps/sh_ldap_auth/local/authentication.conf
